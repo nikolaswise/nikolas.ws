@@ -1,0 +1,22 @@
+{
+  "name": "nikolas-wise",
+  "version": "0.0.0",
+  "description": "Nikolas Wise is a smart, cool dude",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nikolaswise/nikolas.ws.git"
+  }
+  "author": "Nikolas Wise <nikolas@nikolas.ws> (http://nikolas.ws/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikolaswise/nikolas.ws/issues"
+  },
+  "homepage": "http://nikolas.ws/",
+  "dependencies": {
+    "metalsmith-templates": "^0.6.1",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-permalinks": "^0.1.1",
+    "metalsmith": "^1.0.0",
+    "handlebars": "^2.0.0-alpha.2"
+  }
+}
