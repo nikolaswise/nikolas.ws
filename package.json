@@ -5,18 +5,43 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/nikolaswise/nikolas.ws.git"
-  }
+  },
   "author": "Nikolas Wise <nikolas@nikolas.ws> (http://nikolas.ws/)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/nikolaswise/nikolas.ws/issues"
   },
   "homepage": "http://nikolas.ws/",
-  "dependencies": {
-    "metalsmith-templates": "^0.6.1",
+  "devDependencies": {
+    "handlebars": "^2.0.0-alpha.2",
+    "live-server": "^0.7.1",
+    "metalsmith": "^1.0.0",
     "metalsmith-markdown": "^0.2.1",
     "metalsmith-permalinks": "^0.1.1",
-    "metalsmith": "^1.0.0",
-    "handlebars": "^2.0.0-alpha.2"
+    "metalsmith-templates": "^0.6.1",
+    "parallelshell": "^1.1.1",
+    "rerun-script": "^0.6.0"
+  },
+  "watches": {
+    "html": [
+      "src/**/*.html",
+      "src/**/*.md"
+    ]
+  },
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "npm run html && parallelshell 'cd build/ && live-server --port=8080' 'rerun-script'",
+    "html": "metalsmith -c package.json"
+  },
+  "metadata": {
+    "title": "nikolas wise",
+    "description": "Printmaker, artist, graphic designer, and front end developer. Design focuses on the use of classical typographic and design principles with contemporary technology. Artistic practice concerns geographic specificity and knowledge of place."
+  },
+  "plugins": {
+    "metalsmith-markdown": {},
+    "metalsmith-permalinks": {},
+    "metalsmith-templates": {
+      "engine": "handlebars"
+    }
   }
 }
