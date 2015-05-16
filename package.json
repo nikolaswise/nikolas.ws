@@ -41,7 +41,8 @@
     "metalsmith-markdown": {},
     "metalsmith-permalinks": {},
     "metalsmith-templates": {
-      "engine": "handlebars"
+      "engine": "handlebars",
+      "directory": "src/_templates"
     }
   }
 }
