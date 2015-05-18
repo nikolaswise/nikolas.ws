@@ -19,8 +19,12 @@
     "metalsmith-markdown": "^0.2.1",
     "metalsmith-permalinks": "^0.1.1",
     "metalsmith-templates": "^0.6.1",
+    "node-sass": "^3.1.1",
     "parallelshell": "^1.1.1",
-    "rerun-script": "^0.6.0"
+    "rerun-script": "^0.6.0",
+    "scss-utils": "git://github.com/paulcpederson/scss-utils.git",
+    "typecabinet": "git://github.com/nikolaswise/typecabinet.git",
+    "viewport-grid": "git://github.com/esripdx/viewport-grid.git"
   },
   "watches": {
     "html": [
@@ -31,6 +35,7 @@
   "scripts": {
     "start": "npm run dev",
     "dev": "npm run html && parallelshell 'cd build/ && live-server --port=8080' 'rerun-script'",
+    "sass": "node-sass src/_assets/css/ -o build/_assets/css/ --include-path node_modules/",
     "html": "metalsmith -c package.json"
   },
   "metadata": {
