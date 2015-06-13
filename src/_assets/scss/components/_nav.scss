@@ -1,0 +1,27 @@
+.nav {
+  position: fixed;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+  .nav-head {
+    position: fixed;
+    display: inline-block;
+    top: $baseline;
+    text-transform: uppercase;
+  }
+
+  .nav-left {
+    @include transform(rotate(-90deg));
+    top: 50vh;
+  }
+
+  .nav-right {
+    @include transform(rotate(90deg));
+    top: 50vh;
+    right: 0;
+  }
+
+  .nav-foot {
+    bottom: $baseline;
+  }

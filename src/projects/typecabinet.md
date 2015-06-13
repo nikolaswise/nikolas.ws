@@ -1,5 +1,5 @@
 ---
-template: index.hbt
+template: index.html
 title: Typecabinet
 date: 2015-02-19
 url: http://nikolaswise.github.io/TypeCabinet/

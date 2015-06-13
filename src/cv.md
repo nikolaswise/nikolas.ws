@@ -1,6 +1,6 @@
 ---
 title: cv
-template: index.hbt
+template: index.html
 ---
 
 ## Work

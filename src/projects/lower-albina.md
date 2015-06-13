@@ -1,5 +1,5 @@
 ---
-template: index.hbt
+template: index.html
 title: Lower Albina
 url: http://lower-albina.nikolas.ws
 date: 2015-03-10
