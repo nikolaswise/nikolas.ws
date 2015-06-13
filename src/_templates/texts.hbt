@@ -1,17 +1,7 @@
-<html>
-  <head>
-    <title>{{ title }}</title>
-    <meta name="description" content="{{ description }}">
-    <link rel="stylesheet" href="../_assets/css/style.css">
-  </head>
-
-  <body>
-    {{{ contents }}}
-
-    {{#each collections.texts}}
-      <h3><a href="{{this.url}}">{{this.title}}</a></h3>
-      <article>{{{this.description}}}</article>
-    {{/each}}
-
-  </body>
-</html>
+{{> head }}
+{{{ contents }}}
+{{#each collections.texts}}
+  <h3><a href="{{this.url}}">{{this.title}}</a></h3>
+  <article>{{{this.description}}}</article>
+{{/each}}
+{{> footer }}
