@@ -1,5 +1,5 @@
 ---
-template: index.html
+template: index.hbt
 title: Viewport Grid
 date: 2015-04-20
 url: http://esripdx.github.io/viewport-grid/

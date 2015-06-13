@@ -1,5 +1,5 @@
 ---
-template: index.html
+template: index.hbt
 title: At the Mountains of Madness
 url: http://miskatonic.nikolas.ws/
 date: 2014-06-21
