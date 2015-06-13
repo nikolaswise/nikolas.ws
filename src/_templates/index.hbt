@@ -13,5 +13,10 @@
       <article>{{{this.description}}}</article>
     {{/each}}
 
+    {{#each collections.texts}}
+      <h3><a href="{{this.url}}">{{this.title}}</a></h3>
+      <article>{{{this.description}}}</article>
+    {{/each}}
+
   </body>
 </html>
