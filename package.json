@@ -31,7 +31,8 @@
     "html": [
       "src/**/*.html",
       "src/**/*.md"
-    ]
+    ],
+    "sass": "src/**/*.scss"
   },
   "scripts": {
     "start": "npm run dev",
