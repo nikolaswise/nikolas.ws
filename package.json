@@ -19,6 +19,7 @@
     "metalsmith-collections": "^0.7.0",
     "metalsmith-ignore": "^0.1.2",
     "metalsmith-markdown": "^0.2.1",
+    "metalsmith-permalinks": "^0.4.0",
     "metalsmith-templates": "^0.6.1",
     "node-sass": "^3.1.1",
     "npm-run-all": "^1.2.5",
@@ -49,7 +50,6 @@
   },
   "clean": false,
   "plugins": {
-    "metalsmith-ignore": "_assets/**/*",
     "metalsmith-collections": {
       "texts": {
         "pattern": "texts/*.md"
@@ -58,7 +58,12 @@
         "pattern": "projects/*.md"
       }
     },
+    "metalsmith-ignore": [
+      "_assets/**/*",
+      "projects/*.md"
+    ],
     "metalsmith-markdown": {},
+    "metalsmith-permalinks": {},
     "metalsmith-templates": {
       "engine": "handlebars",
       "directory": "src/_templates"
