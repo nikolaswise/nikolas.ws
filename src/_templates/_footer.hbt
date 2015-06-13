@@ -1,2 +1,10 @@
+    <footer>
+      <nav>
+        <a href="mailto:hello@nikolas.ws">mail</a>
+        <a href="https://twitter.com/NikolasWise">twitter</a>
+        <a href="https://github.com/nikolaswise">github</a>
+        <a href="/cv">c.v.</a>
+      </nav>
+    </footer>
   </body>
 </html>
