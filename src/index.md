@@ -1,5 +1,6 @@
 ---
-template: index.html
+title: index
+template: index.hbt
 ---
 
 Nikolas Wise is a [designer and developer](/projects) who specializes in design critique, systems thinking, and the interaction between classical techniques and contemporary technology. Occasionally he [writes words](/texts) about these topics.
