@@ -1,6 +1,8 @@
 @import "scss-utils/scss-utils";
+@import "typecabinet/lib/sass/typecabinet";
+@import "viewport-grid/lib/viewport-grid";
 
-$red: blue;
+$red: red;
 
 body {
   color: $red;
