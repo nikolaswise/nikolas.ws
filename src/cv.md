@@ -1,8 +1,14 @@
 ---
 title: cv
+template: index.hbt
 ---
 
 ## Work
+
+2015
+University of Oregon
+Adjunct Instructor
+Lead J608 Introduction to Web Design workshop for Multimedia Journalism masters candidates.
 
 2013 – Present
 Esri Portland R&D
@@ -31,6 +37,12 @@ The University of Oregon
 Studied under Charlene Liu, Margaret Prentice, and Rebecca Childers.
 
 ## Publications
+At the Mountains of Madness
+by H.P. Lovecraft
+Digital publication of Public Domain novel.
+2014
+http://miskatonic.nikolas.ws/
+
 L'Enfer
 by Stéphane Pencréac'h
 Artist book printed for Michael Woolworth Publications. Responsible for design, layout, and printing of type.
@@ -60,28 +72,34 @@ Letterpress artist book.
 2010
 
 ## Exhibitions
+Meridian
+Café Crema, Portland OR
+Group show with Atelier Meridian printmaking studio
+November 2014
+Jane Pagliarulo, Chris Harmon, Rebecca Boraz,Nick Brakel, Nancy Clarke, Daniel Jasa, and Robert Surette
+
 Axioms
 LaVerne Krause Gallery
 May 2012
 
 BFA Thesis Show with Shelly McMahon and Christina Shueler.
 The Astronaut Project
-The Buzz Gallery
+The Buzz Gallery, Eugene OR
 April 2012
 Solo exhibition
 
 LISA
-LaVerne Krause Gallery
+LaVerne Krause Gallery, Eugene OR
 February 2012
 Group show with University of Oregon printmakers; Seth Fitzpatrick, Bryan Schuldt, Nina Coloso, Jessica Freedman, and Chelsea Boehnke.
 
 Coffee Or Tea
-LaVerne Krause Gallery
+LaVerne Krause Gallery, Eugene OR
 November 2011
 Group show for Event Arts / Art Events
 http://eventarts.tumblr.com/
 
 Physical Geographies
-The Buzz Gallery
+The Buzz Gallery, Eugene OR
 June 2011
 Group show with Paul Pederson.
