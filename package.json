@@ -20,6 +20,7 @@
     "metalsmith-permalinks": "^0.1.1",
     "metalsmith-templates": "^0.6.1",
     "node-sass": "^3.1.1",
+    "npm-run-all": "^1.2.5",
     "parallelshell": "^1.1.1",
     "rerun-script": "^0.6.0",
     "scss-utils": "git://github.com/paulcpederson/scss-utils.git",
@@ -34,7 +35,8 @@
   },
   "scripts": {
     "start": "npm run dev",
-    "dev": "npm run html && parallelshell 'cd build/ && live-server --port=8080' 'rerun-script'",
+    "predev": "npm-run-all html sass",
+    "dev": "parallelshell 'cd build/ && live-server --port=8080' 'rerun-script'",
     "sass": "node-sass src/_assets/scss/ -o build/_assets/css/ --include-path node_modules/",
     "html": "metalsmith -c package.json"
   },
