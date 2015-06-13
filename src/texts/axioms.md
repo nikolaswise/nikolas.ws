@@ -1,5 +1,6 @@
 ---
 title: Axioms
+date: 2013-5-20
 description: Bachelor of Fine Arts in Printmaking thesis essay. An exploration of examining the experiences and memories of the built city through print, collage, and drawing.
 template: index.hbt
 ---
