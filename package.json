@@ -30,7 +30,8 @@
   "watches": {
     "html": [
       "src/**/*.html",
-      "src/**/*.md"
+      "src/**/*.md",
+      "src/**/*.hbt"
     ],
     "sass": "src/**/*.scss"
   },
@@ -45,15 +46,16 @@
     "title": "nikolas wise",
     "description": "Printmaker, artist, graphic designer, and front end developer. Design focuses on the use of classical typographic and design principles with contemporary technology. Artistic practice concerns geographic specificity and knowledge of place."
   },
-  "ignore": "_assets/",
   "plugins": {
-    "metalsmith-markdown": {},
     "metalsmith-collections": {
+      "posts": {
+        "pattern": "**/*.md"
+      },
       "projects": {
-        "pattern": "projects/**.md",
-        "sortBy": "date"
+        "pattern": "projects/*.md"
       }
     },
+    "metalsmith-markdown": {},
     "metalsmith-templates": {
       "engine": "handlebars",
       "directory": "src/_templates"
