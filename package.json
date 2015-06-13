@@ -52,7 +52,9 @@
   "plugins": {
     "metalsmith-collections": {
       "texts": {
-        "pattern": "texts/*.md"
+        "pattern": "texts/*.md",
+        "sortBy": "date",
+        "reverse": true
       },
       "projects": {
         "pattern": "projects/*.md"
