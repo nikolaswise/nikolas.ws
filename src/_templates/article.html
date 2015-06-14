@@ -1,0 +1,15 @@
+{{> head }}
+<div class="grid-container leader-4">
+  <main class="column-12 pre-6" role="main">
+    <article class="article">
+      <h1 class="text-center">{{ title }}</h1>
+      <p class="text-center secondary-face trailer-1">
+        <time datetime="{{ date }}">{{ date }}</time>
+      </p>
+      <blockquote class="trailer-2 body-italic font-size-2">{{ description }}</blockquote>
+
+      {{{ contents }}}
+    </article>
+  </main>
+</div>
+{{> footer }}
