@@ -1,8 +1,15 @@
 .nav {
   position: fixed;
   display: inline-block;
-  text-transform: uppercase;
 }
+
+  .nav-link {
+    @include tracking(100);
+    @include header-bold();
+    @include font-size(-3);
+    text-transform: uppercase;
+    mix-blend-mode: multiply;
+  }
 
   .nav-head {
     position: fixed;
@@ -13,7 +20,7 @@
 
   .nav-left {
     @include transform(rotate(-90deg));
-    top: 50vh;
+    top: 45vh;
   }
 
   .nav-right {
