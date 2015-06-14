@@ -2,12 +2,12 @@
 title: Map as Context
 date: 2015-2-19
 description: A critical design analysis of paper classical paper maps, focusing on examples from historical Norwegian geographic maps 1770—1940.
-template: index.html
+template: article.html
 ---
 
-## Mapping as visual design tool
-
 ![img/01_1887.jpg](https://cloud.githubusercontent.com/assets/1987772/4670754/c94b6170-5579-11e4-8e9a-673295c3487c.jpg)
+
+## Mapping as visual design tool
 
 'The Map' is a fairly general conceptual model, a term  valid for describing a wide range of objects. The map at it's core is a tool to provide context for the specific, and illuminate the general. A good map is tailored to communicate on both of these scales simultaneously. They exist to solve a specific problem, defined and shaped by the broader culture that has the problem. In this way the map-as-object inherently takes a perspective inseparable from the societal culture that creates and uses the object. As a tool of communication, an analysis of the formal aspects with a knowledge of broader context can illuminate specific decisions, needs, and solutions that can provide the design tools needed to create maps on the web as successful, and beautiful, as maps on paper.
 
@@ -45,16 +45,16 @@ It could be argued that any exercise in mapping is the practice of exaggeration,
 
 ![img/09_1775.jpg](https://cloud.githubusercontent.com/assets/1987772/4671042/c9cdc4e6-557c-11e4-82b7-cdffb821ce0e.jpg)
 
-**Exaggeration**
+### Exaggeration
 The depiction of the rolling hills from the historical Norwegian maps of the 1770's show graphic exaggeration of the landscape in order to communicate the density and character of the countryside, not necessarily the precise contours of the landscape, but rather the nature of the topography – perhaps highlighting the valleys and ravines _between_ the hills rather than the hills themselves. This technique is seen with the early, hand drawn maps, and is carried through for several decades.
 
 ![img/10_1890.jpg](https://cloud.githubusercontent.com/assets/1987772/4671055/ff8c8824-557c-11e4-92bf-b32540895071.jpg)
 ![img/11_1890.jpg](https://cloud.githubusercontent.com/assets/1987772/4671070/23257ff2-557d-11e4-937d-54e37568f8b2.jpg)
 
-**Simplification**
+## Simplification
 The removal of as many graphic elements as possible to leave behind only the essential, meaningful information forces the designer to ask what they are trying to communicate, and what they absolutely need to include to provide meaningful context. The question becomes what can be removed from a map, what can be abandoned without harming the intended message. Seen at the extreme, this technique can be used to provide a simple, clear map on a single topic.
 
 ![img/12_1805.jpg](https://cloud.githubusercontent.com/assets/1987772/4671087/504b3440-557d-11e4-925a-8fbd0d139c9b.jpg)
 
-**Generalization**
+## Generalization
 While symbology is the most common form of generalization with the map – this dot represents this structure, defined by the legend – there are some strong examples of generalization of both built and natural forms throughout the entire collection of historical Norwegian maps. Leaving behind the precise symbols, the idea and feeling of a place can be communicated by the generalized shapes of things, their interplay and juxtaposition in their simplicity can evoke a deeper knowledge of place than the precise representation. In this section for an 1805 map, the uneven shapes of what seem to be fields jostle with the simple drawings of trees, the hills, the rivers, and the yellow demarcation lines. The abstraction of the terrain makes it more of a place one that can be imagined and recognized.
