@@ -47,7 +47,7 @@ L'Enfer
 by Stéphane Pencréac'h
 Artist book printed for Michael Woolworth Publications. Responsible for design, layout, and printing of type.
 2012
-http://www.michaelwoolworth.com/
+http://www.michaelwoolworth.com/books/lenfer
 
 Axioms
 Bachelor of Fine Arts in Printmaking thesis publication. Paired with the Axioms gallery show.
