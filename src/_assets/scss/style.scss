@@ -1,5 +1,4 @@
 // CONFIG
-// @import "type/type-import";
 @import "type/config";
 
 // LIB
@@ -8,10 +7,11 @@
 @import "viewport-grid/lib/viewport-grid";
 
 // TYPE
-
+@import "type/styles";
 // GRID
 
 // COMPONENTS
+@import "components/article";
 @import "components/nav";
 
 // PATTERNS

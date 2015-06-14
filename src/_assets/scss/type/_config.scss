@@ -16,18 +16,13 @@ $major2nd:           1.125;
 $minor2nd:           1.067;
 $unison:             1;
 
-// ┌───────────────┐
-// │ SCALE:  OTHER │
-// └───────────────┘
-$golden:             1.618;
-
 // ┌────────────┐
 // │ Structural │
 // └────────────┘
-$ratio:              $golden;
+$ratio:              $fourth;
 $body-size:          1rem;
 $small-size:         0.85rem;
-$baseline:           1.5rem;
+$baseline:           1.65rem;
 $indent:             1em;
 
 
@@ -35,8 +30,8 @@ $indent:             1em;
 // │ Base Tracking │
 // └───────────────┘
 $header-tracking:    0;
-$body-tracking:      30;
-$secondary-tracking: 10;
+$body-tracking:      10;
+$secondary-tracking: 0;
 $code-tracking:      0;
 
 // ┌───────────────┐
