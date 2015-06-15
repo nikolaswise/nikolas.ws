@@ -64,7 +64,9 @@
       "_assets/**/*",
       "projects/*.md"
     ],
-    "metalsmith-markdown": {},
+    "metalsmith-markdown": {
+      "smartypants": true
+    },
     "metalsmith-permalinks": {},
     "metalsmith-templates": {
       "engine": "handlebars",
