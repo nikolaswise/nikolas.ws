@@ -6,12 +6,17 @@
 @import "typecabinet/lib/sass/typecabinet";
 @import "viewport-grid/lib/viewport-grid";
 
+// BASE
+@import "base/colors";
+
 // TYPE
 @import "type/styles";
+
 // GRID
 
 // COMPONENTS
 @import "components/article";
 @import "components/nav";
+@import "components/footer";
 
 // PATTERNS

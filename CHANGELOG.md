@@ -9,7 +9,7 @@
 * [ ] Text sizes across screens
 * [ ] Add Colors
 	* [ ] Main colors
-	* [ ] Grayscale
+	* [x] Grayscale
 * [ ] Add color effects
-* [ ] New footer sticks to bottom rather than fixed
+* [x] New footer sticks to bottom rather than fixed
 

@@ -25,10 +25,6 @@
 
   .nav-right {
     @include transform(rotate(90deg));
-    top: 50vh;
+    top: 45vh;
     right: 0;
-  }
-
-  .nav-foot {
-    bottom: $baseline;
   }

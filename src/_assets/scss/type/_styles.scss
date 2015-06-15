@@ -2,6 +2,12 @@ html {
   font-size: 18px;
 }
 
+body {
+  color: $darkest-gray;
+  margin: 0;
+  padding: 0;
+}
+
 img {
   max-width: 100%;
 }
