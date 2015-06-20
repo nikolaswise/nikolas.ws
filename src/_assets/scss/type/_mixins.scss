@@ -1,0 +1,26 @@
+$default-link-underline: linear-gradient(to bottom, transparent 83%, $red 84%, $red 100%);
+$hover-link-underline: linear-gradient(to bottom, transparent 83%, $pale-blue 84%, $pale-blue 100%);
+
+$transition: 75ms linear;
+
+@mixin link-hover-effect() {
+  @include prefixer(background-image, $default-link-underline, webkit moz o);
+  background-image: $default-link-underline;
+  mix-blend-mode: multiply;
+  backround-blend-mode: multiply;
+  &:hover {
+    color: $darkest-gray;
+    @include prefixer(background-image, $hover-link-underline, webkit moz o);
+    background-image: $hover-link-underline;
+    mix-blend-mode: multiply;
+    backround-blend-mode: multiply;
+  }
+}
+
+@mixin no-hover-effect() {
+  @include prefixer(background-image, none, webkit moz o);
+  background-image: none;
+  &:hover {
+    background-color: transparent;
+  }
+}
