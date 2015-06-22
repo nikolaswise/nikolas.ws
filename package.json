@@ -42,6 +42,7 @@
   },
   "scripts": {
     "start": "npm run dev",
+    "deploy": "./deploy",
     "predev": "npm-run-all html sass",
     "dev": "parallelshell 'cd build/ && live-server --port=8080' 'rerun-script'",
     "sass": "node-sass src/_assets/scss/ -o build/_assets/css/ --include-path node_modules/",
