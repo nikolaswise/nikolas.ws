@@ -29,6 +29,9 @@
     "typecabinet": "git://github.com/nikolaswise/typecabinet.git",
     "viewport-grid": "git://github.com/esripdx/viewport-grid.git"
   },
+  "dependencies": {
+    "hapi": "~8.2.0"
+  },
   "watches": {
     "html": [
       "src/**/*.html",
