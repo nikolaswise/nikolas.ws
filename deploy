@@ -3,4 +3,4 @@ cp -r build/* ./
 git add -A
 git commit -m "Deploy"
 git push --force dokku master
-g reset --hard HEAD~1
+git reset --hard HEAD~1
