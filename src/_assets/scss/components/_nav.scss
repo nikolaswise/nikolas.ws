@@ -37,11 +37,11 @@
 
   .nav-left {
     @include transform(rotate(-90deg));
-    top: 45vh;
+    top: 45%;
   }
 
   .nav-right {
     @include transform(rotate(90deg));
-    top: 45vh;
+    top: 45%;
     right: 0;
   }
