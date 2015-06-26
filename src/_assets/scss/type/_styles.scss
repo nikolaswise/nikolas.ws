@@ -1,18 +1,16 @@
 html {
   font-size: 18px;
-  @include transition(150ms linear);
 }
 
 @media screen and (min-width: $large) {
   html {
     font-size: 21px;
-    @include transition(150ms linear);
+
   }
 }
 
 @media screen and (max-width: $small - 1) {
   font-size: 16px;
-  @include transition(150ms linear);
 }
 
 body {
