@@ -5,18 +5,19 @@ template: index.html
 
 ## Work
 
-2015
-University of Oregon
+
+### University of Oregon
+<date>2015</date>
 Adjunct Instructor
 Lead J608 Introduction to Web Design workshop for Multimedia Journalism masters candidates.
 
+### Esri Portland R&D
 2013 – Present
-Esri Portland R&D
 Product Designer & Developer
 Work closely with small team to develop and maintain developer-focused web product for ArcGIS, including content strategy, information architecture, user experience & interaction analysis and development, graphic design, and implementation. Create and manage brand framework Esri & ArcGIS web properties. Produce exploratory and conceptually driven projects to identify current trends in web development & design in relation to map-based data visualization experiences.
 
+### Contract Printmaker
 2011 – 2013
-Contract Printmaker
 Work with artists, publishers, and printmakers to design and produce editions for fine art and fine press projects. Deep knowledge of fine art and print production processes, troubleshooting
 materials, and working closely with artists to ensure artistic integrity and vision is maintained through the edition.
 
