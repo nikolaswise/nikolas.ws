@@ -14,14 +14,18 @@
   "homepage": "http://nikolas.ws/",
   "devDependencies": {
     "handlebars": "^2.0.0-alpha.2",
+    "install": "^0.1.8",
     "live-server": "^0.7.1",
     "metalsmith": "^1.0.0",
     "metalsmith-collections": "^0.7.0",
     "metalsmith-ignore": "^0.1.2",
     "metalsmith-markdown": "^0.2.1",
+    "metalsmith-markdownit": "^0.1.2",
     "metalsmith-permalinks": "^0.4.0",
     "metalsmith-templates": "^0.6.1",
+    "metalsmith-typogr": "^0.1.0",
     "node-sass": "^3.1.1",
+    "npm": "^2.12.0",
     "npm-run-all": "^1.2.5",
     "parallelshell": "^1.1.1",
     "rerun-script": "^0.6.0",
@@ -68,10 +72,12 @@
       "_assets/**/*",
       "projects/*.md"
     ],
-    "metalsmith-markdown": {
-      "smartypants": true
+    "metalsmith-markdownit": {
+      "typographer": true,
+      "html": true
     },
     "metalsmith-permalinks": {},
+    "metalsmith-typogr": {},
     "metalsmith-templates": {
       "engine": "handlebars",
       "directory": "src/_templates",

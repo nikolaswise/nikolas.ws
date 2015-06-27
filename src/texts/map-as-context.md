@@ -1,7 +1,7 @@
 ---
 title: Map as Context
 date: 2015-2-19
-description: A critical design analysis of paper classical paper maps, focusing on examples from historical Norwegian geographic maps 1770—1940.
+description: A critical design analysis of paper classical paper maps, focusing on examples from historical Norwegian  maps circa 1770—1940.
 template: article.html
 ---
 
