@@ -43,7 +43,7 @@
       "src/**/*.hbt"
     ],
     "sass": "src/**/*.scss",
-    "img": "src/_assets/img/**"
+    "img": "src/"
   },
   "scripts": {
     "start": "npm run dev",
@@ -52,7 +52,7 @@
     "dev": "parallelshell 'cd build/ && live-server --port=8080' 'rerun-script'",
     "sass": "node-sass src/_assets/scss/ -o build/_assets/css/ --include-path node_modules/",
     "html": "metalsmith -c package.json",
-    "img": "imagemin-newer src/_assets/img/ build/_assets/img/"
+    "img": "imagemin-newer src/ build/"
   },
   "metadata": {
     "title": "nikolas wise",
@@ -62,7 +62,7 @@
   "plugins": {
     "metalsmith-collections": {
       "texts": {
-        "pattern": "texts/*.md",
+        "pattern": "texts/**/*.md",
         "sortBy": "date",
         "reverse": true
       },
