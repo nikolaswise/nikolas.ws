@@ -1,10 +1,19 @@
+var moment = require('moment');
+
 function isText (page) {
   return page.url.indexOf('/texts/') > -1
+}
+
+function hasDate (page) {
+  if (page.date) {
+    return true
+  }
 }
 
 module.exports = function (site, cb) {
   var texts = site
     .filter(isText)
+    .filter(hasDate)
     .sort(function (a, b) {
       return new Date(b.date) - new Date(a.date)
     })
@@ -15,10 +24,11 @@ module.exports = function (site, cb) {
     page.texts = texts
     if (isText(page)) {
       var index = texts.indexOf(page)
-      page.template = '_templates/article.html'
-      page.block = 'text'
-      if (page.date) {
-        console.log(page.date.toString())
+      if (hasDate(page)) {
+        page.template = '_templates/article.html'
+        page.block = 'text'
+        page.article = 'article'
+        page.date = moment(page.date).format('MMMM Do, YYYY')
       }
       page.prev = texts[index + 1] || texts[0]
       page.next = texts[index - 1] || texts[texts.length - 1]
