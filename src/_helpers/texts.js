@@ -15,6 +15,11 @@ module.exports = function (site, cb) {
     page.texts = texts
     if (isText(page)) {
       var index = texts.indexOf(page)
+      page.template = '_templates/article.html'
+      page.block = 'text'
+      if (page.date) {
+        console.log(page.date.toString())
+      }
       page.prev = texts[index + 1] || texts[0]
       page.next = texts[index - 1] || texts[texts.length - 1]
     }

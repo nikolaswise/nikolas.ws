@@ -1,15 +1,11 @@
-{{> head }}
-<div class="grid-container leader-4 small-leader-1">
-  <main class="small-column-6 medium-column-10 medium-pre-1 column-14 pre-5 large-column-18 large-pre-9" role="main">
-    <article class="article">
-      <h1 class="text-center">{{ title }}</h1>
-      <p class="text-center secondary-face trailer-1">
-        <time datetime="{{ date }}">{{ date }}</time>
-      </p>
-      <blockquote class="trailer-2 body-italic font-size-2">{{ description }}</blockquote>
+{% extends 'layout.html' %}
 
-      {{{ contents }}}
-    </article>
-  </main>
-</div>
-{{> footer }}
+{% block content %}
+  <h1 class="text-center">{{ title }}</h1>
+  <p class="text-center secondary-face trailer-1">
+    <time datetime="{{ date }}">{{ date }}</time>
+  </p>
+  <blockquote class="trailer-2 body-italic font-size-2">{{ description }}</blockquote>
+
+  {% block text %}{% endblock %}
+{% endblock %}
