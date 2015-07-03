@@ -1,0 +1,17 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+{% for page in sitemap %}
+  <url>
+    <loc>http://nikolas.ws{{page.url}}</loc>
+    {% if page.thumbnail %}
+      <image:image>
+        <image:loc>http://nikolas.ws/_assets/img/{{page.thumbnail}}</image:loc>
+      </image:image>
+    {% endif %}
+    <changefreq>
+      {% if page.changefreq %}
+        {{page.changefreq}}
+      {% endif %}
+    </changefreq>
+  </url>
+{% endfor %}
+</urlset>
