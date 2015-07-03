@@ -1,5 +1,5 @@
 
-## Todo
+## 0.0.0
 
 * [ ] Refine markdown typography parser
 	* [ ] With soft hyphens
