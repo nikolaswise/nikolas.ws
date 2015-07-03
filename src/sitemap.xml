@@ -10,6 +10,8 @@
     <changefreq>
       {% if page.changefreq %}
         {{page.changefreq}}
+      {% else %}
+        never
       {% endif %}
     </changefreq>
   </url>
