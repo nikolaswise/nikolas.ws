@@ -1,3 +1,10 @@
 ---
 title: projects
 ---
+
+{% for project in projects %}
+  {% if project.site %}
+    <h2 class="font-size-1"><a href="{{project.site}}">{{project.title}}</a></h2>
+    <section class="trailer-2">{{project.description}}</section>
+  {% endif %}
+{% endfor %}

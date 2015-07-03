@@ -1,3 +1,10 @@
 ---
 title: texts
 ---
+
+{% for text in texts %}
+  {% if text.description %}
+    <h2 class="font-size-1"><a href="{{text.url}}">{{text.title}}</a></h2>
+    <section class="trailer-2">{{text.description}}</section>
+  {% endif %}
+{% endfor %}
