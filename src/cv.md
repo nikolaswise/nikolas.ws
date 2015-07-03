@@ -1,6 +1,6 @@
 ---
 title: cv
-template: cv.html
+article: cv
 ---
 
 # CV

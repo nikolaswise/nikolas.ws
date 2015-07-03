@@ -2,7 +2,6 @@
 title: Axioms
 date: 2013-5-20
 description: Bachelor of Fine Arts in Printmaking thesis essay. An exploration of examining the experiences and memories of the built city through print, collage, and drawing.
-template: article.html
 ---
 
 I am interested in exploring the connection between personal identity and external environment, specifically focusing on urban density. I am engaged with the idea that as we navigate our environment, we create an internal model — a mental map of our surroundings and our place within those surroundings. This internal model may or may not accurately reflect the external world. The connections and contradictions that occur when these two environments collide create definition of personal identity. If identities are shaped by cities, cities are shaped by collected identities. This is an intangible and emergent property rising from the imaginations of an entire cities inhabitants. In this fluid exchange, cities become organisms.

@@ -13,23 +13,13 @@
   },
   "homepage": "http://nikolas.ws/",
   "devDependencies": {
-    "handlebars": "^2.0.0-alpha.2",
-    "install": "^0.1.8",
     "live-server": "^0.7.1",
-    "metalsmith": "^1.0.0",
-    "metalsmith-collections": "^0.7.0",
-    "metalsmith-ignore": "^0.1.2",
-    "metalsmith-markdown": "^0.2.1",
-    "metalsmith-markdownit": "^0.1.2",
-    "metalsmith-permalinks": "^0.4.0",
-    "metalsmith-templates": "^0.6.1",
-    "metalsmith-typogr": "^0.1.0",
     "node-sass": "^3.1.1",
-    "npm": "^2.12.0",
     "npm-run-all": "^1.2.5",
     "parallelshell": "^1.1.1",
     "rerun-script": "^0.6.0",
     "scss-utils": "git://github.com/paulcpederson/scss-utils.git",
+    "static-site": "^1.0.2",
     "typecabinet": "git://github.com/nikolaswise/typecabinet.git",
     "viewport-grid": "git://github.com/esripdx/viewport-grid.git"
   },
@@ -47,46 +37,11 @@
   },
   "scripts": {
     "start": "npm run dev",
-    "deploy": "./deploy",
+    "deploy": "./bin/deploy",
     "predev": "npm-run-all html sass",
     "dev": "parallelshell 'cd build/ && live-server --port=8080' 'rerun-script'",
     "sass": "node-sass src/_assets/scss/ -o build/_assets/css/ --include-path node_modules/",
-    "html": "metalsmith -c package.json",
+    "html": "static-site -s src -f md --template _templates/layout.html --block content ",
     "img": "imagemin-newer src/ build/"
-  },
-  "metadata": {
-    "title": "nikolas wise",
-    "description": "Printmaker, artist, graphic designer, and front end developer. Design focuses on the use of classical typographic and design principles with contemporary technology. Artistic practice concerns geographic specificity and knowledge of place."
-  },
-  "clean": false,
-  "plugins": {
-    "metalsmith-collections": {
-      "texts": {
-        "pattern": "texts/**/*.md",
-        "sortBy": "date",
-        "reverse": true
-      },
-      "projects": {
-        "pattern": "projects/*.md"
-      }
-    },
-    "metalsmith-ignore": [
-      "_assets/**/*",
-      "projects/*.md"
-    ],
-    "metalsmith-markdownit": {
-      "typographer": true,
-      "html": true
-    },
-    "metalsmith-permalinks": {},
-    "metalsmith-typogr": {},
-    "metalsmith-templates": {
-      "engine": "handlebars",
-      "directory": "src/_templates",
-      "partials": {
-        "head": "_head",
-        "footer": "_footer"
-      }
-    }
   }
 }

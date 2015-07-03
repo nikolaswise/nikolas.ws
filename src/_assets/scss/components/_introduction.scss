@@ -1,3 +1,4 @@
 .introduction {
+  @include font-size(2);
   @include leading(1.125);
 }

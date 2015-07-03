@@ -2,7 +2,6 @@
 title: Map as Context
 date: 2015-2-19
 description: A critical design analysis of paper classical paper maps, focusing on examples from historical Norwegian  maps circa 1770—1940.
-template: article.html
 ---
 
 ![Map of Norway 1887](01-amt2_akershus-amt-57-vi_1887.jpg)
