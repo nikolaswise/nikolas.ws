@@ -1,7 +1,6 @@
 ---
 title: cv
-article: cv
-changefreq: monthly
+section: cv
 ---
 
 # CV

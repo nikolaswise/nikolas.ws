@@ -27,7 +27,7 @@ module.exports = function (site, cb) {
       if (hasDate(page)) {
         page.template = '_templates/article.html'
         page.block = 'text'
-        page.article = 'article'
+        page.section = 'article'
         page.date = moment(page.date).format('MMMM Do, YYYY')
       }
       page.prev = texts[index + 1] || texts[0]

@@ -42,7 +42,7 @@
     "predev": "npm-run-all html sass img",
     "dev": "parallelshell 'cd build/ && live-server --port=8080' 'rerun-script'",
     "sass": "node-sass src/_assets/scss/ -o build/_assets/css/ --include-path node_modules/",
-    "html": "static-site -s src -h src/_helpers/*.js -i projects/*.md -f xml --template _templates/layout.html --block content ",
+    "html": "static-site -s src -h src/_helpers/*.js -f xml --template _templates/layout.html --block content ",
     "img": "imagemin-newer src/ build/"
   }
 }
