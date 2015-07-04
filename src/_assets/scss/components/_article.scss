@@ -6,11 +6,12 @@
   h4,
   h5,
   h6 {
-    @include body-bold();
+    @include body-face();
     margin-top:     2 * $baseline;
     margin-bottom:  1 * $baseline;
   }
 
+  h1    {@include body-bold();}
   h2    {@include font-size(4);}
   h3    {@include font-size(3);}
   h4    {@include font-size(2);}

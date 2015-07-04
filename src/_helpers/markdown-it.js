@@ -9,17 +9,11 @@ var md = require('markdown-it')({
 .use(require('markdown-it-emoji'))
 .use(require('markdown-it-container'), 'figure')
 
-var Hypher = require('hypher'),
-    english = require('hyphenation.en-us'),
-    h = new Hypher(english);
-
 var typogr = require('typogr');
 
 module.exports = function (site, cb) {
   site = site.map(function (page) {
-    console.log(page.isMarkdown)
     if (page.isMarkdown) {
-      page.content = h.hyphenateText(page.content)
       page.content = md.render(page.content)
       page.content = typogr.typogrify(page.content)
     }
