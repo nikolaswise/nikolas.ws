@@ -20,6 +20,14 @@ server.route({
   }
 });
 
+server.ext('onPreResponse', function (request, reply) {
+  if (request.response.isBoom) {
+    console.log(request.response.isBoom)
+    return reply.redirect('/404')
+  }
+  return reply.continue()
+});
+
 console.log('Serving /index.html with hapi')
 
 // Start the server
