@@ -4,6 +4,12 @@ var md = require('markdown-it')({
   typographer: true,
   quotes: '“”‘’'
 })
+.use(require('markdown-it-highlightjs'))
+.use(require('markdown-it-footnote'))
+.use(require('markdown-it-emoji'))
+.use(require('markdown-it-container'), 'figure')
+
+var typogr = require('typogr');
 
 function isProject (page) {
   return page.url.indexOf('/projects/') > -1
@@ -24,6 +30,7 @@ module.exports = function (site, cb) {
     })
     .map(function (project) {
       project.description = md.render(project.description)
+      project.description = typogr.typogrify(project.description )
       return project
     })
   site = site.map(function (page) {
