@@ -6,7 +6,9 @@ module.exports = function (site, cb) {
       changefreq: page.changefreq || 'monthly'
     }
   })
+
   site = site.map(function (page) {
+    sitemap.lastBuild = new Date().toString();
     page.sitemap = sitemap
     return page
   })
