@@ -10,9 +10,20 @@ function hasDate (page) {
   }
 }
 
+function checkDraft (page) {
+  if (page.production && page.draft) {
+    console.log(page.production, page.draft)
+    return false
+  } else {
+    console.log(page.production, page.draft)
+    return true
+  }
+}
+
 module.exports = function (site, cb) {
   var texts = site
     .filter(isText)
+    .filter(checkDraft)
     .filter(hasDate)
     .sort(function (a, b) {
       return new Date(b.date) - new Date(a.date)
@@ -20,6 +31,7 @@ module.exports = function (site, cb) {
     .map(function (text) {
       return text
     })
+    console.log(texts)
   site = site.map(function (page) {
     page.texts = texts
     if (isText(page)) {
