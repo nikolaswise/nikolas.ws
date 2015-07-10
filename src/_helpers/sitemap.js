@@ -1,5 +1,17 @@
 module.exports = function (site, cb) {
-  var sitemap = site.map(function (page) {
+
+  function checkDraft (page) {
+    if (page.production && page.draft) {
+      console.log(page.production, page.draft)
+      return false
+    } else {
+      console.log(page.production, page.draft)
+      return true
+    }
+  }
+  var sitemap = site
+  .filter(checkDraft)
+  .map(function (page) {
     return {
       url: page.url,
       thumbnail: page.thumbnail,
