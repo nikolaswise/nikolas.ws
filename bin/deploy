@@ -1,5 +1,4 @@
 #!/bin/bash
-rm -rf build/
 npm run html -- --production
 cp -r build/* ./
 git add -A
