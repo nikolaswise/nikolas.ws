@@ -22,6 +22,7 @@
     "markdown-it-emoji": "^1.0.0",
     "markdown-it-footnote": "^1.0.0",
     "moment": "^2.10.3",
+    "nk.styletile": "git://github.com/nikolaswise/nk.styletile.git",
     "node-sass": "^3.1.1",
     "npm-run-all": "^1.2.5",
     "parallelshell": "^1.1.1",

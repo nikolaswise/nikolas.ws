@@ -1,26 +1,7 @@
-// CONFIG
-@import "type/config";
-
-// LIB
-@import "scss-utils/scss-utils";
-@import "typecabinet/lib/sass/typecabinet";
-@import "viewport-grid/lib/viewport-grid";
-
-// BASE
-@import "base/colors";
-
-// TYPE
-@import "type/imports";
-@import "type/mixins";
-@import "type/styles";
+@import "nk.styletile/lib/nk";
 @import "type/cv";
-
-// GRID
-
-// COMPONENTS
 @import "components/introduction";
-@import "components/article";
-@import "components/nav";
-@import "components/footer";
 
-// PATTERNS
+.article {
+  @extend .long-form;
+}
