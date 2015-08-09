@@ -7,21 +7,19 @@ section: cv
 
 ## Work
 
-<date>2015</date>
-### University of Oregon
-### Adjunct Instructor
-
-Lead J608 Introduction to Web Design workshop for Multimedia Journalism masters candidates. Course covered web development basics including an introduction to HTML, CSS, and Javascript along with industry best-practices using Github and Markdown. Focused on strategies for communicating with a team about design.
-
-
 <date>2013 – Present</date>
 ### Esri Portland R&D
 ### Product Designer & Developer
 
 Work closely with [small team ⇗](http://pdx.esri.com/) to develop and maintain [developer-focused web product ⇗](https://developers.arcgis.com/en/) for ArcGIS, including content strategy, information architecture, user experience & interaction analysis and development, graphic design, and implementation. Create and manage [brand framework for Esri & ArcGIS web properties ⇗](http://esri.github.io/calcite-web/). Produce exploratory and conceptually driven projects to identify current trends in web development & design in relation to map-based data visualization experiences.
 
+<date>2015</date>
+### University of Oregon
+### Adjunct Instructor
 
-<date>2009 – Present</date>
+Lead J608 Introduction to Web Design workshop for Multimedia Journalism masters candidates. Course covered web development basics including an introduction to HTML, CSS, and Javascript along with industry best-practices using Github and Markdown. Focused on strategies for communicating with a team about design.
+
+<date>2009 – 2015</date>
 ### Atelier Wise
 ### Contract Printmaker, Designer, & Developer
 
