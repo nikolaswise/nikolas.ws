@@ -10,12 +10,13 @@ var md = require('markdown-it')({
 .use(require('markdown-it-container'), 'figure')
 
 var typogr = require('typogr');
+var typeset = require('typeset');
 
 module.exports = function (site, cb) {
   site = site.map(function (page) {
     if (page.isMarkdown) {
       page.content = md.render(page.content)
-      page.content = typogr.typogrify(page.content)
+      page.content = typeset(page.content)
     }
     return page
   })

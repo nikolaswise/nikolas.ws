@@ -30,6 +30,7 @@
     "scss-utils": "git://github.com/paulcpederson/scss-utils.git",
     "static-site": "^1.0.2",
     "typecabinet": "git://github.com/nikolaswise/typecabinet.git",
+    "typeset": "^0.1.4",
     "typogr": "^0.6.5",
     "viewport-grid": "git://github.com/esripdx/viewport-grid.git"
   },
