@@ -1,6 +1,33 @@
-@import "nk.styletile/lib/nk";
-@import "cv";
-@import "introduction";
+// BASE
+@import "base/reset";
+@import "base/config";
+
+// LIB
+@import "scss-utils/scss-utils";
+@import "typecabinet/lib/sass/typecabinet";
+@import "viewport-grid/lib/viewport-grid";
+
+// COLOR
+@import "color/grayscale";
+@import "color/palette";
+
+// MIXIN UTILS
+@import "mixins/link-hover";
+
+// TYPE
+@import "type/imports";
+@import "type/typesetting";
+
+// COMPONENTS
+@import "components/nav";
+@import "components/footer";
+
+// PATTERN STRUCTURES
+@import "patterns/long-form";
+
+// PAGES
+@import "pages/cv";
+@import "pages/introduction";
 
 .article {
   @extend .long-form;

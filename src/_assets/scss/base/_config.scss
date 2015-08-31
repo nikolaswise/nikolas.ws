@@ -1,0 +1,95 @@
+// ┌─────────────────┐
+// │ SCALE:  MUSICAL │
+// └─────────────────┘
+$octave:             2;
+$major7th:           1.875;
+$minor7th:           1.778;
+$major6th:           1.667;
+$minor6th:           1.6;
+$fifth:              1.5;
+$dim5th:             1.414;
+$aug4th:             1.414;
+$fourth:             1.33;
+$major3rd:           1.25;
+$minor3rd:           1.2;
+$major2nd:           1.125;
+$minor2nd:           1.067;
+$unison:             1;
+
+// ┌────────────┐
+// │ Structural │
+// └────────────┘
+$ratio:              $fourth;
+$body-size:          1rem;
+$small-size:         0.85rem;
+$baseline:           1.65rem;
+$indent:             1em;
+
+
+// ┌───────────────┐
+// │ Base Tracking │
+// └───────────────┘
+$header-tracking:    0;
+$body-tracking:      10;
+$secondary-tracking: 0;
+$code-tracking:      0;
+
+// ┌───────────────┐
+// │ Font Families │
+// └───────────────┘
+$header-family:      'Effra W01',
+                     'Helvetica',
+                     'Arial',
+                     sans-serif;
+
+$header-thin:        false;
+$header-thin:        false;
+$header-light:       300, 400;
+$header-regular:     400, 500;
+$header-medium:      500, 500;
+$header-demi:        false;
+$header-bold:        700, 800;
+$header-black:       800, 800;
+
+$body-family:        'Cardamon W01',
+                     'Georgia',
+                     serif;
+
+$body-thin:          false;
+$body-thin:          false;
+$body-light:         false;
+$body-regular:       400, 600;
+$body-medium:        false;
+$body-demi:          false;
+$body-bold:          600, 600;
+$body-black:         false;
+
+$secondary-family:   'Cardamon W01',
+                     'Georgia',
+                     serif;
+
+$secondary-thin:     false;
+$secondary-thin:     false;
+$secondary-light:    false;
+$secondary-regular:  700, false;
+$secondary-medium:   false;
+$secondary-demi:     false;
+$secondary-bold:     false;
+$secondary-black:    false;
+
+$code-family:        "Consolas",
+                     "Andale Mono",
+                     "Lucida Console",
+                     "Monaco",
+                     "Courier New",
+                     Courier,
+                     monospace;
+
+$code-thin:          false;
+$code-thin:          false;
+$code-light:         false;
+$code-regular:       400, 400;
+$code-medium:        false;
+$code-demi:          false;
+$code-bold:          false;
+$code-black:         false;
