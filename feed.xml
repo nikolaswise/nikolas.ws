@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>nikolas.ws</title>
+        <description>Nikolas Wise is a designer and developer who specializes in design critique, systems thinking, and the interaction between classical techniques and contemporary technology.</description>
+        <lastBuildDate>Sun Jul 12 2015 15:26:02 GMT-0700 (PDT)</lastBuildDate>
+        <link>http://www.nikolas.ws/texts</link>
+
+
+        
+          <item>
+              <title>page.title</title>
+              <guid isPermaLink="true">/404/</guid>
+              <pubDate>Wed, 27 Jul 2005 00:30:30 -0700</pubDate>
+              <description></description>
+              <link>http://www.nikolas.ws/404/</link>
+
+          </item>
+        
+          <item>
+              <title>page.title</title>
+              <guid isPermaLink="true">/cv/</guid>
+              <pubDate>Wed, 27 Jul 2005 00:30:30 -0700</pubDate>
+              <description></description>
+              <link>http://www.nikolas.ws/cv/</link>
+
+          </item>
+        
+          <item>
+              <title>page.title</title>
+              <guid isPermaLink="true">/feed.xml</guid>
+              <pubDate>Wed, 27 Jul 2005 00:30:30 -0700</pubDate>
+              <description></description>
+              <link>http://www.nikolas.ws/feed.xml</link>
+
+          </item>
+        
+          <item>
+              <title>page.title</title>
+              <guid isPermaLink="true">/</guid>
+              <pubDate>Wed, 27 Jul 2005 00:30:30 -0700</pubDate>
+              <description></description>
+              <link>http://www.nikolas.ws/</link>
+
+          </item>
+        
+          <item>
+              <title>page.title</title>
+              <guid isPermaLink="true">/projects/at-the-mountains-of-madness/</guid>
+              <pubDate>Wed, 27 Jul 2005 00:30:30 -0700</pubDate>
+              <description></description>
+              <link>http://www.nikolas.ws/projects/at-the-mountains-of-madness/</link>
+
+          </item>
+        
+          <item>
+              <title>page.title</title>
+              <guid isPermaLink="true">/projects/</guid>
+              <pubDate>Wed, 27 Jul 2005 00:30:30 -0700</pubDate>
+              <description></description>
+              <link>http://www.nikolas.ws/projects/</link>
+
+          </item>
+        
+          <item>
+              <title>page.title</title>
+              <guid isPermaLink="true">/projects/lower-albina/</guid>
+              <pubDate>Wed, 27 Jul 2005 00:30:30 -0700</pubDate>
+              <description></description>
+              <link>http://www.nikolas.ws/projects/lower-albina/</link>
+
+          </item>
+        
+          <item>
+              <title>page.title</title>
+              <guid isPermaLink="true">/projects/typecabinet/</guid>
+              <pubDate>Wed, 27 Jul 2005 00:30:30 -0700</pubDate>
+              <description></description>
+              <link>http://www.nikolas.ws/projects/typecabinet/</link>
+
+          </item>
+        
+          <item>
+              <title>page.title</title>
+              <guid isPermaLink="true">/projects/viewport-grid/</guid>
+              <pubDate>Wed, 27 Jul 2005 00:30:30 -0700</pubDate>
+              <description></description>
+              <link>http://www.nikolas.ws/projects/viewport-grid/</link>
+
+          </item>
+        
+          <item>
+              <title>page.title</title>
+              <guid isPermaLink="true">/sitemap.xml</guid>
+              <pubDate>Wed, 27 Jul 2005 00:30:30 -0700</pubDate>
+              <description></description>
+              <link>http://www.nikolas.ws/sitemap.xml</link>
+
+          </item>
+        
+          <item>
+              <title>page.title</title>
+              <guid isPermaLink="true">/texts/axioms/</guid>
+              <pubDate>Wed, 27 Jul 2005 00:30:30 -0700</pubDate>
+              <description></description>
+              <link>http://www.nikolas.ws/texts/axioms/</link>
+
+          </item>
+        
+          <item>
+              <title>page.title</title>
+              <guid isPermaLink="true">/texts/</guid>
+              <pubDate>Wed, 27 Jul 2005 00:30:30 -0700</pubDate>
+              <description></description>
+              <link>http://www.nikolas.ws/texts/</link>
+
+          </item>
+        
+          <item>
+              <title>page.title</title>
+              <guid isPermaLink="true">/texts/map-as-context/</guid>
+              <pubDate>Wed, 27 Jul 2005 00:30:30 -0700</pubDate>
+              <description></description>
+              <link>http://www.nikolas.ws/texts/map-as-context/</link>
+
+          </item>
+        
+    </channel>
+</rss>
