@@ -5,11 +5,14 @@ changefreq: weekly
 
 {% for project in projects %}
   {% if project.site %}
-    <h2 class="font-size-1"><a href="{{project.site}}">{{project.title}} ⇗</a></h2>
-    <section class="trailer-2">
+    <h2 class="font-size-3 body-face leader-2">
+      <a href="{{project.site}}">{{project.title}} ⇗</a>
+    </h2>
+    <section class="trailer-1">
       {% autoescape false %}
         {{ project.description}}
       {% endautoescape %}
+      <hr class="padding-leader-1">
     </section>
   {% endif %}
 {% endfor %}

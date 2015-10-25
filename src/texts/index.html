@@ -5,7 +5,14 @@ changefreq: weekly
 
 {% for text in texts %}
   {% if text.description %}
-    <h2><a href="{{text.url}}">{{text.title}}</a></h2>
-    <section class="trailer-2 font-size-2">{{text.description}}</section>
+    <h2 class="font-size-3 body-face leader-2">
+      <a href="{{text.url}}">{{text.title}} ⇗</a>
+    </h2>
+    <section class="trailer-1">
+      {% autoescape false %}
+        {{text.description}}
+      {% endautoescape %}
+      <hr class="padding-leader-1">
+    </section>
   {% endif %}
 {% endfor %}
