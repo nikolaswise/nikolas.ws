@@ -45,7 +45,7 @@
   },
   "scripts": {
     "start": "npm run dev",
-    "deploy": "surge",
+    "deploy": "surge build/ --domain nikolas.ws",
     "predev": "npm-run-all html sass img font",
     "dev": "parallelshell 'cd build/ && live-server --port=8080' 'rerun-script'",
     "sass": "node-sass src/_assets/scss/ -o build/assets/css/ --include-path node_modules/",
