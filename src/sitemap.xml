@@ -7,7 +7,7 @@ template: _templates/none.html
       <loc>http://nikolas.ws{{page.url}}</loc>
       {% if page.thumbnail %}
         <image:image>
-          <image:loc>http://nikolas.ws/_assets/img/{{page.thumbnail}}</image:loc>
+          <image:loc>http://nikolas.ws/assets/img/{{page.thumbnail}}</image:loc>
         </image:image>
       {% endif %}
       <changefreq>
