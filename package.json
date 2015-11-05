@@ -45,12 +45,12 @@
   },
   "scripts": {
     "start": "npm run dev",
-    "deploy": "./bin/deploy",
+    "deploy": "surge",
     "predev": "npm-run-all html sass img font",
     "dev": "parallelshell 'cd build/ && live-server --port=8080' 'rerun-script'",
-    "sass": "node-sass src/_assets/scss/ -o build/_assets/css/ --include-path node_modules/",
+    "sass": "node-sass src/_assets/scss/ -o build/assets/css/ --include-path node_modules/",
     "html": "static-site -s src -h src/_helpers/*.js -f xml --template _templates/layout.html --block content ",
     "img": "imagemin-newer src/ build/",
-    "font": "cp -r src/_assets/fonts build/_assets"
+    "font": "cp -r src/_assets/fonts build/assets"
   }
 }

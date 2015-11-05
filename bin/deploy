@@ -1,7 +1,0 @@
-#!/bin/bash
-npm run html -- --production
-cp -r build/* ./
-git add -A
-git commit -m "Deploy"
-git push --force dokku master
-git reset --hard HEAD~1
