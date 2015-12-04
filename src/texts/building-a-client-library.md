@@ -5,6 +5,8 @@ date: 2015-12-4
 description: Writing a wrapper client library to smooth out design weirdness at the API level leads to plenty of design thinking on the way things should be.
 ---
 
+Write up and talk bout making client libs and stuff.
+
 #### Outline
 
 - I built a Javascript wrapper for Node and the Browser around the ArcGIS REST API to simplify working with that platform as a developer.
