@@ -5,6 +5,8 @@ date: 2015-07-9
 description: Eco's examination of referencing original - or authentic - identities applied to the character of the city.
 ---
 
+Super rough, need to get the Eco text in here to work from.
+
 #### Outline
 
 - Quote from Eco, his writing that examine authenticity through perspective and language.
