@@ -4,6 +4,8 @@ date: 2015-2-19
 description: Understanding maps as designed objects and attempting to define a theory for making digital maps on the internet as good as old paper maps.
 ---
 
+A work in progress to re-write the `Map as Context` research that started the Lower Albina project.
+
 0. The Problem
 
 The map is itself a miniature that pivots around the body to represent the gigantic enormity of the physical world. The map shifts the scale of the world down to a place it can be held in the hands and entirely seen with the eye. The map connects the vastness of reality to the body in way that can be handled.
@@ -47,6 +49,7 @@ Internet maps fail to provide meaningful connection to the concepts provided - t
 Looking to the main purpose of the map — simplicity, clarity, and the minituarization of the world to pivot around the human hand — while using the formal visual tools and design lessons of the previous several centuries of paper maps – the balance of simplification and exaggeration, clear conceptual separations, and embracing the limitations of the object to provide focus.
 
 In all, the map must be appropriate and natural for it's intended use, playing its role in the overall purpose of the design solution.
+
 
 
 
