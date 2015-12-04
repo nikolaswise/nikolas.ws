@@ -1,73 +1,53 @@
 ---
 title: Map as Context
 date: 2015-2-19
-thumbnail: 01-amt2_akershus-amt-57-vi_1887.jpg
-description: A critical design analysis of paper classical paper maps, focusing on examples from historical Norwegian  maps circa 1770—1940.
+description: Understanding maps as designed objects and attempting to define a theory for making digital maps on the internet as good as old paper maps.
 ---
 
-![Map of Norway 1887](01-amt2_akershus-amt-57-vi_1887.jpg)
+0. The Problem
 
-## Mapping as visual design tool
+The map is itself a miniature that pivots around the body to represent the gigantic enormity of the physical world. The map shifts the scale of the world down to a place it can be held in the hands and entirely seen with the eye. The map connects the vastness of reality to the body in way that can be handled.
 
-'The Map' is a fairly general conceptual model, a term  valid for describing a wide range of objects. The map at it's core is a tool to provide context for the specific, and illuminate the general. A good map is tailored to communicate on both of these scales simultaneously. They exist to solve a specific problem, defined and shaped by the broader culture that has the problem. In this way the map-as-object inherently takes a perspective inseparable from the societal culture that creates and uses the object. As a tool of communication, an analysis of the formal aspects with a knowledge of broader context can illuminate specific decisions, needs, and solutions that can provide the design tools needed to create maps on the web as successful, and beautiful, as maps on paper.
+This creates tension with maps on the screen - especially the internet. The screen can _not_ be touched, and the internet can not be related to the body. Phones and tablets mitigate this by bringing the screen closer, and moving to the size of the hand, but perhaps the core difficulties remain.
 
-## The Means of production
+1. What does the map do?
 
-![Map of Norway 1720](02-norgesavd_50_1720.jpg)
+The map provides context for understanding world-scale systems and landscape-scale concepts in a human-scale object. Half way between the book and visual art (both techniques used to provide access to inter-personal ideas beyond the scale of the individual).
 
-Before the advent of digital production and distribution, there were only two types of maps - one-off, non-reproducible maps (drawing as object), and multiple, reproducible maps (print as object). In this way, the technical history of the map is tied directly with the history of printmaking. While the drawing of the map is requisite for both objects, the printed map added a technical process to the creation of maps, influencing the style of requirements for for the drawn map. As with the addition of digital technical processes today, the underlying drawing and visual tools needed to succeed within each the new environments of technical production change with production techniques.
+2. How does the map do that?
 
-![Map of Norway 1940](03-rektangeltr100_19b_1940.jpg
-)
+The map is a very specific type of visual design tool with formal qualities that lend themselves to the problem at hand. These formalities are partly defined and structured by the technologies behind the production and distribution of the map.
 
-The maps from Norway that were produced in the 1920's through 50's were printed lithographically, most likely using an offset press. Earlier maps from the 1890's are also lithographic, although these are likely printed on traditional stone lithography presses. The lithographic process is binary - either inked or not inked - rather than truly tonal, so this leads to the need to create tonal range via cross-hatching and half-toning. As with any printing process, each color was drawn as a single plate - or layer - meaning that a limited color palette is rewarded by lowered production costs. In this way, it's very common to see two or three color maps using a wide range of halftones to create depth and richness, along with the use of thematically grouping objects by color. Landscape features occupy the key (black) layer, communication of water features shares the blue layer, building footprints are gathered all together on the orange layer. This visual technique keeps a single set of data together on a single drawn layer, with the design advantage of having clear, semantic, color-coded maps.
+3. Why are maps good?
 
-## Formal aspects
-Thinking of 'map-as-object' leads us to consider the map as the *entire* object. Rather than conceptually separating the map from the frame from the margin from the scale bar and legend, the map needs to be thought of as the entire physical object of the paper and the print. These concepts are inextricable, and their consideration leads to the design solutions we see today. The printing plate has physical limitations of workable size, the paper has the physical limitations of production and quality, the ink has the physical limitations of light-fastness, pigment density, and transparency.
+What makes a good map a good map? The careful and deliberate application of the maps formal characteristics to solve the problem at hand – specifically through the use and balance of exaggeration and simplification.
 
-![Map of Norway 1920](04-amt2_akershus-amt-70-6_1920.jpg
-)
+4. How did maps get made before the internet?
 
-We see the response to these physical limitations in the layout and design of the printed image: The paper can be larger than the plate giving room for whitespace that frames the printed area, allowing the hands hold the object without obscuring it and creating a focal point in the interplay between figure/ground. Visual framing devices - representations of frames, double ruled ornaments - clearly mark the transition from margin to image. This creates room for the framing device to pull double duty as decorative assistance to the image and semantic indicators of scale, proportion, and contextual reference.
+The first maps where hand drawn, and correspondingly have attributes of other hand-made visual works. With the advent of printing, maps started to be caved into wood, and duplicated. After wood, it came to etching, and after that lithography. In each of the print techniques, certain marks are favored and made possible through the medium of the matrix itself. Shared in all the print techniques, however, id the concept of plates – individual drawn layers for different colors. Equating individual plates to individual colors to individual _typological concepts_ being shown on the map is a big reason why printed maps are so good.
 
-![Maps of Norway 1940, 1890](05-landgeneral_55_1940-1890.jpg
-)
+5. How do we make maps on the internet?
 
-The plates for the multi-layered geographic representation may be separated from the legends, scales, and other marginalia. This means that the legend - without which the map must rely on implied semantic connotations - and scale bar - without which the map looses it's reference to the lived-in world - can occupy the white space, either centered along on axis, or across the compass points.
+Exploring theories of Esri, MapBox, CartoDB.
 
-![Map of Norway](06-amt2_akershus-amt-34_1844.jpg)
-![Map of Norway](06-landgeneral_55_1940.jpg)
+Esri makes maps by through mathematical and analytic tools comparing sets of data, and creating new sets of data to answer questions.
 
-The map-as-object of multi-layered printed images on paper invites these specific solutions to a set of questions: How do we distribute this image? How do we make sense of it once we have? How do I understand the cultural context of this object? In these illustrations - digital representations of physical objects - we naturally avoid another aspect of the map-as-object: the reverse side of the sheet. The contents of both the recto and verso, along with the physical context of it's distribution (bound in an atlas? rolled and sealed? sheafed flat in a stack and stored?) will provide further understanding of the map.
+Mapbox makes maps by providing ways to style and add new data to the robust and global open data set.
 
-## Exaggeration, simplification, and generalization
+CartoDB makes maps by allowing the layering and styling of set of data, perhaps closest to the traditional way of making a map with print.
 
-![Map of Norway 1901](08-rektangelht10_15c-10-c_1901.jpg)
+All three techniques utilize a relatively static map that purports to usefully describe the entire geography of the planet. All of the maps made are intended to sit within larger application, itself designed to solve a problem.
 
-It could be argued that any exercise in mapping is the practice of exaggeration, simplification, and generalization. Representing the complexity of the lived world to semiotic structures of the map through design requires all three techniques of reduction, filtered through the subject of communication. Accepting that the tools available for graphic communication will necessarily distort or obscure the reality of the place being mapped, the question becomes how to use this distortion to strengthen the ideas being presented.
+6. What are the problems with internet maps?
 
-### Exaggeration
+Internet maps fail to provide meaningful connection to the concepts provided - they lose the essential aspect of the map that join world-to-human scales, instead operating at the world-to-world level. The endless map of the internet is itself incomprehensible to the body. The maps of the internet are simultaneously too broad and too simple, providing too much and too little. The problem the map is presenting itself as a solution too is usually far too muddy, and the resulting lack of clarity of purpose leads to a map with itself a lack of clarity.
 
-![Map of Norway](09-rektangelht10_15c-10-sv_1775.jpg)
+7. How can we make good internet maps?
 
+Looking to the main purpose of the map — simplicity, clarity, and the minituarization of the world to pivot around the human hand — while using the formal visual tools and design lessons of the previous several centuries of paper maps – the balance of simplification and exaggeration, clear conceptual separations, and embracing the limitations of the object to provide focus.
 
-The depiction of the rolling hills from the historical Norwegian maps of the 1770's show graphic exaggeration of the landscape in order to communicate the density and character of the countryside, not necessarily the precise contours of the landscape, but rather the nature of the topography – perhaps highlighting the valleys and ravines _between_ the hills rather than the hills themselves. This technique is seen with the early, hand drawn maps, and is carried through for several decades.
-
-
-## Simplification
-
-![Map of Norway 1890](09-amt2_akershus-amt-62-oest_1890.jpg
-)
-
-![Map of Norway](10-rektangelht50_15c-11-hovednet_1890.jpg
-)
-
-The removal of as many graphic elements as possible to leave behind only the essential, meaningful information forces the designer to ask what they are trying to communicate, and what they absolutely need to include to provide meaningful context. The question becomes what can be removed from a map, what can be abandoned without harming the intended message. Seen at the extreme, this technique can be used to provide a simple, clear map on a single topic.
+In all, the map must be appropriate and natural for it's intended use, playing its role in the overall purpose of the design solution.
 
 
 
-## Generalization
 
-![Map of Norway](11-rektangelht10_20a-6-nv_1805_1.jpg)
-
-While symbology is the most common form of generalization with the map – this dot represents this structure, defined by the legend – there are some strong examples of generalization of both built and natural forms throughout the entire collection of historical Norwegian maps. Leaving behind the precise symbols, the idea and feeling of a place can be communicated by the generalized shapes of things, their interplay and juxtaposition in their simplicity can evoke a deeper knowledge of place than the precise representation. In this section for an 1805 map, the uneven shapes of what seem to be fields jostle with the simple drawings of trees, the hills, the rivers, and the yellow demarcation lines. The abstraction of the terrain makes it more of a place one that can be imagined and recognized.
