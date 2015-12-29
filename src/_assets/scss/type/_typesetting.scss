@@ -2,17 +2,6 @@ html {
   font-size: 18px;
 }
 
-@media screen and (min-width: $large) {
-  html {
-    font-size: 21px;
-
-  }
-}
-
-@media screen and (max-width: $small - 1) {
-  font-size: 16px;
-}
-
 body {
   background-color: $off-white;
   color: $black;
@@ -53,6 +42,16 @@ main {
     text-decoration: none;
     color: $off-black;
     @include link-hover-effect();
+  }
+  blockquote,
+  ul,
+  ol,
+  h1, h2, h3, h4, h5, h6,
+  section,
+  p {
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
