@@ -21,10 +21,19 @@ function hasDate (page) {
   }
 }
 
+function checkDraft (page) {
+  if (page.production && page.draft) {
+    return false
+  } else {
+    return true
+  }
+}
+
 module.exports = function (site, cb) {
   var projects = site
     .filter(isProject)
     .filter(hasDate)
+    .filter(checkDraft)
     .sort(function (a, b) {
       return new Date(b.date) - new Date(a.date)
     })

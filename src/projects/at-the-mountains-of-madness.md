@@ -1,4 +1,5 @@
 ---
+draft: true
 title: At the Mountains of Madness
 site: http://miskatonic.nikolas.ws/
 date: 2014-06-21
