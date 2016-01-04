@@ -11,22 +11,22 @@ section: cv
 ### Esri Portland R&D
 ### Product Designer & Developer
 
-Work closely with [small team ⇗](http://pdx.esri.com/) to develop and maintain [developer-focused web product ⇗](https://developers.arcgis.com/en/) for ArcGIS, including content strategy, information architecture, user experience & interaction analysis and development, graphic design, and implementation. Create and manage [brand framework for Esri & ArcGIS web properties ⇗](http://esri.github.io/calcite-web/). Produce exploratory and conceptually driven projects to identify current trends in web development & design in relation to map-based data visualization experiences.
+Work closely with [a small team ⇗](http://pdx.esri.com/) to develop and maintain [a developer-focused web product ⇗](https://developers.arcgis.com/en/) for ArcGIS. Work includes content strategy, information architecture, user experience & interaction analysis and development, graphic design, and implementation. Created and manage [a brand framework for Esri & ArcGIS web properties ⇗](http://esri.github.io/calcite-web/). Produce exploratory and conceptually driven projects to identify current trends in web development & design in relation to map-based data visualization experiences. Current project is a complete UX/UI overhaul of the popular web product <a href="https://www.arcgis.com/features/">ArcGIS Online.</a>
 
-<date>2015</date>
+<date>2015 - Present</date>
 ### University of Oregon
 ### Adjunct Instructor
 
-Lead J608 Introduction to Web Design workshop for Multimedia Journalism masters candidates. Course covered web development basics including an introduction to HTML, CSS, and Javascript along with industry best-practices using Github and Markdown. Focused on strategies for communicating with a team about design.
+Lead workshop J608 _Introduction to Web Design_ for Multimedia Journalism masters candidates. Course covered web development basics including an introduction to HTML, CSS, and Javascript along with industry best-practices using Github and Markdown. Focused on strategies for communicating with a team about design.
 
-<date>2009 – 2015</date>
-### Atelier Wise
-### Contract Printmaker, Designer, & Developer
+<date>2013</date>
+### We Love Words
+### Product Designer & Developer
 
-Design and development for clients including information architecture, user experience analysis, project management, brand identity, and product design.
+Developed brand identity and web properties for Paris-based start up <a href="http://welovewords.com/">We Love Words</a>. We Love Words focuses on both giving writers a social platform, and creating a <a href="http://www.youlovewords.com/">marketplace for companies and brands to locate and hire copywriters</a>. Work included designing and implementing strategies to meet both requirements.
 
-<date>2011 – 2013</date>
-### Lone Goose Press
+<date>2011 – 2012</date>
+### lone goose press
 ### Contract Printmaker
 
 Work with artists, publishers, and printmakers to design and produce editions for fine art and fine press projects. Deep knowledge of fine art and print production processes, troubleshooting materials, and working closely with artists to ensure artistic integrity and vision is maintained through the edition.
@@ -59,9 +59,7 @@ http://miskatonic.nikolas.ws/
 <date>2012</date>
 ### [L'Enfer ⇗](http://www.michaelwoolworth.com/books/lenfer)
 ### by Stéphane Pencréac'h
-Artist book printed for [Michael Woolworth Publications.] Responsible for design, layout, and printing of type.<br />
-
-
+Artist book printed for [Michael Woolworth Publications.] Responsible for design, layout, and printing of type. The book was composed of Xylen-transfered collages onto the back of treated sandpaper. The text of the book was hand-stamped with lithography ink on to the rough surface of the sand paper.
 
 <date>2012</date>
 ### Axioms
@@ -70,12 +68,12 @@ Bachelor of Fine Arts in Printmaking thesis publication. Paired with the Axioms 
 
 <date>2012</date>
 ### A Confluence
-With Haptic Eye Editions. Artist book for Advanced Letterpress, published with Haptic Eye Editions.
+With Haptic Eye Editions. Artist book exploring the roll of movement of water bodies in the Willamette Valley watershed, published with Haptic Eye Editions.
 
 
 <date>2011</date>
 ### Syntax
-Letterpress, Intaglio, and Silkscreened artist book.
+Letterpress, Intaglio, and Silkscreened artist book developing a visual language of fractured, repeated, and layered letterforms and geometries.
 
 
 <date>2010</date>
@@ -86,7 +84,7 @@ Illustrated and hand-set book of poetry. Printed lettepress on a Vandercook 4.
 
 <date>2010</date>
 ### anatomi; typographi
-Letterpress artist book.
+Letterpress artist book exploring the connections between sections of letterforms and body parts.
 
 
 ## Exhibitions
@@ -110,7 +108,7 @@ BFA Thesis Show with [Shelly McMahon ⇗](http://www.shellymcmahon.com/) and Chr
 ### The Astronaut Project
 ### The Buzz Gallery, Eugene OR
 
-Solo exhibition
+Solo exhibition documenting my (admittedly rather unqualified) application for NASA's astronaut candidate program.
 
 
 <date>February 2012</date>
