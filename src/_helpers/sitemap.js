@@ -2,10 +2,8 @@ module.exports = function (site, cb) {
 
   function checkDraft (page) {
     if (page.production && page.draft) {
-      console.log(page.production, page.draft)
       return false
     } else {
-      console.log(page.production, page.draft)
       return true
     }
   }

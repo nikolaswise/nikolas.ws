@@ -29,7 +29,6 @@ module.exports = function (site, cb) {
     .map(function (text) {
       return text
     })
-    console.log(texts)
   site = site.map(function (page) {
     page.texts = texts
     if (isText(page)) {
