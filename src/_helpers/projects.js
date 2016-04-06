@@ -6,8 +6,6 @@ var md = require('markdown-it')({
 })
 .use(require('markdown-it-highlightjs'))
 .use(require('markdown-it-footnote'))
-.use(require('markdown-it-emoji'))
-.use(require('markdown-it-container'), 'figure')
 
 var typogr = require('typogr');
 
