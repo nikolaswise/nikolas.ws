@@ -37,7 +37,7 @@ module.exports = function (site, cb) {
         page.template = '_templates/article.html'
         page.block = 'text'
         page.section = 'article'
-        // page.date = moment(page.date).format('MMMM Do, YYYY')
+        page.date = moment(page.date).format('MMMM Do, YYYY')
       }
       page.prev = texts[index + 1] || texts[0]
       page.next = texts[index - 1] || texts[texts.length - 1]
