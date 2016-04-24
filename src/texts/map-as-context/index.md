@@ -4,7 +4,7 @@ date: 2015-2-19
 description: Understanding maps as designed objects and attempting to define a theory for making digital maps on the internet as good as old paper maps.
 ---
 
-Looking at maps as they exist today on the internet, we have a pretty solid idea of that that is. It looks like Google Maps. This is a pretty recent design solution to the 'what is a map on the internet' problem, only about 10 years old. Which is old for internet, but pretty young for maps. The Google Maps model is a good one, too! It's a very effective way to present what is essentially a road map - a drivers atlas for navigating a city or a country. Google Maps replaces the AAA State Highway map really effectively, but perhaps there are some weak links with how it applies to other, less navigation-oriented maps.
+Looking at maps as they exist today on the internet, we have a pretty solid idea of what that means. It means they look like Google Maps. This is a pretty recent design solution to the 'what is a map on the internet' problem, only about 10 years old. Which is old for internet, but pretty young for maps. The Google Maps model is a good one, too! It's a very effective way to present what is essentially a road map - a drivers atlas for navigating a city or a country. Google Maps replaces the AAA State Highway map really effectively, but perhaps there are some weak links with how it applies to other, less navigation-oriented maps.
 
 There a large number of really beautiful maps that exist only on paper, and a large number of really ugly maps that exist on screens. How can we start to think about maps in a way that bridges this gap? Is there a way we can approach these other, not-a-roadmap-map maps more effectively to make them as good as their paper-bound cousins?
 
