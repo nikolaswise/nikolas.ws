@@ -1,11 +1,13 @@
 {% extends 'layout.html' %}
 
 {% block content %}
-  <h1 class="text-center">{{ title }}</h1>
-  <p class="text-center secondary-face trailer-1">
-    <time datetime="{{ date }}">{{ date }}</time>
-  </p>
-  <blockquote class="trailer-2 body-italic font-size-2">{{ description }}</blockquote>
+  <div class="text-block">
+    <h1>{{ title }}</h1>
+    <p>
+      <time datetime="{{ date }}">{{ date }}</time>
+    </p>
+    <blockquote>{{ description }}</blockquote>
 
-  {% block text %}{% endblock %}
+    {% block text %}{% endblock %}
+  </div>
 {% endblock %}

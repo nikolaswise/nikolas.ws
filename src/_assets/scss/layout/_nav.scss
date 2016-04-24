@@ -4,44 +4,48 @@
   z-index: 10;
   mix-blend-mode: multiply;
   background-blend-mode: multiply;
+  @media screen and (max-width: $medium - 1) {
+    position: absolute;
+    top: 0;
+  }
 }
 
   .nav-link {
     @include tracking(100);
-    @include header-bold();
     @include font-size(-3);
-    @include no-hover-effect();
     padding: 0.33em;
-    color: $red;
-    border: 0.25rem solid $red;
+    color: $flouro-orange;
+    font-family: $sans-family;
+    font-weight: 500;
+    text-decoration: none;
+    font-style: normal;
+    border: 0.25rem solid $flouro-orange;
     text-transform: uppercase;
     mix-blend-mode: multiply;
     background-blend-mode: multiply;
-    @include transition(150ms linear);
     &:hover {
+      text-decoration: none;
       color: $blue;
       border-color: $blue;
       background-color: $off-white;
       mix-blend-mode: multiply;
       background-blend-mode: multiply;
-      @include transition(150ms linear);
     }
   }
 
   .nav-head {
-    position: fixed;
     display: inline-block;
     top: $baseline;
     text-transform: uppercase;
   }
 
   .nav-left {
-    @include transform(rotate(-90deg));
+    transform: rotate(-90deg);
     top: 45%;
   }
 
   .nav-right {
-    @include transform(rotate(90deg));
+    transform: rotate(90deg);
     top: 45%;
     right: 0;
   }

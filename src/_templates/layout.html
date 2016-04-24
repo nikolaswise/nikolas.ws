@@ -34,38 +34,29 @@
   </head>
 
   <body>
-    <div class="wrapper">
-      <div class="grid-container">
-        <nav class="nav nav-head text-center column-36" role="navigation">
-          <a href="/" class="nav-link">nikolas.ws</a>
-        </nav>
-      </div>
+    <div class="grid-container small-hide">
+      <nav class="text-center nav nav-left" role="navigation">
+        <a href="/texts" class="nav-link">texts</a>
+      </nav>
+      <nav class="text-center nav nav-right" role="navigation">
+        <a href="/projects" class="nav-link">projects</a>
+      </nav>
+    </div>
+    <div class="wrapper grid-container">
+      <nav class="nav nav-head text-center column-36" role="navigation">
+        <a href="/" class="nav-link">nikolas.ws</a>
+      </nav>
 
-      <div class="grid-container small-hide">
-        <nav class="text-center nav nav-left" role="navigation">
-          <a href="/texts" class="nav-link">texts</a>
-        </nav>
-        <nav class="text-center nav nav-right" role="navigation">
-          <a href="/projects" class="nav-link">projects</a>
-        </nav>
-      </div>
-      <div class="grid-container large-leader-6 leader-5 small-leader-3">
-        <main class="small-column-6 medium-column-10 medium-pre-1 column-14 pre-5 large-column-18 large-pre-9" role="main">
-          <section class="{{section}}">
-            {% block content %}{% endblock %}
-          </section>
-        </main>
-      </div>
+      {% block content %}{% endblock %}
     </div>
 
-    <footer class="grid-container" role="contentInfo">
-      <nav class="footer column-36 text-center padding-trailer-1" role="navigation" aria-labelby="contactinfo">
+    <footer role="contentInfo" class="grid-container">
+      <nav class='footer column-36 text-center leader-1 trailer-1' role="navigation" aria-labelby="contactinfo">
         <a class="footer-link" rel="me" href="mailto:hello@nikolas.ws">mail ⇗</a>
         <a class="footer-link" rel="me" href="https://twitter.com/NikolasWise">twitter ⇗</a>
         <a class="footer-link" rel="me" href="https://github.com/nikolaswise">github ⇗</a>
         <a class="footer-link" rel="me" href="/feed.xml">rss</a>
         <a class="footer-link" rel="me" href="/cv">cv</a>
-
       </nav>
     </footer>
 
@@ -74,8 +65,9 @@
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-41031992-1', 'paulcpederson.com');
+      ga('create', 'UA-64426327-1', 'auto');
       ga('send', 'pageview');
     </script>
+
   </body>
 </html>

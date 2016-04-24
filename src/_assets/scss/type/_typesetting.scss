@@ -1,57 +1,89 @@
 html {
-  font-size: 18px;
+  font-size: 21px;
 }
 
 body {
-  background-color: $off-white;
-  color: $black;
-  margin: 0;
-  padding: 0;
+  @include font-size(0);
+  @include tracking($serif-tracking);
+  font-family: $serif-family;
+  line-height: $baseline;
+  color: $type-color;
+
+  -webkit-font-feature-settings: "kern";
+     -moz-font-feature-settings: "kern";
+          font-feature-settings: "kern";
+  font-kerning: normal;
+
+  text-rendering: optimizeLegibility;
+
+   -moz-font-feature-settings : 'liga= 1','calt=0';
+   -moz-font-feature-settings : "liga" 1,"calt" 0;
+   -webkit-font-feature-settings : "liga" 1,"calt" 0;
+   -ms-font-feature-settings : 'liga= 1','calt=0';
+   -o-font-feature-settings : "liga" 1,"calt" 0;
+   font-feature-settings : "liga" 1,"calt" 0;
 }
 
-.wrapper {
-  overflow: hidden;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $serif-family;
+  text-transform: none;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: none;
+  margin: 0 0 $baseline/2 0;
 }
 
-img {
-  max-width: 100%;
-  width: 100%;
-}
+h1 {@include font-size(5);}
+h2 {@include font-size(4);}
+h3 {@include font-size(3);}
+h4 {@include font-size(2);}
+h5 {@include font-size(1);}
+h6 {@include font-size(0);}
 
 a {
-  text-decoration: none;
+  color: $flouro-orange;
 }
 
-hr {
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: 2px solid $dark-gray;
-  outline: none;
+a:hover,
+a:focus,
+a:active {
+  color: $blue;
+  border-color: $blue;
 }
 
-footer,
-main {
-  display: block;
-  mix-blend-mode: multiply;
-  a,
-  a:hover,
-  a:visited,
-  a:focus,
-  a:active {
-    text-decoration: none;
-    color: $off-black;
-    @include link-hover-effect();
-  }
-  blockquote,
-  ul,
-  ol,
-  h1, h2, h3, h4, h5, h6,
-  section,
-  p {
-    max-width: 40rem;
-    margin-left: auto;
-    margin-right: auto;
+code, kbd, pre, samp {
+  font-family: $mono-family;
+}
+
+code {
+  padding: .25rem;
+  border-radius: 3px;
+  border: 1px solid $lightest-gray;
+  color: $darkest-gray;
+  background-color: $off-white;
+  white-space: pre;
+  font-size: 0.85em;
+  line-height: 1.4rem;
+}
+
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  max-width: 100%;
+  margin-bottom: $baseline;
+  code {
+    padding: 1rem;
+    display: block;
+    overflow: auto;
+    word-wrap: normal;
+    font-size: 0.85em;
+    position: relative;
   }
 }
 
@@ -59,3 +91,25 @@ blockquote {
   color: $red;
   mix-blend-mode: multiply;
 }
+
+
+.text-block {
+  margin: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 40rem;
+}
+
+.footer-link {
+  font-family: $sans-family;
+  @include font-size(-2);
+  padding-left: 0.33em;
+  padding-right: 0.33em;
+}
+
+hr {
+  margin: $baseline*1.5 0;
+  border: none;
+  border-top: 3px solid $darker-gray;
+}
+

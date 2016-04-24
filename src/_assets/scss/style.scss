@@ -3,50 +3,19 @@
 @import "base/config";
 
 // LIB
-@import "typecabinet/lib/sass/typecabinet";
 @import "viewport-grid/lib/viewport-grid";
 
 // COLOR
-@import "color/grayscale";
-@import "color/palette";
+@import "base/grayscale";
+@import "base/palette";
 
-// MIXIN UTILS
-@import "mixins/link-hover";
-
-// TYPE
+// // TYPE
+@import "type/config";
 @import "type/imports";
+@import "type/modular-scale";
+@import "type/mixins";
 @import "type/typesetting";
 
-// COMPONENTS
-@import "components/nav";
-@import "components/footer";
-
-// PATTERN STRUCTURES
-@import "patterns/long-form";
-
-// PAGES
-@import "pages/cv";
-@import "pages/introduction";
-
-.article {
-  @extend .long-form;
-}
-
-
-/* Double quote (") marks */
-.pull-double{margin-left:-.38em}
-.push-double{margin-right:.38em}
-
-/* Single quote (') marks */
-.pull-single{margin-left:-.15em}
-.push-single{margin-right:.15em}
-
-/* Optical margin alignment for particular letters */
-.pull-T, .pull-V, .pull-W, .pull-Y {margin-left: -0.07em}
-.push-T, .push-V, .push-W, .push-Y {margin-right: 0.07em}
-
-.pull-O, .pull-C, .pull-o, .pull-c {margin-left: -0.04em}
-.push-O, .push-C, .push-o, .push-c {margin-right: 0.04em}
-
-.pull-A {margin-left: -0.03em}
-.push-A {margin-right: 0.03em}
+// LAYOUT
+@import "layout/main";
+@import "layout/nav";

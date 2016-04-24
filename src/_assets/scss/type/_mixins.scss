@@ -1,0 +1,164 @@
+// ┌──────────┐
+// │ Tracking │
+// └──────────┘
+//  ↳ http://esri.github.io/calcite-web/sass/#tracking
+//  ↳ sass → _tracking.md
+
+@mixin tracking($n) {
+  letter-spacing: $n * 0.001em;
+}
+
+// ┌─────────┐
+// │ Leading │
+// └─────────┘
+//  ↳ http://esri.github.io/calcite-web/sass/#leading
+//  ↳ sass → _leading.md
+
+@mixin leading($n) {
+  line-height: $n * $baseline;
+}
+
+// ┌──────────────┐
+// │ Word Spacing │
+// └──────────────┘
+//  ↳ http://esri.github.io/calcite-web/sass/#word-spacing
+//  ↳ sass → _word-spacing.md
+
+@mixin word-spacing($n) {
+  word-spacing: $n * 0.001em;
+}
+
+// ┌────────────────┐
+// │ Text Modifiers │
+// └────────────────┘
+//  ↳ http://esri.github.io/calcite-web/type/#text-modifiers
+//  ↳ type → _text-modifiers.md
+
+@mixin text-inline() {
+  display: inline;
+}
+
+@mixin text-center() {
+  text-align: center;
+}
+
+@mixin text-left() {
+  text-align: left;
+  html[dir="rtl"] & {
+    text-align: right;
+  }
+}
+
+@mixin text-right() {
+  text-align: right;
+  html[dir="rtl"] & {
+    text-align: left;
+  }
+}
+
+@mixin text-rule() {
+  border-bottom: 1px solid $lighter-gray;
+}
+
+@mixin text-large() {
+  @include font-size(0);
+}
+
+@mixin text-small() {
+  @include font-size(-2);
+}
+
+@mixin text-light() {
+  opacity: 0.66;
+}
+
+@mixin text-ellipsis() {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+// ┌────────────┐
+// │ List Plain │
+// └────────────┘
+//  ↳ http://esri.github.io/calcite-web/type/#list-plain
+//  ↳ type → _list-plain.md
+
+@mixin list-plain() {
+  margin: $baseline/4 0;
+  li {
+    list-style-type: none;
+    margin-left: 0;
+  }
+}
+
+// ┌────────────┐
+// │ Text Color │
+// └────────────┘
+//  ↳ http://esri.github.io/calcite-web/type/#text-color
+//  ↳ type → _text-color.md
+
+@mixin text-color($value) {
+  color: $value;
+}
+
+// ┌────────────┐
+// │ Link Color │
+// └────────────┘
+//  ↳ http://esri.github.io/calcite-web/type/#link-color
+//  ↳ type → _link-color.md
+
+@mixin link-color($value, $light-value) {
+  color: $value;
+  &:hover {
+    color: $light-value;
+  }
+}
+
+// ┌─────────┐
+// │ Fade In │
+// └─────────┘
+//  ↳ http://esri.github.io/calcite-web/type/#fade-in
+//  ↳ type → _fade-in.md
+@mixin fade-in () {
+  opacity: 0;
+  animation: fade-in ease-in 1;
+  animation-fill-mode: forwards;
+  animation-duration: .75s;
+}
+
+
+.text-rule         {@include text-rule();}
+.text-inline       {@include text-inline();}
+.text-center       {@include text-center();}
+.text-left         {@include text-left();}
+.text-right        {@include text-right();}
+.text-light        {@include text-light();}
+.text-ellipsis     {@include text-ellipsis();}
+.list-plain        {@include list-plain();}
+
+.fade-in {@include fade-in()}
+
+
+.font-size--3 { @include font-size(-3); }
+.font-size--2 { @include font-size(-2); }
+.font-size--1 { @include font-size(-1); }
+.font-size-0  { @include font-size(0); }
+.font-size-1  { @include font-size(1); }
+.font-size-2  { @include font-size(2); }
+.font-size-3  { @include font-size(3); }
+.font-size-4  { @include font-size(4); }
+.font-size-5  { @include font-size(5); }
+.font-size-6  { @include font-size(6); }
+.font-size-7  { @include font-size(7); }
+.font-size-8  { @include font-size(8); }
+
+.sans-family {
+  font-family: $sans-family;
+}
+.serif-family {
+  font-family: $serif-family;
+}
+.mono-family {
+  font-family: $mono-family;
+}
