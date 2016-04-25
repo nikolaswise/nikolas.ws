@@ -96,6 +96,7 @@ blockquote {
 
 
 .text-block {
+  text-align: justify;
   margin: auto;
   margin-top: 6rem;
   padding: 1rem;
@@ -124,6 +125,7 @@ blockquote {
   h6    {@include font-size(0);}
 
   blockquote {
+    text-align: left;
     margin-top: 2*$baseline;
     margin-bottom: 2*$baseline;
     font-style: italic;
@@ -141,14 +143,15 @@ blockquote {
 }
 
 .small-caps {
-  font-family: "Cardamon W01", "Georgia", serif;
-  font-weight: 700;
-  font-style: normal;
+  font-family: $sc-family;
+  text-transform: lowercase;
 }
 
 .footer-link {
+  text-transform: uppercase;
   font-family: $sans-family;
-  @include font-size(-2);
+  @include font-size(-3);
+  @include tracking(200);
   padding-left: 0.33em;
   padding-right: 0.33em;
 }
@@ -157,5 +160,42 @@ hr {
   margin: $baseline*1.5 0;
   border: none;
   border-top: 3px solid $darker-gray;
+}
+
+.cv-block {
+  a {
+    color: $blue;
+    &:hover {
+      color: $red;
+    }
+  }
+  h2 {
+    text-align: left;
+    @include font-size(3);
+    padding-left: 0.5rem;
+    color: $blue;
+    border: 5px solid $blue;
+  }
+  h3 {
+    text-align: left;
+    @include font-size(2);
+    margin-top: 2*$baseline;
+    margin-bottom: 0;
+  }
+  h4 {
+    text-align: left;
+    @include font-size(1);
+    margin-top: 0;
+    margin-bottom: 0.5*$baseline;
+  }
+  p {
+    text-align: left;
+  }
+  date {
+    margin-top: 1.5*$baseline;
+    @include font-small-caps();
+    color: $blue;
+    float: right;
+  }
 }
 

@@ -104,12 +104,6 @@
   @return $value;
 }
 
-// ┌───────────┐
-// │ Font Size │
-// └───────────┘
-//  ↳ http://esri.github.io/calcite-web/sass/#font-size
-//  ↳ sass → _font-size.md
-
 @mixin font-size($n) {
   font-size: modular-scale($n);
   @if $n > 7 {
