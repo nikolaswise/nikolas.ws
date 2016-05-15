@@ -11,6 +11,7 @@ module.exports = function (site, cb) {
   .filter(checkDraft)
   .map(function (page) {
     return {
+      title: page.title,
       url: page.url,
       thumbnail: page.thumbnail,
       changefreq: page.changefreq || 'monthly'

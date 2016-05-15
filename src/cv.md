@@ -5,7 +5,7 @@ block: text
 changefreq: weekly
 ---
 
-I am designer, developer, printer, and artist with nearly a decade of making products, experiments, and objects. My current work focuses on on systems design – from strategy and identity development to information architecture and API design – and long-form typographic works.
+I am designer, developer, printer, and artist with nearly a decade of experience making products, experiments, and objects. My current work focuses on on systems design – from strategy and identity development to information architecture and API design – and long-form typographic works.
 
 ## Work
 
@@ -19,13 +19,13 @@ Work closely with [a small team ⇗](http://pdx.esri.com/) to develop and mainta
 ### University of Oregon
 #### Adjunct Instructor
 
-Lead workshop J608 _Introduction to Web Design_ for Multimedia Journalism masters candidates. Course covered web development basics including an introduction to HTML, CSS, and Javascript along with industry best-practices using Github and Markdown. Focused on strategies for communicating with a team about design.
+Lead workshop J608 _Introduction to Web Design_ for Multimedia Journalism masters candidates. Course covers web development basics including an introduction to HTML, CSS, and Javascript along with industry best-practices using Github and Markdown. Primarily focused on strategies for communicating with a team about design.
 
 <date>2013</date>
 ### We Love Words
 #### Product Designer & Developer
 
-Developed brand identity and web properties for Paris-based start up <a href="http://welovewords.com/">We Love Words</a>. We Love Words focuses on both giving writers a social platform, and creating a <a href="http://www.youlovewords.com/">marketplace for companies and brands to locate and hire copywriters</a>. Work included designing and implementing strategies to meet both requirements.
+Developed brand identity and web properties for Paris-based start up <a href="http://welovewords.com/">We Love Words</a>. We Love Words focuses on both giving writers a social platform, and creating a <a href="http://www.youlovewords.com/">marketplace</a> for companies and brands to locate and hire copywriters. Work included designing and implementing strategies to meet both requirements.
 
 <date>2011 – 2012</date>
 ### lone goose press
