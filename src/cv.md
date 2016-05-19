@@ -5,7 +5,7 @@ block: text
 changefreq: weekly
 ---
 
-I am designer, developer, printer, and artist with nearly a decade of experience making products, experiments, and objects. My current work focuses on on systems design – from strategy and identity development to information architecture and API design – and long-form typographic works.
+I am designer, developer, printer, and artist with nearly a decade of experience making products, experiments, and objects. My current work focuses on systems design – from strategy and identity development to information architecture and API design – and long-form typographic works.
 
 ## Work
 
