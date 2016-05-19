@@ -38,6 +38,7 @@
   },
   "scripts": {
     "start": "npm run dev",
+    "predeploy": "npm run predev",
     "deploy": "surge build/ --domain nikolas.ws",
     "predev": "npm-run-all html sass img font",
     "dev": "parallelshell 'http-server build/ --port=8080' 'rerun-script'",
