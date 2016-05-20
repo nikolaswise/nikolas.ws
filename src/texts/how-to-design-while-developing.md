@@ -1,5 +1,5 @@
 ---
-title: What is Design/Development?
+title: How to Design while Developing
 date: 2016-5-15
 description: Moving beyond the idea that the designer and the developer on a web project are different people, and that somehow those are different things.
 ---
@@ -21,5 +21,3 @@ The best way to meet our goals as people who make good websites is to focus less
 Don’t get me wrong - the jpeg can be important. It shows us how we think we can solve our problems, a glimpse of how we want our website to looks and feel, and the tone we want to communicate. Through all this it needs to have to room to change and breath as it comes to life and become a real thing. Our drawings should not be on the level of “what does this look like” but “what problem does this solve and how”. At every step in the process we can work to make the real thing better, to solve new questions that arise as we move through the process of design / development – a process where there is no gap between those two ideas.
 
 To design a website is to develop it - and as we develop a website we are constantly making design decisions. A designer cannot abdicate their responsibility to design by saying “well, my jpeg looked great.” A developer cannot abdicate their responsibility to a codebase by saying “well that’s what they wanted in the comp.”
-
-Design / development is making a drawing of a thing you want, then making it a real thing.
