@@ -32,6 +32,7 @@ module.exports = function (site, cb) {
   site = site.map(function (page) {
     page.texts = texts
     if (isText(page)) {
+      page.isText = true
       var index = texts.indexOf(page)
       if (hasDate(page)) {
         page.template = '_templates/article.html'

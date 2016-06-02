@@ -8,17 +8,16 @@ template: _templates/none.html
         <description>Nikolas Wise is a designer and developer who specializes in design critique, systems thinking, and the interaction between classical techniques and contemporary technology.</description>
         <lastBuildDate>{{ sitemap.lastBuild }}</lastBuildDate>
         <link>http://www.nikolas.ws/texts</link>
-
-
         {% for page in sitemap %}
-          <item>
-              <title>{{ page.title }}</title>
-              <guid isPermaLink="true">{{ page.url }}</guid>
-              <pubDate>Wed, 27 Jul 2005 00:30:30 -0700</pubDate>
-              <description>{{page.desciption}}</description>
-              <link>http://www.nikolas.ws{{ page.url }}</link>
-
-          </item>
+          {% if page.isText%}
+            <item>
+                <title>{{ page.title }}</title>
+                <guid isPermaLink="true">{{ page.url }}</guid>
+                <pubDate>Wed, 27 Jul 2005 00:30:30 -0700</pubDate>
+                <description>{{page.desciption}}</description>
+                <link>http://www.nikolas.ws{{ page.url }}</link>
+            </item>
+          {% endif %}
         {% endfor %}
     </channel>
 </rss>

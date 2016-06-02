@@ -24,8 +24,7 @@
     "static-site": "^1.0.2",
     "typecabinet": "git://github.com/nikolaswise/typecabinet.git",
     "typeset": "^0.2.2",
-    "typogr": "^0.6.6",
-    "viewport-grid": "git://github.com/esripdx/viewport-grid.git"
+    "typogr": "^0.6.6"
   },
   "watches": {
     "html": [
