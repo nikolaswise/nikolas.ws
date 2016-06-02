@@ -1,11 +1,7 @@
 {% extends 'layout.html' %}
 
 {% block content %}
-  <div class="large-leader-5 leader-4 medium-leader-3 small-leader-2">
-    <div class="large-pre-12 pre-6 medium-pre-1 small-pre-0">
-      <main role="main" class="column-12 medium-column-10">
-        {% block text %}{% endblock %}
-      </main>
-    </div>
-  </div>
+  <main role="main" class="text-block">
+    {% block text %}{% endblock %}
+  </main>
 {% endblock %}

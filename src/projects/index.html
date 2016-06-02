@@ -6,22 +6,18 @@ changefreq: weekly
 ---
 
 {% for project in projects %}
-  {% if !project.draft %}
+  <p class="font-size-2 trailer-half">
     {% if project.site %}
-      <h2 class="font-size-2 small-caps">
-        <a href="{{project.site}}">{{project.title}} ⇗</a>
-      </h2>
+      <a href="{{project.site}}">{{project.title}} ⇗</a>
     {% else %}
-      <h2 class="font-size-2 small-caps">
-        <a href="{{project.url}}">{{project.title}}</a>
-      </h2>
+      <a href="{{project.url}}">{{project.title}}</a>
     {% endif %}
-
-    <section class="trailer-1">
+  </p>
+  {% if project.description %}
+    <section class="trailer-2">
       {% autoescape false %}
-        {{ project.description}}
+        {{project.description}}
       {% endautoescape %}
-      <hr>
     </section>
   {% endif %}
 {% endfor %}

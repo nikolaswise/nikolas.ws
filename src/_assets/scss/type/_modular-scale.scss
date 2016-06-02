@@ -70,8 +70,8 @@
 }
 
 @function small-modular-scale($increment) {
-  $v1: $body-size;
-  $v2: $small-size;
+  $v1: $small-size;
+  $v2: 0.75rem;
   $value: $v1;
 
   @while $v2 > $v1 {
@@ -123,6 +123,7 @@
   }
   @media screen and (max-width: $small - 1) {
     font-size: small-modular-scale($n);
+    line-height: 0.85*$baseline;
     @if $n > 7 {
       line-height: 2*$baseline;
     }
