@@ -1,6 +1,6 @@
 ---
 title: Node ArcGIS
-site: http://node-arcgis.surge.sh
+site: http://esri.github.io/node-arcgis/
 date: 2016-03-10
 description: Esri product developers around the globe were recreating the same solutions to common problems in the context of their applications. Node ArcGIS reduces duplicated code and allows a greater sharing of time and resources across teams, and opens solutions to the open-source community. Node ArcGIS is an API that adheres to contemporary specs, acting a buffer between NodeJS workflows and the older, highly stable, [ArcGIS REST API](https://developers.arcgis.com/rest). Node ArcGIS brings the power of the ArcGIS platform to the largest and fastest growing language and package manager - [Node JS](https://nodejs.org/en/) and [NPM](https://www.npmjs.com/package/arcgis).
 ---
