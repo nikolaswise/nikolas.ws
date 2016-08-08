@@ -6,6 +6,8 @@ description: Understanding maps as designed objects and attempting to define a t
 
 Looking at maps as they exist today on the internet, we have a pretty solid idea of what that means. It means they look like Google Maps. This is a pretty recent design solution to the 'what is a map on the internet' problem, only about 10 years old. Which is old for internet, but pretty young for maps. The Google Maps model is a good one, too! It's a very effective way to present what is essentially a road map - a drivers atlas for navigating a city or a country. Google Maps replaces the AAA State Highway map really effectively, but perhaps there are some weak links with how it applies to other, less navigation-oriented maps.
 
+![](01-amt2_akershus-amt-57-vi_1887.jpg)
+
 There a large number of really beautiful maps that exist only on paper, and a large number of really ugly maps that exist on screens. How can we start to think about maps in a way that bridges this gap? Is there a way we can approach these other, not-a-roadmap-map maps more effectively to make them as good as their paper-bound cousins?
 
 To approach this question from an angle, it's worth taking a moment to think about what a map _is_. The map is a miniature that pivots around the body to represent the gigantic enormity of the physical world. The map shrinks the world down to a place it can be held in the hands and entirely seen with the eye. The map connects the vastness of reality to the body in way that can be handled - both physically and mentally.

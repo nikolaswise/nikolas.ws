@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+  <div class="text-block">
+    <h1 clas="leader-1">{{ title }}</h1>
+    <blockquote>{{ intro }}</blockquote>
+
+    {% block text %}{% endblock %}
+  </div>
+{% endblock %}

@@ -1,3 +1,5 @@
+var moment = require('moment');
+
 var md = require('markdown-it')({
   html: true,
   linkify: true,
@@ -36,8 +38,12 @@ module.exports = function (site, cb) {
       return new Date(b.date) - new Date(a.date)
     })
     .map(function (project) {
+      project.intro = project.description
       project.description = md.render(project.description)
       project.description = typogr.typogrify(project.description )
+      project.template = '_templates/project.html'
+      project.block = 'text'
+      project.section = 'projects'
       return project
     })
   site = site.map(function (page) {
