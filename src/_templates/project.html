@@ -3,7 +3,18 @@
 {% block content %}
   <div class="text-block">
     <h1 clas="leader-1">{{ title }}</h1>
-    <blockquote>{{ intro }}</blockquote>
+
+    <blockquote>
+        {% autoescape false %}
+          {{description}}
+        {% endautoescape %}
+    </blockquote>
+
+    {% if site %}
+      <p class="text-center trailer-2">
+        <a href="{{site}}" class="nav-link">View Project</a>
+      </p>
+    {% endif %}
 
     {% block text %}{% endblock %}
   </div>

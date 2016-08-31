@@ -11,9 +11,11 @@ changefreq: weekly
   </p>
   {% if text.description %}
     <section class="trailer-2">
-      {% autoescape false %}
-        {{text.description}}
-      {% endautoescape %}
+      <p>
+        {% autoescape false %}
+          {{text.description}}
+        {% endautoescape %}
+      </p>
     </section>
   {% endif %}
 {% endfor %}

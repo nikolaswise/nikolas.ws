@@ -9,7 +9,7 @@ var md = require('markdown-it')({
 .use(require('markdown-it-highlightjs'))
 .use(require('markdown-it-footnote'))
 
-var typogr = require('typogr');
+var typeset = require('typeset');
 
 function isProject (page) {
   return page.url.indexOf('/projects/') > -1
@@ -40,7 +40,7 @@ module.exports = function (site, cb) {
     .map(function (project) {
       project.intro = project.description
       project.description = md.render(project.description)
-      project.description = typogr.typogrify(project.description )
+      project.description = typeset(project.description, {disable: ['hyphenate']})
       project.template = '_templates/project.html'
       project.block = 'text'
       project.section = 'projects'
