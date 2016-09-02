@@ -13,6 +13,7 @@
   },
   "homepage": "http://nikolas.ws/",
   "devDependencies": {
+    "a11y": "^0.4.1",
     "imagemin-newer": "^1.0.1",
     "markdown-it-footnote": "^2.0.0",
     "markdown-it-highlightjs": "^2.0.0",
