@@ -1,7 +1,7 @@
 ---
 title: Heavy Pop
 date: 2016-05-01
-description: Fine press monograph for artist [Morgan Rosskopf's](http://morganrosskopf.com/) solo show at [One Grand Gallery](http://www.onegrandgallery.com/).
+description: Fine press monograph for artist [Morgan Rosskopf's](http://morganrosskopf.com/) solo show at [One Grand Gallery](http://www.onegrandgallery.com/) commissioned by the artist and the gallery.
 ---
 
 <p class="text-center trailer-2">
@@ -9,11 +9,13 @@ description: Fine press monograph for artist [Morgan Rosskopf's](http://morganro
 </p>
 
 What it is:
-A risograph printed monograph of Morgan's drawing and collages. Printed in off-process CMYK, and hand bound in experimental reverse drum leaf perfect binding.
+A Riso printed monograph of Morgan's drawing and collages. Printed in off-process CMYK, and hand bound in experimental reverse drum leaf perfect binding.
 
 What it does:
 Acts as the cassette tape to concert for Morgan's first solo show at One Grand Gallery.
 
 Why we did it:
+Morgan is trained a fine art printmaker, and the multiple is a valuable part of her art practice. This show, however, focused on individual works – drawing and collages. Morgan wanted to provide a low-cost object that worked in the tradition of the multiple to supplement the show without providing literal prints of the work.
 
 Why it’s interesting:
+The translation between formats, density of image, and literal color space all worked together to create a new interpretation of Morgan's work — some ideas were able to come forward with the process, while others became more muted. The monograph became a unique art object itself, rather than a piece of documentation.
