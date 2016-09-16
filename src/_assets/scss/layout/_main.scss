@@ -33,10 +33,10 @@ body {
 // Extra Large
 @media screen and (min-width: $large) {
   .small-hide        {@include show();}
-  .medium-class-hide       {@include show();}
+  .medium-hide       {@include show();}
   .small-show        {@include hide();}
-  .medium-class-show       {@include hide();}
-  .medium-class-only       {@include hide();}
+  .medium-show       {@include hide();}
+  .medium-only       {@include hide();}
   .large-show  {@include show();}
   .large-hide  {@include hide();}
   .large-only  {@include show();}
@@ -45,29 +45,29 @@ body {
 // Large
 @media screen and (max-width: $large - 1) and (min-width: $medium) {
   .small-hide   {@include show();}
-  .medium-class-hide  {@include show();}
+  .medium-hide  {@include show();}
   .small-show   {@include hide();}
-  .medium-class-show  {@include hide();}
-  .medium-class-only  {@include hide();}
+  .medium-show  {@include hide();}
+  .medium-only  {@include hide();}
   .large-only  {@include hide();}
 }
 
 // Medium
 @media screen and (max-width: $medium - 1) and (min-width: $small) {
   .small-hide   {@include show();}
-  .medium-class-hide  {@include hide();}
+  .medium-hide  {@include hide();}
   .small-show   {@include hide();}
-  .medium-class-show  {@include show();}
-  .medium-class-only  {@include show();}
+  .medium-show  {@include show();}
+  .medium-only  {@include show();}
   .large-only  {@include hide();}
 }
 
 // Small
 @media screen and (max-width: $small - 1) {
   .small-hide   {@include hide();}
-  .medium-class-hide  {@include hide();}
+  .medium-hide  {@include hide();}
   .small-show   {@include show();}
-  .medium-class-show  {@include show();}
-  .medium-class-only  {@include hide();}
+  .medium-show  {@include show();}
+  .medium-only  {@include hide();}
   .large-only  {@include hide();}
 }

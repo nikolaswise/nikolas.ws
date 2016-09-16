@@ -6,7 +6,7 @@ body {
   @include font-size(0);
   @include tracking($serif-tracking);
   font-family: $serif-family;
-  line-height: $baseline;
+  line-height: 1.65;
   color: $type-color;
 
   -webkit-font-feature-settings: "kern";
@@ -108,10 +108,10 @@ blockquote {
 }
 
 .text-block {
-  padding: 5rem;
-  @media screen and (max-width: $small - 1) {
-    padding: 1rem;
-  }
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 8vw;
+  padding-right: 8vw;
   margin: auto;
   margin-top: 2rem;
   max-width: 42rem;
