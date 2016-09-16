@@ -42,11 +42,11 @@
 
   .nav-left {
     transform: rotate(-90deg);
-    top: 45%;
+    top: 8*$baseline;
   }
 
   .nav-right {
     transform: rotate(90deg);
-    top: 45%;
+    top: 8*$baseline;
     right: 0;
   }

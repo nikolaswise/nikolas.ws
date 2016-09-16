@@ -113,7 +113,7 @@ blockquote {
     padding: 1rem;
   }
   margin: auto;
-  margin-top: 6rem;
+  margin-top: 2rem;
   max-width: 42rem;
   h1,
   h2,
@@ -122,12 +122,10 @@ blockquote {
   h5,
   h6 {
     font-family: $serif-family;
-    margin-top:     2 * $baseline;
     margin-bottom:  1 * $baseline;
   }
 
   h1 {
-    margin-top: 0;
     @include font-size(5);
     text-align: center;
     font-weight: 600;
