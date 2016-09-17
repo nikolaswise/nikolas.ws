@@ -2,11 +2,13 @@
 title: Calcite Web
 site: http://esri.github.io/calcite-web
 date: 2015-11-25
-description: A framework that addresses common design problems and interactive elements for Esri, creating a united visual language and user experience. Teams within Esri can now quickly build branded, lightweight, accessible websites. The systemic approach of the framework, along with the development of a robust and central codebase, allows highly focused design interventions for common patterns that are disseminated across all projects. This resource saves time and effort across every team within the company, and stabilizes Esri's brand presence on the web. Calcite Web can also be used as a dependency for creating branded themes for other front end frameworks, like [Bootstrap](http://getbootstrap.com/).
+description: A framework that addresses common design problems and interactive elements for Esri, creating a united visual language and user experience.
 ---
 
 What it is:
 A sass-based CSS framework that addresses common design problems and interactive elements for Esri.
+
+Teams within Esri can now quickly build branded, lightweight, accessible websites. The systemic approach of the framework, along with the development of a robust and central codebase, allows highly focused design interventions for common patterns that are disseminated across all projects. This resource saves time and effort across every team within the company, and stabilizes Esri's brand presence on the web. Calcite Web can also be used as a dependency for creating branded themes for other front end frameworks, like [Bootstrap](http://getbootstrap.com/).
 
 What it does:
 Allows teams within Esri to quickly build branded, lightweight, accessible websites quickly. Creates a united visual language and user experience across a wide range of web products built by teams all over the world.
