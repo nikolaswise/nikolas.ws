@@ -9,17 +9,23 @@ I am designer, developer, printer, and artist with nearly a decade of experience
 
 ## Work
 
-<date>2013 – Present</date>
-### Esri Portland R&D
-#### Product Designer & Developer
+<date>2016 — Present</date>
+### Department Press
+#### Principle
 
-Work closely with [a small team ⇗](http://pdx.esri.com/) to develop and maintain [a developer-focused web product ⇗](https://developers.arcgis.com/en/) for ArcGIS. Work includes content strategy, information architecture, user experience & interaction analysis and development, graphic design, and implementation. Created and manage [a brand framework for Esri & ArcGIS web properties ⇗](http://esri.github.io/calcite-web/). Produce exploratory and conceptually driven projects to identify current trends in web development & design in relation to map-based data visualization experiences. Current project is a complete UX/UI overhaul of the popular web product <a href="https://www.arcgis.com/features/">ArcGIS Online.</a>
+Department Press is a publishing house and design studio specializing in printed matter, digital experiences, and special projects. Department works with artists, public bureaus, and other partners who are open to collaborative process and value art and design.
 
 <date>2015 - Present</date>
 ### University of Oregon
 #### Adjunct Instructor
 
 Lead workshop J608 _Introduction to Web Design_ for Multimedia Journalism masters candidates. Course covers web development basics including an introduction to HTML, CSS, and Javascript along with industry best-practices using Github and Markdown. Primarily focused on strategies for communicating with a team about design.
+
+<date>2013 – 2016</date>
+### Esri Portland R&D
+#### Product Designer & Developer
+
+Work closely with [a small team ⇗](http://pdx.esri.com/) to develop and maintain [a developer-focused web product ⇗](https://developers.arcgis.com/en/) for ArcGIS. Work includes content strategy, information architecture, user experience & interaction analysis and development, graphic design, and implementation. Created and manage [a brand framework for Esri & ArcGIS web properties ⇗](http://esri.github.io/calcite-web/). Produce exploratory and conceptually driven projects to identify current trends in web development & design in relation to map-based data visualization experiences. Current project is a complete UX/UI overhaul of the popular web product <a href="https://www.arcgis.com/features/">ArcGIS Online ⇗</a>.
 
 <date>2013</date>
 ### We Love Words
@@ -44,7 +50,7 @@ Led small creative in-house design team for the University of Oregon. Responsibi
 <date>2007 – 2012</date>
 ### Bachelor of Fine Arts in Printmaking
 #### University of Oregon
-Studied under Charlene Liu, Margaret Prentice, and Rebecca Childers.
+Studied under [Charlene Liu ⇗](http://charlene-liu.com/), [Margaret Prentice ⇗](https://margaretprentice.com/), and Rebecca Childers.
 
 ## Publications
 
