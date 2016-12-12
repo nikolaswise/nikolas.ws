@@ -48,7 +48,7 @@ Sass — through the [Node Sass project](https://github.com/sass/node-sass) allo
 }
 ```
 
-The CSS development principles are outline in [this article (and Esri User Conference presentation) by Paul Pederson.](http://paulcpederson.com/articles/css-for-people-who-hate-css/)
+The CSS development principles are outlined in [an excellent article (and Esri User Conference presentation) by Paul Pederson.](http://paulcpederson.com/articles/css-for-people-who-hate-css/)
 
 #### JavaScript, or Not
 
@@ -62,7 +62,7 @@ The JS portion of the framework uses Publication / Subscription event bus to con
 
 #### The Brand
 
-Color and Typography do most of the heavy lifting when communicated brand identity on the Web. We developed a gray scale, and selected a limited set of colors from the immense set of [Esri's color pallette](https://github.com/Esri/calcite-colors) to expose as simple color classes and variables. We updated the typography to Avenir NExt by Adrian Frutiger and Akira Kobayashi to give Esri's classic Avenir print style a boost that it needed for screen display.
+Color and Typography do most of the heavy lifting when communicated brand identity on the Web. We developed a gray scale, and selected a limited set of colors from the immense set of [Esri's color pallete](https://github.com/Esri/calcite-colors) to expose as simple color classes and variables. We updated the typography to Avenir NExt by Adrian Frutiger and Akira Kobayashi to give Esri's classic Avenir print style a boost that it needed for screen display.
 
 ![Calcite Web Type](./type-doc.png)
 
