@@ -33,11 +33,23 @@
     }
   }
 
+  .nav-button {
+    @include font-size(2);
+    color: $flouro-orange;
+    background-color: transparent;
+    border: none;
+    &:hover {
+     color: $blue;
+   }
+  }
+
   .nav-head {
     width: 100%;
     display: inline-block;
     top: $baseline;
     text-transform: uppercase;
+    box-sizing: border-box;
+    padding: 0 $baseline 0 0.75*$baseline;
   }
 
   .nav-left {

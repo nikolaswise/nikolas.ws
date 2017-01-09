@@ -2,6 +2,7 @@
 title: Axioms
 date: 2013-5-20
 description: Bachelor of Fine Arts in Printmaking thesis. An exploration of examining the experiences and memories of the built city through print, collage, and drawing.
+draft: true
 ---
 
 ![Carceral Armature](./armature01.jpg)

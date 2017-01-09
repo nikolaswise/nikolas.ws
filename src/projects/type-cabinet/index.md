@@ -1,5 +1,4 @@
 ---
-draft: true
 title: Typecabinet
 date: 2015-02-19
 site: http://nikolaswise.github.io/TypeCabinet/

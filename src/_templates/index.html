@@ -1,8 +1,133 @@
 {% extends 'layout.html' %}
 
 {% block content %}
-    <main role="main" class="text-block font-size-3">
+  <main role="main" class="text-block">
+    <section class="font-size-3">
       {% block text %}{% endblock %}
-    </main>
+    </section>
+    <section>
+      <header class="flex">
+        <h3 class="flex-1">Projects</h3>
+        <a href="/projects" class="flex leader-2">View All</a>
+      </header>
 
+      <div class="block-grid">
+        {% for project in projects %}
+          {% if loop.index < 10 %}
+            <div class="block">
+              <p class="font-size-1 trailer-0">
+                {{project.date}}
+              </p>
+              <p class="font-size-2 leader-half trailer-half">
+                {% if project.external %}
+                  <a href="{{project.site}}">{{project.title}} ⇗</a>
+                {% else %}
+                  <a href="{{project.url}}">{{project.title}}</a>
+                {% endif %}
+              </p>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </section>
+
+    <section>
+      <header class="flex">
+        <h3 class="flex-1">Texts</h3>
+        <a href="/texts" class="flex leader-2">View All</a>
+      </header>
+
+      <div class="block-grid">
+        {% for text in texts %}
+          {% if loop.index < 4 %}
+            <div class="block">
+              <p class="font-size-1 trailer-0">
+                {{text.date}}
+              </p>
+              <p class="font-size-2 leader-half trailer-half">
+                <a href="{{text.url}}">{{text.title}}</a>
+              </p>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </section>
+
+    <section>
+      <header class="flex">
+        <h3 class="flex-1">Objects</h3>
+        <a href="/texts" class="flex leader-2">View All</a>
+      </header>
+      <div class="block-grid">
+        <div class="block">
+          <p class="font-size-2 leader-half trailer-half">
+            <a href="/objects/todo">To Do Today</a>
+          </p>
+        </div>
+        <div class="block">
+          <p class="font-size-2 leader-half trailer-half">
+            <a href="objects/calendar">5 Year Calendar</a>
+          </p>
+        </div>
+        <div class="block">
+          <p class="font-size-2 leader-half trailer-half">
+            <a href="objects/ledger">Double Entry Ledger</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <header class="flex">
+        <h3 class="flex-1">Mixtapes</h3>
+        <a href="/projects" class="flex leader-2">View All</a>
+      </header>
+      latest mixtape lives here
+    </section>
+
+    <section>
+      <header>
+        <h3>Schedule an appointment</h3>
+      </header>
+
+      INTRODUCTORY CONSULTATION
+      20 MINUTES
+      A free phone consultation to explore working together.
+
+      90-MINUTE ADVISING APPOINTMENT
+      1 HOUR 30 MINUTES @ $185.00
+      90-Minute appointments are required for first-time clients. These longer sessions are also good for those wanting to cover a lot of ground.
+
+      90-MINUTE ADVISING APPOINTMENT + VISIONING BRIEF
+      1 HOUR 30 MINUTES @ $325.00
+      This package is ideal for first-time clients and those wanting to advance their vision quickly. The Visioning Brief lends structure to our process and provides a personalized curriculum to support your progress after we meet.
+
+      60-MINUTE ADVISING APPOINTMENT
+      1 HOUR @ $125.00
+      Hour-long sessions provide clarity, support, and guidance for those looking to birth an idea, a business, or a new way of being in business.
+
+      60-MINUTE ADVISING APPOINTMENT + VISIONING BRIEF
+      1 HOUR @ $250.00
+      The 60-minute appointment with Visioning Brief is good for those who want a more structured approach with clear homework directives.
+
+
+      PACKAGES
+
+      3-SESSION STARTER PACKAGE
+      $435.00
+      This 3-session starter package includes a 90-minute launch session and two 60-minute advising sessions. For those who are ready to get the ball rolling.
+
+      3-SESSION STARTER PACKAGE + VISIONING BRIEFS
+      $825.00
+      This 3-session starter package includes a 90-minute launch session and two 60-minute advising sessions with a Visioning Brief for each. For those who want accountability, continuity, and structure. Be ready for homework.
+
+      A YEAR OF FEMINIST BUSINESS ADVISING
+      $3000.00
+      12 monthly one-on-one advising sessions + Visioning Briefs. I provide ongoing guidance and accountability as you to develop your own feminist business model, and support you through the emotional challenges of entrepreneurship. Clients are expected to complete homework with each session. By the end of the year, you will have clarity and confidence around your vision, and an understanding of how to translate your principles into business structures and practices.
+
+      1 - 90-minute launch session
+      11 - 60-minute advising sessions
+      12 - Visioning Briefs (1 per session)
+    </section>
+  </main>
 {% endblock %}

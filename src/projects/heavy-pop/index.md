@@ -2,6 +2,7 @@
 title: Heavy Pop
 date: 2016-05-01
 description: Fine press monograph for artist [Morgan Rosskopf's](http://morganrosskopf.com/) solo show at [One Grand Gallery](http://www.onegrandgallery.com/) commissioned by the artist and the gallery.
+draft: true
 ---
 
 <p class="text-center trailer-2">
