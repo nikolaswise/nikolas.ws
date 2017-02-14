@@ -14,6 +14,8 @@
   "homepage": "http://nikolas.ws/",
   "devDependencies": {
     "a11y": "^0.4.1",
+    "babel-preset-es2015": "^6.18.0",
+    "babelify": "^7.3.0",
     "barba.js": "^1.0.0",
     "imagemin-newer": "^1.0.1",
     "markdown-it-footnote": "^2.0.0",
@@ -37,6 +39,18 @@
     ],
     "sass": "src/**/*.scss",
     "img": "src/"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "es2015"
+          ]
+        }
+      ]
+    ]
   },
   "scripts": {
     "start": "npm run dev",

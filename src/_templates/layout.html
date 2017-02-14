@@ -36,34 +36,70 @@
   </head>
 
   <body>
-    <div class="grid-container medium-hide">
-      <nav class="text-center nav nav-left" role="navigation">
-        <a href="/texts" class="nav-link">texts</a>
-      </nav>
-      <nav class="text-center nav nav-right" role="navigation">
-        <a href="/projects" class="nav-link">projects</a>
+    <div class="drawer drawer-left js-drawer" data-drawer="navigation" tabindex="0">
+      <nav class="drawer-nav" role="navigation">
+        <aside class="side-nav">
+          <div class="text-center">
+            <a href="/" class="js-drawer-toggle nav-link side-nav-title">nikolas.ws</a>
+          </div>
+          <a href="/projects" class="js-drawer-toggle side-nav-link font-size-1">Projects</a>
+            {% for project in projects %}
+              {% if loop.index < 4 %}
+                {% if project.external %}
+                  <a href="{{project.site}}" class="js-drawer-toggle side-nav-link font-size--1">{{project.title}} ⇗</a>
+                {% else %}
+                  <a href="{{project.url}}" class="js-drawer-toggle side-nav-link font-size--1">{{project.title}}</a>
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+          <a href="/texts" class="js-drawer-toggle side-nav-link font-size-1">Texts</a>
+          {% for text in texts %}
+            {% if loop.index < 4 %}
+              <a href="{{text.url}}" class="js-drawer-toggle side-nav-link font-size--1">{{text.title}}</a>
+            {% endif %}
+          {% endfor %}
+        </aside>
       </nav>
     </div>
-    <div class="wrapper grid-container">
-      <nav class="nav nav-head text-center" role="navigation">
-        <button class="left nav-button">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" class="icon"><path d="M28 8H4c-1.1 0-2-.9-2-2s.9-2 2-2h24c1.1 0 2 .9 2 2s-.9 2-2 2zm0 10H4c-1.1 0-2-.9-2-2s.9-2 2-2h24c1.1 0 2 .9 2 2s-.9 2-2 2zm0 10H4c-1.1 0-2-.9-2-2s.9-2 2-2h24c1.1 0 2 .9 2 2s-.9 2-2 2z"/></svg>
-        </button>
-
-        <a href="/" class="nav-link">nikolas.ws</a>
-
-        <button class="right nav-button">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" class="icon"><path d="M31.607 27.838l-6.133-6.137a1.336 1.336 0 0 0-1.887 0l-.035.035-2.533-2.533-.014.014c3.652-4.556 3.422-11.195-.803-15.42-4.529-4.527-11.875-4.531-16.404 0-4.531 4.531-4.529 11.875 0 16.406 4.205 4.204 10.811 4.455 15.365.848l.004.003-.033.033 2.541 2.54a1.33 1.33 0 0 0 .025 1.848l6.135 6.133a1.33 1.33 0 0 0 1.887 0l1.885-1.883a1.332 1.332 0 0 0 0-1.887zM17.811 17.809a8.213 8.213 0 0 1-11.619 0 8.217 8.217 0 0 1 0-11.622 8.219 8.219 0 0 1 11.619.004 8.216 8.216 0 0 1 0 11.618z"/></svg>
-        </button>
+   <div class="drawer drawer-right js-drawer" data-drawer="search" tabindex="0">
+      <nav class="drawer-nav" role="navigation">
+        <aside class="side-nav">
+          <h2 class="side-nav-title">search</h2>
+        </aside>
       </nav>
-      <div id="barba-wrapper">
-        <div class="barba-container">
-          {% block content %}{% endblock %}
+    </div>
+
+    <div class="wrapper">
+      <div class="grid-container medium-hide">
+        <nav class="text-center nav nav-left" role="navigation">
+          <a href="/texts" class="nav-link">texts</a>
+        </nav>
+        <nav class="text-center nav nav-right" role="navigation">
+          <a href="/projects" class="nav-link">projects</a>
+        </nav>
+      </div>
+
+      <div class="grid-container">
+        <nav class="nav nav-head text-center" role="navigation">
+          <button class="left nav-button js-drawer-toggle" data-drawer="navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" class="icon"><path d="M28 8H4c-1.1 0-2-.9-2-2s.9-2 2-2h24c1.1 0 2 .9 2 2s-.9 2-2 2zm0 10H4c-1.1 0-2-.9-2-2s.9-2 2-2h24c1.1 0 2 .9 2 2s-.9 2-2 2zm0 10H4c-1.1 0-2-.9-2-2s.9-2 2-2h24c1.1 0 2 .9 2 2s-.9 2-2 2z"/></svg>
+          </button>
+
+          <a href="/" class="nav-link">nikolas.ws</a>
+
+<!--           <button class="right nav-button js-drawer-toggle" data-drawer="search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" class="icon"><path d="M31.607 27.838l-6.133-6.137a1.336 1.336 0 0 0-1.887 0l-.035.035-2.533-2.533-.014.014c3.652-4.556 3.422-11.195-.803-15.42-4.529-4.527-11.875-4.531-16.404 0-4.531 4.531-4.529 11.875 0 16.406 4.205 4.204 10.811 4.455 15.365.848l.004.003-.033.033 2.541 2.54a1.33 1.33 0 0 0 .025 1.848l6.135 6.133a1.33 1.33 0 0 0 1.887 0l1.885-1.883a1.332 1.332 0 0 0 0-1.887zM17.811 17.809a8.213 8.213 0 0 1-11.619 0 8.217 8.217 0 0 1 0-11.622 8.219 8.219 0 0 1 11.619.004 8.216 8.216 0 0 1 0 11.618z"/></svg>
+          </button> -->
+        </nav>
+        <div id="barba-wrapper">
+          <div class="barba-container">
+            {% block content %}{% endblock %}
+          </div>
         </div>
       </div>
     </div>
 
-    <footer role="contentInfo" class="grid-container">
+    <footer role="contentInfo" class="footer grid-container">
       <nav class='footer text-center leader-1 trailer-1' role="navigation" aria-labelby="contactinfo">
         <a class="footer-link" rel="me" href="mailto:hello@nikolas.ws">mail ⇗</a>
         <a class="footer-link" rel="me" href="https://twitter.com/NikolasWise">twitter ⇗</a>

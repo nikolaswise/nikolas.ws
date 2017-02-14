@@ -44,6 +44,7 @@ h4,
 h5,
 h6 {
   margin-top: 2*$baseline;
+  margin-bottom:  1 * $baseline;
 }
 
 h1 {@include font-size(5);}
@@ -130,7 +131,7 @@ blockquote {
   h5,
   h6 {
     font-family: $serif-family;
-    margin-bottom:  1 * $baseline;
+    // margin-bottom:  1 * $baseline;
   }
 
   h1 {
