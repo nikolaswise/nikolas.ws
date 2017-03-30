@@ -17,6 +17,7 @@
     "babel-preset-es2015": "^6.18.0",
     "babelify": "^7.3.0",
     "barba.js": "^1.0.0",
+    "clean-css-cli": "^4.0.7",
     "imagemin-newer": "^1.0.1",
     "markdown-it-footnote": "^2.0.0",
     "markdown-it-highlightjs": "^2.0.0",
@@ -54,14 +55,18 @@
   },
   "scripts": {
     "start": "npm run dev",
-    "predeploy": "npm run predev",
+    "predeploy": "npm run predev && npm run clean",
     "deploy": "surge build/ --domain nikolas.ws",
+    "prestudio": "npm run predeploy",
+    "studio": "surge build/ --domain studio.nikolas.ws",
     "predev": "npm-run-all html sass img font",
     "dev": "parallelshell 'http-server build/ --port=8080' 'rerun-script' 'npm run js:watch'",
     "js:watch": "simplifyify src/_assets/js/app.js -o build/assets/js/app.js -b -w",
     "sass": "node-sass src/_assets/scss/ -o build/assets/css/ --include-path node_modules/",
     "html": "static-site -s src -h src/_helpers/*.js -f xml --template _templates/layout.html --block content ",
     "img": "imagemin-newer src/ build/",
-    "font": "cp -r src/_assets/fonts build/assets"
+    "font": "cp -r src/_assets/fonts build/assets",
+    "postcss": "postcss build/assets/css/style.css --use autoprefixer -o build/assets/css/style.css",
+    "clean": "cleancss -o build/assets/css/style.css build/assets/css/style.css"
   }
 }

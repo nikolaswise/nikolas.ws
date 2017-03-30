@@ -2,6 +2,8 @@ import bus from './bus';
 import drawer from './drawers';
 import modal from './modal';
 
+console.log('hey')
+
 drawer();
 
 var Barba = require('barba.js')

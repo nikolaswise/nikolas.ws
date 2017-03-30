@@ -17,20 +17,28 @@ $opacity-transition: opacity 200ms linear;
   overflow: hidden;
   opacity: 0;
   background: black;
+  -webkit-transition: visibility 0ms linear 200ms, $opacity-transition;
   transition: visibility 0ms linear 200ms, $opacity-transition;
   z-index: 1001;
   &.is-active {
     visibility: visible;
     opacity: 1;
     background-color: $transparent-black;
+    -webkit-transition: $opacity-transition;
     transition: $opacity-transition;
     &.drawer-left .drawer-nav {
+      -webkit-transform: translate3d($drawer-width,0,0);
+      -ms-transform: translate3d($drawer-width,0,0);
       transform: translate3d($drawer-width,0,0);
-      transision: $transform-transition;
+      -webkit-transition: $transform-transition;
+      transition: $transform-transition;
     }
     &.drawer-right .drawer-nav {
+      -webkit-transform: translate3d(-$drawer-width,0,0);
+      -ms-transform: translate3d(-$drawer-width,0,0);
       transform: translate3d(-$drawer-width,0,0);
-      transision: $transform-transition;
+      -webkit-transition: $transform-transition;
+      transition: $transform-transition;
     }
   }
 }
@@ -47,17 +55,27 @@ $opacity-transition: opacity 200ms linear;
   overflow-x: hidden;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
+  -webkit-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
+  -webkit-transition: $transform-transition;
   transition: $transform-transition;
+  -webkit-transition: $opacity-transition;
   transition: $opacity-transition;
 }
 
 @mixin drawer-left-is-active() {
+  -webkit-transition: $transform-transition;
   transition: $transform-transition;
+  -webkit-transform: translate3d($drawer-width,0,0);
+  -ms-transform: translate3d($drawer-width,0,0);
   transform: translate3d($drawer-width,0,0);
 }
 @mixin drawer-right-is-active() {
+  -webkit-transition: $transform-transition;
   transition: $transform-transition;
+  -webkit-transform: translate3d(-$drawer-width,0,0);
+  -ms-transform: translate3d(-$drawer-width,0,0);
   transform: translate3d(-$drawer-width,0,0);
 }
 
@@ -86,14 +104,17 @@ $opacity-transition: opacity 200ms linear;
 .drawer-nav { @include drawer-nav();}
 .drawer-left .drawer-nav  {
   left: -$drawer-width;
+  -webkit-transition: $transform-transition;
   transition: $transform-transition;
 }
 .drawer-right .drawer-nav {
   left: 100%;
+  -webkit-transition: $transform-transition;
   transition: $transform-transition;
 }
 .footer,
 .wrapper {
+  -webkit-transition: $transform-transition;
   transition: $transform-transition;
 }
 .drawer-left-is-active {
