@@ -19,6 +19,7 @@
     "barba.js": "^1.0.0",
     "clean-css-cli": "^4.0.7",
     "imagemin-newer": "^1.0.1",
+    "markdown-it": "^8.4.0",
     "markdown-it-footnote": "^2.0.0",
     "markdown-it-highlightjs": "^2.0.0",
     "moment": "^2.13.0",
