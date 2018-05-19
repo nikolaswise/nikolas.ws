@@ -4,9 +4,6 @@ var md = require('markdown-it')({
   typographer: true,
   quotes: '“”‘’'
 })
-.use(require('markdown-it-highlightjs'))
-.use(require('markdown-it-footnote'))
-
 var typeset = require('typeset');
 
 module.exports = function (site, cb) {

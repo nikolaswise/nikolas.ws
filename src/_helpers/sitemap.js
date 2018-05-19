@@ -1,5 +1,4 @@
 module.exports = function (site, cb) {
-
   function checkDraft (page) {
     if (page.production && page.draft) {
       return false

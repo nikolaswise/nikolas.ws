@@ -6,9 +6,6 @@ var md = require('markdown-it')({
   typographer: true,
   quotes: '“”‘’'
 })
-.use(require('markdown-it-highlightjs'))
-.use(require('markdown-it-footnote'))
-
 var typeset = require('typeset');
 
 function isProject (page) {
@@ -44,7 +41,7 @@ module.exports = function (site, cb) {
       project.template = '_templates/project.html'
       project.block = 'text'
       project.section = 'projects'
-      project.date = moment(project.date).format('MMMM Do, YYYY')
+      project.date = moment(project.date).format('MMM Do[,] YYYY')
       return project
     })
   site = site.map(function (page) {
