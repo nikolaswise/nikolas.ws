@@ -3,21 +3,23 @@
 {% block content %}
   <main role="main" class="container">
     <section class="intro">
+      <!-- <h1>Nikolas Wise</h1> -->
       {% block text %}{% endblock %}
     </section>
 
-    <section>
-      <mark>texts:</mark>
-      {% for text in texts %}
-        <h2>{{text.title}} : {{text.url}}</h2>
+<!--     <section>
+      <h2>Selected Projects</h2>
+      {% for project in collections.projects %}
+        <h2>{{project.title}} : {{project.url}}</h2>
       {% endfor %}
     </section>
 
     <section>
-      <mark>projects:</mark>
-      {% for project in projects %}
-        <h2>{{project.title}} : {{project.url}}</h2>
+      <h2>Selected Essays</h2>
+      {% for text in collections.texts %}
+        <h2>{{text.title}} : {{text.url}}</h2>
       {% endfor %}
-    </section>
+    </section> -->
+
   </main>
 {% endblock %}

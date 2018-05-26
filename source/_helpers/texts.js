@@ -1,4 +1,4 @@
-var moment = require('moment');
+// var moment = require('moment');
 
 function isText (page) {
   return page.url.indexOf('/texts/') > -1
@@ -38,7 +38,7 @@ module.exports = function (site, cb) {
         page.template = '_templates/article.html'
         page.block = 'text'
         page.section = 'article'
-        page.date = moment(page.date).format('MMM Do[,] YYYY')
+        // page.date = moment(page.date).format('MMM Do[,] YYYY')
       }
       page.prev = texts[index + 1] || texts[0]
       page.next = texts[index - 1] || texts[texts.length - 1]
