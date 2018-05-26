@@ -1,0 +1,6 @@
+.intro {
+  font-size: calc(21px + 1.5vw);
+  line-height: 1.35;
+  max-width: 24em;
+  margin-top: 25vh;
+}

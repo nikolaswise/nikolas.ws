@@ -1,0 +1,77 @@
+html {
+  font-size: 21px;
+}
+
+body {
+  font-family: var(--body-family);
+  color: var(--off-black);
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+  font-feature-settings : "kern" 1,"liga" 1,"calt" 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--body-family);
+  text-transform: none;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: none;
+  /*margin: 0 0 $baseline/2 0;*/
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /*margin-top: 2*$baseline;*/
+  /*margin-bottom:  1 * $baseline;*/
+}
+
+/*h1 {@include font-size(5);}*/
+/*h2 {@include font-size(4);}*/
+/*h3 {@include font-size(3);}*/
+/*h4 {@include font-size(2);}*/
+/*h5 {@include font-size(1);}*/
+/*h6 {@include font-size(0);}*/
+
+a {
+  color: var(--pink);
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: var(--blue);
+  border-color: var(--blue);
+}
+
+code, kbd, pre, samp {
+  font-family: var(--code-family);
+}
+
+.text-block {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 8vw;
+  padding-right: 8vw;
+  margin: auto;
+  margin-top: 2rem;
+  max-width: 42rem;
+}
+
+.text-block img {
+  margin-top: $baseline;
+  max-width: 100vw;
+  width: 120%;
+  margin-left: -10%;
+}
+.text-block figcaption {
+  color: var(--darker-gray);
+}
+

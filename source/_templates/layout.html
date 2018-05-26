@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <meta name="description" content="{{ description }}">
-    <title>{{title}} | Nikolas Wise</title>
+    <title>Nikolas Wise / {{title}}</title>
+
     <link rel="shortcut icon" href="/assets/img/favicon.ico">
+
     {% if thumbnail %}
       <meta name="twitter:card" content="summary_large_image">
       <meta name="twitter:image" content="http://nikolas.ws/assets/img/{{thumbnail}}">
@@ -16,6 +18,7 @@
       <meta name="twitter:image" content="http://nikolas.ws/assets/img/thumbnail.jpg">
       <meta property="og:image" content="http://nikolas.ws/assets/img/thumbnail.jpg">
     {% endif %}
+
     <meta name="twitter:site" content="@nikolaswise">
     <meta name="twitter:creator" content="@nikolaswise">
     <meta name="twitter:title" content="{{title}}">
@@ -36,9 +39,10 @@
 
   <body>
     <div class="wrapper">
-      <div class="grid-container">
-        <nav class="nav nav-head text-center" role="navigation">
-          <a href="/" class="nav-link">nikolas.ws</a>
+        <nav class="nav" role="navigation">
+          <div class="container">
+            <a href="/" class="nav-link">nikolas.ws</a>
+          </div>
         </nav>
         <div id="barba-wrapper">
           <div class="barba-container">
