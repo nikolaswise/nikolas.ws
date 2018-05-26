@@ -38,12 +38,17 @@
   },
   "scripts": {
     "start": "npm run dev",
-    "deploy": "surge build/ --domain nikolas.ws",
-    "css": "postcss src/css/style.css --use autoprefixer -o build/style.css",
-    "js": "parcel build src/js/app.js -d build/",
-    "html": "static-site -s src -h src/_helpers/*.js -f xml --template _templates/layout.html --block content ",
-    "img": "imagemin-newer src/ build/",
-    "font": "cp -r src/_assets/fonts build/assets",
-    "clean": "cleancss -o build/assets/css/style.css build/assets/css/style.css"
+    "dev": "run-p html js css serve watch",
+    "build": "run-p html js css",
+    "html": "static-site -s source -b build --template _templates/layout.html --block content",
+    "serve": "live-server build",
+    "css": "parcel build source/css/style.css -d build",
+    "js": "parcel build source/js/app.js -d build",
+    "watch": "rerun-script",
+    "img": "imagemin-newer source/images build/images",
+    "predeploy:stage": "npm run build",
+    "deploy:stage": "surge build --domain stage.nikolas.ws",
+    "predeploy:prod": "npm run build",
+    "deploy:prod": "surge build --domain nikolas.ws"
   }
 }
