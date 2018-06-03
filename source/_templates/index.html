@@ -7,19 +7,50 @@
       {% block text %}{% endblock %}
     </section>
 
-<!--     <section>
-      <h2>Selected Projects</h2>
+   <section class="section lead-1">
+      <h2 class="txt-size-2 lead-bottom-0">Selected Projects</h2>
       {% for project in collections.projects %}
-        <h2>{{project.title}} : {{project.url}}</h2>
+        <a class="section-link" href="{{project.url}}">
+          <h3 class="txt-mono txt-size-0 lead-bottom-0 lead-2">{{project.title}}</h3>
+          <div class="txt-size-1 lead-quarter">
+            {% markdown %}{{project.description}}{% endmarkdown %}
+          </div>
+        </a>
       {% endfor %}
     </section>
 
-    <section>
-      <h2>Selected Essays</h2>
-      {% for text in collections.texts %}
-        <h2>{{text.title}} : {{text.url}}</h2>
-      {% endfor %}
-    </section> -->
+  <section class="section lead-4">
+    <h2 class="txt-size-2 lead-bottom-0">Selected Essays</h2>
+      <div class="texts">
+        {% for text in collections.texts %}
+          <a class="section-link text" href="{{text.url}}">
+            <h3 class="text-date">{{text.date}}</h3>
+            <div class="text-title">
+              {{text.title}} <span class="text-description">— {{text.description}}</span>
+            </div>
+          </a>
+        {% endfor %}
+      </div>
+    </section>
 
+    <section class="section">
+      <h2 class="txt-size-0">More</h2>
+      <p class="lead-bottom-0 txt-size-0">
+        <a href="/">Printmaking</a>
+      </p>
+      <p class="lead-bottom-0 txt-size-0">
+        <a href="/">Printmaking</a>
+      </p>
+      <p class="lead-bottom-0 txt-size-0">
+        <a href="/">Github</a>
+      </p>
+      <p class="lead-bottom-0 txt-size-0">
+        <a href="/">Twitter</a>
+      </p>
+      <p class="lead-bottom-0 txt-size-0">
+        <a href="/">Email</a>
+      </p>
+    </section>
   </main>
 {% endblock %}
+

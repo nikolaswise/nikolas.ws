@@ -1,0 +1,8 @@
+.section-link {
+  display: inline-block;
+  color: var(--off-black);
+  text-decoration: none;
+}
+.section-link:hover {
+  color: var(--off-black);
+}

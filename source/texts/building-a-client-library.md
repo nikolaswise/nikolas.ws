@@ -1,6 +1,6 @@
 ---
 title: Building a Client Library for ArcGIS
-date: 2015-3-09
+date: 2015.3.09
 description: Writing a wrapper client library to smooth out design weirdness at the API level leads to plenty of design thinking on the way things should be.
 ---
 

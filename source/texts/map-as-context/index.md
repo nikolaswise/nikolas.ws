@@ -1,6 +1,6 @@
 ---
 title: Map as Context
-date: 2015-2-19
+date: 2015.2.19
 description: Understanding maps as designed objects and attempting to define a theory for making digital maps on the internet as good as old paper maps.
 ---
 

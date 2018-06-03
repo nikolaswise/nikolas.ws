@@ -1,22 +1,22 @@
 ---
 title: Soft Proof
-date: 2017-10-29
-description: Translations and compromises in image making or: the Image Cult Society
+date: 2017.10.29
+description: Translations and compromises in image making or; the Image Cult Society.
 ---
+
 
 There's an interesting thing that happens when a new idea or technology gets introduced, than quickly assimilated into the background hum of our daily lives. It starts out with a discreet name — a clear identifier of what this thing is and means. Than this name just sort of ... slips away. It becomes so normal that to name it would seem strange. Its original name doesn't seem to fit any more, as the name existed in the first place to demarcate the new thought from the ordinary. And now the new thing is just ordinary. Think about Google Maps. It's just ... a map. In 2005, when Google Maps was first released, it's particular approach to the interface of a digital map was called a 'slippy map'. Weird, right?
 
 This is an interesting phenomenon around cultural approaches to technology, but not actually what I want to talk about. I want to talk about soft proofs. Soft proofs are an example of this taken to an extreme – you use them every day but you have probably never heard of them. There is no need for the soft proof to be something other than normal, the soft proof just *is* normal. But what is a soft proof, and why is so normal? And why do I want to explore a topic so quotidian that the word used to mark it as interesting is so faded and worn?
 
-A soft proof is a way of viewing an image before the image has been reproduced mechanically. In contrast to the soft proof is the hard proof: a way of viewing an image immediately after it's been reproduced mechanically. Basically, a soft proof is an image on a screen that will be sent to a printer. Otherwise known as an image. It's need for a discreet name seems so unnecessary that it seems bizarre to refer to all images - even this text as I write it – as soft proofs. But that is, in essence, what they are. We see images on our screens that an be reliable turned into images on other peoples screens, and even into physical images on paper. 
+A soft proof is a way of viewing an image before the image has been reproduced mechanically. In contrast to the soft proof is the hard proof: a way of viewing an image immediately after it's been reproduced mechanically. Basically, a soft proof is an image on a screen that will be sent to a printer. Otherwise known as an image. It's need for a discreet name seems so unnecessary that it seems bizarre to refer to all images - even this text as I write it – as soft proofs. But that is, in essence, what they are. We see images on our screens that an be reliable turned into images on other peoples screens, and even into physical images on paper.
 
-The reason why this needed a name to demarcate it as special, with the advent of the digital image, is that this is a really hard problem to solve. There are a range of mathematical models for approaching a relatively unified theory of color and vision, and a wide range of physical pieces of machinery that are tasked with producing those images — from printing presses to monitors. The act of ensuring an image can be predictably reproduced is necessarily an act of translation. Translating from this color space to that; from an additive color model of a screen to the subtractive color model of ink and paper; approximating the color of a paper stock to be printed on. 
+The reason why this needed a name to demarcate it as special, with the advent of the digital image, is that this is a really hard problem to solve. There are a range of mathematical models for approaching a relatively unified theory of color and vision, and a wide range of physical pieces of machinery that are tasked with producing those images — from printing presses to monitors. The act of ensuring an image can be predictably reproduced is necessarily an act of translation. Translating from this color space to that; from an additive color model of a screen to the subtractive color model of ink and paper; approximating the color of a paper stock to be printed on.
 
-This translating process is done using something called a Color Profile. A Color Profile is a set of rules for ensuring that an image created with red, green, and blue light can be replicated on off-white paper using cyan, magenta, yellow, orange, and green inks. The current workflow of digital to print is so smooth, so ubiquitous and mundane, as to occlude the massive technological feat that it supports it. 
+This translating process is done using something called a Color Profile. A Color Profile is a set of rules for ensuring that an image created with red, green, and blue light can be replicated on off-white paper using cyan, magenta, yellow, orange, and green inks. The current workflow of digital to print is so smooth, so ubiquitous and mundane, as to occlude the massive technological feat that it supports it.
 
-Color Profiles as we use them are defined b 
+Color Profiles as we use them are defined b
 
----
 
 The ubiquity go this process, the decisions of consortium that settled on it. **research here: the history of the current profiles, adobe, apple, etc**
 
@@ -26,17 +26,17 @@ The ubiquity go this process, the decisions of consortium that settled on it. **
 
 > The International Commission on Illumination (usually abbreviated CIE for its French name, Commission internationale de l'éclairage) is the international authority on light, illumination, color, and color spaces. It was established in 1913 as a successor to the Commission Internationale de Photométrie
 
-> The International Color Consortium was formed in 1993 by eight industry vendors in order to create an open, vendor-neutral color management system which would function transparently across all operating systems and software packages. . . . The eight founding members of the ICC were Adobe, Agfa, Apple, Kodak, Microsoft, Silicon Graphics, Sun Microsystems, and Taligent. 
+> The International Color Consortium was formed in 1993 by eight industry vendors in order to create an open, vendor-neutral color management system which would function transparently across all operating systems and software packages. . . . The eight founding members of the ICC were Adobe, Agfa, Apple, Kodak, Microsoft, Silicon Graphics, Sun Microsystems, and Taligent.
 
 > Before the ICC released its V2 color profile specifications in 1994, color management was handled "in-house" by all the big establishments who made prints from digital files (those were prints on paper, remember paper?), such as magazines, newspapers, and fine art print-makers. And every company that made prints on paper from digital files had its own procedures for handling color management. In the 1990s, those digital image files were produced by scanning film. Digital cameras were not yet in widespread use:
 
-> In 1991, Kodak brought to market the Kodak DCS-100, the beginning of a long line of professional Kodak DCS SLR cameras that were based in part on film bodies . . . It used a 1.3 megapixel sensor and was priced at $13,000 
+> In 1991, Kodak brought to market the Kodak DCS-100, the beginning of a long line of professional Kodak DCS SLR cameras that were based in part on film bodies . . . It used a 1.3 megapixel sensor and was priced at $13,000
 
 > 1999 saw the introduction of the Nikon D1, a 2.74 megapixel camera that was the first digital SLR developed entirely by a major manufacturer, and at a cost of under $6,000 at introduction was affordable by professional photographers and high-end consumers.
 
 > It is easy to see why in the early and mid 1990s the manufacturers of digital imaging hardware (monitors, scanners, and the not-yet-ready-for-prime-time digital cameras) and especially software (the first color-managed version of Adobe Photoshop came out in 1998) wanted to standardize color management: selling new hardware and software is a lot easier if the company doing the buying doesn't have to completely revamp their in-house color management procedures.
 
->  the ICC excluded negative XYZ values from V2 color profiles because negative numbers would have placed an additional computing burden on the hardware and software in use in the early 1990s. 
+>  the ICC excluded negative XYZ values from V2 color profiles because negative numbers would have placed an additional computing burden on the hardware and software in use in the early 1990s.
 
 > Elle Stone https://ninedegreesbelow.com/photography/icc-profile-negative-tristimulus.html#luther
 
@@ -44,13 +44,13 @@ The ubiquity go this process, the decisions of consortium that settled on it. **
 
 >  Graeme Gill https://argyllcms.com/icc_problems.html
 
-> ICC Founding Members: 
+> ICC Founding Members:
 	Adobe Systems Incorporated (Silicon Valley)
 	Agfa Graphics N.V.  (German)
 	Apple Computer, Inc (Silicon Valley)
 	Eastman Kodak Company (Silicon Valley)
 	Microsoft Corporation (Seattle)
-	
+
 Also: https://en.wikipedia.org/wiki/International_Commission_on_Illumination
 
 
@@ -69,7 +69,7 @@ What are we leaving on the table? For example, photography (up instill the 80's 
 
 > Lorna Roth, http://www.cjc-online.ca/index.php/journal/article/view/2196
 
-> “If you exposed film for a white kid, the black kid sitting next to him would be rendered invisible except for the whites of his eyes and teeth." 
+> “If you exposed film for a white kid, the black kid sitting next to him would be rendered invisible except for the whites of his eyes and teeth."
 
 > Adamn Broomberg
 

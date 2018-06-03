@@ -1,6 +1,10 @@
 .intro {
-  font-size: calc(21px + 1.5vw);
-  line-height: 1.35;
-  max-width: 24em;
-  margin-top: 25vh;
+  margin-top: calc(var(--lead) * 3);
+  margin-bottom: calc(var(--lead) * 4);
+  font-size: var(--txt-size-2);
+}
+
+.intro p:first-child {
+  font-size: var(--txt-size-4);
+  line-height: 1.214;
 }

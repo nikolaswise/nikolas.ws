@@ -1,6 +1,6 @@
 ---
 title: "Pixels don't matter."
-date: 2013-10-21
+date: 2013.10.21
 description: Analog notions of print production and mobile design.
 ---
 

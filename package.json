@@ -52,7 +52,7 @@
     "build": "run-p html js css",
     "html": "static-site -s source -b build --template _templates/layout.html --block content",
     "serve": "live-server build",
-    "css": "parcel build source/css/style.css -d build",
+    "css": "parcel build source/css/style.css -d build && parcel build source/css/components.css -d build",
     "js": "parcel build source/js/app.js -d build",
     "watch": "rerun-script",
     "img": "imagemin-newer source/images build/images",

@@ -1,9 +1,11 @@
 html {
-  font-size: 21px;
+  font-size: var(--root-size);
+  line-height: var(--root-leading);
 }
 
 body {
   font-family: var(--body-family);
+  font-size: var(--txt-size-1);
   color: var(--off-black);
   font-kerning: normal;
   text-rendering: optimizeLegibility;
@@ -21,32 +23,21 @@ h6 {
   font-style: normal;
   font-weight: 400;
   text-transform: none;
-  /*margin: 0 0 $baseline/2 0;*/
 }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
-  /*margin-top: 2*$baseline;*/
-  /*margin-bottom:  1 * $baseline;*/
+p {
+  margin-top: 0;
 }
-
-/*h1 {@include font-size(5);}*/
-/*h2 {@include font-size(4);}*/
-/*h3 {@include font-size(3);}*/
-/*h4 {@include font-size(2);}*/
-/*h5 {@include font-size(1);}*/
-/*h6 {@include font-size(0);}*/
 
 a {
+  transition: all 200ms linear;
   color: var(--pink);
 }
 
 a:hover,
 a:focus,
 a:active {
+  transition: all 200ms linear;
   color: var(--blue);
   border-color: var(--blue);
 }
@@ -55,23 +46,40 @@ code, kbd, pre, samp {
   font-family: var(--code-family);
 }
 
-.text-block {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  padding-left: 8vw;
-  padding-right: 8vw;
-  margin: auto;
-  margin-top: 2rem;
-  max-width: 42rem;
+.txt-size-0 {
+  font-size: var(--txt-size-0)
+}
+.txt-size-1 {
+  font-size: var(--txt-size-1)
+}
+.txt-size-2 {
+  font-size: var(--txt-size-2)
+}
+.txt-size-3 {
+  font-size: var(--txt-size-3)
+}
+.txt-size-4 {
+  font-size: var(--txt-size-3)
+}
+.txt-size-5 {
+  font-size: var(--txt-size-3)
 }
 
-.text-block img {
-  margin-top: $baseline;
-  max-width: 100vw;
-  width: 120%;
-  margin-left: -10%;
-}
-.text-block figcaption {
-  color: var(--darker-gray);
+.txt-mono {
+  font-family: var(--code-family);
 }
 
+.lead-bottom-0 {
+  margin-bottom: 0;
+}
+.lead-0 {
+  margin-top: 0;
+}
+.lead-quarter { margin-top: calc(var(--lead) / 4); }
+.lead-half { margin-top: calc(var(--lead) / 2); }
+.lead-1 { margin-top: var(--lead); }
+.lead-2 { margin-top: calc(var(--lead) * 2); }
+.lead-3 { margin-top: calc(var(--lead) * 3); }
+.lead-4 { margin-top: calc(var(--lead) * 4); }
+.lead-5 { margin-top: calc(var(--lead) * 5); }
+.lead-6 { margin-top: calc(var(--lead) * 6); }

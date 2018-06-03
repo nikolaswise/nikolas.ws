@@ -1,6 +1,6 @@
 ---
 title: How to Design While Developing
-date: 2016-5-15
+date: 2016.5.15
 description: Moving beyond the idea that the designer and the developer on a web project are different people, and that somehow those are different things.
 ---
 

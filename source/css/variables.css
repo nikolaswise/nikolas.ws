@@ -14,21 +14,28 @@
                    'Courier New',
                    Courier,
                    monospace;
+  /*Typography*/
+  --root-size:     calc(16px + 0.5vw);
+  --root-leading:  1.414;
+
+  --lead: calc(var(--root-size) * var(--root-leading));
+
+  --txt-size-5: 1.999rem;
+  --txt-size-4: 1.749rem;
+  --txt-size-3: 1.414rem;
+  --txt-size-2: 1.237rem;
+  --txt-size-1: 1rem;
+  --txt-size-0: 0.875rem;
+;
   /*Brand Colors*/
   --red:           RGB(240, 119, 118);
   --pink:          #fd747a;
   --blue:          #0077bd;
   /*Grayscale*/
+
   --white:                 hsl(206, 6, 100);
   --off-white:             hsl(206, 6, 98);
-  --lightest-gray:         hsl(206, 6, 95);
-  --lighter-gray:          hsl(206, 6, 90);
-  --light-gray:            hsl(206, 6, 84);
-  --gray:                  hsl(206, 6, 78);
-  --dark-gray:             hsl(206, 6, 64);
-  --darker-gray:           hsl(206, 6, 49);
-  --darkest-gray:          hsl(206, 6, 34);
-  --off-black:             hsl(206, 6, 25);
-  --black:                 hsl(206, 6, 19);
-}
+  --gray:                  rgb(204, 204, 204);
+  --off-black:             rgb(25, 25, 25);
 
+}
