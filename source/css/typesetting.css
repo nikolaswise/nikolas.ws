@@ -42,6 +42,9 @@ a:active {
   border-color: var(--blue);
 }
 
+img {
+  width: 100%;
+}
 
 code, kbd, pre, samp {
   font-family: var(--code-family);

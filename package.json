@@ -55,7 +55,7 @@
     "css": "parcel build source/css/style.css -d build && parcel build source/css/components.css -d build",
     "js": "parcel build source/js/app.js -d build",
     "watch": "rerun-script",
-    "img": "imagemin-newer source/images build/images",
+    "img": "imagemin-newer source/ build/",
     "predeploy:stage": "npm run build",
     "deploy:stage": "surge build --domain stage.nikolas.ws",
     "predeploy:prod": "npm run build",
