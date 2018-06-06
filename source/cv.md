@@ -1,17 +1,23 @@
 ---
-title: cv
+title: Resume
+date: 2018.06.05
 template: _templates/cv.html
 block: text
+description: I am designer, developer, printer, and artist with nearly a decade of experience making products, experiments, and objects. My current work focuses on systems design – from strategy and identity development to information architecture and API design – and building excellent web experiences and the processes behind them.
 changefreq: weekly
 ---
 
-I am designer, developer, printer, and artist with nearly a decade of experience making products, experiments, and objects. My current work focuses on systems design – from strategy and identity development to information architecture and API design – and long-form typographic works.
-
 ## Work
+
+<date>2017 — Present</date>
+### Fuzzco
+#### Director of Development
+
+Fuzzco is a design studio & creative agency in Charleston and Portland. They create brands, experiences, and websites for some of the best clients around. At Fuzzco, I lead the development team — collaborating closely with deesigners, strategists, and clients to create end-to-end solutions for digital projects.
 
 <date>2016 — Present</date>
 ### Department Press
-#### Principle
+#### Principal
 
 Department Press is a publishing house and design studio specializing in printed matter, digital experiences, and special projects. Department works with artists, public bureaus, and other partners who are open to collaborative process and value art and design.
 
