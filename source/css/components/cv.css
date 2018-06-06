@@ -23,6 +23,7 @@
 
 .cv h2 {
   font-size: var(--txt-size-2);
+  margin-top: calc(var(--lead) * 3);
   margin-bottom: calc(var(--lead) * 2);
 }
 .cv h3 {
