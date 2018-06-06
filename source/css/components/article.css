@@ -12,3 +12,11 @@
   color: var(--pink);
   font-style: italic;
 }
+
+.article blockquote {
+  margin-left: 0;
+}
+.article blockquote p {
+  font-size: var(--txt-size-3);
+  font-style: italic;
+}
