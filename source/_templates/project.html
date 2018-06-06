@@ -1,21 +1,20 @@
 {% extends 'layout.html' %}
 
+
 {% block content %}
-  <div class="text-block">
-    <h1 class="leader-2">{{ title }}</h1>
-
-    <blockquote>
-        {% autoescape false %}
-          {{description}}
-        {% endautoescape %}
-    </blockquote>
-
-    {% if site %}
-      <p class="text-center trailer-2">
-        <a href="{{site}}" class="nav-link">View Project</a>
-      </p>
-    {% endif %}
-
-    {% block text %}{% endblock %}
+<div class="container">
+  <p class="txt-mono txt-size-0 lead-3 lead-bottom-0">
+    <time datetime="{{ date }}">{{ date }}</time>
+  </p>
+  <h1 class="lead-0 txt-bold txt-size-5">{{ title }}</h1>
+  {% if site %}
+    <p class="lead-bottom-2">
+      <a href="{{site}}" class="nav-link">View Project</a>
+    </p>
+  {% endif %}
+  <blockquote class="article-intro">{%markdown%}{{ description }}{%endmarkdown%}</blockquote>
+  <div class="article">
+{%markdown%}{% block text %}{% endblock %}{%endmarkdown%}
   </div>
+</div>
 {% endblock %}

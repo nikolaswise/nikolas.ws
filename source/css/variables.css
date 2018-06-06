@@ -7,7 +7,8 @@
   --body-family:   'Cardamon',
                    'Georgia',
                    serif;
-  --code-family:   'Consolas',
+  --code-family:   'Input',
+                   'Consolas',
                    'Andale Mono',
                    'Lucida Console',
                    'Monaco',
@@ -29,7 +30,8 @@
 ;
   /*Brand Colors*/
   --red:           RGB(240, 119, 118);
-  --pink:          #fd747a;
+  --pink:          RGB(249, 118, 126);
+  --light-pink:    RGBA(249, 118, 126, 0.66);
   --blue:          #0077bd;
   /*Grayscale*/
 

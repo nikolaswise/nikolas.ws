@@ -10,7 +10,7 @@
    <section class="section lead-1">
       <h2 class="txt-size-2 lead-bottom-0">Selected Projects</h2>
       {% for project in collections.projects %}
-        <a class="section-link" href="{{project.url}}">
+        <a class="section-link link-underline" href="{{project.url}}">
           <h3 class="txt-mono txt-size-0 lead-bottom-0 lead-2">{{project.title}}</h3>
           <div class="txt-size-1 lead-quarter">
             {% markdown %}{{project.description}}{% endmarkdown %}
@@ -26,30 +26,11 @@
           <a class="section-link text" href="{{text.url}}">
             <h3 class="text-date">{{text.date}}</h3>
             <div class="text-title">
-              {{text.title}} <span class="text-description">— {{text.description}}</span>
+              <span>{{text.title}}</span><span class="text-description"> — {{text.description}}</span>
             </div>
           </a>
         {% endfor %}
       </div>
-    </section>
-
-    <section class="section">
-      <h2 class="txt-size-0">More</h2>
-      <p class="lead-bottom-0 txt-size-0">
-        <a href="/">Printmaking</a>
-      </p>
-      <p class="lead-bottom-0 txt-size-0">
-        <a href="/">Printmaking</a>
-      </p>
-      <p class="lead-bottom-0 txt-size-0">
-        <a href="/">Github</a>
-      </p>
-      <p class="lead-bottom-0 txt-size-0">
-        <a href="/">Twitter</a>
-      </p>
-      <p class="lead-bottom-0 txt-size-0">
-        <a href="/">Email</a>
-      </p>
     </section>
   </main>
 {% endblock %}

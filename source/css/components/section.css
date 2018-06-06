@@ -6,3 +6,21 @@
 .section-link:hover {
   color: var(--off-black);
 }
+
+.section-link span,
+.section-link p {
+  display: inline;
+  background-color: transparent;
+  background-image: -webkit-linear-gradient(top,transparent 50%,var(--light-pink) 50%);
+  background-image: linear-gradient(to bottom,transparent 50%,var(--light-pink) 50%);
+  background-position: 0 97%;
+  background-repeat: repeat-x;
+  background-size: .15em 0em;
+  transition: all 200ms ease-out;
+}
+.section-link:hover span,
+.section-link:hover p {
+  background-size: .15em 1em;
+  text-decoration: none;
+  transition: all 200ms ease-out;
+}

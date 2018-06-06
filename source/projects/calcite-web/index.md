@@ -1,8 +1,10 @@
 ---
 title: Calcite Web
 site: http://esri.github.io/calcite-web
-date: 2015-11-25
+date: 2015.11.25
 description: A framework that addresses common design problems and interactive elements for Esri, creating a united visual language and user experience.
+template: _templates/project.html
+block: text
 ---
 
 ![Calite Web Homepage](./title.png)

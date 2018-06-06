@@ -2,6 +2,8 @@
 title: Map as Context
 date: 2015.2.19
 description: Understanding maps as designed objects and attempting to define a theory for making digital maps on the internet as good as old paper maps.
+template: _templates/article.html
+block: text
 ---
 
 Looking at maps as they exist today on the internet, we have a pretty solid idea of what that means. It means they look like Google Maps. This is a pretty recent design solution to the 'what is a map on the internet' problem, only about 10 years old. Which is old for internet, but pretty young for maps. The Google Maps model is a good one, too! It's a very effective way to present what is essentially a road map - a drivers atlas for navigating a city or a country. Google Maps replaces the AAA State Highway map really effectively, but perhaps there are some weak links with how it applies to other, less navigation-oriented maps.

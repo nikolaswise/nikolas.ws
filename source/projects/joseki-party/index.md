@@ -1,8 +1,10 @@
 ---
 title: Joseki Party
-date: 2016-08-31
+date: 2016.08.31
 site: http://joseki.party/
 description: The simplest game of _Baduk_, _Weiqi_, or _Go_ this side of the internet. Start a game of Go, and play with a friend simply by sending them a link. Invite people to witness your victory – or humiliating defeat depending on how good your friend is.
+template: _templates/project.html
+block: text
 ---
 
 #### Concept

@@ -2,6 +2,8 @@
 title: How to Design While Developing
 date: 2016.5.15
 description: Moving beyond the idea that the designer and the developer on a web project are different people, and that somehow those are different things.
+template: _templates/article.html
+block: text
 ---
 
 For a long time, websites got made with one person designing how it should look and one person developing the code that made it look that way.

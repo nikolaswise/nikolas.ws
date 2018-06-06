@@ -2,6 +2,8 @@
 title: "Pixels don't matter."
 date: 2013.10.21
 description: Analog notions of print production and mobile design.
+template: _templates/article.html
+block: text
 ---
 
 Talking about mobile design today, the conversation is couched in terms of "pixel perfect", or designs are made by "pixel pushers". This isn't a useful way to approach layout design.

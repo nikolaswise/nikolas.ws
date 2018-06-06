@@ -22,7 +22,7 @@
   margin-top: calc(var(--lead) / 4);
 }
 
-.text-description {
+.section-link span.text-description {
   display: none;
 }
 

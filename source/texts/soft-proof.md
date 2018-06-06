@@ -1,6 +1,8 @@
 ---
 title: Soft Proof
 date: 2017.10.29
+template: _templates/article.html
+block: text
 description: Translations and compromises in image making or; the Image Cult Society.
 ---
 

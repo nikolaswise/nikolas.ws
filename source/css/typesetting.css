@@ -42,8 +42,23 @@ a:active {
   border-color: var(--blue);
 }
 
+
 code, kbd, pre, samp {
   font-family: var(--code-family);
+}
+
+pre {
+  overflow: scroll;
+  margin-top: 0;
+  margin-lead: var(--lead);
+  margin-bottom: calc(var(--lead) * 2);
+  padding: var(--lead);
+  background-color: var(--gray);
+}
+
+.hljs-selector-tag,
+.hljs-keyword {
+  color: var(--blue);
 }
 
 .txt-size-0 {
@@ -59,15 +74,18 @@ code, kbd, pre, samp {
   font-size: var(--txt-size-3)
 }
 .txt-size-4 {
-  font-size: var(--txt-size-3)
+  font-size: var(--txt-size-4)
 }
 .txt-size-5 {
-  font-size: var(--txt-size-3)
+  font-size: var(--txt-size-5)
 }
 
 .txt-mono {
   font-family: var(--code-family);
 }
+
+.txt-italic {font-stlye: italic;}
+.txt-bold {font-weight: 600; }
 
 .lead-bottom-0 {
   margin-bottom: 0;
