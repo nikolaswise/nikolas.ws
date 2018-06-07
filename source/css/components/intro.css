@@ -1,0 +1,10 @@
+.intro {
+  margin-top: calc(var(--lead) * 3);
+  margin-bottom: calc(var(--lead) * 4);
+  font-size: var(--txt-size-2);
+}
+
+.intro p:first-child {
+  font-size: var(--txt-size-4);
+  line-height: 1.214;
+}
