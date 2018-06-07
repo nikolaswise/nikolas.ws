@@ -38,7 +38,7 @@ What are we leaving on the table? For example, photography (up until the 80's) c
 
 [— Looking at Shirley, the Ultimate Norm: Colour Balance, Image Technologies, and Cognitive Equity, Lorna Roth](http://www.cjc-online.ca/index.php/journal/article/view/2196)
 
-With the creation of the RGB color space, with the creation of the ICC, we ceded the visual world to supermassive tech interests, much like we've ceded our privacy and personal data. In doing so we've inherently made the creation and decimation of images into a tool for capital — one that supports dominant power structures.
+With the creation of the RGB color space, with the creation of the ICC, we ceded the visual world to supermassive tech interests, much like we've ceded our privacy and personal data. In doing so we've inherently made the creation and dissemination of images into a tool for capital — one that supports dominant power structures.
 
 How do we understand the implicit, invisible, baked in assumptions of the soft proof? We can start to operate outside the parameters of the soft proof, recognize it as a tool to use or not use. The gap between the soft proof & the hard copy is measured in the gap between the tools used to plan & prepare versus the tools used to produce, and we can move in to this gap and inhabit it. We can create work here, and in doing so reclaim some of the space that we've given away.
 
