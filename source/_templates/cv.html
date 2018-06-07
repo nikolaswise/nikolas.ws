@@ -1,0 +1,14 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<div class="container">
+  <p class="txt-mono txt-size-0 lead-3 lead-bottom-0">
+    <time datetime="{{ date }}">{{ date }}</time>
+  </p>
+  <h1 class="lead-0 txt-bold txt-size-5">{{ title }}</h1>
+  <blockquote class="cv-intro">{{ description }}</blockquote>
+  <div class="cv">
+    {% block text %}{% endblock %}
+  </div>
+</div>
+{% endblock %}

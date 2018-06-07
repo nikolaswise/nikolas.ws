@@ -1,0 +1,43 @@
+:root {
+  /*Type Families*/
+  --header-family: 'Effra',
+                   'Helvetica',
+                   'Arial',
+                   sans-serif;
+  --body-family:   'Cardamon',
+                   'Georgia',
+                   serif;
+  --code-family:   'Input',
+                   'Consolas',
+                   'Andale Mono',
+                   'Lucida Console',
+                   'Monaco',
+                   'Courier New',
+                   Courier,
+                   monospace;
+  /*Typography*/
+  --root-size:     calc(16px + 0.5vw);
+  --root-leading:  1.414;
+
+  --lead: calc(var(--root-size) * var(--root-leading));
+
+  --txt-size-5: 1.999rem;
+  --txt-size-4: 1.749rem;
+  --txt-size-3: 1.414rem;
+  --txt-size-2: 1.237rem;
+  --txt-size-1: 1rem;
+  --txt-size-0: 0.875rem;
+;
+  /*Brand Colors*/
+  --red:           RGB(240, 119, 118);
+  --pink:          RGB(249, 118, 126);
+  --light-pink:    RGBA(249, 118, 126, 0.66);
+  --blue:          #0077bd;
+  /*Grayscale*/
+
+  --white:                 hsl(206, 6, 100);
+  --off-white:             hsl(206, 6, 98);
+  --gray:                  rgb(204, 204, 204);
+  --off-black:             rgb(25, 25, 25);
+
+}
