@@ -12,7 +12,7 @@ I am designer, developer, printer, and artist with nearly a decade of experience
 ### Fuzzco
 #### Director of Development
 
-Fuzzco is a design studio & creative agency in Charleston and Portland. They create brands, experiences, and websites for some of the best clients around. At Fuzzco, I lead the development team — collaborating closely with deesigners, strategists, and clients to create end-to-end solutions for digital projects.
+Fuzzco is a design studio & creative agency in Charleston and Portland. They create brands, experiences, and websites for some of the best clients around. At Fuzzco, I lead the development team — collaborating closely with designers, strategists, and clients to create end-to-end solutions for digital projects.
 
 <date>2016 — Present</date>
 ### Department Press
