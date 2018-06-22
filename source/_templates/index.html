@@ -11,7 +11,7 @@
       <h2 class="txt-size-2 lead-bottom-0">Selected Projects</h2>
       {% for project in collections.projects %}
         <a class="section-link link-underline" href="{{project.url}}">
-          <h3 class="txt-mono txt-size-0 lead-bottom-0 lead-2">{{project.title}}</h3>
+          <h3 class="txt-mono txt-size--1 lead-bottom-0 lead-2">{{project.title}}</h3>
           <div class="txt-size-1 lead-quarter">
             {% markdown %}{{project.description}}{% endmarkdown %}
           </div>

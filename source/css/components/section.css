@@ -2,9 +2,11 @@
   display: inline-block;
   color: var(--off-black);
   text-decoration: none;
+  background: none;
 }
 .section-link:hover {
   color: var(--off-black);
+  background: none;
 }
 
 .section-link span,

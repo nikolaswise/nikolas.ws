@@ -12,7 +12,7 @@
 
 .text-date {
   font-family: var(--code-family);
-  font-size: var(--txt-size-0);
+  font-size: var(--txt-size--1);
   margin-bottom: 0;
   margin-top: calc(var(--lead) * 2);
 }

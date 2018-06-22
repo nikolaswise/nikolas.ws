@@ -7,6 +7,7 @@ body {
   font-family: var(--body-family);
   font-size: var(--txt-size-1);
   color: var(--off-black);
+  background-color: var(--off-white);
   font-kerning: normal;
   text-rendering: optimizeLegibility;
   font-feature-settings : "kern" 1,"liga" 1,"calt" 0;
@@ -30,16 +31,25 @@ p {
 }
 
 a {
+  text-decoration: none;
   transition: all 200ms linear;
   color: var(--pink);
+  background-color: transparent;
+  background-image: -webkit-linear-gradient(top,transparent 50%,var(--light-pink) 50%);
+  background-image: linear-gradient(to bottom,transparent 50%,var(--light-pink) 50%);
+  background-position: 0 97%;
+  background-repeat: repeat-x;
+  background-size: .15em 0em;
+  transition: all 200ms ease-out;
 }
 
 a:hover,
 a:focus,
 a:active {
   transition: all 200ms linear;
-  color: var(--blue);
-  border-color: var(--blue);
+  background-size: .15em 1em;
+  text-decoration: none;
+  transition: all 200ms ease-out;
 }
 
 img {
@@ -56,7 +66,8 @@ pre {
   margin-lead: var(--lead);
   margin-bottom: calc(var(--lead) * 2);
   padding: var(--lead);
-  background-color: var(--gray);
+  background-color: var(--light-gray);
+  font-size: var(--txt-size-0);
 }
 
 .hljs-selector-tag,
@@ -64,6 +75,9 @@ pre {
   color: var(--blue);
 }
 
+.txt-size--1 {
+  font-size: var(--txt-size--1)
+}
 .txt-size-0 {
   font-size: var(--txt-size-0)
 }
@@ -85,6 +99,7 @@ pre {
 
 .txt-mono {
   font-family: var(--code-family);
+  letter-spacing: 0.01em;
 }
 
 .txt-italic {font-stlye: italic;}

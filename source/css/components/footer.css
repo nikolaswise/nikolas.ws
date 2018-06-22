@@ -1,5 +1,5 @@
 .site-footer {
-  background-color: var(--gray);
+  background-color: var(--light-gray);
   margin-top: calc(var(--lead) * 3);
   padding-top: calc(var(--lead) * 3);
   padding-bottom: calc(var(--lead) * 1);
