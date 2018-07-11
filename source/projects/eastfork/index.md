@@ -7,4 +7,11 @@ template: _templates/project.html
 block: text
 ---
 
-This project is in a soft-launch phase. I'll have process thoughts and nice write up of the problems and solutions with this project — with nice screenshots also — this week!
+![home](./home.png)
+![pottery](./pottery.png)
+![modal](./modal.png)
+![description](./description.png)
+![cart](./cart.png)
+![stories](./stories.png)
+![story](./story.png)
+![about](./about.png)

@@ -6,3 +6,12 @@ description: Design & Development of public policy & GIS data presenting the Cit
 template: _templates/project.html
 block: text
 ---
+
+![home](./home.png)
+![txt](./txt.png)
+![index](./index.gif)
+![search](./search.gif)
+![layers](./layers.png)
+![draw](./draw.png)
+![popup](./popup.png)
+![linking](./linking.gif)
