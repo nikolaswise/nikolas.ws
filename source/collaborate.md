@@ -14,7 +14,7 @@ I am a Creative Technologist, Front End Developers, and Systems Designer with a 
 I'm looking for a new team that values [multidisciplinary collaboration](http://nikolas.ws/texts/pixels-dont-matter/), and the value that thoughtful design can bring to [ethical technology](http://nikolas.ws/texts/soft-proof/). If you think I would be a good fit for your company, or know someone I should talk to, please reach out at <a href="mailto:studio@nikolas.ws">studio@nikolas.ws</a>
 
 
-🛠️ At Fuzzco I built some [awesome](https://eastfork.com/) [ecommerce](https://hanselfrombasel.com/) projects, along with beautiful(https://evidation.com/) and [experimental](https://tobacapital.wpengine.com/) front end projects. I set up systems for making websites that cut project budgets by 20% on average.
+🛠️ At Fuzzco I built some [awesome](https://eastfork.com/) [ecommerce](https://hanselfrombasel.com/) projects, along with [beautiful](https://evidation.com/) and [experimental](https://tobacapital.wpengine.com/) front end projects. I set up systems for making websites that cut project budgets by 20% on average.
 
 💪 I'm really proud of the team of two [talented](http://www.daringhue.com/) [developers](http://ebanach.com/)I mentored.
 
