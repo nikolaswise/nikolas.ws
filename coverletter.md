@@ -1,14 +1,14 @@
-Hello!
+Hello Smugmug!
 
-My name is Nikolas Wise and I've been developing web projects for nearly 10 years.
+My name is Nikolas Wise — I am a creative technologist and developer based in Portland Oregon with a background in design and the fine arts.
 
-Throughout my career, I've focused on making excellent and experimental projects that explore new ideas and processes. As my understanding of development grows — both through my own independent learning and an incredible array of peers and mentors — so does my desire to push the boundaries of what I can accomplish. I have always kept my ethic of rigorous critique cultivated by the arts and an awareness of effective design that drives my desire to create. Git and Github have been a central part of my experience and growth as a developer and the opportunity to join the team responsible for helping developers grow is incredibly exciting to me!
+My technical experience is strongly rooted in front end development, with significant experience in development operations and writing Node.js server-side code. My background includes building applications with both vanilla ES6 and contemporary JavaScript frameworks, systemic CSS and SCSS architectures, and maintaining accessibility and graceful degradation of project across legacy browsers, 
 
-Previously, as a product designer & developer at Esri's Portland Research & Development office, I researched and exploed the expanding ecosystem of mapping and geographic data API's. I worked to improve and expand Esri's developer experience by understanding contemporary best practices in application design. My team was responsible for the creation, development, and growth of the ArcGIS for Developers aspect of Esri's platform. We worked to educate and provide resources for both existing users and make the platform enticing for the next wave of companies and engineers. This project was successful enough that we were asked to bring the same approach to Esri's flagship web product, ArcGIS Online.
+With Fuzzco, I recently lead and mentored a team of developers, and focused on implementing new workflows that helpded us meet deadlines, accomplish team goals, and elevate best practices. These systemic changes have reduced our project budgets by nearly 20% on average, while supporting the professional growth and development of my team.
 
-Since moving to the Design Studio side of the internet two years ago my primary goal is to work within the constraints of the client/studio system to create the highest quality, most efficient solutions possible. Focusing on business and design goals, maximizing resources, and finding procedural efficiencies have been my primary objectives. This has been fast-moving and broad in its scope. From marketing sites, to product, to full stack e-commerce solutions, I've been responsible for researching, proposing, and developing integrations, work flows, and third party systems to meet precise, highly sensitive business use cases.
+As a developer and designer at Esri, I built and maintained an open-source design system, a client library, and a developer-facing software-as-a-service app. The goal for each of these projects is to help a global community of developers engage with Esri's mapping tools and Geographic Information Systems platform. At Esri, I was responsible for developing products that implemented design best practices for graceful and clear UI and UX. Many of these design patterns became a part of the official Esri design system.
 
-I am very excited to bring my perspective, experience, and dedication to teaching & learning to the Learning Lab team at Github. I look forward to discussing this opportunity further, and am enthusiastic about what ahead for labs.github.com!
+As a developer with SmugMug, I'm looking forward to applying my broad skillset and expertise in studio settings to SmugMugs' in-house team. I'm excited about the opportunity to build something beautiful, and am very much looking forward to talking further with your team!
 
-Thank you,
-Nikolas
+Thank you,  
+Nikolas Wise
