@@ -1,6 +1,11 @@
+.cv ul,
 .cv p {
   margin-top: 0;
   margin-bottom: var(--lead);
+}
+
+.cv li {
+  list-style-type: "— ";
 }
 
 .cv-intro {
@@ -36,6 +41,13 @@
   margin-top: 0;
   margin-bottom: var(--lead);
 }
+
+.cv h5 {
+  font-size: var(--txt-size-1);
+  margin-top: 0;
+  margin-bottom: var(--lead);
+}
+
 .cv date {
   display: block;
   font-size: var(--txt-size-0);

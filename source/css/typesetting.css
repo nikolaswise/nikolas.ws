@@ -70,6 +70,10 @@ pre {
   font-size: var(--txt-size-0);
 }
 
+ul {
+  padding-left: 0;
+}
+
 .hljs-selector-tag,
 .hljs-keyword {
   color: var(--blue);
