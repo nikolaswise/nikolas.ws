@@ -1,12 +1,12 @@
 ---
 title: "Pressing Words, With Your Friend, Wordpress"
 date: 2018.10.24
-description: A contemporary developers guide to building things on Wordpress and not having it be terrible. 
+description: A contemporary developers guide to building things on Wordpress 4.x and not having it be terrible. 
 template: _templates/article.html
 block: text
 ---
 
-TL:DR; [Start here](https://github.com/nikolaswise/nanobox-wordpress-1). Install [this thing](https://nanobox.io/) and connect it to your account on [here](https://www.digitalocean.com/). Buy a license of [this (it's worth it)](https://deliciousbrains.com/wp-migrate-db-pro/). Read some docs for [this](https://www.upstatement.com/timber/) and start building.
+TL:DR; [Start here](https://github.com/nikolaswise/nanobox-wordpress-1). Install [this thing](https://nanobox.io/) and connect it to your account on [here](https://www.digitalocean.com/). Buy a license of [this (it's worth it)](https://deliciousbrains.com/wp-migrate-db-pro/). Read some docs for [this](https://www.upstatement.com/timber/) and start building. Wordpress 5 and Gutenberg will probably break all of this except the environments. 
 
 When I first started working as a developer, Wordpress was _the_ prevalent platform for pretty much any project. Ten years later and ... Wordpress is still pretty much most of the internet. In general, Wordpress will be my last choice of a platform. I prefer to use static sites, headless CMS's, or almost anything else at all.
 
@@ -14,7 +14,19 @@ But Nik, I hear you cry, did you not just wrap up your tenure as the Technical D
 
 Very quickly I realized I had one option: _make Wordpress not terrible._
 
-## Why Use Wordpress
+## Terrible is pretty harsh
+
+If you're comfortable with Wordpress, you might find some fightin' words here. What's my problem with Wordpress and what am I trying to solve for? My biggest issue with Wordpress development as I've encountered it in the past is a lack of clarity around the requirements of the entire system. What does the project need to run in an environment, and why? How do we move from a repository to a local environment and start working on a codebase? How does that codebase get deployed to a server? 
+
+I've seen Wordpress systems that are frozen in time at 2006 — FTP in to the server and edit a CSS file on production, or "deploy" your theme by uploading a `.zip`. I'm interested in how we can lower the cognitive overhead for getting a Wordpress project up and running, and join in with pre-processing, compiling, containerizing, testing, and all the really excellent things that we've come to expect from our web stacks over the past few years. 
+
+Another issue I have with Wordpress is it's commitment to auto-magical routes and rendering templates with obscure and complicated `.php` patterns that basically concatenate strings. I'm interested in explicit routes — either hard-coded or parameterized — and separating concerns between logic and template. 
+
+A lot of this boils down to a disagreement between what Wordpress thinks a site should be and what I end up using it for. Wordpress as designed distinguishes between your "site" and your "theme". Your "site" is the content in the database, the options you've saved, and the menus and widgets you've installed. It expects "themes" to be presentations of this real website stuff. This model of websites perpetuates that "design" is something that can be applied over a website, and is a kind of dressing up of the real things. This is the inverse, and perhaps a corollary to, the concept that designing a website is just deciding what it looks like. It's an idea that lives within the system of silos between design and development, and that we can "design" a website in Photoshop or Sketch and hand off the comps to a developer to build it. Which is how a lot of Wordpress projects are built. 
+
+In short, [I disagree](/texts/how-to-design-while-developing/) with this concept of websites. My position is that designing a website is both how it looks, how it works, and how the data and structures are composed. Taking this approach, controlling the object models, the information architectures, and the templates are all of equal importance. In my line of work, a Wordpress theme can not be applied to any other site than the one that it was designed for, and a site where the structure was designed for the theme.
+
+## So why use Wordpress?
 
 There are still a number of really good, compelling reasons to use Wordpress as a platform for building websites. It's got a robust built-in commenting system with user accounts. It's really good for things that are shaped like blogs. It's got a huge, well-maintained ecosystem of plugins. It's free. And since it's most of the Internet, clients are really, really comfortable with it. 
 
@@ -22,7 +34,7 @@ There are a couple of reasons _not_ to use Wordpress right now. Mostly these cen
 
 But that's okay, since we've decided to use Wordpress 4.x. As we all know, picking a version of Wordpress and then never upgrading it is one of the time honored traditions of Wordpress development. 
 
-## How Does This Work Even
+## How does this work even
 
 Let's start at the end. 
 
@@ -38,11 +50,11 @@ The database on the production server is "canonical". That means that the databa
 
 The canonical _codebase_ lives in version control, and moves the other direction. From Github to local to dev to staging to production, amen. The only things we need to track in version control are what makes our project unique. Practically, this means we need to track our theme and our plugins. Wordpress core files are not special, and we should not fill our repositories with them.
 
-## Getting Started
+## Getting started
 
 At this point it's worth [getting started with Nanobox](https://docs.nanobox.io/install/). I back the containers with [VirtualBox](https://docs.nanobox.io/install/#lightweight-vm-virtualbox), since at the time I started this it was slightly more stable than Docker on MacOS High Sierra. Once Nanobox & Virtualbox/Docker is installed, set up [Digital Ocean as your provider](https://docs.nanobox.io/providers/hosting-accounts/digitalocean/). Once that's done, we have everything we need to get started!
 
-Here's the basic structure of our repo:
+I'll be talking through a project built in order to facilitate building projects. This will be more intense than you might need for a single build, but this was designed a tool that anyone can use to get started quickly. Here's the basic structure of our repo:
 
 ```
 📁 /project-name
