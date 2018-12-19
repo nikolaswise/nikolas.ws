@@ -8,6 +8,12 @@ changefreq: weekly
 
 ## Work
 
+<date>2018 — Present</date>
+### SmugMug & Flickr
+#### Principal Developer
+
+SmugMug & Flickr are the go-to products for photographers on the internet. My role is to support the marketing team in moving creating and supporting products web properties — the parts that are not the apps at least.
+
 <date>2017 — 2018</date>
 ### Fuzzco
 #### Technical Director
@@ -22,7 +28,7 @@ Fuzzco is a design studio & creative agency in Charleston and Portland. Fuzzco c
 - Estimate and manage project budgets and timelines.
 - Ensure world-class finish on web projects, and maintain graceful degradation across legacy browsers.
 - Maintain and implement updates and fixes for a suit of over 100 past projects.
-- Maintain and implement hosting processes and manage servers and DNS. 
+- Maintain and implement hosting processes and manage servers and DNS.
 
 <date>2016 — Present</date>
 ### Department
@@ -95,12 +101,12 @@ Led small creative in-house design team for the University of Oregon. Responsibi
 
 - 9 years working as a developer & designer, primarily in front-end JavaScript applications and site design & development.
 - Experience in Research & Development, Geographic Information Systems, E-Commerce, Developer Advocacy, and Product Development.
-- Extensive experience in JavaScript application frameworks like Angular, React, Vue, and Svelte. 
-- Extensive experience with ECMAScript 6 and building JavaScript applications without frameworks. 
+- Extensive experience in JavaScript application frameworks like Angular, React, Vue, and Svelte.
+- Extensive experience with ECMAScript 6 and building JavaScript applications without frameworks.
 - Extensive experience with design systems and component-based UI architectures.
-- Extensive experience in CSS & systemic SCSS architectures. 
+- Extensive experience in CSS & systemic SCSS architectures.
 - Extensive experience with automation tools at every part of the development lifecycle.
-- Extensive experience with industry best practices using Git and version control. 
+- Extensive experience with industry best practices using Git and version control.
 - Strong knowledge and understanding of API's and third party libraries.
 - Experience working closely with designers and design teams.
 - Experience working closely with clients and strategists to define, accomplish, and present goals.
