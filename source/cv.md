@@ -99,7 +99,7 @@ Led small creative in-house design team for the University of Oregon. Responsibi
 
 ## Technical Background
 
-- 9 years working as a developer & designer, primarily in front-end JavaScript applications and site design & development.
+- 11 years working as a developer & designer, primarily in front-end JavaScript applications and site design & development.
 - Experience in Research & Development, Geographic Information Systems, E-Commerce, Developer Advocacy, and Product Development.
 - Extensive experience in JavaScript application frameworks like Angular, React, Vue, and Svelte.
 - Extensive experience with ECMAScript 6 and building JavaScript applications without frameworks.
