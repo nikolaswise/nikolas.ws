@@ -5,6 +5,7 @@ const matter = require('gray-matter')
 const MarkdownIt = require('markdown-it')
 const mili = require('./images.js')
 const hljs = require('highlight.js')
+const typeset = require('typeset')
 
 console.log('parsing content…')
 
@@ -42,8 +43,8 @@ const md = MarkdownIt({
 }).use(mili)
 
 const markdown = (file) => {
-  file.meta.description = md.render(file.meta.description)
-  file.content = md.render(file.content)
+  file.meta.description = typeset(md.render(file.meta.description))
+  file.content = typeset(md.render(file.content))
   return file
 }
 
