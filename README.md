@@ -28,7 +28,7 @@
 - [ ] Rebuild: Using Sapper
 - [ ] Design Systems in 2020
 - [ ] Ethical Web Development / The Ethical Internet
-- [ ] 
+- [ ] Setting type: letterpress style
 
 ### Projects
 
