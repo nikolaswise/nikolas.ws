@@ -78,9 +78,10 @@
   <date>{latestText.meta.date}</date>
   <h3>
     <a href="/texts/{latestText.meta.slug}">
-      {latestText.meta.title} — {@html latestText.meta.description}
+      {latestText.meta.title}
     </a>
   </h3>
+  {@html latestText.meta.description}
 {/if}
 
 <div class="texts">
