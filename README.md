@@ -1,47 +1,60 @@
-# sapper-template
+# nikolas.ws
 
-The default [Sapper](https://github.com/sveltejs/sapper) template, available for Rollup and webpack.
+## ToDo Items:
+
+- [ ] Add sitemap.xml
+- [ ] Add RSS feed
+- [ ] Migrate remaining images to SmugMug
+- [ ] Better Alt texts for all images
+- [ ] Write up missing project texts
+- [ ] Cypress tests around nav UI 
+- [ ] Cypress tests w. AxE
+- [ ] Add bibliography section
+- [ ] Add resources section
+- [ ] Add Visual Art section
+- [ ] Add music section
+- [ ] Add session-based analytics
+- [ ] Syntax highlighting colors
+- [ ] Typeset goodies (small caps?)
+
+
+### Texts
+
+- [ ] transcribe talks with recordings
+	- [ ] Cartography Symposium (https://vimeo.com/291928620, http://good-maps.nikolas.ws/#1)
+	- [ ] PCC Lectures (http://web-mapping.nikolas.ws/#1)
+- [ ] How Why Done Reports
+- [ ] Rebuild: Session Based Tracking
+- [ ] Rebuild: Using Sapper
+- [ ] Design Systems in 2020
+- [ ] Ethical Web Development / The Ethical Internet
+- [ ] 
+
+### Projects
+
+- [ ] Toba Capital
+- [ ] Hansel from Basel
+- [ ] Evidation
+- [ ] SmugMug
+- [ ] Dicegraph
+- [ ] Department Press Estimator: http://estimator.department.press/
+- [ ] Cooking Papa: cooking-papa.nikolas.ws
 
 
 ## Getting started
 
-
-### Using `degit`
-
-[`degit`](https://github.com/Rich-Harris/degit) is a scaffolding tool that lets you create a directory from a branch in a repository. Use either the `rollup` or `webpack` branch in `sapper-template`:
-
-```bash
-# for Rollup
-npx degit "sveltejs/sapper-template#rollup" my-app
-# for webpack
-npx degit "sveltejs/sapper-template#webpack" my-app
-```
-
-
-### Using GitHub templates
-
-Alternatively, you can use GitHub's template feature with the [sapper-template-rollup](https://github.com/sveltejs/sapper-template-rollup) or [sapper-template-webpack](https://github.com/sveltejs/sapper-template-webpack) repositories.
-
-
 ### Running the project
 
-However you get the code, you can install dependencies and run the project in development mode with:
-
 ```bash
-cd my-app
-npm install # or yarn
+npm install
 npm run dev
 ```
 
 Open up [localhost:3000](http://localhost:3000) and start clicking around.
 
-Consult [sapper.svelte.dev](https://sapper.svelte.dev) for help getting started.
-
-
 ## Structure
 
 Sapper expects to find two directories in the root of your project —  `src` and `static`.
-
 
 ### src
 
@@ -62,7 +75,6 @@ There are three simple rules for naming the files that define your routes:
 * The file `src/routes/index.svelte` (or `src/routes/index.js`) corresponds to the root of your app. `src/routes/about/index.svelte` is treated the same as `src/routes/about.svelte`.
 * Files and directories with a leading underscore do *not* create routes. This allows you to colocate helper modules and components with the routes that depend on them — for example you could have a file called `src/routes/_helpers/datetime.js` and it would *not* create a `/_helpers/datetime` route
 
-
 ### static
 
 The [static](static) directory contains any static assets that should be available. These are served using [sirv](https://github.com/lukeed/sirv).
@@ -75,25 +87,25 @@ import { files } from '@sapper/service-worker';
 
 ...so that you can cache them (though you can choose not to, for example if you don't want to cache very large files).
 
+### content
+
+Thie folder of markdown files gets parsed into JSON at `src/data` for consumption and rendering by the application.
 
 ## Bundler config
 
 Sapper uses Rollup or webpack to provide code-splitting and dynamic imports, as well as compiling your Svelte components. With webpack, it also provides hot module reloading. As long as you don't do anything daft, you can edit the configuration files to add whatever plugins you'd like.
 
-
 ## Production mode and deployment
 
 To start a production version of your app, run `npm run build && npm start`. This will disable live reloading, and activate the appropriate bundler plugins.
 
-You can deploy your application to any environment that supports Node 10 or above. As an example, to deploy to [Vercel Now](https://vercel.com) when using `sapper export`, run these commands:
+Deploy explicitly with vercel:
 
 ```bash
-npm install -g vercel
-vercel
+vercel --prod
 ```
 
-If your app can't be exported to a static site, you can use the [now-sapper](https://github.com/thgh/now-sapper) builder. You can find instructions on how to do so in its [README](https://github.com/thgh/now-sapper#basic-usage).
-
+Or just push to master for the automated CI pipeline.
 
 ## Using external components
 
