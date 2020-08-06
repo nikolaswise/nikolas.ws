@@ -14,13 +14,11 @@
 
 
 <style>
-  date {
-    font-family: 'Input';
-  }
   h2 {
     margin-bottom: 2rem;
     font-style: italic;
     font-size: var(--s-18);
+    line-height: calc(1em + var(--u-6p));
   }
 </style>
 

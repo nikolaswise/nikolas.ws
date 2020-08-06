@@ -9,10 +9,9 @@
   }
   date {
     margin-bottom: 0rem;
-    font-family: "Input";
   }
   h2 {
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     margin-bottom: 1rem;
   }
 </style>

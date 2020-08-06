@@ -54,7 +54,7 @@
 	Nikolas Wise is a web developer, front-end system architect, and creative technologist. 
 </h1>
 
-<p>For over 10 years, he has worked on web applications, design systems and component libraries, and customer facing web experiences. with fine artists, design studios, and the R&D wings of technology companies to explore the edges of what's possible.</p>
+<p>For over 10 years, he has worked on web applications, design systems, and customer facing web experiences with fine artists, design studios, and technology companies. From marketing campaigns to commerce storefront to client libraries and SDKs, Nikolas works to explore the edges of what's possible.</p>
 
 {#if latestProject}
   <h2>Latest Project</h2>
