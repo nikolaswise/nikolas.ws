@@ -40,7 +40,6 @@
 - [ ] Department Press Estimator: http://estimator.department.press/
 - [ ] Cooking Papa: cooking-papa.nikolas.ws
 
-
 ## Getting started
 
 ### Running the project
