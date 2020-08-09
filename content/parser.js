@@ -25,8 +25,8 @@ const frontmatter = (file) => {
     meta: f.data,
     content: f.content,
   }
-  console.log(file.split('/'))
-  obj.meta.collection = file.split('/')[6] || file.split('/')[2]
+  let fpath = file.split('/')
+  obj.meta.collection = fpath[1] == 'vercel' ? file.split('/')[4] || file.split('/')[6]
   obj.meta.timestamp = Date.parse(obj.meta.date)
   console.log(obj.meta)
   return obj
