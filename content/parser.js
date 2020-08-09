@@ -7,8 +7,6 @@ const mili = require('./images.js')
 const hljs = require('highlight.js')
 const typeset = require('typeset')
 
-console.log('parsing content…')
-
 // Read content files
 const source = () => new Promise((resolve, reject) => {
   let pattern = path.join(process.cwd(), '/content/**/*.md')
@@ -28,7 +26,6 @@ const frontmatter = (file) => {
   let fpath = file.split('/')
   obj.meta.collection = fpath[1] == 'vercel' ? file.split('/')[4] : file.split('/')[6]
   obj.meta.timestamp = Date.parse(obj.meta.date)
-  console.log(obj.meta)
   return obj
 }
 
@@ -60,13 +57,11 @@ const writeJSON = (collection) => (files) => {
     .filter(file => file.meta.collection == collection)
     .sort(orderMostRecent)
 
-  console.log('colllection:', collection)
-  console.log(collected)
 
   let collectionPath = path.join(process.cwd(), `/src/data/${collection}`)
   
   let writeErr = (err) => {
-    if (err) { console.error(err) }
+
   }
 
   // Write all data into one array
@@ -75,7 +70,6 @@ const writeJSON = (collection) => (files) => {
 
   // Write latest into file
   let latestString = JSON.stringify(collected[0])
-  console.log(latestString)
   fs.writeFile(`${collectionPath}/latest.json`, latestString, writeErr)
 
   // Write each into own file
