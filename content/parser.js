@@ -58,8 +58,8 @@ const writeJSON = (collection) => (files) => {
     .filter(file => file.meta.collection == collection)
     .sort(orderMostRecent)
 
+  console.log(collection)
   console.log(collected)
-  console.log(files)
   
   let collectionPath = path.join(process.cwd(), `/src/data/${collection}`)
   
