@@ -55,8 +55,8 @@ const orderMostRecent = (a, b) => b.meta.timestamp - a.meta.timestamp
 
 const writeJSON = (collection) => (files) => {
   let collected = files
-    .filter(file => file.meta.collection == collection)
-    .sort(orderMostRecent)
+    // .filter(file => file.meta.collection == collection)
+    // .sort(orderMostRecent)
 
   console.log(collection)
   console.log(collected)
