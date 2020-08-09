@@ -24,7 +24,9 @@ const frontmatter = (file) => {
   let obj = {
     meta: f.data,
     content: f.content,
-  }  
+  }
+
+  console.log(file.split('/'))
   obj.meta.collection = file.split('/')[6]
   obj.meta.timestamp = Date.parse(obj.meta.date)
   return obj
@@ -55,12 +57,9 @@ const orderMostRecent = (a, b) => b.meta.timestamp - a.meta.timestamp
 
 const writeJSON = (collection) => (files) => {
   let collected = files
-    // .filter(file => file.meta.collection == collection)
-    // .sort(orderMostRecent)
+    .filter(file => file.meta.collection == collection)
+    .sort(orderMostRecent)
 
-  console.log(collection)
-  console.log(collected)
-  
   let collectionPath = path.join(process.cwd(), `/src/data/${collection}`)
   
   let writeErr = (err) => {
