@@ -2,19 +2,7 @@
 	import { fade } from 'svelte/transition';
 	import Header from '../components/Header.svelte'
 	import Nav from '../components/Nav.svelte'
-	import {event} from '../analytics.js'
-	import { stores } from '@sapper/app'
-	const { preloading, page, session } = stores()
 
-	$: {
-	  if (typeof window != 'undefined') {
-	    event({
-	      action: 'page load',
-	      label: $page.path,
-	      session: $session.id
-	    })
-	  }
-	}
 	const toggleMode = () => {
 		let body = document.querySelector('body')
 		body.classList.toggle('invert')
