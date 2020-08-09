@@ -25,9 +25,7 @@ const frontmatter = (file) => {
     meta: f.data,
     content: f.content,
   }
-
-  console.log(file.split('/'))
-  obj.meta.collection = file.split('/')[6]
+  obj.meta.collection = file.split('/')[6] || file.split('/')[4]
   obj.meta.timestamp = Date.parse(obj.meta.date)
   return obj
 }
