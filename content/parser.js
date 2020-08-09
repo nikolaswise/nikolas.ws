@@ -70,6 +70,7 @@ const writeJSON = (collection) => (files) => {
 
   // Write latest into file
   let latestString = JSON.stringify(collected[0])
+  console.log(latestString)
   fs.writeFile(`${collectionPath}/latest.json`, latestString, writeErr)
 
   // Write each into own file
