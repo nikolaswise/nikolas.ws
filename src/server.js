@@ -2,7 +2,17 @@ import sirv from 'sirv';
 import polka from 'polka';
 import compression from 'compression';
 import bodyParser from 'body-parser';
+import dotenv from 'dotenv';
+import beeline from 'honeycomb-beeline';
 import * as sapper from '@sapper/server';
+
+dotenv.config()
+
+beeline({
+ writeKey: process.env.honeycomb_write_key,
+ dataset: "nikolas.ws.instrumentation",
+ serviceName: "Polka Server"
+})
 
 const uuid = () => {
   let a = (Math.random() * 46656) | 0
