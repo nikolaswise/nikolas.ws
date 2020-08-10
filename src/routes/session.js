@@ -1,4 +1,6 @@
 import Libhoney from "libhoney"
+import dotenv from 'dotenv'
+dotenv.config()
 
 let hny = new Libhoney({
   writeKey: process.env.honeycomb_write_key,

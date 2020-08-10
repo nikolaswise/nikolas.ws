@@ -1,7 +1,9 @@
 import sirv from 'sirv';
 import polka from 'polka';
 import compression from 'compression';
+import bodyParser from 'body-parser';
 import * as sapper from '@sapper/server';
+
 const uuid = () => {
   let a = (Math.random() * 46656) | 0
   let b = (Math.random() * 46656) | 0
@@ -15,6 +17,7 @@ const dev = NODE_ENV === 'development';
 
 const app = polka() // You can also use Express
   .use(
+    bodyParser.json(),
     compression({ threshold: 0 }),
     sirv('static', { dev }),
     sapper.middleware({
