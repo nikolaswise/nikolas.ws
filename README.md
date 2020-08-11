@@ -40,6 +40,16 @@
 - [ ] Department Press Estimator: http://estimator.department.press/
 - [ ] Cooking Papa: cooking-papa.nikolas.ws
 
+### Music 
+
+- [ ] Numb.er
+- [ ] Black Marble
+- [ ] CCFX
+- [ ] Moody U Know
+- [ ] U and Yo Frenz
+- [ ] Soulection Mixtapes
+- [ ] 
+
 ## Getting started
 
 ### Running the project
