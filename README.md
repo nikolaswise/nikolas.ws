@@ -50,6 +50,10 @@
 - [ ] Soulection Mixtapes
 - [ ] 
 
+### Resources
+
+- https://marketplace.visualstudio.com/items?itemName=sdras.night-owl
+
 ## Getting started
 
 ### Running the project
