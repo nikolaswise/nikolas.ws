@@ -17,7 +17,8 @@
 </style>
 
 <svelte:head>
-  <title>Texts</title>
+  <title>nikolas.ws: texts</title>
+  <meta name="description" content="Essays, explorations, and bad ideas.">
 </svelte:head>
 
 <h1>Texts</h1>

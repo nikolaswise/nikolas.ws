@@ -47,7 +47,7 @@
 
 <svelte:head>
 	<title>nikolas.ws</title>
-	<meta name="description" content="Nikolas Wise is …">
+	<meta name="description" content="Nikolas Wise is a web developer, front-end system architect, and creative technologist.">
 </svelte:head>
 
 <h1>

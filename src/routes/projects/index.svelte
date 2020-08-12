@@ -17,7 +17,8 @@
 </style>
 
 <svelte:head>
-  <title>Projects</title>
+  <title>nikolas.ws: projects</title>
+  <meta name="description" content="A look at things that have been built.">
 </svelte:head>
 
 <h1>Projects</h1>
