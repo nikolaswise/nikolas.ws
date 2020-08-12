@@ -24,7 +24,7 @@
 
 <svelte:head>
   <title>nikolas.ws: {title}</title>
-  <meta name="description" content={text.meta.description}>
+  <meta name="description" content={project.meta.description}>
 </svelte:head>
 
 {#if project}
