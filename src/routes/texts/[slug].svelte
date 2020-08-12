@@ -8,6 +8,7 @@
 </script>
 
 <script>
+  import Meta from '../../components/Meta.svelte'
   export let text
   let title = {text} ? `nikolas.ws: ${text.meta.title}` : 'Text not found.'
 </script>
@@ -22,10 +23,9 @@
 </style>
 
 
-<svelte:head>
-  <title>nikolas.ws: {title}</title>
-  <meta name="description" content={text.meta.description}>
-</svelte:head>
+<Meta 
+  title='nikolas.ws: {title}'
+  description={text.meta.description}/>
 
 {#if text}
   <date>{text.meta.date}</date>
