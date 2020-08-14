@@ -30,6 +30,8 @@
 - [ ] Design Systems in 2020
 - [ ] Ethical Web Development / The Ethical Internet
 - [ ] Setting type: letterpress style
+- [ ] Aperiodic tiling & CSS
+	- [ ] https://users.csc.calpoly.edu/~zwood/teaching/csc572/final12/kowen/
 
 ### Projects
 

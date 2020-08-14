@@ -14,6 +14,25 @@
   console.log(`keywords: ${keywords}`)
   console.log(`schema: ${schema}`)
   console.log(`type: ${type}`)
+
+  let base = {
+    title: `nikolas.ws`,
+    indexable: true,
+    keywords: `nikolas, nikolas wise, front-end development, riso`
+  }
+
+  let json = {
+    "@context": "http://schema.org",
+    "@type": "...",
+    "...": "..."
+  };
+  let jsonld = JSON.stringify(json);
+  let jsonldScript = `<script type="application/ld+json">${jsonld +
+    "<"}/script>`;
+
+  // let htmlify = (obj) => `<script type="application/ld+json">${JSON.stringify(obj)}`
+  // let scripttag = htmlify({wow: 'cool'})
+
 </script>
 
 <svelte:head>
@@ -70,7 +89,9 @@
   {#if keywords}
     <meta 
       name="keywords" 
-      content={head.keywords} />
+      content={keywords} />
   {/if}
+
+  {@html jsonldScript}
 
 </svelte:head>  
