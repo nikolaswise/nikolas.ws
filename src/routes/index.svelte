@@ -49,6 +49,7 @@
 <Meta  
   title='nikolas.ws'
   description='Nikolas Wise is a web developer, front-end system architect, and creative technologist.'
+  type="WebSite"
 />
 
 <h1>

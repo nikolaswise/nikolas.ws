@@ -8,31 +8,61 @@
   export let schema
   export let canon
   export let type
-  console.log(`title: ${title}`)
-  console.log(`canon: ${canon}`)
-  console.log(`description: ${description}`)
-  console.log(`keywords: ${keywords}`)
-  console.log(`schema: ${schema}`)
-  console.log(`type: ${type}`)
+  export let image
+  export let timestamp
 
   let base = {
     title: `nikolas.ws`,
-    indexable: true,
-    keywords: `nikolas, nikolas wise, front-end development, riso`
+    indexable: true
+  }
+
+  let nikolaswise = {
+    "@type": "Person",
+    "name": "Nikolas Wise",
+    "url": "https://nikolas.ws",
+    "image": "https://photos.smugmug.com/Portraits/i-ThnJCF5/0/f9013fdc/X4/wise-X4.jpg",
+    "jobTitle": "Web Developer",
+    "knowsLanguage": "en, fr",
+    "sameAs": [
+      "https://twitter.com/nikolaswise",
+      "https://github.com/nikolaswise",
+      "https://www.instagram.com/nikolaswise/",
+      "https://www.linkedin.com/in/nikolas-wise-6b170265/",
+    ],
   }
 
   let json = {
     "@context": "http://schema.org",
-    "@type": "...",
-    "...": "..."
+    "@type": type,
   };
+
+  if (type == 'Article' || type == 'BlogPosting') {
+    let articleSchema = {
+      "datePublished": timestamp ? new Date(timestamp).toISOString(): '',
+      "dateModified": timestamp ? new Date(timestamp).toISOString() : '',
+      "headline": title,
+      "author": nikolaswise,
+      "image": image
+    }
+    json = Object.assign(articleSchema, json)
+  }
+
+  if (type == 'WebSite') {
+    let siteSchema = {
+      "@id":"https://nikolas.ws/#website",
+      "name":"Nikolas Wise",
+      "url":"https://nikolas.ws",
+    }
+    json = Object.assign(siteSchema, json)
+  }
+
+  if (schema) {
+    json = Object.assign(schema, json)
+  }
+
   let jsonld = JSON.stringify(json);
   let jsonldScript = `<script type="application/ld+json">${jsonld +
     "<"}/script>`;
-
-  // let htmlify = (obj) => `<script type="application/ld+json">${JSON.stringify(obj)}`
-  // let scripttag = htmlify({wow: 'cool'})
-
 </script>
 
 <svelte:head>

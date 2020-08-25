@@ -25,7 +25,10 @@
 
 <Meta 
   title='nikolas.ws: {title}'
-  description={text.meta.description}/>
+  type="BlogPosting"
+  description={text.meta.description}
+  image='foo.bar.baz'
+  timestamp={text.meta.timestamp}/>
 
 {#if text}
   <date>{text.meta.date}</date>
