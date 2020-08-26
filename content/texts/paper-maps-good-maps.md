@@ -1,4 +1,8 @@
 ---
+title: Paper Maps, Web Maps, Good Maps
+slug: good-maps
+description: Adapted from a talk given at the Portland Cartography symposium, a look at how media informs design.
+date: 2020-08-26
 draft: true
 ---
 

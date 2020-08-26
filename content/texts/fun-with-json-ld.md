@@ -1,5 +1,6 @@
 ---
 title: Fun With JSON-LD
+slug: fun-with-json-ld
 description: Learning about JSON-LD is all about and why we should. 
 date: 2020.08.25
 ----
