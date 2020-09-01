@@ -1,7 +1,19 @@
 import sirv from 'sirv';
 import polka from 'polka';
 import compression from 'compression';
+import bodyParser from 'body-parser';
+import dotenv from 'dotenv';
+import beeline from 'honeycomb-beeline';
 import * as sapper from '@sapper/server';
+
+dotenv.config()
+
+beeline({
+ writeKey: process.env.honeycomb_write_key,
+ dataset: "nikolas.ws.instrumentation",
+ serviceName: "Polka Server"
+})
+
 const uuid = () => {
   let a = (Math.random() * 46656) | 0
   let b = (Math.random() * 46656) | 0
@@ -15,6 +27,7 @@ const dev = NODE_ENV === 'development';
 
 const app = polka() // You can also use Express
   .use(
+    bodyParser.json(),
     compression({ threshold: 0 }),
     sirv('static', { dev }),
     sapper.middleware({

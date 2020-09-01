@@ -8,6 +8,7 @@
 </script>
 
 <script>
+  import Meta from '../../components/Meta.svelte'
   export let project
   let title = {project} ? `nikolas.ws: ${project.meta.title}` : 'Project not found.'
 </script>
@@ -22,9 +23,12 @@
   }
 </style>
 
-<svelte:head>
-  <title>{title}</title>
-</svelte:head>
+<Meta 
+  title='nikolas.ws: {title}'
+  type="BlogPosting"
+  description={project.meta.description}
+  image='foo.bar.baz'
+  timestamp={project.meta.timestamp}/>
 
 {#if project}
   <date>

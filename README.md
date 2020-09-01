@@ -3,9 +3,10 @@
 ## ToDo Items:
 
 - [ ] Add sitemap.xml
+- [ ] Better Alt texts for all images
+- [ ] Metadata and JSON-LD
 - [ ] Add RSS feed
 - [ ] Migrate remaining images to SmugMug
-- [ ] Better Alt texts for all images
 - [ ] Write up missing project texts
 - [ ] Cypress tests around nav UI 
 - [ ] Cypress tests w. AxE
@@ -13,7 +14,7 @@
 - [ ] Add resources section
 - [ ] Add Visual Art section
 - [ ] Add music section
-- [ ] Add session-based analytics
+- [x] Add session-based analytics
 - [ ] Syntax highlighting colors
 - [ ] Typeset goodies (small caps?)
 
@@ -21,7 +22,7 @@
 ### Texts
 
 - [ ] transcribe talks with recordings
-	- [ ] Cartography Symposium (https://vimeo.com/291928620, http://good-maps.nikolas.ws/#1)
+	- [x] Cartography Symposium (https://vimeo.com/291928620, http://good-maps.nikolas.ws/#1)
 	- [ ] PCC Lectures (http://web-mapping.nikolas.ws/#1)
 - [ ] How Why Done Reports
 - [ ] Rebuild: Session Based Tracking
@@ -29,6 +30,8 @@
 - [ ] Design Systems in 2020
 - [ ] Ethical Web Development / The Ethical Internet
 - [ ] Setting type: letterpress style
+- [ ] Aperiodic tiling & CSS
+	- [ ] https://users.csc.calpoly.edu/~zwood/teaching/csc572/final12/kowen/
 
 ### Projects
 

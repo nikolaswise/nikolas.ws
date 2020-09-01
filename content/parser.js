@@ -42,8 +42,8 @@ const md = MarkdownIt({
 }).use(mili)
 
 const markdown = (file) => {
-  file.meta.description = typeset(md.render(file.meta.description))
-  file.content = typeset(md.render(file.content))
+  file.meta.description ? file.meta.description = typeset(md.render(file.meta.description)) : file.meta.description = file.meta.description
+  file.content ? file.content = typeset(md.render(file.content)) : file.content = file.content
   return file
 }
 
@@ -55,6 +55,7 @@ const orderMostRecent = (a, b) => b.meta.timestamp - a.meta.timestamp
 const writeJSON = (collection) => (files) => {
   let collected = files
     .filter(file => file.meta.collection == collection)
+    .filter(file => !file.meta.draft)
     .sort(orderMostRecent)
 
 
@@ -86,3 +87,6 @@ source()
   .then(renderMarkdown)
   .then(writeJSON('projects'))
   .then(writeJSON('texts'))
+  .catch(e => {
+    console.error(e)
+  })
