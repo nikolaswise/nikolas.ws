@@ -1,6 +1,6 @@
 ---
 title: Towards an Ethical Web Development
-description: thinking about what it means for an industry to determine a morale standard of practice.
+description: Thinking about what it means for an industry to determine a morale standard of practice.
 date: 2020.09.01
 slug: an-ethical-web-development
 ---
