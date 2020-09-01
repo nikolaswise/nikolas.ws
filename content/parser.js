@@ -19,6 +19,7 @@ const source = () => new Promise((resolve, reject) => {
 // Parse & Inject Frontmatter
 const frontmatter = (file) => {
   let f = matter.read(file)
+  console.log(f)
   let obj = {
     meta: f.data,
     content: f.content,
@@ -62,7 +63,7 @@ const writeJSON = (collection) => (files) => {
   let collectionPath = path.join(process.cwd(), `/src/data/${collection}`)
   
   let writeErr = (err) => {
-
+    console.error(err)
   }
 
   // Write all data into one array
@@ -87,6 +88,7 @@ source()
   .then(renderMarkdown)
   .then(writeJSON('projects'))
   .then(writeJSON('texts'))
+  .then(writeJSON('bibliography'))
   .catch(e => {
     console.error(e)
   })

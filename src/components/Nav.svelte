@@ -35,9 +35,13 @@
         Projects
       </a>
     </li>
+    <li>
+      <a rel="prefetch" href="/bibliography">
+        Bibliography
+      </a>
+    </li>
 <!--     
     <li>Resources</li>
-    <li>Bibliography</li>
     <li>Visual Art</li>
     <li>Listening</li> 
 -->
