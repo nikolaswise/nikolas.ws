@@ -27,8 +27,6 @@ Some information on these types:
 - Creative Work: [https://schema.org/CreativeWork](https://schema.org/CreativeWork)
 - Web Site: [https://schema.org/WebSite](https://schema.org/WebSite)
 
-
-
 Lets work through [Google's example of an article](https://developers.google.com/search/docs/data-types/article), maybe for this article!
 
 Here's the `script` tag that is home to our structured data:
@@ -97,7 +95,7 @@ It gets added to our LSON-LD like this:
 {
 	…
   "author": {
-	  "@type": 'Person,
+	  "@type": "Person",
 	  …
   }
 }
