@@ -1,4 +1,5 @@
 <script>
+  import Meta from '../../components/Meta.svelte'  
   import projects from '../../data/projects/index.json'
 </script>
 
@@ -16,12 +17,12 @@
   }  
 </style>
 
-<svelte:head>
-  <title>Projects</title>
-</svelte:head>
+<Meta  
+  title='nikolas.ws: projects'
+  description='A look at things that have been built.'
+/>
 
 <h1>Projects</h1>
-
 
 {#each projects as project}  
   <date>{project.meta.date}</date>

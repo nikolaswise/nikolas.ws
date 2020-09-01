@@ -1,4 +1,5 @@
 <script>
+  import Meta from '../components/Meta.svelte'
   import projects from '../data/projects/index.json'
   import latestProject from '../data/projects/latest.json'
 
@@ -45,10 +46,11 @@
   }
 </style>
 
-<svelte:head>
-	<title>nikolas.ws</title>
-	<meta name="description" content="Nikolas Wise is …">
-</svelte:head>
+<Meta  
+  title='nikolas.ws'
+  description='Nikolas Wise is a web developer, front-end system architect, and creative technologist.'
+  type="WebSite"
+/>
 
 <h1>
 	Nikolas Wise is a web developer, front-end system architect, and creative technologist. 

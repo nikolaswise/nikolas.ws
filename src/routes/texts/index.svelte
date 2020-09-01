@@ -1,4 +1,5 @@
 <script>
+  import Meta from '../../components/Meta.svelte'
   import texts from '../../data/texts/index.json'
 </script>
 
@@ -16,9 +17,10 @@
   }
 </style>
 
-<svelte:head>
-  <title>Texts</title>
-</svelte:head>
+<Meta  
+  title='nikolas.ws: texts'
+  description='Essays, explorations, and bad ideas.'
+/>
 
 <h1>Texts</h1>
 
