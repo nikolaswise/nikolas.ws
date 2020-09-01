@@ -3,7 +3,7 @@ title: Fun With JSON-LD
 slug: fun-with-json-ld
 description: Learning about JSON-LD is all about and why we should. 
 date: 2020.08.25
-----
+---
 
 Working with [Adam Riemer](https://www.adamriemer.me/) on SmugMug's SEO has been a really illuminating experience. SEO consulting has always been flagged in my mind as "Snake Oil Business", but Adam really is the best in the field. Almost all of his SEO suggestions focus on performance and accessibility, and he has some clear, hard metrics to define "good". This squares with my fundamental understanding of good SEO practices, and has broadened my horizons and understanding of of the practice.
 
