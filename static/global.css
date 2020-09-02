@@ -169,3 +169,10 @@ date {
   font-size: var(--s-10);
   font-family: 'Input';
 }
+
+blockquote {
+  border-left: 1px solid var(--txt-color);
+  margin: 0;
+  padding-left: 2rem;
+  font-style: italic;
+}
