@@ -36,6 +36,11 @@
       </a>
     </li>
     <li>
+      <a rel="prefetch" href="/art">
+        Visual Art
+      </a>
+    </li>
+    <li>
       <a rel="prefetch" href="/bibliography">
         Bibliography
       </a>

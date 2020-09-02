@@ -5,4 +5,5 @@ source: https://photos.smugmug.com/Prints/Prints/i-5SP9mpX/0/0b56cd48/X2/lemons-
 date: 2016.08.24
 edition: 10
 size: 12x19 inches
+media: Risograph
 ---
