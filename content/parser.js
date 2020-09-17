@@ -89,6 +89,7 @@ source()
   .then(writeJSON('projects'))
   .then(writeJSON('texts'))
   .then(writeJSON('bibliography'))
+  .then(writeJSON('art'))
   .catch(e => {
     console.error(e)
   })
