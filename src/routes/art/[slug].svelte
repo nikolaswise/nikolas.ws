@@ -49,23 +49,6 @@
     margin-bottom: 1rem;
   }
 
-  figure {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-  }
-  picture {
-    display: table;
-    position: relative;
-  }
-  img {
-    max-height: calc(90vh - 1.5rem);
-    max-width: 100%;
-    display: block;
-    box-shadow: 0 5px 12px 1px rgba(0,0,0,0.1);
-  }
-
 </style>
 
 <Meta 
