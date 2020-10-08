@@ -157,6 +157,8 @@ figure {
 img {
   width: 100%;
   max-width: 100%;
+}
+img.lazyload {
   image-rendering: pixelated;
   filter: grayscale(1);
 }

@@ -49,6 +49,12 @@
     margin-bottom: 1rem;
   }
 
+
+  img {
+    max-height: calc(100vh - 14rem);
+    width: auto;
+    max-width: 100%;
+  }
 </style>
 
 <Meta 
@@ -60,8 +66,8 @@
   <figure class="figure">
     <picture>
       <img
-        class="figure-image lazyload"
-        src="${urlBase}/180x180/${filename}"
+        class="figure-image"
+        src="{text.meta.source}"
         data-optimumx="1.6"
         data-src="{urlBase}/{width}x5000/{filename}"
         data-sizes="auto"
