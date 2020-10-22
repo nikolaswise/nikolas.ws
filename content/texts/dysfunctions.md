@@ -1,6 +1,6 @@
 ---
 title: Dysfunctions with Dysfunctions
-slug: fun-with-json-ld
+slug: dysfunctions-of-dysfunctions
 description: Someone sent me a copy of _The Five Dysfunctions of a Team_. I didn't really like reading it.
 date: 2020.10.22
 ---
