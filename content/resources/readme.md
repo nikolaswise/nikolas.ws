@@ -81,3 +81,12 @@
 - https://css-tricks.com/focus-management-and-inert/
 - https://web.dev/min-max-clamp/
 - https://addyosmani.com/blog/preload-hero-images/
+- https://matthiasott.com/notes/how-i-structure-my-css
+- https://blog.maximeheckel.com/posts/guide-to-cicd-for-frontend-developers
+- https://www.viget.com/articles/web-brutalism-seamfulness-and-notion/
+- https://cmhb.de/web-design-and-carbon-impact
+- https://www.swyx.io/why-tailwind/
+- https://blog.carlmjohnson.net/post/2020/web-components/
+- https://lea.verou.me/2020/09/the-failed-promise-of-web-components/
+- https://css-tricks.com/the-widening-responsibility-for-front-end-developers/
+- https://www.honeycomb.io/blog/observability-101-terminology-and-concepts/
