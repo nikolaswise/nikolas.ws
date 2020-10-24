@@ -32,3 +32,6 @@
 - https://lea.verou.me/2020/09/the-failed-promise-of-web-components/
 - https://css-tricks.com/the-widening-responsibility-for-front-end-developers/
 - https://www.honeycomb.io/blog/observability-101-terminology-and-concepts/
+- https://www.smashingmagazine.com/2020/01/split-personality-brutalist-web-development/
+- https://designportland.org/stories/2016/what-do-we-lose-when-its-easy-to-use
+- https://dl.acm.org/doi/10.1145/1013115.1013149
