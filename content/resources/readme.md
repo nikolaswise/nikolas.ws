@@ -57,7 +57,7 @@
 - https://www.smashingmagazine.com/2020/10/using-webxr-with-babylonjs/
 - https://github.com/oguzeroglu/Ego
 - https://polypane.app/css-3d-transform-examples/
-- https://www.goodweb.design/tags/tiered  
+- https://www.goodweb.design/tags/tiered
 - https://dev.to/codeartistryio/the-react-cheatsheet-for-2020-real-world-examples-4hgg
 - https://elderguide.com/tech/elderjs/
 - https://gitlab.com/andybalaam/smolpxl
@@ -81,3 +81,12 @@
 - https://css-tricks.com/focus-management-and-inert/
 - https://web.dev/min-max-clamp/
 - https://addyosmani.com/blog/preload-hero-images/
+
+## Other Cool Shit
+
+- https://yjs.dev/
+- https://github.com/relm-us/svelt-yjs
+- https://www.youtube.com/playlist?list=PL8bMgX1kyZThM1sbYCoWdTcpiYysJsSeu
+- https://sveltelab.app/
+- https://github.com/hjalmar/svelte-electron-boilerplate
+- https://github.com/Budibase/budibase
