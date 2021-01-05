@@ -5,7 +5,7 @@ author: Keller Easterling
 year: 2020
 source: https://www.e-flux.com/journal/106/312238/medium-design/
 tags: design
-thesis: To design effectively with a medium, knowledge and solutions to a system are less effective than understanding the reltionships within the system, and how to manipulate and adjust those systems to move towards a set of outcomes.
+thesis: To design effectively with a medium, knowledge and solutions to a system are less effective than understanding the relationships within the system, and how to manipulate and adjust those systems to move towards a set of outcomes.
 ---
 
 > … culture, in the broadest sense of the word, is good at pointing to things and naming them, but not so good at describing relationships between things. It privileges declarations, right answers, universals, and elementary particles. It is captivated by circular logics and modernist scripts that celebrate freedom and transcendent newness—narrative arcs that bend toward a utopian or dystopian ultimate.
@@ -20,7 +20,7 @@ This mode of thinking and gathering knowledge – this one single idea of what "
 
 > … A radical proposal has no traction, because nothing is new and nothing is right.
 
-Holy shiiiit. Easterling is rejecting the core premise of so many TED talks and thought leaders. There is no new way. There is no right answer. The only way forward lies in ambiguity. This immediately calls to mind Nim Wunnans [Theory of Coneptual Labor](http://conceptuallabor.com/), where he identifies that the core location of "doing good work" is necessary defined by and situated within ambiguity.
+Holy shiiiit. Easterling is rejecting the core premise of so many TED talks and thought leaders. There is no new way. There is no right answer. The only way forward lies in ambiguity. This immediately calls to mind Nim Wunnans [Theory of Conceptual Labor](http://conceptuallabor.com/), where he identifies that the core location of "doing good work" is necessary defined by and situated within ambiguity.
 
 > There is no end or modernist succession or moment after culture.
 
@@ -28,7 +28,7 @@ This makes me recall some of the essays in the White Chapel collection of writin
 
 > Clear of associations with communication technologies, medium, in this context, returns to its root, medius, meaning “middle” or “milieu.”
 
-Easterling starts to transision here to the meat of the essay.
+Easterling starts to transition here to the meat of the essay.
 
 > Beyond declared ideologies, here is a matrix or medium of activities and latent potentials—the undeclared dispositions that are something like culture’s muscle memory.
 
@@ -38,11 +38,11 @@ This reminds me of what Hal Foster was attempting to do in _Design and Crime_, c
 
 Context, a broad gestalt understanding, becomes the key to successfully navigating and manipulating the medium. The complex tangle of objects relationships and affordances create a map of the possible, one that's as broad as a colorspace and – lacking any defined set of instructions – just as open and possible.
 
-This way of thinking is shocking to me – it so clearly describes my own way of working that the recogniztion is deeply surprising. Familiar and new – it's interesting to see my own way of thinking described in such a clear way.
+This way of thinking is shocking to me – it so clearly describes my own way of working that the recognition is deeply surprising. Familiar and new – it's interesting to see my own way of thinking described in such a clear way.
 
 > Turning the sound down on those declarations, it is also easier to detect the difference between what an organization is saying and what it is doing, and how organizations decouple their messages and ideologies from their real activities, underlying motivations, and structuring logics.
 
-Meaning is creted and devined by comprehending or being receptive to the whole. Everything – and everything connections between – becomes semantic. Language and marked declarations of meaning are quite possible unreliable narrators of this type of experience.
+Meaning is created and divined by comprehending or being receptive to the whole. Everything – and everything connections between – becomes semantic. Language and marked declarations of meaning are quite possible unreliable narrators of this type of experience.
 
 > The disposition of any organization makes some things possible and some things impossible.
 
@@ -58,7 +58,7 @@ This is just … such an articulation against everything that silicon valley tec
 
 > Design in the medium is less like making a thing and more like having your hands on the faders and toggles of organization.
 
-This is deeply related to the theseis I outlined in [How to Design While Developing](/texts/how-to-design-while-developing).
+This is deeply related to the thesis I outlined in [How to Design While Developing](/texts/how-to-design-while-developing).
 
 > It is the design of interdependencies, chemistries, chain reactions. It benefits from an artistic curiosity about spatial wiring or reagents in spatial mixtures. You are designing not only a single object but a platform for inflecting populations of objects or setting up relative potentials within them. You are comfortable with dynamic markers and unfinished processes.
 
@@ -66,11 +66,11 @@ This is perhaps the single best definition of web design I have very seen.
 
 > And maybe the existence or content of a problem is less important than the interplay between problems. Failure is a limitless wilderness for design ecologies.
 
-Welcome to … the Internet. This is exactly how we generate succesfull work in the medium of the internet.
+Welcome to … the Internet. This is exactly how we generate successful work in the medium of the internet.
 
 > If an unsafe factory collapses or burns, there is an event to mark the violence, but in countless factories or industrial parks that do not buckle under the weight of their own denial, there is no event, no drawn sword. There is only latent temperament—the constant aggression of blatantly imbalanced power dynamics. The potential for either concentrating or distributing power; the potential for escalating or reducing violence.
 
-Easterling here defines the struggle with the modern web. Is there a connection here to what it would mean to practice an ethical web design? Not to have answers or solutions, but to navigate the tangled web of semantics in ways that reduce the potetional for violence, that ratchet slowly towards an ethical stance
+Easterling here defines the struggle with the modern web. Is there a connection here to what it would mean to practice an ethical web design? Not to have answers or solutions, but to navigate the tangled web of semantics in ways that reduce the potential for violence, that ratchet slowly towards an ethical stance
 
 > But if it has any hope of effecting change, it manipulates the organization as well as the instrumental narrative that attends it with moves that are potentially sneakier or more politically agile.
 
