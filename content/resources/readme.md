@@ -90,3 +90,6 @@
 - https://sveltelab.app/
 - https://github.com/hjalmar/svelte-electron-boilerplate
 - https://github.com/Budibase/budibase
+- https://jakedowsmith.studio/
+- https://laurelschwulst.com/
+- https://supabase.io/
