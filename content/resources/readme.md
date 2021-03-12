@@ -93,3 +93,14 @@
 - https://jakedowsmith.studio/
 - https://laurelschwulst.com/
 - https://supabase.io/
+- https://github.com/Heydon/watched-box
+- https://github.com/Heydon/inclusive-design-checklist
+- https://github.com/Heydon/bruck
+- https://every-layout.dev/
+- https://mutable.gallery/
+- https://buttondown.email/
+- https://getkap.co/
+- https://supabase.io/
+- https://github.com/localForage/localForage
+- https://thegallery.io/
+- https://mnmll.ist/
