@@ -104,3 +104,4 @@
 - https://github.com/localForage/localForage
 - https://thegallery.io/
 - https://mnmll.ist/
+- https://docs.imgix.com/tutorials/responsive-images-client-hints
