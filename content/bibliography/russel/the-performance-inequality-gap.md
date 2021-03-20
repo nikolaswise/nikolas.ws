@@ -4,7 +4,7 @@ slug: russel/the-performance-iniquality-gap
 author: Alex Russel
 year: 2021
 source: https://infrequently.org/2021/03/the-performance-inequality-gap/
-tags: js, web, developments
+tags: js, web, development
 thesis: When we construct the digital world to the limits of the best devices, we build a less usable one for the 80+% of the world's users. A rule of thumb limit is ~100KiB of HTML/CSS/fonts and ~300-350KiB of JS (compressed).
 ---
 
