@@ -12,7 +12,7 @@
 <script>
   import Meta from '../../../components/Meta.svelte'
   export let text
-  let title = {text} ? ${text.meta.title}` : 'Annotation not found.'
+  let title = {text} ? text.meta.title} : 'Annotation not found.'
 </script>
 
 <style>
