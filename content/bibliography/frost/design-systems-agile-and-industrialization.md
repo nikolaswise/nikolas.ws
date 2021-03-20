@@ -4,7 +4,7 @@ slug: frost/design-systems-agile-and-industrialization
 author: Brad Frost
 year: 2020
 source: https://bradfrost.com/blog/post/design-systems-agile-and-industrialization/
-thesis: Design systems are reflections of organizational processes, making them either tools for 
+thesis: Design systems are reflections of organizational processes.
 tags: design systems, design/development
 ---
 
@@ -12,7 +12,7 @@ tags: design systems, design/development
 
 Frost is responding to the concert that design systems can enforce a Taylorist dehumanization of our work, but that they only do this as a reflection of existing organizational principles.
 
-Working with other leaders in the design systems world, Frost suggests that design systems should be boring – that is they should primarily focus on the parts of the process that are foundational and allow of the team to do spend time on the interesting problems. 
+Working with other leaders in the design systems world, Frost suggests that design systems should be boring – that is they should primarily focus on the parts of the process that are foundational and allow of the team to do spend time on the interesting problems.
 
 > Not having to reinvent things from scratch every time you need something is generally a good idea.
 
