@@ -14,7 +14,7 @@
     padding: 0;
     list-style-type: none;
   }
-  
+
   .social {
     margin-top: 1rem;
   }
@@ -45,10 +45,14 @@
         Bibliography
       </a>
     </li>
-<!--     
-    <li>Resources</li>
-    <li>Visual Art</li>
-    <li>Listening</li> 
+
+    <li>
+      <a rel="prefetch" href="/resources">
+        Resources
+      </a>
+    </li>
+<!--
+    <li>Listening</li>
 -->
   </ul>
   <ul>
@@ -59,7 +63,7 @@
     <li class="social">
       <a
         aria-label="@nikolaswise on Twitter"
-        class="icon" 
+        class="icon"
         href="https://twitter.com/nikolaswise"
         target="_blank">
         <!-- twitter -->
@@ -76,7 +80,7 @@
       <a
         aria-label="@nikolaswise on Instagram"
         class="icon"
-        target="_blank" 
+        target="_blank"
         href="https://www.instagram.com/nikolaswise/">
         <!-- insta -->
         <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" width="20" height="20"><path d="M11 3.5h1M4.5.5h6a4 4 0 014 4v6a4 4 0 01-4 4h-6a4 4 0 01-4-4v-6a4 4 0 014-4zm3 10a3 3 0 110-6 3 3 0 010 6z" stroke="currentColor"></path></svg>
