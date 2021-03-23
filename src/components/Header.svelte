@@ -10,7 +10,7 @@
 		position: relative;
 		max-width: 44em;
 		padding: 2em;
-		padding-bottom: 3em;
+		padding-bottom: 1em;
 		margin: 0 auto;
 		box-sizing: border-box;
 		display: flex;
@@ -38,12 +38,12 @@
 	.screenreader:focus {
 		color: var(--txt-color);
 		border-color: var(--txt-color);
-		opacity: 1;	
+		opacity: 1;
 		transition: opacity 300ms ease-in-out;
 	}
 </style>
 
-<a 
+<a
 	class="screenreader"
 	href='#main'>
   Skip to Content
@@ -51,20 +51,20 @@
 
 <header>
 	<nav>
-		<a 
+		<a
 			href="/">
 			nikolas.ws
 		</a>
 		{#if segment}
-			/ 
-			<a 
+			/
+			<a
 				href="/{segment}">
 				{segment}
 			</a>
-		{/if}	
+		{/if}
 	</nav>
 
-	<button 
+	<button
 		aria-label="Toggle Menu"
 		on:click={() => navIsOpen = !navIsOpen}>
 		≡

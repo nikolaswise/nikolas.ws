@@ -21,7 +21,7 @@
   }
   h2 {
     font-size: var(--s-12);
-    margin-top: 5rem;
+    margin-top: 3rem;
     margin-bottom: 1rem;
   }
 
