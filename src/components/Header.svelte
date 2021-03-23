@@ -72,5 +72,5 @@
 </header>
 
 {#if navIsOpen}
-	<Nav/>
+	<Nav bind:value={navIsOpen}/>
 {/if}
