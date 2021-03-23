@@ -1,3 +1,11 @@
+<script>
+  export let value
+
+  const closeNav = () => {
+    value = false
+  }
+</script>
+
 <style>
   nav {
     position: relative;
@@ -26,28 +34,43 @@
 <nav>
   <ul>
     <li>
-      <a rel="prefetch" href="/texts">
+      <a
+        on:click={closeNav}
+        rel="prefetch"
+        href="/texts">
         Texts
       </a>
     </li>
     <li>
-      <a rel="prefetch" href="/projects">
+      <a
+        on:click={closeNav}
+        rel="prefetch"
+        href="/projects">
         Projects
       </a>
     </li>
     <li>
-      <a rel="prefetch" href="/art">
+      <a
+        on:click={closeNav}
+        rel="prefetch"
+        href="/art">
         Visual Art
       </a>
     </li>
     <li>
-      <a rel="prefetch" href="/bibliography">
+      <a
+        on:click={closeNav}
+        rel="prefetch"
+        href="/bibliography">
         Bibliography
       </a>
     </li>
 
     <li>
-      <a rel="prefetch" href="/resources">
+      <a
+        on:click={closeNav}
+        rel="prefetch"
+        href="/resources">
         Resources
       </a>
     </li>
