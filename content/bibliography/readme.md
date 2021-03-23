@@ -3,7 +3,7 @@
 {{TOC}}
 
 
-## Reading List 
+## Reading List
 
 - https://webaim.org/projects/million/#frameworks
 - https://dev.to/richharris/in-defense-of-the-modern-web-2nia
@@ -35,3 +35,8 @@
 - https://www.smashingmagazine.com/2020/01/split-personality-brutalist-web-development/
 - https://designportland.org/stories/2016/what-do-we-lose-when-its-easy-to-use
 - https://dl.acm.org/doi/10.1145/1013115.1013149
+
+## Tech Debt Singularity
+
+- https://craigmod.com/essays/software_slump/
+- http://workingwithdevs.com/technical-debt-singularity/

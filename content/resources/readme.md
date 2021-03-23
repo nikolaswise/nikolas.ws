@@ -1,5 +1,3 @@
-## Newsletter Links
-
 - https://css-tricks.com/memorize-scroll-position-across-page-loads/
 - https://www.giftegwuenu.com/how-to-switch-logo-in-dark-mode/
 - https://tablericons.com/
@@ -81,9 +79,6 @@
 - https://css-tricks.com/focus-management-and-inert/
 - https://web.dev/min-max-clamp/
 - https://addyosmani.com/blog/preload-hero-images/
-
-## Other Cool Shit
-
 - https://yjs.dev/
 - https://github.com/relm-us/svelt-yjs
 - https://www.youtube.com/playlist?list=PL8bMgX1kyZThM1sbYCoWdTcpiYysJsSeu
