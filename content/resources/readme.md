@@ -100,3 +100,13 @@
 - https://thegallery.io/
 - https://mnmll.ist/
 - https://docs.imgix.com/tutorials/responsive-images-client-hints
+- https://www.spirit.fish/
+- https://negative.sanctuary.computer/
+- https://ahrefs.com
+- https://frontendfoc.us/link/105181/6206bedca4
+- https://www.sarasoueidan.com/blog/accessible-text-labels/
+- https://calibreapp.com/blog/css-performance
+- https://www.voorhoede.nl/en/blog/why-skip-links-are-important-for-accessibility/
+- https://github.com/luruke/aladino
+- https://www.fontshare.com/
+- https://www.smashingmagazine.com/2021/03/complete-guide-accessible-front-end-components/
