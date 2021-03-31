@@ -110,3 +110,14 @@
 - https://github.com/luruke/aladino
 - https://www.fontshare.com/
 - https://www.smashingmagazine.com/2021/03/complete-guide-accessible-front-end-components/
+- https://kit.svelte.dev/
+- https://www.smashingmagazine.com/2018/05/css-custom-properties-strategy-guide/
+- https://css-tricks.com/patterns-for-practical-css-custom-properties-use/
+- https://frasersequeira.medium.com/building-a-serverless-api-usage-tracker-on-aws-2002e82503c3
+- https://wasi.dev/
+- https://github.com/hyperium/hyper
+- https://github.com/seanmonstar/reqwest
+- https://github.com/seanmonstar/warp
+- https://noti.st/jensimmons/h0XWcf
+- https://www.youtube.com/c/LayoutLand
+- https://labs.jensimmons.com/
