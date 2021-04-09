@@ -40,3 +40,8 @@
 
 - https://craigmod.com/essays/software_slump/
 - http://workingwithdevs.com/technical-debt-singularity/
+
+## Medium Design & Dwarf Fortress
+
+- http://www.gameaipro.com/GameAIPro2/GameAIPro2_Chapter41_Simulation_Principles_from_Dwarf_Fortress.pdf
+- https://www.nytimes.com/2011/07/24/magazine/the-brilliance-of-dwarf-fortress.html
