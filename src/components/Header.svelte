@@ -68,7 +68,7 @@
 		background: none;
 		border: none;
 		cursor: pointer;
-		font-size: var(--s-22);
+		font-size: var(--s-10);
 		transition: color 300ms ease-in-out;
 		border: 1px solid var(--txt-color);
 		border-radius: var(--u-3p);
