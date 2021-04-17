@@ -121,8 +121,6 @@
 - https://noti.st/jensimmons/h0XWcf
 - https://www.youtube.com/c/LayoutLand
 - https://labs.jensimmons.com/
-- https://roots.io/trellis/
-- https://roots.io/bedrock/
 - https://phiilu.com/password-protect-your-vercel-site-with-cloudflare-workers
 - https://www.oreilly.com/library/view/getting-started-with/9781449339791/ch01.html
 - https://lunrjs.com/
@@ -130,3 +128,5 @@
 - https://fusejs.io/
 - https://matthewdaly.co.uk/blog/2019/02/20/searching-content-with-fuse-dot-js/
 - https://1loc.dev/#convert-cookie-to-object
+- https://roots.io/trellis/
+- https://roots.io/bedrock/
