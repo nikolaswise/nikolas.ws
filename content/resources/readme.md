@@ -1,3 +1,17 @@
+- https://developers.cloudflare.com/workers/learning/how-workers-works
+- https://stimulus.hotwire.dev/
+- https://cableready.stimulusreflex.com/
+- https://github.com/github/view_component
+- https://alistapart.com/article/human-readable-javascript/
+- https://docs.stimulusreflex.com/
+- https://wormhole.app/
+- https://moderncss.dev/modern-css-upgrades-to-improve-accessibility/
+- https://www.smashingmagazine.com/2021/04/complete-guide-html-email-templates-tools/
+- https://css-tricks.com/comparing-the-new-generation-of-build-tools/
+- https://css-tricks.com/html-inputs-and-labels-a-love-story/
+- https://www.sitepoint.com/build-frameworkless-web-app-modern-javascript-web-components/
+- https://waterfaller.dev/
+- https://pnpm.io/
 - https://blog.cloudflare.com/introducing-websockets-in-workers/
 - https://www.baseclass.io/guides/string-handling-modern-js
 - https://seanbarry.dev/posts/switch-true-pattern/
