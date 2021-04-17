@@ -1,3 +1,10 @@
+- https://blog.cloudflare.com/introducing-websockets-in-workers/
+- https://www.baseclass.io/guides/string-handling-modern-js
+- https://seanbarry.dev/posts/switch-true-pattern/
+- https://pustelto.com/blog/css-vs-css-in-js-perf/
+- https://www.youtube.com/watch?v=B3uH517XbPs
+- https://partyjs.yiliansource.dev/docs/shapes
+- https://blog.asayer.io/hyperapp-is-it-the-lightweight-react-killer
 - https://css-tricks.com/memorize-scroll-position-across-page-loads/
 - https://www.giftegwuenu.com/how-to-switch-logo-in-dark-mode/
 - https://tablericons.com/
