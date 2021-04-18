@@ -35,6 +35,18 @@
 - https://www.smashingmagazine.com/2020/01/split-personality-brutalist-web-development/
 - https://designportland.org/stories/2016/what-do-we-lose-when-its-easy-to-use
 - https://dl.acm.org/doi/10.1145/1013115.1013149
+- https://medium.com/javascript-scene/what-to-pay-javascript-developers-in-2020-2292eb346f3b
+- https://nolanlawson.com/2020/02/19/fixing-memory-leaks-in-web-applications/
+- https://blog.bitsrc.io/whats-wrong-with-web-assembly-3b9abb671ec2
+- https://css-tricks.com/chapter-6-web-design/
+- https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/
+- https://dev.to/jaredcwhite/why-tailwind-isn-t-for-me-5c90
+- https://timdaub.github.io/2021/01/16/web-principles/
+- https://responsibleweb.app/
+- https://nooshu.github.io/blog/2021/01/23/the-importance-of-font-face-source-order-when-used-with-preload/
+- https://designmodo.com/guide-images-videos-accessibility/
+- https://medium.com/bbc-design-engineering/looks-good-to-me-making-code-reviews-better-for-remote-first-teams-95bd92ee4e27
+- https://gist.github.com/f8cc3c939971a7b66436ba3ab3037094
 
 ## Tech Debt Singularity
 
@@ -45,3 +57,12 @@
 
 - http://www.gameaipro.com/GameAIPro2/GameAIPro2_Chapter41_Simulation_Principles_from_Dwarf_Fortress.pdf
 - https://www.nytimes.com/2011/07/24/magazine/the-brilliance-of-dwarf-fortress.html
+
+
+## User Setting and CSS
+Things like high contrast and prefers reduced motion w code samples
+
+
+## Accesibillity in Action
+
+A good overview of a11y, with Things You Can Do
