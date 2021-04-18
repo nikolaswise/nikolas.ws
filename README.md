@@ -4,15 +4,15 @@
 
 - [ ] Add sitemap.xml
 - [ ] Better Alt texts for all images
-- [ ] Metadata and JSON-LD
+- [x] Metadata and JSON-LD
 - [ ] Add RSS feed
-- [ ] Migrate remaining images to SmugMug
+- [x] Migrate remaining images to SmugMug
 - [ ] Write up missing project texts
 - [ ] Cypress tests around nav UI 
 - [ ] Cypress tests w. AxE
-- [ ] Add bibliography section
+- [x] Add bibliography section
 - [ ] Add resources section
-- [ ] Add Visual Art section
+- [x] Add Visual Art section
 - [ ] Add music section
 - [x] Add session-based analytics
 - [ ] Syntax highlighting colors

@@ -12,7 +12,7 @@
 <script>
   import Meta from '../../../components/Meta.svelte'
   export let text
-  let title = {text} ? `nikolas.ws: ${text.meta.title}` : 'Annotation not found.'
+  let title = {text} ? text.meta.title : 'Annotation not found.'
 </script>
 
 <style>
@@ -27,22 +27,28 @@
     font-family: 'Input';
     line-height: calc(1em + 0.5rem);
     margin-top: 0.5rem;
-    margin-bottom: 5rem;
-  } 
+    margin-bottom: 3rem;
+  }
   .metadata p {
     margin: 0;
-  } 
+  }
+  .thesis {
+    font-size: var(--s-20);
+    line-height: calc(1em + var(--u-6p));
+    font-style: italic;
+    margin-bottom: 3rem;
+  }
 </style>
 
 
-<Meta 
+<Meta
   title='nikolas.ws: bilbiography: {title}'
   description={text.meta.thesis}
   timestamp={text.meta.timestamp}/>
 
 {#if text}
   <h1>
-    {text.meta.title}  
+    {text.meta.title}
   </h1>
   <div class="metadata">
     <p>
@@ -58,7 +64,8 @@
       Tagged: {text.meta.tags}
     </p>
   </div>
-  <p>{text.meta.thesis}</p>
+  <p class="thesis">{text.meta.thesis}</p>
+
   {@html text.content}
 {:else}
   <h1>404</h1>

@@ -5,7 +5,7 @@
 
   import texts from '../data/texts/index.json'
   import latestText from '../data/texts/latest.json'
-  
+
   let recentTexts = [
     texts[1],
     texts[2],
@@ -21,7 +21,7 @@
   }
   h2 {
     font-size: var(--s-12);
-    margin-top: 5rem;
+    margin-top: 3rem;
     margin-bottom: 1rem;
   }
 
@@ -46,21 +46,21 @@
   }
 </style>
 
-<Meta  
+<Meta
   title='nikolas.ws'
   description='Nikolas Wise is a web developer, front-end system architect, and creative technologist.'
   type="WebSite"
 />
 
 <h1>
-	Nikolas Wise is a web developer, front-end system architect, and creative technologist. 
+	Nikolas Wise is a web developer, front-end system architect, and creative technologist.
 </h1>
 
-<p>For over 10 years, he has worked on web applications, design systems, and customer facing web experiences with fine artists, design studios, and technology companies. From marketing campaigns to commerce storefront to client libraries and SDKs, Nikolas works to explore the edges of what's possible.</p>
+<p>For over 10 years, he has worked on web applications, design systems, and customer facing web experiences with fine artists, design studios, and technology companies. From marketing campaigns to commerce storefronts, client libraries and flagship products, Nikolas works to explore the edges of what's possible.</p>
 
-{#if latestProject}
+<!-- {#if latestProject}
   <h2>Latest Project</h2>
-    
+
   <h3>
     <a href="/projects/{latestProject.meta.slug}">
       {latestProject.meta.title}
@@ -72,18 +72,20 @@
       More Projects
     </a>
   </p>
-{/if}
+{/if} -->
 
 {#if latestText}
-  <h2>Texts</h2>
+  <div class="latest-text">
+    <h2>Texts</h2>
 
-  <date>{latestText.meta.date}</date>
-  <h3>
-    <a href="/texts/{latestText.meta.slug}">
-      {latestText.meta.title}
-    </a>
-  </h3>
-  {@html latestText.meta.description}
+    <date>{latestText.meta.date}</date>
+    <h3>
+      <a href="/texts/{latestText.meta.slug}">
+        {latestText.meta.title}
+      </a>
+    </h3>
+    {@html latestText.meta.description}
+  </div>
 {/if}
 
 <div class="texts">
@@ -94,10 +96,10 @@
       <a href="/texts/{text.meta.slug}">
         {text.meta.title}
       </a>
-    </h3>  
+    </h3>
   </div>
-  
+
 {/each}
-  
+
 </div>
 

@@ -6,6 +6,7 @@ const MarkdownIt = require('markdown-it')
 const mili = require('./images.js')
 const hljs = require('highlight.js')
 const typeset = require('typeset')
+const urlMetadata = require('url-metadata')
 
 // Read content files
 const source = () => new Promise((resolve, reject) => {
@@ -19,7 +20,6 @@ const source = () => new Promise((resolve, reject) => {
 // Parse & Inject Frontmatter
 const frontmatter = (file) => {
   let f = matter.read(file)
-  console.log(f)
   let obj = {
     meta: f.data,
     content: f.content,
@@ -43,8 +43,8 @@ const md = MarkdownIt({
 }).use(mili)
 
 const markdown = (file) => {
-  file.meta.description ? file.meta.description = typeset(md.render(file.meta.description)) : file.meta.description = file.meta.description
-  file.content ? file.content = typeset(md.render(file.content)) : file.content = file.content
+  file.meta.description ? file.meta.description = md.render(file.meta.description) : file.meta.description = file.meta.description
+  file.content ? file.content = md.render(file.content) : file.content = file.content
   return file
 }
 
@@ -52,6 +52,10 @@ const renderMarkdown = (files) => files.map(markdown)
 
 // Write JSON blobs
 const orderMostRecent = (a, b) => b.meta.timestamp - a.meta.timestamp
+
+const writeErr = (err) => {
+  err ? console.error(err) : ()=>{}
+}
 
 const writeJSON = (collection) => (files) => {
   let collected = files
@@ -61,10 +65,6 @@ const writeJSON = (collection) => (files) => {
 
 
   let collectionPath = path.join(process.cwd(), `/src/data/${collection}`)
-  
-  let writeErr = (err) => {
-    console.error(err)
-  }
 
   // Write all data into one array
   let collectionString = JSON.stringify(collected)
@@ -75,12 +75,50 @@ const writeJSON = (collection) => (files) => {
   fs.writeFile(`${collectionPath}/latest.json`, latestString, writeErr)
 
   // Write each into own file
-  collected.forEach(file => {
-    let fileString = JSON.stringify(file)
-    fs.writeFile(`${collectionPath}/${file.meta.slug}.json`, fileString, writeErr)
-  })
+  // collected.forEach(file => {
+    // let fileString = JSON.stringify(file)
+    // fs.writeFile(`${collectionPath}/${file.meta.slug}.json`, fileString, writeErr)
+  // })
 
   return files
+}
+
+const generateResources = (files) => {
+  let links = files
+    .find(file => file.meta.collection == 'resources')
+    ['content']
+    .replace(/<li>/gi, '')
+    .replace('<ul>', '')
+    .replace('</ul>', '')
+    .replace(/\n/gi, '')
+    .split('</li>')
+
+  // console.log(links)
+
+  let linkPromises = links
+    .filter(url => typeof url === 'string')
+    .map(url => urlMetadata(`${encodeURI(url)}`, {descriptionLength: 1500}))
+
+  Promise.allSettled(linkPromises)
+    .then(results => {
+      let data = results
+        .filter(result => result.status === 'fulfilled')
+        .map((result) => {
+          return {
+            url: result.value.url,
+            title: result.value.title,
+            description: result.value.description,
+            keywords: result.value.keywords
+          }
+        })
+
+      let collectionPath = path.join(process.cwd(), `/src/data/resources`)
+      fs.writeFile(`${collectionPath}/index.json`, JSON.stringify(data), writeErr)
+    })
+    .catch(err => {
+      console.log('oh no!')
+      console.log(err)
+    })
 }
 
 source()
@@ -90,6 +128,7 @@ source()
   .then(writeJSON('texts'))
   .then(writeJSON('bibliography'))
   .then(writeJSON('art'))
+  .then(generateResources)
   .catch(e => {
-    console.error(e)
+    // console.error(e)
   })
