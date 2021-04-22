@@ -3,7 +3,7 @@
   import arts from '../../data/art/index.json'
 
   let searchTerm = ""
-  
+
   const contains = (searchTerm) => (art) => {
     let standardTerm = searchTerm.toLowerCase()
     let standardMeta = JSON.stringify(art.meta).toLowerCase()
@@ -42,24 +42,29 @@
 
   ul {
     padding: 0;
+    border-top: 2px solid var(--txt-color);
   }
   li {
     margin: 0;
-    padding: 0;
+    padding: var(--u-6p) 0;
     list-style-type: none;
     padding-bottom: var(--u-3p);
-    display: flex;
   }
   li a {
-    flex: 1;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: var(--u-6p);
+
   }
-  li span {
-    flex: 1;
+  li span:first-of-type {
+    grid-column: 1 / 4;
+  }
+  li span:last-of-type {
+    text-align: right;
   }
 </style>
 
-<Meta  
+<Meta
   title='nikolas.ws: bilbiography'
   description='Notes on writings.'
 />
@@ -69,21 +74,14 @@
 <form>
   <label>
     Search Prints:
-    <input 
+    <input
       bind:value={searchTerm}
       placeholder="Filter entries …"
-      type="text">  
+      type="text">
   </label>
 </form>
 
 <ul>
-  <li>
-    <span>Title</span>
-    <span>Media</span>
-    <span>Size</span>
-    <span>Date</span>
-  </li>
-  <hr>
   {#each filteredList as art}
     {#if art.meta.title}
       <li>
@@ -99,8 +97,8 @@
           </span>
           <span>
             {art.meta.date}
-          </span>  
-        </a>      
+          </span>
+        </a>
       </li>
     {/if}
   {/each}
