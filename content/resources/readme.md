@@ -1,3 +1,8 @@
+- https://codeadrian.hashnode.dev/the-best-approach-to-lazy-load-images-for-maximum-performance
+- https://web.dev/efficiently-load-third-party-javascript/
+- https://web.dev/cookie-notice-best-practices/
+- https://www.smashingmagazine.com/2021/04/css-overflow-issues/
+- https://www.smashingmagazine.com/2021/04/complete-guide-measure-core-web-vitals/
 - https://medium.muz.li/responsive-grid-design-ultimate-guide-7aa41ca7892
 - https://css-tricks.com/a-primer-on-the-different-types-of-browser-storage/
 - https://www.hsablonniere.com/prevent-layout-shifts-with-css-grid-stacks--qcj5jo/
