@@ -38,7 +38,7 @@
 
   let width = `{width}`
   let urlBase = getCDNBase(text.meta.source)
-  let filename = getCDNfilename(text.meta.source)  
+  let filename = getCDNfilename(text.meta.source)
 </script>
 
 <style>
@@ -49,42 +49,52 @@
     margin-bottom: 1rem;
   }
 
+  .art {
+    display: grid;
+    grid-template-rows: calc(100vh - 14rem) auto;
+  }
 
   img {
-    max-height: calc(100vh - 14rem);
-    width: auto;
-    max-width: 100%;
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+    object-position: left center;
   }
 </style>
 
-<Meta 
+<Meta
   title='nikolas.ws: art: {title}'
   description={text.meta.description}
   timestamp={text.meta.timestamp}/>
 
 {#if text}
-  <figure class="figure">
-    <picture>
-      <img
-        class="figure-image"
-        src="{text.meta.source}"
-        data-optimumx="1.6"
-        data-src="{urlBase}/{width}x5000/{filename}"
-        data-sizes="auto"
-        alt={text.meta.alt} />
-    </picture>    
-  </figure>
-  <h1>
-    {text.meta.title} — {year}
-  </h1>
-  
-  {#if text.meta.description}
-    {@html text.meta.description}
-  {/if}
+  <div class="art">
+    <figure class="figure">
+      <picture>
+        <img
+          class="figure-image"
+          src="{text.meta.source}"
+          data-optimumx="1.6"
+          data-src="{urlBase}/{width}x5000/{filename}"
+          data-sizes="auto"
+          alt={text.meta.alt} />
+      </picture>
+    </figure>
 
-  <p>
-    {text.meta.size} {#if text.meta.edition} — Edition of {text.meta.edition} {/if}
-  </p>
+    <div class="description">
+      <h1>
+        {text.meta.title} — {year}
+      </h1>
+
+      {#if text.meta.description}
+        {@html text.meta.description}
+      {/if}
+
+      <p>
+        {text.meta.size} {#if text.meta.edition} — Edition of {text.meta.edition} {/if}
+      </p>
+    </div>
+  </div>
 {:else}
   <h1>404</h1>
   <p>That's not an art. <a href="/art">See what is.</a></p>
