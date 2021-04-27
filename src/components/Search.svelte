@@ -72,23 +72,28 @@
     if (e.key === 'Escape') {
       close()
     }
+    // on arrrow down
     if (e.which == '40') {
       e.preventDefault()
       let cur = links.indexOf(document.activeElement)
       if (cur === links.length - 1) {
+        // at bottom, do nothing
         return
       }
       if (!links.includes(document.activeElement)) {
+        // not in list, focus on first item
         links[0].focus()
       } else {
+        // focus on next item
         links[cur + 1].focus()
       }
     }
+    // on arrow up
     if (e.which == '38') {
       e.preventDefault()
       let cur = links.indexOf(document.activeElement)
       if (links.includes(document.activeElement)) {
-        cur === 0 ? () => {} : links[cur - 1].focus()
+        cur === 0 ? input.focus() : links[cur - 1].focus()
       }
     }
   }
