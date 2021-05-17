@@ -26,6 +26,7 @@
             title: resource.title,
             description: resource.description,
             keywords: resource.keywords,
+            url: resource.url,
           }
         }
       })
@@ -63,10 +64,11 @@
   const getResults = (term) => fuse
     .search(term)
     .map(result => {
+      let url = result.item.meta.url ? result.item.meta.url : `/${result.item.category}/${result.item.meta.slug}`
       let normalizedResult = {
         category: result.item.category,
         title: result.item.meta.title,
-        url: `/${result.item.category}/${result.item.meta.slug}`
+        url: url
       }
       return normalizedResult
     })
