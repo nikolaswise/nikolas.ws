@@ -70,3 +70,5 @@ Or query on metadata or content:
 Contentful in particular is interesting because one of the fields you can add to your entries is a reference _to other entries_. This gives the information architecture model some pretty amazing abilities to structure and enable pretty much any sort of content strategy you want to build. Some simple key-value pairs for getting strings to complicated, nested, conditional data structures. 
 
 And from the code's perspective, it's all just JSON! 
+
+For an example of how one can write components that consume this general API data, I've put together a small sample of how to create a component that's defined by JSON structures, and how handling different configuration keys alongside content strings can create a powerful way to integrate with a Headless CMS like Contentful. Check out the [demo on Glitch](https://component-doc-sample.glitch.me/).
