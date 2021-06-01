@@ -1,11 +1,6 @@
-export const event = ({action = 'click', label, context, session}) => {
-  let data = {
-    action: action,
-    label: label,
-    session: session,
-    usertime: Date.now()
-  }  
-  fetch(`/session`, {
+export const event = (data) => {
+  data.usertime = usertime: Date.now()
+  fetch(`/api/event`, {
     method: 'POST', 
     headers: {
       'Content-Type': 'application/json'
