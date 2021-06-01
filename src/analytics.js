@@ -1,5 +1,5 @@
 export const event = (data) => {
-  data.usertime = usertime: Date.now()
+  data.usertime = Date.now()
   fetch(`/api/event`, {
     method: 'POST', 
     headers: {
