@@ -1,6 +1,4 @@
 <script>
-  import { onMount } from 'svelte'
-
   import Meta from '../components/Meta.svelte'
   import projects from '../data/projects/index.json'
   import latestProject from '../data/projects/latest.json'
@@ -16,16 +14,6 @@
     texts[3],
     texts[4]
   ]
-
-  onMount(() => {
-    event({
-      action: "page_view",
-      label: window.location.origin,
-      context: {
-        page_id: '8d6sd8'
-      }
-    })
-  })
 </script>
 
 <style>

@@ -1,7 +1,9 @@
 export const event = (data) => {
   data.usertime = Date.now()
-  fetch(`/api/event`, {
+
+  fetch(`https://analytics.nikolas.ws/api/event`, {
     method: 'POST', 
+    mode: 'cors',
     headers: {
       'Content-Type': 'application/json'
     },
