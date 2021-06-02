@@ -6,6 +6,8 @@
   import texts from '../data/texts/index.json'
   import latestText from '../data/texts/latest.json'
 
+  import { event } from '../analytics.js'
+
   let recentTexts = [
     texts[1],
     texts[2],
