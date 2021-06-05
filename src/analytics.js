@@ -1,15 +1,8 @@
-export const event = (data) => {
-  data.usertime = Date.now()
-  data.origin = window.location.origin
+const toString = (json) => (key) => `${encodeURIComponent(key)}=${encodeURIComponent(json[key])}`
+const toQuery = (json) => `?${Object.keys(json).map(toString(json)).join("&")}`
 
-  fetch(`https://analytics.nikolas.ws/api/event`, {
-    method: 'POST', 
-    mode: 'cors',
-    headers: {
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify(data) 
-  }).catch(e => {
+export const event = (data) => {
+  fetch(`/event${toQuery(data)}`).catch(e => {
     console.error(e)
   })
 }
