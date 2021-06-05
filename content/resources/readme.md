@@ -1,3 +1,7 @@
+- https://svelte-motion.gradientdescent.de/
+- https://www.npmjs.com/package/arquero
+- https://arrow.apache.org/docs/js/
+- https://github.com/uwdata/falcon
 - https://github.com/vercel/tracing-js
 - https://getstarted.sh/
 - https://mdsvex.pngwn.io/
