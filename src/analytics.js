@@ -1,5 +1,6 @@
 export const event = (data) => {
   data.usertime = Date.now()
+  data.origin = window.location.origin
 
   fetch(`https://analytics.nikolas.ws/api/event`, {
     method: 'POST', 
