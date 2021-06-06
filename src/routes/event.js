@@ -18,10 +18,9 @@ const relayEvent = (req, res) => {
     res.end()
     return
   }
-  if (req.host != 'nikolas.ws') {
+  if (data.host != 'nikolas.ws') {
     console.log('host rejected:')
-    console.log(req.host, 'nikolas.ws')
-    console.log(`${req.host} != 'nikolas.ws'; ${req.host != 'nikolas.ws'}`)
+    console.log(`${data.host} != 'nikolas.ws'; ${data.host != 'nikolas.ws'}`)
     console.log(data)
     res.end()
     return
