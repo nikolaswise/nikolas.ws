@@ -51,6 +51,6 @@ const relayEvent = async (req, res) => {
   })
 }
 
-export async function get(req, res, next) {
+export async function post(req, res, next) {
   relayEvent(req, res)
 }
