@@ -4,7 +4,7 @@ const toQuery = (json) => `?${Object.keys(json).map(toString(json)).join("&")}`
 export const event = (data) => {
   data.r = window.localStorage.getItem('ar') || false
   navigator.sendBeacon(`/event${toQuery(data)}`)
-  if (!returning) {
+  if (!data.r) {
     window.localStorage.setItem('ar', true)
   }
 }
