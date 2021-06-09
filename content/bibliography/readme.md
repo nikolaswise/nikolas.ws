@@ -6,7 +6,6 @@
 ## Reading List
 
 - https://webaim.org/projects/million/#frameworks
-- https://dev.to/richharris/in-defense-of-the-modern-web-2nia
 - https://mxb.dev/blog/the-return-of-the-90s-web/
 - https://timkadlec.com/remembers/2019-03-07-performance-budgets-that-stick/fro
 - https://www.youtube.com/watch?v=TzGfBV67Tac&feature=emb_title
@@ -40,10 +39,8 @@
 - https://blog.bitsrc.io/whats-wrong-with-web-assembly-3b9abb671ec2
 - https://css-tricks.com/chapter-6-web-design/
 - https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/
-- https://dev.to/jaredcwhite/why-tailwind-isn-t-for-me-5c90
 - https://timdaub.github.io/2021/01/16/web-principles/
 - https://responsibleweb.app/
-- https://nooshu.github.io/blog/2021/01/23/the-importance-of-font-face-source-order-when-used-with-preload/
 - https://designmodo.com/guide-images-videos-accessibility/
 - https://medium.com/bbc-design-engineering/looks-good-to-me-making-code-reviews-better-for-remote-first-teams-95bd92ee4e27
 - https://gist.github.com/f8cc3c939971a7b66436ba3ab3037094
@@ -61,6 +58,8 @@
 
 ## User Setting and CSS
 Things like high contrast and prefers reduced motion w code samples
+
+Apparently those are the only two so this might need someThing additional.
 
 
 ## Accesibillity in Action

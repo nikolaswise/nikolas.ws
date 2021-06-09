@@ -1,3 +1,5 @@
+- https://upstash.com/
+- https://traduora.com/
 - https://codeadrian.hashnode.dev/the-best-approach-to-lazy-load-images-for-maximum-performance
 - https://web.dev/efficiently-load-third-party-javascript/
 - https://web.dev/cookie-notice-best-practices/

@@ -1,0 +1,29 @@
+https://dev.to/jaredcwhite/why-tailwind-isn-t-for-me-5c90
+
+Jared C White has been a dev for a long time, has done quite a lot of work with Tailwind, and doesn’t love it.
+
+> I've tried it. And I've used it. A lot. A project one of my largest clients has me developing is built on top of React and Tailwind. So whatever you may come at me with, you can't accuse me of not giving Tailwind the good ol' college try. Still not my thing.
+
+Whites concerns and issues with Tailwind are as follows:
+
+> Tailwind promotes ugly-ass HTML.
+
+White shows off some simple components that are _all_ utility. Margin, padding, font color, positioning, everything. They look like trash!
+
+> @apply is fundamentally incompatible and non-standard (and largely unnecessary).
+
+Whites main point here is that introducing new syntax like @apply puts tailwind squarely in the SCSS/LESS compile to css camp. Any reason to avoid those languages is an equally valid critique of Tailwind.
+
+> Tailwind's focus on design systems and tokens could mostly be replaced by CSS Custom Properties (aka variables)—which IS a standard
+
+This is ... a great point. There’s a lot of bullshit in Tailwind around variables that is not needed. See again reasons to not use SCSS. A lot of heavy tooling to do something you get for free with CSS. White notes that using CSS Custom Properties to replace deign tokens is good, and it’s true! It is good!
+
+> Tailwind forgets that web components exist.
+
+This is interesting! You can’t use tailwind in the shadow DOM. This means that you wall yourself off from a very promising and open ended part of the spec, without much benefit in the trade.
+
+> Finally, Tailwind encourages div/span-tag soup.
+
+Here White creates combination of his previous points: ugly-ass html and lack of support for web components and custom tags. The core of the argument here is he same as previous points.
+
+I agree with White - I think that the only thing that Tailwind brings to the table is a predefined set of utility classes. I do think that utility classes have their use and can be very very good and powerful, but that they absolutely have to be narrow in scope, and don’t need Tailwind at all. Using Tailwinds utility class names and implementing a toy subset with CSS Custom Properties is absolutely the way to go.
