@@ -9,7 +9,7 @@
 	$: {
 	  if (typeof window != 'undefined') {
 	    event({
-	      action: 'page load',
+	      action: 'page_view',
 	      label: $page.path,
 	      session: $session.id
 	    })

@@ -17,7 +17,20 @@
     .concat(texts.map(addCategory('texts')))
     .concat(projects.map(addCategory('projects')))
     .concat(art.map(addCategory('art')))
-    .concat(resources.map(addCategory('resources')))
+    .concat(resources
+      .map(addCategory('resources'))
+      .map((resource) => {
+        return {
+          category: resource.category,
+          meta: {
+            title: resource.title,
+            description: resource.description,
+            keywords: resource.keywords,
+            url: resource.url,
+          }
+        }
+      })
+    )
 
   export let value
 
@@ -44,17 +57,18 @@
 
   let term
   const fuse = new Fuse(index, {
-    threshold: 0.3,
+    threshold: 0.4,
     keys: ['meta.thesis', 'meta.title', 'meta.author', 'meta.tags', 'meta.date', 'meta.description', 'meta.media']
   })
 
   const getResults = (term) => fuse
     .search(term)
     .map(result => {
+      let url = result.item.meta.url ? result.item.meta.url : `/${result.item.category}/${result.item.meta.slug}`
       let normalizedResult = {
         category: result.item.category,
         title: result.item.meta.title,
-        url: `/${result.item.category}/${result.item.meta.slug}`
+        url: url
       }
       return normalizedResult
     })
@@ -72,23 +86,28 @@
     if (e.key === 'Escape') {
       close()
     }
+    // on arrrow down
     if (e.which == '40') {
       e.preventDefault()
       let cur = links.indexOf(document.activeElement)
       if (cur === links.length - 1) {
+        // at bottom, do nothing
         return
       }
       if (!links.includes(document.activeElement)) {
+        // not in list, focus on first item
         links[0].focus()
       } else {
+        // focus on next item
         links[cur + 1].focus()
       }
     }
+    // on arrow up
     if (e.which == '38') {
       e.preventDefault()
       let cur = links.indexOf(document.activeElement)
       if (links.includes(document.activeElement)) {
-        cur === 0 ? () => {} : links[cur - 1].focus()
+        cur === 0 ? input.focus() : links[cur - 1].focus()
       }
     }
   }

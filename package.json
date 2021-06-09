@@ -15,14 +15,18 @@
     "test": "run-p --race dev cy:run"
   },
   "dependencies": {
+    "@maxmind/geoip2-node": "^3.0.0",
     "body-parser": "^1.19.0",
     "compression": "^1.7.1",
     "dotenv": "^8.2.0",
+    "faunadb": "^4.3.0",
     "fuse.js": "^6.4.6",
     "honeycomb-beeline": "^2.2.0",
     "libhoney": "^2.2.1",
     "polka": "next",
-    "sirv": "^0.4.0"
+    "sirv": "^0.4.0",
+    "useragent": "^2.3.0",
+    "yamlparser": "^0.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",

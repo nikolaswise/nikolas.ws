@@ -1,17 +1,10 @@
-export const event = ({action = 'click', label, context, session}) => {
-  let data = {
-    action: action,
-    label: label,
-    session: session,
-    usertime: Date.now()
-  }  
-  fetch(`/session`, {
-    method: 'POST', 
-    headers: {
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify(data) 
-  }).catch(e => {
-    console.error(e)
-  })
+const toString = (json) => (key) => `${encodeURIComponent(key)}=${encodeURIComponent(json[key])}`
+const toQuery = (json) => `?${Object.keys(json).map(toString(json)).join("&")}`
+
+export const event = (data) => {
+  data.r = window.localStorage.getItem('ar') || false
+  navigator.sendBeacon(`/event${toQuery(data)}`)
+  if (!data.r) {
+    window.localStorage.setItem('ar', true)
+  }
 }
