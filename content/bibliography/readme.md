@@ -44,6 +44,10 @@
 - https://designmodo.com/guide-images-videos-accessibility/
 - https://medium.com/bbc-design-engineering/looks-good-to-me-making-code-reviews-better-for-remote-first-teams-95bd92ee4e27
 - https://gist.github.com/f8cc3c939971a7b66436ba3ab3037094
+- https://medium.com/inclusive-research/introduction-a-practical-guide-to-inclusive-research-8a3c87375b0e
+- https://www.designsystems.com/how-to-govern-a-design-system/
+- https://doriantaylor.com/
+-
 
 ## Tech Debt Singularity
 
