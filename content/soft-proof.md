@@ -3,7 +3,7 @@ title: Soft Proof
 slug: soft-proof
 date: 2017.10.29
 description: Translations and compromises in image making or; the Image Cult Society.
-type: text
+type: text, texts
 ---
 
 There's an interesting thing that happens when a new idea or technology gets introduced then quickly assimilated into the background hum of our daily lives. It starts out with a discreet name — a clear identifier of what this thing is and means. Than this name just sort of ... slips away. It becomes so normal that to name it would seem strange. Its original name doesn't seem to fit any more, as the name existed in the first place to demarcate the new thought from the ordinary. And now the new thing is just ordinary. Think about Google Maps. It's just ... a map. In 2005, when Google Maps was first released, it's particular approach to the interface of a digital map was called a 'slippy map'. Weird, right?

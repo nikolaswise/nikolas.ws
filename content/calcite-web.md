@@ -4,7 +4,7 @@ slug: calcite-web
 site: http://esri.github.io/calcite-web
 date: 2015.11.25
 description: A framework that addresses common design problems and interactive elements for Esri, creating a united visual language and user experience.
-type: project, esri
+type: projects, esri
 ---
 
 ![Calite Web Homepage](https://photos.smugmug.com/Projects/Calcite-web/i-FNjrvmC/0/1db11e90/X3/title-X3.png)

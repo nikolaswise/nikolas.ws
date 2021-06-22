@@ -3,7 +3,7 @@ title: lone goose press
 site: http://www.lonegoosepress.com
 date: 2015-03-14
 description: A catalog and ecommerce website for for the Eugene, Oregon based letterpress studio lone goose press.
-type: project, department
+type: projects, department
 archived: true
 ---
 

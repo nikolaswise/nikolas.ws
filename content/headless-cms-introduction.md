@@ -3,7 +3,7 @@ title: Headless CMS; A Brief Introduction
 description: What _is_ a Headless CMS, and how can it be useful for building websites and apps?
 date: 2021.05.28
 slug: headless-cms-introduction
-type: text
+type: text, texts
 ---
 
 A Content Management System is a central aspect of any web project - even projects where you would never think of as "having" or "using" a CMS. In these sorts of projects the content management system _is_ the codebase, and the strategy for managing content is identical to the process for managing code. This, obviously, is not ideal for anyone who wants to edit content and not code, or in uncomfortable in the workflows that developers rely on for our day-to-day practice — like Git. The other end of the spectrum of CMS is something like Squarespace — the code is the content. Not ideal if you want to edit code and not content. A traditional CMS like Wordpress attempts to split the difference; the CMS controls the code and the content, but makes an attempt to keep them at least a little independant by storage content in a database and providing an admin interface for editing and authoring that content.

@@ -6,7 +6,7 @@ year: 2021
 source: https://infrequently.org/2021/03/the-performance-inequality-gap/
 tags: js, web, development
 thesis: When we construct the digital world to the limits of the best devices, we build a less usable one for the 80+% of the world's users. A rule of thumb limit is ~100KiB of HTML/CSS/fonts and ~300-350KiB of JS (compressed).
-type: annotation
+type: annotation, bibliography
 ---
 
 Russel identifies web performance as a long-standing issue that took new significance a few years back with the combined proliferation of front end frameworks and low-end android phones. Russel identifies that the experience of _being_ on the web is about the whole experience, and any given slowdown in that experience creates a negative impression of the entire experience, raising the stakes of poor performance across the entire web ecosystem.

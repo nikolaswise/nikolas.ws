@@ -6,7 +6,7 @@ year: 2021
 source: https://briefs.video/videos/is-progressive-enhancement-dead-yet/
 tags: design, development, javascript, js
 thesis: Progressively enhancing web applications is not only an essential practice for accessibility, but it provides a framework to respect separation of concerns in technology _and_ reduce boilerplate, polyfills, and otherwise kludgy code. 
-type: annotation
+type: annotation, bibliography
 ---
 
 Pickering wants to talk about Progressive Enhancement, but apparently a lot of people are over it and want to be done with it. Pickering thinks that putting progressive enhancement to bed – and worrying about it no more would be a "grave" mistake. 

@@ -60,12 +60,13 @@ const writeErr = (err) => {
 
 const writeJSON = (collection) => (files) => {
   let collected = files
+    .filter(file => typeof file.meta.type != 'undefined')
     .filter(file => file.meta.type.includes(collection))
     .filter(file => !file.meta.draft)
     .sort(orderMostRecent)
 
-
   let collectionPath = path.join(process.cwd(), `/src/data/${collection}`)
+  fs.mkdirSync(collectionPath, {recursive: true})
 
   // Write all data into one array
   let collectionString = JSON.stringify(collected)
@@ -80,7 +81,7 @@ const writeJSON = (collection) => (files) => {
 
 const generateResources = (files) => {
   let links = files
-    .find(file => file.meta.collection == 'resources')
+    .find(file => file.meta.collection == 'resources.md')
     ['content']
     .replace(/<li>/gi, '')
     .replace('<ul>', '')
@@ -108,6 +109,7 @@ const generateResources = (files) => {
         })
 
       let collectionPath = path.join(process.cwd(), `/src/data/resources`)
+      fs.mkdirSync(collectionPath)
       fs.writeFile(`${collectionPath}/index.json`, JSON.stringify(data), writeErr)
     })
     .catch(err => {
@@ -125,5 +127,5 @@ source()
   .then(writeJSON('art'))
   .then(generateResources)
   .catch(e => {
-    // console.error(e)
+    console.error(e)
   })

@@ -6,7 +6,7 @@ year: 2016
 source: https://designportland.org/stories/2016/what-do-we-lose-when-its-easy-to-use
 tags: design
 thesis: The intentional creation of friction in an experience is an essential way to create experience and communicate values. 
-type: annotation
+type: annotation, bibliography
 ---
 
 Pressman runs a local design studio called Rumors. In 2015 they launched a new site that got a lot of critique on Designer News about its 'usability'. Pressman created an experience when preview thumbnails exist behind the text and flee from the cursor.

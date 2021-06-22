@@ -3,7 +3,7 @@ title: Towards an Ethical Web Development
 description: Thinking about what it means for an industry to determine a moral standard of practice.
 date: 2020.09.01
 slug: an-ethical-web-development
-type: text
+type: text, texts
 ---
 
 Since the beginning of this summer, with everything that’s descending upon us with Covid-19 and the Black Lives Matter uprising, it feels like we are living through a moment of moral accounting. In Portland, antifa is in the street in running battles with secret police, exploited workers are speaking up about the realities of our treasured restaurant industry, business owners are shutting down and pulling a disappearing act instead of facing accountability for their behavior. This has me thinking about _my_ industry, which we all know has massive problems around racism, techno-fascism, and robber-baron level exploitation. We’re still dealing with people who read _Snow Crash_ and _Neuromancer_ and think those books were descriptions of Utopias. 

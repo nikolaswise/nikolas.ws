@@ -3,7 +3,7 @@ title: How to Design While Developing
 slug: how-to-design-while-developing
 date: 2016.5.15
 description: Moving beyond the idea that the designer and the developer on a web project are different people, and that somehow those are different things.
-type: text
+type: text, texts
 ---
 
 For a long time, websites got made with one person designing how it should look and one person developing the code that made it look that way.

@@ -6,7 +6,7 @@ year: 2020
 source: https://ethanmarcotte.com/wrote/the-design-systems-between-us
 thesis: Design systems by default entrench existing workflows rather than changing them.
 tags: design systems, design/development
-type: annotation
+type: annotation, bibliography
 ---
 
 > But in my experience, design systems haven’t brought this kind of rich, cross-functional collaboration to most organizations. Instead, the existing divisions between design and implementation have become entrenched, and massively so.

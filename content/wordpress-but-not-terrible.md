@@ -3,7 +3,7 @@ title: "Pressing Words, With Your Friend, Wordpress"
 slug: wordpress-but-not-terrible
 date: 2018.10.24
 description: A contemporary developers guide to building things on Wordpress 4.x and not having it be terrible. 
-type: text
+type: text, texts
 ---
 
 TL:DR; [Start here](https://github.com/nikolaswise/nanobox-wordpress-1). Install [this thing](https://nanobox.io/) and connect it to your account on [here](https://www.digitalocean.com/). Buy a license of [this (it's worth it)](https://deliciousbrains.com/wp-migrate-db-pro/). Read some docs for [this](https://www.upstatement.com/timber/) and start building. Wordpress 5 and Gutenberg will probably break all of this except the environments. 

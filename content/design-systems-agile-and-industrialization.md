@@ -6,7 +6,7 @@ year: 2020
 source: https://bradfrost.com/blog/post/design-systems-agile-and-industrialization/
 thesis: Design systems are reflections of organizational processes.
 tags: design systems, design/development
-type: annotation
+type: annotation, bibliography
 ---
 
 > There’s a big difference between having smart, reusable patterns at your disposal and creating a dictatorial culture designed to enforce conformity and swat down anyone coloring outside the lines.

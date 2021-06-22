@@ -6,7 +6,7 @@ year: 2002
 source: https://www.tablegroup.com/books/dysfunctions/
 tags: business, teamwork
 thesis: Someone sent me a copy of _The Five Dysfunctions of a Team_. I didn't really like it.
-type: annotation
+type: annotation, bibliography
 ---
 
 _The Five Dysfunctions of a Team_ by Lencioni reads like middle-manager fan fiction. Beyond the outrageously bad dialogue and cutely arranged set pieces, all spread out across large type, short chapters, and generous white space to pad this brief seminar into a “real book”, Lencioni’s thesis throughout is freighted with the zeitgeist of the early 2000s late capitalist striving.

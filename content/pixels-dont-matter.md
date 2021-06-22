@@ -3,7 +3,7 @@ title: "Pixels don't matter."
 slug: pixels-dont-matter
 date: 2013.10.21
 description: They don't. 
-type: text
+type: text, texts
 ---
 
 Talking about mobile design today, the conversation is couched in terms of "pixel perfect", or designs are made by "pixel pushers". This isn't a useful way to approach layout design.

@@ -3,7 +3,7 @@ title: Building a Client Library for ArcGIS
 slug: building-a-client-library
 date: 2015.3.09
 description: Writing a wrapper client library to smooth out design weirdness at the API level leads to plenty of design thinking on the way things should be.
-type: text
+type: text, texts
 ---
 
 This year I built a JavaScript wrapper for Node and the Browser around the ArcGIS REST API to simplify working with that platform as a developer. This was as an exercise in API design, as well as making a tool that I wanted to use but didn't exist yet. The project is a bare-bones library to ease interactions with the ArcGIS REST API in JavaScript and Node apps.

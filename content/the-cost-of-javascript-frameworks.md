@@ -6,7 +6,7 @@ year: 2020
 source: https://timkadlec.com/remembers/2020-04-21-the-cost-of-javascript-frameworks/
 thesis: Javascript inherently is a massive percentage of a performance budget, modern frameworks are less performant than vanilla JS sites.
 tags: front end, javascript, performance
-type: annotation
+type: annotation, bibliography
 ---
 
 Kadlec's thesis is that Javascript inherently is a massive percentage of a performance budget. From this perspective, he identifies the purpose of frameworks as:

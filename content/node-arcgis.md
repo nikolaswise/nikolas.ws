@@ -4,7 +4,7 @@ slug: node-arcgis
 site: http://esri.github.io/node-arcgis/
 date: 2016.03.10
 description: An API that explored bringing the ArcGIS REST API to Node and NPM.
-type: project, esri
+type: projects, esri
 ---
 
 #### Goals

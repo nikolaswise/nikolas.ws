@@ -6,7 +6,7 @@ author: Tatiana Mac
 year: 2021
 tags: internet, design, a11y, accessibility, css, development
 thesis: Use the prefers-reduced-motion media query to help guide your animation principles. By default, do not include animations, which should only be approached as a progressive enhancement.
-type: annotation
+type: annotation, bibliography
 ---
 
 While animations can be quite powerful tools for communication relationships and building a brand, Mac notes that "Animations, especially when overused and abused, can make people very ill."

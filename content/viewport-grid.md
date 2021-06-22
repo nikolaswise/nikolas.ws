@@ -6,7 +6,7 @@ site: http://esripdx.github.io/viewport-grid/
 description: A view port based CSS grid system that defines column widths as a set percentage of the screen rather the width of a container.
 template: _templates/project.html
 block: text
-type: project, esri
+type: projects, esri
 ---
 
 ### What It Is

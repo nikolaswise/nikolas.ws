@@ -6,7 +6,7 @@ source: https://macwright.com/2020/08/22/clean-starts-for-the-web.html
 author: Tom Macwright
 year: 2020
 tags: internet, web
-type: annotation
+type: annotation, bibliography
 ---
 
 > The web’s evolution over the last decade has mirrored the American economy. All of the essential indicators are going “up and to the right,” a steady stream of fundamental advances reassure use that there “is progress,” but the actual experience and effects for individuals stagnates or regresses.

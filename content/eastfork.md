@@ -4,7 +4,7 @@ slug: eastfork-pottery
 date: 2018.06.25
 site: https://eastforkpottery.com
 description: Pushing the Shopify platform to its limits to create a smooth and playful experience.
-type: project, fuzzco
+type: projects, fuzzco
 ---
 
 Alex & Connie Mattisse run Eastfork Pottery out of Asheville, NC. They both have a strong design sense, and a clear understanding of their brands identity and point of view. 

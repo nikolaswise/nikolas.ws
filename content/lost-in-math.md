@@ -6,7 +6,7 @@ year: 2018
 source: https://bookshop.org/books/lost-in-math-how-beauty-leads-physics-astray/9781541646766
 tags: physics, math, aesthetics, design
 thesis: In theoretical physics, the proliferation of theory outstrips the pace of experiment, leading to a situation where theories must be assessed by criteria other than their relationship to the real world. The current criteria are aesthetic ones, and that has led to 30 years of stagnation.
-type: annotation
+type: annotation, bibliography
 ---
 
 Hossenfelder has written an outstanding book — not only has she provided an accessible pop-sci introduction to _all of physics_ but she also has included a sharp and insightful critique of the _theory of theoretical physics_. What's more, the whole things is written with an air of approachability and dry cutting wit. The book is makes me want to loan it to everyone I know and stop writing, since I'll never be able to write as well, as insightfully, or as entertainingly as Hossenfelder. Anyway, on to the content!

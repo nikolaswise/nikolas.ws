@@ -7,7 +7,7 @@ source: https://www.designedbycave.co.uk/2020/LEGO-Interface-UX/
 thesis: Exploring user interface design via legos
 tags: user experience
 date: 2020.08.24
-type: annotation
+type: annotation, bibliography
 ---
 
 

@@ -7,7 +7,7 @@ year: 2020
 tags: food, ethics, work
 thesis: Building an equitable restaurant — where all workers are paid fairly, have benefits, and work without discrimination — will require undoing the way most restaurants are run
 date: 2020.09.01
-type: annotation
+type: annotation, bibliography
 ---
 
 > TheThe only ethical restaurant I have ever heard of is on Star Trek: Deep Space Nine

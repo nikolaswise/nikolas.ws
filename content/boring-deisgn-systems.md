@@ -6,7 +6,7 @@ year: 2017
 source: https://bigmedium.com/ideas/boring-design-systems.html
 thesis: What it says on the tin.
 tags: design systems, design/development
-type: annotation
+type: annotation, bibliography
 ---
 
 > Design-system builders should resist the lure of the new. Don’t confuse design-system work with a rebrand or a tech-stack overhaul. The system’s design patterns should be familiar, even boring.

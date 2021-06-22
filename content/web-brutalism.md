@@ -6,7 +6,7 @@ year: 2020
 source: https://www.viget.com/articles/web-brutalism-seamfulness-and-notion/
 tags: design, brutalism, user experience
 thesis: The essence of Web Brutalism is a way of creating spaces for thought and expression on the web that reflect the nature of thought and the web. 
-type: annotation
+type: annotation, bibliography
 ---
 
 > The web is fundamental to modern life, but modern life is also weird and bizarre and our commitment to usability needn’t hinder the expression of that strangeness.

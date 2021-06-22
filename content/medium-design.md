@@ -6,7 +6,7 @@ year: 2020
 source: https://www.e-flux.com/journal/106/312238/medium-design/
 tags: design
 thesis: To design effectively with a medium, knowledge and solutions to a system are less effective than understanding the relationships within the system, and how to manipulate and adjust those systems to move towards a set of outcomes.
-type: annotation
+type: annotation, bibliography
 ---
 
 > … culture, in the broadest sense of the word, is good at pointing to things and naming them, but not so good at describing relationships between things. It privileges declarations, right answers, universals, and elementary particles. It is captivated by circular logics and modernist scripts that celebrate freedom and transcendent newness—narrative arcs that bend toward a utopian or dystopian ultimate.
