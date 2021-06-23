@@ -3,6 +3,7 @@ const path = require('path')
 const glob = require('glob')
 const matter = require('gray-matter')
 const MarkdownIt = require('markdown-it')
+const { compile } = require('mdsvex');
 const mili = require('./images.js')
 const hljs = require('highlight.js')
 const typeset = require('typeset')
@@ -43,41 +44,46 @@ const md = MarkdownIt({
   }
 }).use(mili)
 
-const markdown = (file) => {
+const markdown = async (file) => {
+  // change markdown renderer here
+  // const parsed = await compile(file);
   file.meta.description ? file.meta.description = md.render(file.meta.description) : file.meta.description = file.meta.description
   file.content ? file.content = md.render(file.content) : file.content = file.content
   return file
 }
 
-const renderMarkdown = (files) => files.map(markdown)
+const renderMarkdown = (files) => {
+  console.log(files[0])
+  return files.map(markdown)
+}
 
 // Write JSON blobs
-const orderMostRecent = (a, b) => b.meta.timestamp - a.meta.timestamp
+// const orderMostRecent = (a, b) => b.meta.timestamp - a.meta.timestamp
 
 const writeErr = (err) => {
   err ? console.error(err) : () => {}
 }
 
-const writeJSON = (collection) => (files) => {
-  let collected = files
-    .filter(file => typeof file.meta.type != 'undefined')
-    .filter(file => file.meta.type.includes(collection))
-    .filter(file => !file.meta.draft)
-    .sort(orderMostRecent)
-
-  let collectionPath = path.join(process.cwd(), `/src/data/${collection}`)
-  fs.mkdirSync(collectionPath, {recursive: true})
-
-  // Write all data into one array
-  let collectionString = JSON.stringify(collected)
-  fs.writeFile(`${collectionPath}/index.json`, collectionString, writeErr)
-
-  // Write latest into file
-  let latestString = JSON.stringify(collected[0])
-  fs.writeFile(`${collectionPath}/latest.json`, latestString, writeErr)
-
-  return files
-}
+// const writeJSON = (collection) => (files) => {
+//   let collected = files
+//     .filter(file => typeof file.meta.type != 'undefined')
+//     .filter(file => file.meta.type.includes(collection))
+//     .filter(file => !file.meta.draft)
+//     .sort(orderMostRecent)
+//
+//   let collectionPath = path.join(process.cwd(), `/src/data/${collection}`)
+//   fs.mkdirSync(collectionPath, {recursive: true})
+//
+//   // Write all data into one array
+//   let collectionString = JSON.stringify(collected)
+//   fs.writeFile(`${collectionPath}/index.json`, collectionString, writeErr)
+//
+//   // Write latest into file
+//   let latestString = JSON.stringify(collected[0])
+//   fs.writeFile(`${collectionPath}/latest.json`, latestString, writeErr)
+//
+//   return files
+// }
 
 const generateResources = (files) => {
   let links = files
@@ -118,14 +124,42 @@ const generateResources = (files) => {
     })
 }
 
+// new content pipeline
+const getFile = (path) => new Promise((resolve, reject) => {
+  fs.readFile(path, 'utf8', (err, data) => {
+    if (err) {
+      reject(err)
+    } else {
+      resolve(data)
+    }
+  })
+})
+
+const svexify = async (paths) => {
+  let files = await Promise.allSettled(paths.map(path => getFile(path)))
+  let contents = files.map(file => file.value)
+  let parsed = await Promise.allSettled(contents.map(content => compile(content)))
+  let markups = parsed.map(parse => parse.value)
+  return markups
+}
+
+const orderMostRecent = (a, b) => b.data.fm.timestamp - a.data.fm.timestamp
+
+const writeJSON = (files) => {
+  let orderedFiles = files
+    .sort(orderMostRecent)
+    .map((file) => [file.data.fm.slug, file])
+  // Write all data into one array
+  let collectionPath = path.join(process.cwd(), `/src/data/`)
+  let collectionString = JSON.stringify(orderedFiles)
+  fs.writeFile(`${collectionPath}/index.json`, collectionString, writeErr)
+
+  return files
+}
+
 source()
-  .then(injectFrontmatter)
-  .then(renderMarkdown)
-  .then(writeJSON('projects'))
-  .then(writeJSON('texts'))
-  .then(writeJSON('bibliography'))
-  .then(writeJSON('art'))
-  .then(generateResources)
+  .then(svexify)
+  .then(writeJSON)
   .catch(e => {
     console.error(e)
   })

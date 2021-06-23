@@ -1,38 +1,22 @@
 <script context="module">
-  // import texts from '../../data/art/index.json'
+  import items from '../data/index.json'
+  let content = new Map(items)
+
   export async function preload({ params }) {
-    const fs = require('fs')
-    const path = require('path')
-    const { compile } = require('mdsvex');
-
-    const getFile = (path) => new Promise((resolve, reject) => {
-      fs.readFile(path, 'utf8', (err, data) => {
-        if (err) {
-          reject(err)
-        } else {
-          resolve(data)
-        }
-      })
-    })
-
     let slug = params.slug;
-
-    // get the slug from ../content
-    let file = await getFile(`./content/${slug}.md`)
-    const parsed = await compile(file);
-    console.log(parsed)
-    return {slug, parsed}
+    let item = content.get(slug)
+    return {slug, item}
   }
 </script>
 
 <script>
   import Meta from '../components/Meta.svelte'
-  export let slug, parsed
+  export let slug, item
 </script>
 
-<date>{parsed.data.fm.date}</date>
-<h1>{parsed.data.fm.title}</h1>
+<date>{item.data.fm.date}</date>
+<h1>{item.data.fm.title}</h1>
 
-<h2>{@html parsed.data.fm.description}</h2>
+<h2>{@html item.data.fm.description}</h2>
 
-{@html parsed.code }
+{@html item.code }
