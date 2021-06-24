@@ -1,7 +1,7 @@
 ---
 title: The Most Exciting Design Systems Are Boring
 author: Josh Clarg
-slug: clark/the-most-exciting-design-systems-are-boring
+slug: the-most-exciting-design-systems-are-boring
 year: 2017
 source: https://bigmedium.com/ideas/boring-design-systems.html
 thesis: What it says on the tin.

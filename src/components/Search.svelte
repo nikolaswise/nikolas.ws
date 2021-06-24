@@ -2,32 +2,18 @@
   import { onMount, onDestroy } from 'svelte'
   import Fuse from 'fuse.js'
 
-  import bibliography from '../data/bibliography/index.json'
-  import texts from '../data/texts/index.json'
-  import projects from '../data/projects/index.json'
-  import art from '../data/art/index.json'
-  import resources from '../data/resources/index.json'
+  import items from '../data/meta.json'
+  import resources from '../data/resources.json'
 
-  let addCategory = (category) => (item) => {
-    item.category = category
-    return item
-  }
-  let index = []
-    .concat(bibliography.map(addCategory('bibliography')))
-    .concat(texts.map(addCategory('texts')))
-    .concat(projects.map(addCategory('projects')))
-    .concat(art.map(addCategory('art')))
+  let index = items
     .concat(resources
-      .map(addCategory('resources'))
       .map((resource) => {
         return {
-          category: resource.category,
-          meta: {
-            title: resource.title,
-            description: resource.description,
-            keywords: resource.keywords,
-            url: resource.url,
-          }
+          title: resource.title,
+          description: resource.description,
+          keywords: resource.keywords,
+          url: resource.url,
+          type: 'resource'
         }
       })
     )
@@ -58,16 +44,16 @@
   let term
   const fuse = new Fuse(index, {
     threshold: 0.4,
-    keys: ['meta.thesis', 'meta.title', 'meta.author', 'meta.tags', 'meta.date', 'meta.description', 'meta.media']
+    keys: ['thesis', 'title', 'author', 'tags', 'date', 'description', 'media']
   })
 
   const getResults = (term) => fuse
     .search(term)
     .map(result => {
-      let url = result.item.meta.url ? result.item.meta.url : `/${result.item.category}/${result.item.meta.slug}`
+      let url = result.item.url ? result.item.url : `/${result.item.slug}`
       let normalizedResult = {
         category: result.item.category,
-        title: result.item.meta.title,
+        title: result.item.title,
         url: url
       }
       return normalizedResult

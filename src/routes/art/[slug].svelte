@@ -1,5 +1,6 @@
 <script context="module">
-  import texts from '../../data/art/index.json'
+  // import texts from '../../data/art/index.json'
+  let texts = []
   export async function preload({ params }) {
     let slug = params.slug;
     let text = texts.find(proj => proj.meta.slug == slug)

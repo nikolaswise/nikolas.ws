@@ -1,19 +1,21 @@
 <script>
   import Meta from '../components/Meta.svelte'
-  import projects from '../data/projects/index.json'
-  import latestProject from '../data/projects/latest.json'
+  // import projects from '../data/projects/index.json'
+  // import latestProject from '../data/projects/latest.json'
 
-  import texts from '../data/texts/index.json'
-  import latestText from '../data/texts/latest.json'
+  // import texts from '../data/texts/index.json'
+  // import latestText from '../data/texts/latest.json'
+  let latestText
+  let recentTexts = []
 
   import { event } from '../analytics.js'
-
-  let recentTexts = [
-    texts[1],
-    texts[2],
-    texts[3],
-    texts[4]
-  ]
+//
+//   let recentTexts = [
+//     texts[1],
+//     texts[2],
+//     texts[3],
+//     texts[4]
+//   ]
 </script>
 
 <style>

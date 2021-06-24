@@ -1,6 +1,6 @@
 <script>
-  import Meta from '../../components/Meta.svelte'
-  import resources from '../../data/resources/index.json'
+  import Meta from '../components/Meta.svelte'
+  import resources from '../data/resources.json'
 
   let searchTerm = ""
 

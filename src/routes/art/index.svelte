@@ -1,17 +1,25 @@
+<script context="module">
+  import getCollected from '../getCollected'
+
+  let arts = getCollected('art,')
+
+  export async function preload({ params }) {
+    return { arts }
+  }
+</script>
+
 <script>
   import Meta from '../../components/Meta.svelte'
-  import arts from '../../data/art/index.json'
-
+  export let arts
   let searchTerm = ""
 
   const contains = (searchTerm) => (art) => {
     let standardTerm = searchTerm.toLowerCase()
-    let standardMeta = JSON.stringify(art.meta).toLowerCase()
+    let standardMeta = JSON.stringify(art.data.fm).toLowerCase()
     return standardMeta.indexOf(standardTerm) !== -1
   }
 
   $: filteredList = arts.filter(contains(searchTerm))
-
 </script>
 
 <style>
@@ -83,20 +91,20 @@
 
 <ul>
   {#each filteredList as art}
-    {#if art.meta.title}
+    {#if art.data.fm.title}
       <li>
-        <a rel="prefetch" href="/art/{art.meta.slug}">
+        <a rel="prefetch" href="/{art.data.fm.slug}">
           <span>
-            {art.meta.title}
+            {art.data.fm.title}
           </span>
           <span>
-            {art.meta.media}
+            {art.data.fm.media}
           </span>
           <span>
-            {art.meta.size}
+            {art.data.fm.size}
           </span>
           <span>
-            {art.meta.date}
+            {art.data.fm.date}
           </span>
         </a>
       </li>

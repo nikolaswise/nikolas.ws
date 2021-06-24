@@ -1,8 +1,3 @@
----
-slug: resources
-type: resources
----
-
 - https://threads.js.org/
 - https://k6.io/
 - http://www.heppnetz.de/projects/goodrelations/

@@ -7,4 +7,3 @@ yarn-error.log
 /.cache/
 .vercel
 .env
-/src/data
