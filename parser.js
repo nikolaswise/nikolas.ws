@@ -71,7 +71,10 @@ const svexify = async (paths) => {
 }
 
 const render = (file) => new Promise((resolve, reject) => {
-  let md = new MarkdownIt()
+  let md = new MarkdownIt({
+    html: true,
+    xhtmlOut: true,
+  })
   let fm = matter(file.value).data
   try {
     let prerender = matter(file.value)

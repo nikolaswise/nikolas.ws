@@ -7,7 +7,7 @@ type: text
 ---
 
 <script>
-  import EffeciencyCalculator from '../src/components/EffeciencyCalculator.svelte';
+  console.log('run js in here')
 </script>
 
 Lets see if this works…

@@ -1,35 +1,4 @@
-<script>
-  const pluralize = (unit) => unit === 1 ? '' : 's'
-  const seconds_per = new Map([
-    ['second', 1],
-    ['minute', 60],
-    ['hour', 3600],
-    ['day', 86400],
-    ['week', 604800],
-    ['month', 2592000],
-    ['year', 31536000],
-  ])
-
-  let task_frequency = '1'
-  let task_period = 'day'
-  let intervention_amount = '1'
-  let intervention_unit = 'minute'
-  let value_period = '1'
-  let value_unit = 'year'
-  let savings_unit = 'minute'
-
-  let savings
-
-  $: {
-    let intervention_unit_seconds = seconds_per.get(intervention_unit)
-    let intervention_amount_seconds = Number.parseInt(intervention_amount) * intervention_unit_seconds
-    let task_period_seconds = seconds_per.get(task_period)
-    let value_period_seconds = Number.parseInt(value_period) * seconds_per.get(value_unit)
-    let savings_unit_seconds = seconds_per.get(savings_unit)
-
-    savings = Math.round(((intervention_amount_seconds * (task_frequency / task_period_seconds)) * value_period_seconds) / savings_unit_seconds)
-  }
-</script>
+<svelte:options tag="efficiency-calculator" />
 
 <p>
   Let's spend some time now making a routine task more efficient. If this is a task someone does
@@ -69,6 +38,40 @@
     <option value="day">day{pluralize(value_period)}</option>
   </select>.
 </p>
+
+
+<script>
+  const pluralize = (unit) => unit === 1 ? '' : 's'
+  const seconds_per = new Map([
+    ['second', 1],
+    ['minute', 60],
+    ['hour', 3600],
+    ['day', 86400],
+    ['week', 604800],
+    ['month', 2592000],
+    ['year', 31536000],
+  ])
+
+  let task_frequency = '1'
+  let task_period = 'day'
+  let intervention_amount = '1'
+  let intervention_unit = 'minute'
+  let value_period = '1'
+  let value_unit = 'year'
+  let savings_unit = 'minute'
+
+  let savings
+
+  $: {
+    let intervention_unit_seconds = seconds_per.get(intervention_unit)
+    let intervention_amount_seconds = Number.parseInt(intervention_amount) * intervention_unit_seconds
+    let task_period_seconds = seconds_per.get(task_period)
+    let value_period_seconds = Number.parseInt(value_period) * seconds_per.get(value_unit)
+    let savings_unit_seconds = seconds_per.get(savings_unit)
+
+    savings = Math.round(((intervention_amount_seconds * (task_frequency / task_period_seconds)) * value_period_seconds) / savings_unit_seconds)
+  }
+</script>
 
 <style>
   mark {

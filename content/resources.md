@@ -1,4 +1,4 @@
-- https://privatealpha.com/ontology/content-inventory
+- https://privatealpha.com/ontology/content-inventory/1#
 - https://gbv.github.io/jskos/jskos.html
 - https://threads.js.org/
 - https://k6.io/
