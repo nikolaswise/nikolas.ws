@@ -1,6 +1,6 @@
 ---
 title: Lost In Math
-slug: hossenfelder/lost-in-math
+slug: lost-in-math
 author: Sabine Hossenfelder
 year: 2018
 source: https://bookshop.org/books/lost-in-math-how-beauty-leads-physics-astray/9781541646766

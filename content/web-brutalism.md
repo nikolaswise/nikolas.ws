@@ -1,6 +1,6 @@
 ---
 title: Web Brutalism, Seamfulness, and Notion
-slug: dorn/web-brutalism
+slug: web-brutalism
 author: Brandon Dorn
 year: 2020
 source: https://www.viget.com/articles/web-brutalism-seamfulness-and-notion/

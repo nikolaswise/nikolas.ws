@@ -1,6 +1,6 @@
 ---
 title: Design Systems, Agile, and Industrialization
-slug: frost/design-systems-agile-and-industrialization
+slug: design-systems-agile-and-industrialization
 author: Brad Frost
 year: 2020
 source: https://bradfrost.com/blog/post/design-systems-agile-and-industrialization/

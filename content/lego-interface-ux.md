@@ -1,6 +1,6 @@
 ---
 title: The UX of LEGO Interface Panels
-slug: cave/the-ux-of-lego-interface-panels
+slug: the-ux-of-lego-interface-panels
 author: George Cave
 year: 2020
 source: https://www.designedbycave.co.uk/2020/LEGO-Interface-UX/

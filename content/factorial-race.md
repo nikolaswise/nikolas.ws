@@ -5,6 +5,11 @@ date: 2021.06.07
 slug: factorial-race
 type: text, texts
 ---
+<script>
+  import EffeciencyCalculator from '../components/EffeciencyCalculator.svelte'
+</script>
+
+<EffeciencyCalculator />
 
 For the past while now, I've been tinkering on [a side project](https://www.dicegraph.com/) that builds and graphs arbitrary probability distributions created by dice rolling outcomes. It's extremely niche and dorky, but it's a been a really fun way to explore both product design development and new concepts in math and programming that have otherwise never presented themselves during my career.
 

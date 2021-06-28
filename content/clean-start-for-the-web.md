@@ -1,6 +1,6 @@
 ---
 title: A Clean Start for the Web
-slug: macwright/a-clean-start-for-the-web
+slug: a-clean-start-for-the-web
 thesis: How do we make the web fun, participatory, and good?
 source: https://macwright.com/2020/08/22/clean-starts-for-the-web.html
 author: Tom Macwright

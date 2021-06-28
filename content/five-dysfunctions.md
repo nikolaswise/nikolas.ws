@@ -1,6 +1,6 @@
 ---
 title: The Five Dysfunctions of a Team
-slug: lencioni/five-disfunctions
+slug: five-disfunctions
 author: Patrick Lencioni
 year: 2002
 source: https://www.tablegroup.com/books/dysfunctions/

@@ -1,22 +1,21 @@
-<script context="module">
-  import items from '../data/index.json'
-  let content = new Map(items)
+<mark>
+  {#if clientSide}
+    <mark>hey</mark>
+    { new FactorialRace({
+      target: document.querySelector(main),
+    }) }
+  {/if}
+</mark>
 
+<script context="module">
   export async function preload({ params }) {
-    let slug = params.slug;
-    let item = content.get(slug)
-    return {slug, item}
+    let slug = params.slug
+    return { slug }
   }
 </script>
 
 <script>
-  import Meta from '../components/Meta.svelte'
-  export let slug, item
+  import FactorialRace from '../render/factorial-race'
+
+  let clientSide = typeof document != 'undefined'
 </script>
-
-<date>{item.data.fm.date}</date>
-<h1>{item.data.fm.title}</h1>
-
-<h2>{@html item.data.fm.description}</h2>
-
-{@html item.code }

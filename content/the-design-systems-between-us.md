@@ -1,6 +1,6 @@
 ---
 title: The Design System Between Us
-slug: marcotte/the-design-system-between-us
+slug: the-design-system-between-us
 author: Ethan Marcotte
 year: 2020
 source: https://ethanmarcotte.com/wrote/the-design-systems-between-us

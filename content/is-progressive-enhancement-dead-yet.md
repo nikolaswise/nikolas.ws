@@ -1,6 +1,6 @@
 ---
 title: Is Progressive Enhancement Dead Yet?
-slug: pickering/is-progressive-enhancement-dead-yet
+slug: is-progressive-enhancement-dead-yet
 author: Heydon Pickering
 year: 2021
 source: https://briefs.video/videos/is-progressive-enhancement-dead-yet/

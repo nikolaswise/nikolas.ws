@@ -1,6 +1,6 @@
 ---
 title: Foucault's Pendulum
-slug: eco/foucaults-pendulum
+slug: foucaults-pendulum
 author: Umberto Eco
 year: 1982
 source: https://bookshop.org/books/foucault-s-pendulum-9780151327652/9780156032971

@@ -1,3 +1,5 @@
+- https://privatealpha.com/ontology/content-inventory
+- https://gbv.github.io/jskos/jskos.html
 - https://threads.js.org/
 - https://k6.io/
 - http://www.heppnetz.de/projects/goodrelations/

@@ -6,7 +6,6 @@ import babel from '@rollup/plugin-babel';
 import json from '@rollup/plugin-json';
 import { terser } from 'rollup-plugin-terser';
 import config from 'sapper/config/rollup.js';
-import { mdsvex } from "mdsvex";
 import pkg from './package.json';
 
 const mode = process.env.NODE_ENV;
@@ -29,14 +28,9 @@ export default {
 				dev,
 				hydratable: true,
 				emitCss: true,
-				preprocess: mdsvex({
-					extension: ".svx"
-				}),
-				extensions: [".svelte", ".svx"]
 			}),
 			resolve({
-				browser: true,
-				dedupe: ['svelte']
+				extensions: ['.mjs', '.js', '.json', '.svelte', '.html']
 			}),
 			commonjs(),
 

@@ -1,6 +1,6 @@
 ---
 title: What do we lose when it's easy to use?
-slug: pressman/medium-design
+slug: medium-design
 author: Andy Pressman
 year: 2016
 source: https://designportland.org/stories/2016/what-do-we-lose-when-its-easy-to-use

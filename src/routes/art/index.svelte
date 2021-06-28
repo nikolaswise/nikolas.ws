@@ -93,7 +93,7 @@
   {#each filteredList as art}
     {#if art.data.fm.title}
       <li>
-        <a rel="prefetch" href="/{art.data.fm.slug}">
+        <a sapper:prefetch href="/{art.data.fm.slug}">
           <span>
             {art.data.fm.title}
           </span>

@@ -37,7 +37,7 @@
     <li>
       <a
         on:click={closeNav}
-        rel="prefetch"
+        sapper:prefetch
         href="/texts">
         Texts
       </a>
@@ -45,7 +45,7 @@
     <li>
       <a
         on:click={closeNav}
-        rel="prefetch"
+        sapper:prefetch
         href="/projects">
         Projects
       </a>
@@ -53,7 +53,7 @@
     <li>
       <a
         on:click={closeNav}
-        rel="prefetch"
+        sapper:prefetch
         href="/art">
         Visual Art
       </a>
@@ -61,7 +61,7 @@
     <li>
       <a
         on:click={closeNav}
-        rel="prefetch"
+        sapper:prefetch
         href="/bibliography">
         Bibliography
       </a>
@@ -70,7 +70,7 @@
     <li>
       <a
         on:click={closeNav}
-        rel="prefetch"
+        sapper:prefetch
         href="/resources">
         Resources
       </a>

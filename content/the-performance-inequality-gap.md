@@ -1,6 +1,6 @@
 ---
 title: The Performance Inequality Gap
-slug: russel/the-performance-iniquality-gap
+slug: the-performance-iniquality-gap
 author: Alex Russel
 year: 2021
 source: https://infrequently.org/2021/03/the-performance-inequality-gap/

@@ -1,6 +1,6 @@
 ---
 title: The Cost of Javascript Frameworks
-slug: kadlec/the-cost-of-javascript-frameworks
+slug: the-cost-of-javascript-frameworks
 author: Tim Kadlec
 year: 2020
 source: https://timkadlec.com/remembers/2020-04-21-the-cost-of-javascript-frameworks/

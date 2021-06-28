@@ -1,6 +1,6 @@
 ---
 title: Medium Design
-slug: easterling/medium-design
+slug: medium-design
 author: Keller Easterling
 year: 2020
 source: https://www.e-flux.com/journal/106/312238/medium-design/

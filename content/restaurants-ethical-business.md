@@ -1,6 +1,6 @@
 ---
 title: There Really Is No Ethical Restaurant Under Capitalism
-slug: saxena/there-really-is-no-ethical-restaurant-under-capitalism
+slug: there-really-is-no-ethical-restaurant-under-capitalism
 source: https://www.eater.com/21398969/future-co-op-worker-owned-restaurants-ethical-business
 author: Jaya Saxena
 year: 2020

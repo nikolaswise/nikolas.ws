@@ -1,6 +1,6 @@
 ---
 title: An Empty Room V
-slug: empty-room-i
+slug: empty-room-v
 source: https://photos.smugmug.com/Prints/Prints/i-K3KMsx8/0/49163269/XL/empty-room-5-800-XL.png
 alt: Black and white Risograph with halftone dots depecting an empty room, a small closet in the foreground.
 description: One layer Risograph on Stonehenge Cream \#110

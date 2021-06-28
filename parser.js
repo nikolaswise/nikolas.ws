@@ -8,8 +8,10 @@ const mili = require('./images.js')
 const hljs = require('highlight.js')
 const typeset = require('typeset')
 const urlMetadata = require('url-metadata')
+const svelte = require('svelte/compiler');
 
 let collectionPath = path.join(process.cwd(), `/src/data`)
+let componentPath = path.join(process.cwd(), `/src/render/`)
 
 // Read content files
 const source = () => new Promise((resolve, reject) => {
@@ -71,18 +73,25 @@ const svexify = async (paths) => {
 
 const orderMostRecent = (a, b) => b.data.fm.timestamp - a.data.fm.timestamp
 
-const writeJSON = (files) => {
-  let orderedFiles = files
-    .sort(orderMostRecent)
-    .map((file) => [file.data.fm.slug, file])
+const writeComponents = (files) => {
+  files.forEach(file => {
+    console.log(`------`)
+    console.log(file.code)
+    console.log(`>>>>>>>`)
+    const result = svelte.compile(file.code, {
+      tag: `component-${file.data.fm.slug}`
+    })
+    console.log(result.js.code)
 
-  fs.writeFile(`${collectionPath}/index.json`, JSON.stringify(orderedFiles), writeErr)
+    fs.writeFile(`${componentPath}/${file.data.fm.slug}.js`, result.js.code, writeErr)
+  })
 
   return files
 }
 
 const writeSummaries = (files) => {
   let fileMetas = files
+    .sort(orderMostRecent)
     .map((file) => file.data.fm)
 
   fs.writeFile(`${collectionPath}/meta.json`, JSON.stringify(fileMetas), writeErr)
@@ -92,7 +101,8 @@ const writeSummaries = (files) => {
 
 source()
   .then(svexify)
-  .then(writeJSON)
+  // .then(compileSvelte)
+  .then(writeComponents)
   .then(writeSummaries)
   .catch(e => {
     console.error(e)

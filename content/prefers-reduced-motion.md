@@ -1,6 +1,6 @@
 ---
 title: prefers-reduced-motion; Taking a no-motion-first approach to animations
-slug: mac/prefers-reduced-motion
+slug: prefers-reduced-motion
 source: https://tatianamac.com/posts/prefers-reduced-motion/
 author: Tatiana Mac
 year: 2021
