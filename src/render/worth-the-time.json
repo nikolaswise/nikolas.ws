@@ -1,0 +1,1 @@
+{"data":{"fm":{"title":"Is it Worth the Time?","slug":"worth-the-time","date":"2021.06.24","description":"Testing importing components.","type":"text"},"code":"<p>&lt;script&gt;\nimport EffeciencyCalculator from '../src/components/EffeciencyCalculator.svelte';\n&lt;/script&gt;</p>\n<p>Lets see if this works…</p>\n<p>&lt;EffeciencyCalculator /&gt;</p>\n"}}

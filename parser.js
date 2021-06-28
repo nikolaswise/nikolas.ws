@@ -11,7 +11,6 @@ const urlMetadata = require('url-metadata')
 const svelte = require('svelte/compiler');
 
 let collectionPath = path.join(process.cwd(), `/src/data`)
-let componentPath = path.join(process.cwd(), `/src/render/`)
 
 // Read content files
 const source = () => new Promise((resolve, reject) => {
@@ -71,21 +70,39 @@ const svexify = async (paths) => {
   return markups
 }
 
+const render = (file) => new Promise((resolve, reject) => {
+  let md = new MarkdownIt()
+  let fm = matter(file.value).data
+  try {
+    let prerender = matter(file.value)
+    let fm = prerender.data
+    let html = md.render(prerender.content)
+    resolve({
+      data: {
+        fm: fm,
+        code: html
+      }
+    })
+  } catch (e) {
+    reject(e)
+  }
+})
+
+const renderMarkdown = async (paths) => {
+  let files = await Promise.allSettled(paths.map(path => getFile(path)))
+  let renders = await Promise.allSettled(files.map(file => render(file)))
+  let markup = renders.map(render => render.value)
+  return markup
+}
+
 const orderMostRecent = (a, b) => b.data.fm.timestamp - a.data.fm.timestamp
 
 const writeComponents = (files) => {
   files.forEach(file => {
+    console.log(file)
     console.log(`------`)
-    console.log(file.code)
-    console.log(`>>>>>>>`)
-    const result = svelte.compile(file.code, {
-      tag: `component-${file.data.fm.slug}`
-    })
-    console.log(result.js.code)
-
-    fs.writeFile(`${componentPath}/${file.data.fm.slug}.js`, result.js.code, writeErr)
+    fs.writeFile(`${collectionPath}/${file.data.fm.slug}.json`, JSON.stringify(file), writeErr)
   })
-
   return files
 }
 
@@ -100,8 +117,7 @@ const writeSummaries = (files) => {
 }
 
 source()
-  .then(svexify)
-  // .then(compileSvelte)
+  .then(renderMarkdown)
   .then(writeComponents)
   .then(writeSummaries)
   .catch(e => {

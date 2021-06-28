@@ -1,21 +1,16 @@
-<mark>
-  {#if clientSide}
-    <mark>hey</mark>
-    { new FactorialRace({
-      target: document.querySelector(main),
-    }) }
-  {/if}
-</mark>
+{@html data.code}
 
 <script context="module">
-  export async function preload({ params }) {
+  export async function preload({params}) {
     let slug = params.slug
-    return { slug }
+    const r = await this.fetch(`resource?slug=${slug}`);
+    const resource = await r.json();
+    return { data: resource.data };
   }
 </script>
 
-<script>
-  import FactorialRace from '../render/factorial-race'
 
-  let clientSide = typeof document != 'undefined'
+<script>
+  export let data
+  console.log(data)
 </script>

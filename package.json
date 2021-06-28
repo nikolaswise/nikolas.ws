@@ -23,9 +23,11 @@
     "fuse.js": "^6.4.6",
     "honeycomb-beeline": "^2.2.0",
     "libhoney": "^2.2.1",
+    "node-fetch": "^2.6.1",
     "polka": "next",
     "sirv": "^0.4.0",
     "useragent": "^2.3.0",
+    "whatwg-fetch": "^3.6.2",
     "yamlparser": "^0.0.2"
   },
   "devDependencies": {
