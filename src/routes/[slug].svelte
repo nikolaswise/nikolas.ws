@@ -120,9 +120,15 @@
     return filename
   }
 
-  let width = `{width}`
-  let urlBase = getCDNBase(data.fm.source)
-  let filename = getCDNfilename(data.fm.source)
+  let width
+  let urlBase
+  let filename
+
+  if (data.fm.media && data.fm.source) {
+    width = `{width}`
+    urlBase = getCDNBase(data.fm.source)
+    filename = getCDNfilename(data.fm.source)
+  }
 </script>
 
 <style>

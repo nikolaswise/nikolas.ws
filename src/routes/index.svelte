@@ -17,7 +17,7 @@
 
     <date>{latestText.date}</date>
     <h3>
-      <a href="/texts/{latestText.slug}">
+      <a href="/{latestText.slug}">
         {latestText.title}
       </a>
     </h3>
@@ -30,7 +30,7 @@
   <div class="text">
     <date>{text.date}</date>
     <h3>
-      <a href="/texts/{text.slug}">
+      <a href="/{text.slug}">
         {text.title}
       </a>
     </h3>
