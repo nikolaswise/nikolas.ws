@@ -14,13 +14,29 @@
   </p>
 {/if}
 
+{#if data.fm.source}
+  <div class="metadata">
+    <p>
+      Source: <a href="{data.fm.source}">{data.fm.source}</a>
+    </p>
+    <p>
+      Author: {data.fm.author}
+    </p>
+    <p>
+      Year: {data.fm.year}
+    </p>
+    <p>
+      Tagged: {data.fm.tags}
+    </p>
+  </div>
+{/if}
 
 {#if data.fm.description}
   <h2>
     {@html data.fm.description}
   </h2>
 {:else if data.fm.thesis}
-  <h2>
+  <h2 class="thesis">
     {@html data.fm.thesis}
   </h2>
 {/if}
