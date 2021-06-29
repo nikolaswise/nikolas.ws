@@ -69,6 +69,7 @@ const render = (file) => new Promise((resolve, reject) => {
   try {
     let prerender = matter(file.value)
     let fm = prerender.data
+    fm.timestamp = Date.parse(fm.date)
     let html = md.render(prerender.content)
     resolve({
       data: {
@@ -91,11 +92,12 @@ const renderMarkdown = async (paths) => {
 const orderMostRecent = (a, b) => b.data.fm.timestamp - a.data.fm.timestamp
 
 const writeComponents = (files) => {
-  files.forEach(file => {
-    console.log(file)
-    console.log(`------`)
-    fs.writeFile(`${collectionPath}/${file.data.fm.slug}.json`, JSON.stringify(file), writeErr)
-  })
+  files
+    .sort(orderMostRecent)
+    .forEach(file => {
+      fs.writeFile(`${collectionPath}/${file.data.fm.slug}.json`, JSON.stringify(file), writeErr)
+    })
+  console.log(files.map(file => file.data.fm))
   return files
 }
 

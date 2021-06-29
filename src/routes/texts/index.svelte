@@ -36,11 +36,11 @@
 <h1>Texts</h1>
 
 {#each texts as text}
-  <date>{text.data.fm.date}</date>
+  <date>{text.date}</date>
   <h2>
-    <a href="/{text.data.fm.slug}">
-      {text.data.fm.title}
+    <a href="/{text.slug}">
+      {text.title}
     </a>
   </h2>
-  <p>{@html text.data.fm.description}</p>
+  <p>{@html text.description}</p>
 {/each}

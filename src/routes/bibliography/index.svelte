@@ -16,7 +16,7 @@
 
   const contains = (searchTerm) => (annotation) => {
     let standardTerm = searchTerm.toLowerCase()
-    let standardMeta = JSON.stringify(annotation.data.fm).toLowerCase()
+    let standardMeta = JSON.stringify(annotation).toLowerCase()
     return standardMeta.indexOf(standardTerm) !== -1
   }
 
@@ -80,26 +80,26 @@
 </form>
 
 {#each filteredList as annotation}
-  {#if annotation.data.fm.title}
+  {#if annotation.title}
     <section>
       <h2>
-        <a href="{annotation.data.fm.source}">
-          {annotation.data.fm.title}
+        <a href="{annotation.source}">
+          {annotation.title}
         </a>
       </h2>
       <div class="metadata">
         <p>
-          Author: {annotation.data.fm.author}
+          Author: {annotation.author}
         </p>
         <p>
-          Year: {annotation.data.fm.year}
+          Year: {annotation.year}
         </p>
         <p>
-          Tagged: {annotation.data.fm.tags}
+          Tagged: {annotation.tags}
         </p>
       </div>
-      <p>{annotation.data.fm.thesis}</p>
-      <p><a href="/{annotation.data.fm.slug}">Annotations ☞</a></p>
+      <p>{annotation.thesis}</p>
+      <p><a href="/{annotation.slug}">Annotations ☞</a></p>
     </section>
   {/if}
 {/each}

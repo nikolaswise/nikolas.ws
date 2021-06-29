@@ -15,7 +15,7 @@
 
   const contains = (searchTerm) => (art) => {
     let standardTerm = searchTerm.toLowerCase()
-    let standardMeta = JSON.stringify(art.data.fm).toLowerCase()
+    let standardMeta = JSON.stringify(art).toLowerCase()
     return standardMeta.indexOf(standardTerm) !== -1
   }
 
@@ -91,20 +91,20 @@
 
 <ul>
   {#each filteredList as art}
-    {#if art.data.fm.title}
+    {#if art.title}
       <li>
-        <a sapper:prefetch href="/{art.data.fm.slug}">
+        <a sapper:prefetch href="/{art.slug}">
           <span>
-            {art.data.fm.title}
+            {art.title}
           </span>
           <span>
-            {art.data.fm.media}
+            {art.media}
           </span>
           <span>
-            {art.data.fm.size}
+            {art.size}
           </span>
           <span>
-            {art.data.fm.date}
+            {art.date}
           </span>
         </a>
       </li>

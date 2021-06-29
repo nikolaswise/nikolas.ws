@@ -35,11 +35,11 @@
 <h1>Projects</h1>
 
 {#each projects as project}  
-  <date>{project.data.fm.date}</date>
+  <date>{project.date}</date>
   <h2>
-    <a href="/{project.data.fm.slug}">
-      {project.data.fm.title}
+    <a href="/{project.slug}">
+      {project.title}
     </a>
   </h2>
-  <p>{@html project.data.fm.description}</p>
+  <p>{@html project.description}</p>
 {/each}

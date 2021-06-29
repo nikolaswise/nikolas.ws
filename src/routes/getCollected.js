@@ -1,7 +1,9 @@
-import items from '../data/index.json'
+import items from '../data/meta.json'
 
-let content = new Map(items)
-
-const getCollected = (term) => [...content.values()].filter(item => item.data.fm.type.includes(term))
+const getCollected = (term) => items
+  .filter(item => typeof item.type != 'undefined')
+  .filter(item => !item.draft)
+  .filter(item => !item.archived)
+  .filter(item => item.type.includes(term))
 
 export default getCollected
