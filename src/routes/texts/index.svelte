@@ -38,7 +38,7 @@
 {#each texts as text}
   <date>{text.data.fm.date}</date>
   <h2>
-    <a href="/texts/{text.data.fm.slug}">
+    <a href="/{text.data.fm.slug}">
       {text.data.fm.title}
     </a>
   </h2>

@@ -37,7 +37,7 @@
 {#each projects as project}  
   <date>{project.data.fm.date}</date>
   <h2>
-    <a href="/projects/{project.data.fm.slug}">
+    <a href="/{project.data.fm.slug}">
       {project.data.fm.title}
     </a>
   </h2>
