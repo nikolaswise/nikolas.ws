@@ -6,10 +6,6 @@ description: Testing importing components.
 type: text
 ---
 
-<script>
-  console.log('run js in here')
-</script>
-
 Lets see if this works…
 
-<EffeciencyCalculator />
+<efficiency-calculator />

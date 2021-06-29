@@ -26,6 +26,7 @@ export default {
 			}),
 			svelte({
 				dev,
+				customElement: true,
 				hydratable: true,
 				emitCss: true,
 			}),

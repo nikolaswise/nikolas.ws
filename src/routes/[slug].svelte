@@ -1,4 +1,4 @@
-{@html data.code}
+{ @html data.code }
 
 <script context="module">
   export async function preload({params}) {

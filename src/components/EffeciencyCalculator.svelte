@@ -1,5 +1,3 @@
-<svelte:options tag="efficiency-calculator" />
-
 <p>
   Let's spend some time now making a routine task more efficient. If this is a task someone does
   <input type="number" bind:value={task_frequency}>
