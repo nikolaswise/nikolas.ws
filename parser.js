@@ -60,16 +60,6 @@ const generateResources = async () => {
   fs.writeFile(`${collectionPath}/resources.json`, JSON.stringify(data), writeErr)
 }
 
-const svexify = async (paths) => {
-  let files = await Promise.allSettled(paths.map(path => getFile(path)))
-  let contents = files.map(file => file.value)
-  let parsed = await Promise.allSettled(contents.map(content => compile(content)))
-  let markups = parsed
-    .map(parse => parse.value)
-    .filter(file => file.data.fm != undefined)
-  return markups
-}
-
 const render = (file) => new Promise((resolve, reject) => {
   let md = new MarkdownIt({
     html: true,
