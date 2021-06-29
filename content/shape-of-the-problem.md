@@ -23,9 +23,9 @@ Rephrased, the components are:
 
 1. The Ontology / Structure
 2. The Editor Interface 
-3. The Rendered Form\  
+3. The Rendered Form\
 	a. A Dynamic form\
-	b. A Static form\
+	b. A Static form
 
 Note that the Dynamic form is not _necessarily_ a server or client-side rendered experience, but a way of seeing the changes you're making before committing to a production state.  The Static form then is not _necessarily_ a static asset (it can be server or client side generated from a database) but denotes a _stable production state_ as viewed by a audience.
 
