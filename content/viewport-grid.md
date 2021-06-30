@@ -9,6 +9,12 @@ block: text
 type: projects, esri
 ---
 
+<script>
+  import Introduction from '../components/Introduction.svelte'
+</script>
+
+<Introduction {metadata} />
+
 ### What It Is
 A viewport based CSS grid system that defines column widths as a set percentage of the screen rather the width of a container.
 

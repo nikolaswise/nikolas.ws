@@ -9,6 +9,12 @@ block: text
 type: projects, department
 ---
 
+<script>
+  import Introduction from '../components/Introduction.svelte'
+</script>
+
+<Introduction {metadata} />
+
 ### Concept
 
 I've been playing Go (poorly) for the past 10 years or so ( on and off), so when [Paul](http://paulcpederson.com/) asked me if I knew how to play after the recent [triumph of AlphaGo]() over Lee Sedol, 9 Dan, I was pretty excited to have an opponent. Paul learned the game quick and soon was playing at my level (and slightly above!). We played over lunch, and one day when we were both working from home rather than the office, we decided to see what was out there for playing online.

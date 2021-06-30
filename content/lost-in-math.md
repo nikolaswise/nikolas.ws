@@ -9,6 +9,12 @@ thesis: In theoretical physics, the proliferation of theory outstrips the pace o
 type: annotation, bibliography
 ---
 
+<script>
+  import Introduction from '../components/Introduction.svelte'
+</script>
+
+<Introduction {metadata} />
+
 Hossenfelder has written an outstanding book — not only has she provided an accessible pop-sci introduction to _all of physics_ but she also has included a sharp and insightful critique of the _theory of theoretical physics_. What's more, the whole things is written with an air of approachability and dry cutting wit. The book is makes me want to loan it to everyone I know and stop writing, since I'll never be able to write as well, as insightfully, or as entertainingly as Hossenfelder. Anyway, on to the content!
 
 Hossenfelder covers a _lot_ of ground in this slim novel, and all of it is interesting. For this annotation however, I'm going to focus on her argumentation around aesthetic influence over hard science, my take on the root causes of the problems she identifies, and Appendix C — "What You Can Do To Help" — which I found surprisingly relevant to issues in "The Industry" of web development.

@@ -9,6 +9,12 @@ thesis: When we construct the digital world to the limits of the best devices, w
 type: annotation, bibliography
 ---
 
+<script>
+  import Introduction from '../components/Introduction.svelte'
+</script>
+
+<Introduction {metadata} />
+
 Russel identifies web performance as a long-standing issue that took new significance a few years back with the combined proliferation of front end frameworks and low-end android phones. Russel identifies that the experience of _being_ on the web is about the whole experience, and any given slowdown in that experience creates a negative impression of the entire experience, raising the stakes of poor performance across the entire web ecosystem.
 
 Russel notes that baseline devices are getting better, but our bundle sizes continue to bloat.

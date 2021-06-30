@@ -9,6 +9,12 @@ thesis: The essence of Web Brutalism is a way of creating spaces for thought and
 type: annotation, bibliography
 ---
 
+<script>
+  import Introduction from '../components/Introduction.svelte'
+</script>
+
+<Introduction {metadata} />
+
 > The web is fundamental to modern life, but modern life is also weird and bizarre and our commitment to usability needn’t hinder the expression of that strangeness.
 
 Dorn is writing from the tension between the "weird web" where usability isn't the primary concern for creating interesting and compelling experiences, and the moral and legal ramifications of universal accessibility. 

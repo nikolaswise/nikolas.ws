@@ -7,6 +7,12 @@ draft: true
 type: text, texts
 ---
 
+<script>
+  import Introduction from '../components/Introduction.svelte'
+</script>
+
+<Introduction {metadata} />
+
 Internet and screens,
 
 Worked for three yeas with the seri Portland dev team, sent a log of time working on arches developers and arches online. After that, I started my ow studio practice, publishing, GIS consultant work, technical director / Dev director at Fuzzco.
@@ -54,9 +60,9 @@ What does that mean tho? What is good?
 
 I think that goos is always relative to where you are, our what you're trying to do. If we open that idea of good up a little bit, and we start talking about Good Things in the Expanded field Theres three axis I think are really important that we can work in:
 
-1. Useful <-> Useless
-2. Simple <-> Complicated
-3. Ugly <-> Beautiful
+1. Useful ⟷ Useless
+2. Simple ⟷ Complicated
+3. Ugly ⟷ Beautiful
 
 
 Its not saying that "useful maps are bad" or "useless maps are good" but you have you understand where does your map fall on this spectrum of useful to useless. Like the gunpowder maps Im seeing around the hall – not super useful. But also good! You just hae to understand what your goal is int art spectrum, and makes sure that your decisions are hello you arrive there. Same with simple o complicateioed. The simple map is rally good as long as you're using it simply. If your trying to navigate in Denmark, and your using that dot map, its actually a super bad ma[p! It depends where you want to be on the spectrum. Like ugly to beautiful. Ugly gets a bad rap and I want to defend ugly for second. Craigslist! Pretty ugly! Pretty good!
@@ -65,7 +71,7 @@ Its all about not saying "you need to be useful, and simple, and beautiful, and 
 
 This is data tho. This is not art. So I think maps have a fourth really important spectrum here, and that's the space between:
 
-4. True <-> Not True
+4. True ⟷ Not True
 
 Again, I don't want to say "Not true maps re bad" but if your trying to be truthful, and your using your class breaks in away that hide the reality of your data, you've made a bad map. If your trying go over the top, and make point, you can elide the truth a little bit and make a good map. 
 

@@ -9,6 +9,12 @@ thesis: Progressively enhancing web applications is not only an essential practi
 type: annotation, bibliography
 ---
 
+<script>
+  import Introduction from '../components/Introduction.svelte'
+</script>
+
+<Introduction {metadata} />
+
 Pickering wants to talk about Progressive Enhancement, but apparently a lot of people are over it and want to be done with it. Pickering thinks that putting progressive enhancement to bed – and worrying about it no more would be a "grave" mistake. 
 
 Pickering addresses some common misconceptions. 

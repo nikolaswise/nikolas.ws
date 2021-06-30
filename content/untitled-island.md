@@ -9,3 +9,9 @@ media: Risograph
 alt: Black and white print of gridded lines, distortd and crumpled to form a vaguely geographic form.
 type: art, risograph, edition
 ---
+
+<script>
+  import Introduction from '../components/Introduction.svelte'
+</script>
+
+<Introduction {metadata} />

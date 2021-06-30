@@ -7,6 +7,12 @@ type: projects, department
 archived: true
 ---
 
+<script>
+  import Introduction from '../components/Introduction.svelte'
+</script>
+
+<Introduction {metadata} />
+
 What it is:
 A catalog and ecommerce website for Euegene based letterpress printer Sandy Tilcock.
 

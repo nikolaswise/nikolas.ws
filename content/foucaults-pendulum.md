@@ -9,6 +9,12 @@ thesis: The horror of meaninglessness leads us to seek a deeper meaning in parei
 type: annotation, bibliography
 ---
 
+<script>
+  import Introduction from '../components/Introduction.svelte'
+</script>
+
+<Introduction {metadata} />
+
 Reading Foucault's Pendulum in 2021 was a deeply depressing experience. 
 
 To speak directly to the current client of conspiracy theory and American politics, Eco deals _explicitly and directly_ with emergent facism and proliferation of conspiracy theory. In 1982. And focuses on Christian nationalism. In 1982. And basically sketches out the situation that led to the crises that led to Jan. 6. In 1982. 

@@ -6,6 +6,12 @@ description: They don't.
 type: text, texts
 ---
 
+<script>
+  import Introduction from '../components/Introduction.svelte'
+</script>
+
+<Introduction {metadata} />
+
 Talking about mobile design today, the conversation is couched in terms of "pixel perfect", or designs are made by "pixel pushers". This isn't a useful way to approach layout design.
 
 In the analog world we talk about the three fundamental components of print.

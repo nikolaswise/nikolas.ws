@@ -6,6 +6,12 @@ slug: headless-cms-introduction
 type: text, texts
 ---
 
+<script>
+  import Introduction from '../components/Introduction.svelte'
+</script>
+
+<Introduction {metadata} />
+
 A Content Management System is a central aspect of any web project - even projects where you would never think of as "having" or "using" a CMS. In these sorts of projects the content management system _is_ the codebase, and the strategy for managing content is identical to the process for managing code. This, obviously, is not ideal for anyone who wants to edit content and not code, or in uncomfortable in the workflows that developers rely on for our day-to-day practice — like Git. The other end of the spectrum of CMS is something like Squarespace — the code is the content. Not ideal if you want to edit code and not content. A traditional CMS like Wordpress attempts to split the difference; the CMS controls the code and the content, but makes an attempt to keep them at least a little independant by storage content in a database and providing an admin interface for editing and authoring that content.
 
 All of the above approach the problem of content management with the same set of assumptions: the CMS is responsible for taking the content, combining it with the code, and assembling and delivering the entire website. Both parts are coupled together, with the CMS rendering the "head" of the website or app.

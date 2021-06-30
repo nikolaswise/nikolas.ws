@@ -1,4 +1,17 @@
 {
   "version": 2,
-  "builds": [{ "src": "package.json", "use": "vercel-sapper" }]
+  "builds": [{ "src": "package.json", "use": "vercel-sapper" }],
+  "redirects": [{
+      "source": "/texts/:slug",
+      "destination": "/:slug"
+  },{
+      "source": "/projects/:slug",
+      "destination": "/:slug"
+  },{
+      "source": "/bilbiography/:slug",
+      "destination": "/:slug"
+  },{
+      "source": "/art/:slug",
+      "destination": "/:slug"
+  }]
 }

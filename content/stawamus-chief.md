@@ -9,3 +9,9 @@ media: Risograph
 alt: A tree beside a pool on the summit of a mountain.
 type: art, risograph, edition
 ---
+
+<script>
+  import Introduction from '../components/Introduction.svelte'
+</script>
+
+<Introduction {metadata} />

@@ -10,6 +10,12 @@ date: 2020.08.24
 type: annotation, bibliography
 ---
 
+<script>
+  import Introduction from '../components/Introduction.svelte'
+</script>
+
+<Introduction {metadata} />
+
 
 > Most interfaces in our world contain a blend of digital screens and analog inputs like switches and dials
 

@@ -9,6 +9,12 @@ thesis: Someone sent me a copy of _The Five Dysfunctions of a Team_. I didn't re
 type: annotation, bibliography
 ---
 
+<script>
+  import Introduction from '../components/Introduction.svelte'
+</script>
+
+<Introduction {metadata} />
+
 _The Five Dysfunctions of a Team_ by Lencioni reads like middle-manager fan fiction. Beyond the outrageously bad dialogue and cutely arranged set pieces, all spread out across large type, short chapters, and generous white space to pad this brief seminar into a “real book”, Lencioni’s thesis throughout is freighted with the zeitgeist of the early 2000s late capitalist striving.
 
 Structuring this self-help seminar for middle managers disillusioned with their directionless grind to nowhere as a "fable" (or "bad fiction") makes it read like a shockingly earnest first draft of Max Barry's _Company_, which is a satirical skewering of corporate management consultants and practices.

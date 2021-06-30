@@ -9,3 +9,9 @@ media: Risograph
 alt: Yellow and pink arcs vertically stacked.
 type: art, risograph, edition
 ---
+
+<script>
+  import Introduction from '../components/Introduction.svelte'
+</script>
+
+<Introduction {metadata} />

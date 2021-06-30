@@ -6,6 +6,12 @@ slug: an-ethical-web-development
 type: text, texts
 ---
 
+<script>
+  import Introduction from '../components/Introduction.svelte'
+</script>
+
+<Introduction {metadata} />
+
 Since the beginning of this summer, with everything that’s descending upon us with Covid-19 and the Black Lives Matter uprising, it feels like we are living through a moment of moral accounting. In Portland, antifa is in the street in running battles with secret police, exploited workers are speaking up about the realities of our treasured restaurant industry, business owners are shutting down and pulling a disappearing act instead of facing accountability for their behavior. This has me thinking about _my_ industry, which we all know has massive problems around racism, techno-fascism, and robber-baron level exploitation. We’re still dealing with people who read _Snow Crash_ and _Neuromancer_ and think those books were descriptions of Utopias. 
 
 There are a lot of people doing hard work right now to address these issues in the industry, working to identify how we can — as businesses — move toward a more just system of working, how we need to avoid baking our prejudices in to the AIs we build, and how the physical underpinning of the internet is built on an exploitative and extractive logic of global capital. This is all good and necessary work. It makes me think though, about if there are distinctions between the craft and practice of web development and the business logic and drive the industry. The industry vs the practice - as in the technical skill of painting vs the economic system of patronage. Clearly they are related, and clearly our conception of painting has always been tied to the economic structures that make it a reality as a profession, but is there a way to think about an Ethical Web Development? It would be tied to running an ethical business, and necessarily need to be supporting by an ethical economic system, but how could we articulate what it would look like the perform the craft and practice of web development ethically? What would an antiracist and antifascist web development practice look like?s

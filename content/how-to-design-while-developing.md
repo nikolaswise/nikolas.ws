@@ -6,6 +6,12 @@ description: Moving beyond the idea that the designer and the developer on a web
 type: text, texts
 ---
 
+<script>
+  import Introduction from '../components/Introduction.svelte'
+</script>
+
+<Introduction {metadata} />
+
 For a long time, websites got made with one person designing how it should look and one person developing the code that made it look that way.
 
 A lot of times, this is still how things get done - one team makes static Photoshop comps, and hands them off to a team of developers who know stuff like whether React or Ember or Node or Ruby is the best thing. This can sometimes cause friction. The designer expects the website to look exactly like the comp, the developer writes a bunch of custom CSS and HTML to fit the design, and whoever needs to make sure the whole thing is WCAAG compliant spends weeks hating both of them. When the next comp comes down the line, it all happens again. For a big site, this leads to design drift, and a hugely tangled codebase that’s a [nightmare to try and untangle](http://paulcpederson.com/articles/css-for-people-who-hate-css/).

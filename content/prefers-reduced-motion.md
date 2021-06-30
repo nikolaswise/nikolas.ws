@@ -9,6 +9,12 @@ thesis: Use the prefers-reduced-motion media query to help guide your animation 
 type: annotation, bibliography
 ---
 
+<script>
+  import Introduction from '../components/Introduction.svelte'
+</script>
+
+<Introduction {metadata} />
+
 While animations can be quite powerful tools for communication relationships and building a brand, Mac notes that "Animations, especially when overused and abused, can make people very ill."
 
 Mac notes that in their practice, the guiding approach is to default to the users explicit preferences:

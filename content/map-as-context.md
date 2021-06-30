@@ -6,6 +6,12 @@ description: Understanding maps as designed objects and attempting to define a t
 type: text, texts
 ---
 
+<script>
+  import Introduction from '../components/Introduction.svelte'
+</script>
+
+<Introduction {metadata} />
+
 Looking at maps as they exist today on the internet, we have a pretty solid idea of what that means. It means they look like Google Maps. This is a pretty recent design solution to the 'what is a map on the internet' problem, only about 10 years old. Which is old for internet, but pretty young for maps. The Google Maps model is a good one, too! It's a very effective way to present what is essentially a road map - a drivers atlas for navigating a city or a country. Google Maps replaces the AAA State Highway map really effectively, but perhaps there are some weak links with how it applies to other, less navigation-oriented maps.
 
 ![](01-amt2_akershus-amt-57-vi_1887.jpg)

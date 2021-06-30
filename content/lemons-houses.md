@@ -9,3 +9,9 @@ size: 12x19 inches
 media: Risograph
 type: art, risograph, edition
 ---
+
+<script>
+  import Introduction from '../components/Introduction.svelte'
+</script>
+
+<Introduction {metadata} />

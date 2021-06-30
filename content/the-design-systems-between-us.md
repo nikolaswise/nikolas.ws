@@ -9,6 +9,12 @@ tags: design systems, design/development
 type: annotation, bibliography
 ---
 
+<script>
+  import Introduction from '../components/Introduction.svelte'
+</script>
+
+<Introduction {metadata} />
+
 > But in my experience, design systems haven’t brought this kind of rich, cross-functional collaboration to most organizations. Instead, the existing divisions between design and implementation have become entrenched, and massively so.
 
 Marcotte has observed that design systems solidify, codify, and reinforce existing divisions between the silos of 'engineering' and 'designing'. He identifies that there has not been any tooling that's emerged to work in the space between designing and developing, and our tools today are still one-or-the-other. Marcotte also references others like Tom MacWright and Tim Kadlec in identifying that the contemporary complexity and weight of the front end makes it harder for designers to be integrated into those systems. 

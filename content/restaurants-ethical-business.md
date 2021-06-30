@@ -10,6 +10,12 @@ date: 2020.09.01
 type: annotation, bibliography
 ---
 
+<script>
+  import Introduction from '../components/Introduction.svelte'
+</script>
+
+<Introduction {metadata} />
+
 > TheThe only ethical restaurant I have ever heard of is on Star Trek: Deep Space Nine
 
 Saxena is is immediately concerned with the entire process of restaurant, and identifies that she's never even heard of a restaurant coming close to ethical outside of utopian fiction. 

@@ -10,7 +10,8 @@ const typeset = require('typeset')
 const urlMetadata = require('url-metadata')
 const svelte = require('svelte/compiler');
 
-let collectionPath = path.join(process.cwd(), `/src/data`)
+let routesPath = path.join(process.cwd(), `/src/routes`)
+let dataPath = path.join(process.cwd(), `/src/data`)
 
 // Read content files
 const source = () => new Promise((resolve, reject) => {
@@ -57,36 +58,21 @@ const generateResources = async () => {
       }
     })
 
-  fs.writeFile(`${collectionPath}/resources.json`, JSON.stringify(data), writeErr)
+  fs.writeFile(`${dataPath}/resources.json`, JSON.stringify(data), writeErr)
 }
 
-const render = (file) => new Promise((resolve, reject) => {
-  let md = new MarkdownIt({
-    html: true,
-    xhtmlOut: true,
-  })
-  let fm = matter(file.value).data
-  try {
-    let prerender = matter(file.value)
-    let fm = prerender.data
-    fm.timestamp = Date.parse(fm.date)
-    let html = md.render(prerender.content)
-    resolve({
-      data: {
-        fm: fm,
-        code: html
-      }
-    })
-  } catch (e) {
-    reject(e)
-  }
-})
-
-const renderMarkdown = async (paths) => {
+const svexify = async (paths) => {
   let files = await Promise.allSettled(paths.map(path => getFile(path)))
-  let renders = await Promise.allSettled(files.map(file => render(file)))
-  let markup = renders.map(render => render.value)
-  return markup
+  let contents = files.map(file => file.value)
+  let parsed = await Promise.allSettled(contents.map(content => compile(content)))
+  let markups = parsed
+    .map(parse => parse.value)
+    .filter(file => file.data.fm != undefined)
+    .map(file => {
+      file.data.fm.timestamp = Date.parse(file?.data?.fm?.date)
+      return file
+    })
+  return markups
 }
 
 const orderMostRecent = (a, b) => b.data.fm.timestamp - a.data.fm.timestamp
@@ -95,9 +81,10 @@ const writeComponents = (files) => {
   files
     .sort(orderMostRecent)
     .forEach(file => {
-      fs.writeFile(`${collectionPath}/${file.data.fm.slug}.json`, JSON.stringify(file), writeErr)
+      if (file.data.fm.slug) {
+        fs.writeFile(`${routesPath}/${file.data.fm.slug}.svelte`, file.code, writeErr)
+      }
     })
-  console.log(files.map(file => file.data.fm))
   return files
 }
 
@@ -106,13 +93,13 @@ const writeSummaries = (files) => {
     .sort(orderMostRecent)
     .map((file) => file.data.fm)
 
-  fs.writeFile(`${collectionPath}/meta.json`, JSON.stringify(fileMetas), writeErr)
+  fs.writeFile(`${dataPath}/meta.json`, JSON.stringify(fileMetas), writeErr)
 
   return files
 }
 
 source()
-  .then(renderMarkdown)
+  .then(svexify)
   .then(writeComponents)
   .then(writeSummaries)
   .catch(e => {

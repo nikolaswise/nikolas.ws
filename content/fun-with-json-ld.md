@@ -6,6 +6,12 @@ date: 2020.08.25
 type: text, texts
 ---
 
+<script>
+  import Introduction from '../components/Introduction.svelte'
+</script>
+
+<Introduction {metadata} />
+
 Working with [Adam Riemer](https://www.adamriemer.me/) on SmugMug's SEO has been a really illuminating experience. SEO consulting has always been flagged in my mind as "Snake Oil Business", but Adam really is the best in the field. Almost all of his SEO suggestions focus on performance and accessibility, and he has some clear, hard metrics to define "good". This squares with my fundamental understanding of good SEO practices, and has broadened my horizons and understanding of of the practice.
 
 Something that Adam introduced me to is JSON-LD – a way of creating structured metadata for pages that's more explicit that microdata formats. Here's what I've learned about JSON-LD so far. 

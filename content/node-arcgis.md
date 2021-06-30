@@ -7,6 +7,12 @@ description: An API that explored bringing the ArcGIS REST API to Node and NPM.
 type: projects, esri
 ---
 
+<script>
+  import Introduction from '../components/Introduction.svelte'
+</script>
+
+<Introduction {metadata} />
+
 #### Goals
 
 With this project, I was attempting to create a centralized code base for common platform interactions — reducing duplicated code and allowing a greater sharing of resources across different development teams at Esri.

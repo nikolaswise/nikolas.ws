@@ -6,6 +6,12 @@ description: Translations and compromises in image making or; the Image Cult Soc
 type: text, texts
 ---
 
+<script>
+  import Introduction from '../components/Introduction.svelte'
+</script>
+
+<Introduction {metadata} />
+
 There's an interesting thing that happens when a new idea or technology gets introduced then quickly assimilated into the background hum of our daily lives. It starts out with a discreet name — a clear identifier of what this thing is and means. Than this name just sort of ... slips away. It becomes so normal that to name it would seem strange. Its original name doesn't seem to fit any more, as the name existed in the first place to demarcate the new thought from the ordinary. And now the new thing is just ordinary. Think about Google Maps. It's just ... a map. In 2005, when Google Maps was first released, it's particular approach to the interface of a digital map was called a 'slippy map'. Weird, right?
 
 This is an interesting phenomenon around cultural approaches to technology, but not actually what I want to talk about. I want to talk about soft proofs. Soft proofs are an example of this taken to an extreme — you use them every day but you have probably never heard of them. There is no need for the soft proof to be something other than normal, the soft proof just *is* normal. But what is a soft proof, and why is it so normal? And why do I want to explore a topic so quotidian that the word used to mark it as interesting is so faded and worn?

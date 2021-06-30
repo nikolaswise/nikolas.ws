@@ -7,6 +7,12 @@ description: A fully developer-facing experience for the ArcGIS Platform, includ
 type: projects, esri
 ---
 
+<script>
+  import Introduction from '../components/Introduction.svelte'
+</script>
+
+<Introduction {metadata} />
+
 ![ArcGIS for Developers](./title.png)
 ![ArcGIS for Developers](./features.png)
 ![ArcGIS for Developers](./docs.png)

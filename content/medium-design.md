@@ -9,6 +9,12 @@ thesis: To design effectively with a medium, knowledge and solutions to a system
 type: annotation, bibliography
 ---
 
+<script>
+  import Introduction from '../components/Introduction.svelte'
+</script>
+
+<Introduction {metadata} />
+
 > … culture, in the broadest sense of the word, is good at pointing to things and naming them, but not so good at describing relationships between things. It privileges declarations, right answers, universals, and elementary particles. It is captivated by circular logics and modernist scripts that celebrate freedom and transcendent newness—narrative arcs that bend toward a utopian or dystopian ultimate.
 
 Oof. Out the gate we're coming out strong with a hard-eyed look at one of the major flaws of contemporary culture – this includes politics and economics as well as tech and design. This should be incisive.

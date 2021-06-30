@@ -7,6 +7,12 @@ description: Design & Development of public policy & GIS data presenting the Cit
 type: projects, department
 ---
 
+<script>
+  import Introduction from '../components/Introduction.svelte'
+</script>
+
+<Introduction {metadata} />
+
 ![home](https://photos.smugmug.com/Projects/Transporation-service-plan/i-FDz7Dm7/0/06d8752b/X5/home-X5.png)
 
 • Introduce project, public money and accountability, what for and why. 

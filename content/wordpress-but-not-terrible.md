@@ -6,6 +6,12 @@ description: A contemporary developers guide to building things on Wordpress 4.x
 type: text, texts
 ---
 
+<script>
+  import Introduction from '../components/Introduction.svelte'
+</script>
+
+<Introduction {metadata} />
+
 TL:DR; [Start here](https://github.com/nikolaswise/nanobox-wordpress-1). Install [this thing](https://nanobox.io/) and connect it to your account on [here](https://www.digitalocean.com/). Buy a license of [this (it's worth it)](https://deliciousbrains.com/wp-migrate-db-pro/). Read some docs for [this](https://www.upstatement.com/timber/) and start building. Wordpress 5 and Gutenberg will probably break all of this except the environments. 
 
 When I first started working as a developer, Wordpress was _the_ prevalent platform for pretty much any project. Ten years later and … Wordpress is still pretty much most of the internet. In general, Wordpress will be my last choice of a platform. I prefer to build static sites, use a headless CMS, or almost anything else at all.
@@ -267,11 +273,9 @@ The [Timber](https://www.upstatement.com/timber/) library from Upstatement is th
 
 Turns in to:
 
-{% raw %}
 ```
 {{ myvar }}
 ```
-{% endraw %}
 
 This lets us write templates with a templating language, and write server-side business logic in a server-side programming language. Truly revolutionary. 
 

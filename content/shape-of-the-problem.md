@@ -6,6 +6,12 @@ description: Ontological data structures, real-time editing, and what a web app 
 type: text
 ---
 
+<script>
+  import Introduction from '../components/Introduction.svelte'
+</script>
+
+<Introduction {metadata} />
+
 At [work](https://smugmug.com) the other day I was thinking about a problem: Websites as User Generated Content, a part of the business I've been low-key thinking about for nearly a year. A chance conversation with [Reuben Son](https://reubenson.com/) about Vox's content editing tool [Kiln](https://github.com/clay/clay-kiln) altered my perspective on who a _user_ is when thinking about UGC. For them, their users are their editors and authors. Kiln works by loading an editor interface directly over the rendered web page, and allows for editing of any portion of that webpage.
 
 It occurred to me that one could use a real-time NoSQL database like [FaunaDB](https://fauna.com/) or [Firebase](https://firebase.google.com/) to store a document model, run an app that subscribes to changes to this database and renders the document model into the DOM, than do the same bit where a editor lays over the page and allows for editing, posting changes directly to the NoSQL database. The resulting update would re-render the document for the editor, _and anyone else also currently viewing the app_. This would look like Squarespace, but be naturally multi-tenant. After editing, a static site could be generated and hosted on s3 to serve to a larger audience. Questions around draft states, not publishing another users edits, and other logistical things started to crowd my mind, but the core idea was interesting enough for me to decide to put a prototype together.

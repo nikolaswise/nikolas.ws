@@ -9,6 +9,12 @@ tags: front end, javascript, performance
 type: annotation, bibliography
 ---
 
+<script>
+  import Introduction from '../components/Introduction.svelte'
+</script>
+
+<Introduction {metadata} />
+
 Kadlec's thesis is that Javascript inherently is a massive percentage of a performance budget. From this perspective, he identifies the purpose of frameworks as:
 
 > a framework makes it easier to perform well by either providing a better starting point or providing constraints and characteristics that make it hard to build something that doesn’t perform well.

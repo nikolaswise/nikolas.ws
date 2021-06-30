@@ -1,10 +1,19 @@
 ---
 title: Heavy Pop
-date: 2016-05-01
+slug: heavy-pop
+date: 2016.05.01
+media: Risograph
+size: 6x9 inches
+edition: 50
 description: Fine press monograph for artist [Morgan Rosskopf's](http://morganrosskopf.com/) solo show at [One Grand Gallery](http://www.onegrandgallery.com/) commissioned by the artist and the gallery.
 type: art, riso, edition, book
-archived: true
 ---
+
+<script>
+  import Introduction from '../components/Introduction.svelte'
+</script>
+
+<Introduction {metadata} />
 
 <p class="text-center trailer-2">
 	<a href="http://www.ogpdx.com/morgan-rosskopf-heavy-pop/1a4u531deq9xqrkunjqyk5di9aewey" class="nav-link">Buy the Book</a>

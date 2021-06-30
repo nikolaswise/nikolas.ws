@@ -1,6 +1,6 @@
 ---
 title: What do we lose when it's easy to use?
-slug: medium-design
+slug: what-do-we-lose-when-its-easy-to-use
 author: Andy Pressman
 year: 2016
 source: https://designportland.org/stories/2016/what-do-we-lose-when-its-easy-to-use
@@ -8,6 +8,12 @@ tags: design
 thesis: The intentional creation of friction in an experience is an essential way to create experience and communicate values. 
 type: annotation, bibliography
 ---
+
+<script>
+  import Introduction from '../components/Introduction.svelte'
+</script>
+
+<Introduction {metadata} />
 
 Pressman runs a local design studio called Rumors. In 2015 they launched a new site that got a lot of critique on Designer News about its 'usability'. Pressman created an experience when preview thumbnails exist behind the text and flee from the cursor.
 
@@ -76,12 +82,3 @@ This is directly correlated to the specificity of the users goals. When looking 
 > The more you understand of [the users needs] the more difficult and complex an experience you can build
 
 Pressman ends the talk by framing the central question that he wants us to consider: Instead of "How can I make everything easy to use?" ask "Just what components can be difficult?".
-
-
-
-
-
-
-
-
-
