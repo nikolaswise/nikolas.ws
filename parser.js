@@ -69,7 +69,7 @@ const svexify = async (paths) => {
     .map(parse => parse.value)
     .filter(file => file.data.fm != undefined)
     .map(file => {
-      file.data.fm.timestamp = Date.parse(file?.data?.fm?.date)
+      file.data.fm.timestamp = Date.parse(file.data.fm.date)
       return file
     })
   return markups
