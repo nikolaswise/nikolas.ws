@@ -27,11 +27,10 @@ export default {
 			svelte({
 				dev,
 				hydratable: true,
-				emitCss: true
+				emitCss: true,
 			}),
 			resolve({
-				browser: true,
-				dedupe: ['svelte']
+				extensions: ['.mjs', '.js', '.json', '.svelte', '.html']
 			}),
 			commonjs(),
 

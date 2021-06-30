@@ -1,6 +1,17 @@
+<script context="module">
+  import getCollected from '../getCollected'
+
+  let texts = getCollected('text')
+
+  export async function preload({ params }) {
+    return {texts}
+  }
+
+</script>
+
 <script>
   import Meta from '../../components/Meta.svelte'
-  import texts from '../../data/texts/index.json'
+  export let texts
 </script>
 
 <style>
@@ -25,11 +36,11 @@
 <h1>Texts</h1>
 
 {#each texts as text}
-  <date>{text.meta.date}</date>
+  <date>{text.date}</date>
   <h2>
-    <a href="/texts/{text.meta.slug}">
-      {text.meta.title}
+    <a href="/{text.slug}">
+      {text.title}
     </a>
   </h2>
-  <p>{@html text.meta.description}</p>
+  <p>{@html text.description}</p>
 {/each}

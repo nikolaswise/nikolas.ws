@@ -1,10 +1,51 @@
+
+<Meta
+  title='nikolas.ws'
+  description='Nikolas Wise is a web developer, front-end system architect, and creative technologist.'
+  type="WebSite"
+/>
+
+<h1>
+  Nikolas Wise is a web developer, artist, and front-end system architect in Portland, Oregon.
+</h1>
+
+<p>For over 10 years, he has worked on web applications, design systems, and customer facing web experiences with fine artists, design studios, and technology companies. From marketing campaigns to commerce storefronts, client libraries and flagship products, Nikolas works to explore the edges of what's possible.</p>
+
+{#if latestText}
+  <div class="latest-text">
+    <h2>Latest Texts</h2>
+
+    <date>{latestText.date}</date>
+    <h3>
+      <a href="/{latestText.slug}">
+        {latestText.title}
+      </a>
+    </h3>
+    {@html latestText.description}
+  </div>
+{/if}
+
+<div class="texts">
+{#each recentTexts as text}
+  <div class="text">
+    <date>{text.date}</date>
+    <h3>
+      <a href="/{text.slug}">
+        {text.title}
+      </a>
+    </h3>
+  </div>
+
+{/each}
+</div>
+
 <script>
   import Meta from '../components/Meta.svelte'
-  import projects from '../data/projects/index.json'
-  import latestProject from '../data/projects/latest.json'
+  import getCollected from './getCollected'
 
-  import texts from '../data/texts/index.json'
-  import latestText from '../data/texts/latest.json'
+  let texts = getCollected('text')
+
+  let latestText = texts[0]
 
   import { event } from '../analytics.js'
 
@@ -47,61 +88,3 @@
     font-family: 'Input';
   }
 </style>
-
-<Meta
-  title='nikolas.ws'
-  description='Nikolas Wise is a web developer, front-end system architect, and creative technologist.'
-  type="WebSite"
-/>
-
-<h1>
-	Nikolas Wise is a web developer, front-end system architect, and creative technologist.
-</h1>
-
-<p>For over 10 years, he has worked on web applications, design systems, and customer facing web experiences with fine artists, design studios, and technology companies. From marketing campaigns to commerce storefronts, client libraries and flagship products, Nikolas works to explore the edges of what's possible.</p>
-
-<!-- {#if latestProject}
-  <h2>Latest Project</h2>
-
-  <h3>
-    <a href="/projects/{latestProject.meta.slug}">
-      {latestProject.meta.title}
-    </a>
-  </h3>
-  {@html latestProject.meta.description}
-  <p>
-    <a href="/projects">
-      More Projects
-    </a>
-  </p>
-{/if} -->
-
-{#if latestText}
-  <div class="latest-text">
-    <h2>Texts</h2>
-
-    <date>{latestText.meta.date}</date>
-    <h3>
-      <a href="/texts/{latestText.meta.slug}">
-        {latestText.meta.title}
-      </a>
-    </h3>
-    {@html latestText.meta.description}
-  </div>
-{/if}
-
-<div class="texts">
-{#each recentTexts as text}
-  <div class="text">
-    <date>{text.meta.date}</date>
-    <h3>
-      <a href="/texts/{text.meta.slug}">
-        {text.meta.title}
-      </a>
-    </h3>
-  </div>
-
-{/each}
-
-</div>
-

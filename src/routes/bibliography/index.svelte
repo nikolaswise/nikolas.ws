@@ -1,17 +1,26 @@
+<script context="module">
+  import getCollected from '../getCollected'
+
+  let annotations = getCollected('annotation')
+
+  export async function preload({ params }) {
+    return { annotations }
+  }
+</script>
+
 <script>
   import Meta from '../../components/Meta.svelte'
-  import bibliography from '../../data/bibliography/index.json'
+  export let annotations
 
   let searchTerm = ""
-  
-  const contains = (searchTerm) => (text) => {
+
+  const contains = (searchTerm) => (annotation) => {
     let standardTerm = searchTerm.toLowerCase()
-    let standardMeta = JSON.stringify(text.meta).toLowerCase()
+    let standardMeta = JSON.stringify(annotation).toLowerCase()
     return standardMeta.indexOf(standardTerm) !== -1
   }
 
-  $: filteredList = bibliography.filter(contains(searchTerm))
-
+  $: filteredList = annotations.filter(contains(searchTerm))
 </script>
 
 <style>
@@ -70,27 +79,27 @@
   </label>
 </form>
 
-{#each filteredList as text}
-  {#if text.meta.title}
+{#each filteredList as annotation}
+  {#if annotation.title}
     <section>
       <h2>
-        <a href="{text.meta.source}">
-          {text.meta.title}
+        <a href="{annotation.source}">
+          {annotation.title}
         </a>
       </h2>
       <div class="metadata">
         <p>
-          Author: {text.meta.author}
+          Author: {annotation.author}
         </p>
         <p>
-          Year: {text.meta.year}
+          Year: {annotation.year}
         </p>
         <p>
-          Tagged: {text.meta.tags}
+          Tagged: {annotation.tags}
         </p>
       </div>
-      <p>{text.meta.thesis}</p>
-      <p><a href="/bibliography/{text.meta.slug}">Annotations ☞</a></p>
+      <p>{annotation.thesis}</p>
+      <p><a href="/{annotation.slug}">Annotations ☞</a></p>
     </section>
   {/if}
 {/each}
