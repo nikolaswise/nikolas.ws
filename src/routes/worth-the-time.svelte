@@ -10,3 +10,13 @@
 
 <Introduction {metadata} />
 <EffeciencyCalculator/>
+<p>This is a re-imagining of <a
+  href="https://xkcd.com/1205"
+  rel="nofollow"
+>Randall Monroe’s <em>Is It Worth The Time</em> chart</a> through the lens of <a
+  href="http://worrydream.com/#!/ClimateChange"
+  rel="nofollow"
+>Bret Victor’s idea of computational rhetoric</a> imspired by implementations from <a
+  href="https://doriantaylor.com/toys"
+  rel="nofollow"
+>Dorian Taylor</a>.</p>

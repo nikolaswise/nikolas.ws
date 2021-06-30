@@ -14,3 +14,5 @@ type: text, computational rhetoric
 <Introduction {metadata} />
 
 <EffeciencyCalculator/>
+
+This is a re-imagining of [Randall Monroe's _Is It Worth The Time_ chart](https://xkcd.com/1205) through the lens of [Bret Victor's idea of computational rhetoric](http://worrydream.com/#!/ClimateChange) imspired by implementations from [Dorian Taylor](https://doriantaylor.com/toys).
