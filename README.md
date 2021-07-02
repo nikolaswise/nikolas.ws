@@ -2,16 +2,16 @@
 
 ## ToDo Items:
 
-- [ ] Add sitemap.xml
+- [x] Add sitemap.xml
 - [ ] Better Alt texts for all images
 - [x] Metadata and JSON-LD
-- [ ] Add RSS feed
+- [x] Add RSS feed
 - [x] Migrate remaining images to SmugMug
 - [ ] Write up missing project texts
 - [ ] Cypress tests around nav UI 
 - [ ] Cypress tests w. AxE
 - [x] Add bibliography section
-- [ ] Add resources section
+- [x] Add resources section
 - [x] Add Visual Art section
 - [ ] Add music section
 - [x] Add session-based analytics
@@ -28,7 +28,7 @@
 - [ ] Rebuild: Session Based Tracking
 - [ ] Rebuild: Using Sapper
 - [ ] Design Systems in 2020
-- [ ] Ethical Web Development / The Ethical Internet
+- [x] Ethical Web Development / The Ethical Internet
 - [ ] Setting type: letterpress style
 - [ ] Aperiodic tiling & CSS
 	- [ ] https://users.csc.calpoly.edu/~zwood/teaching/csc572/final12/kowen/
