@@ -8,6 +8,7 @@ type: text
 
 <script>
   import Introduction from '../components/Introduction.svelte'
+  import BillableHours from '../components/BillableHours.svelte'
 </script>
 
 <Introduction {metadata} />
@@ -39,8 +40,7 @@ If working client-side, this means working pay-go with docs for a desired soluti
 Case Study: A Small, Boutique Agency
 
 <!-- Estimator time! -->
-Your team is [] people, averaging a salary of [] per person. Add []% for overhead and profit, that means that you're gross target per year is []. So, [] people working [] blobs, targeting a gross income of [], means billing at [] $/blob. A "Big" project at your agency is about [] hours — [] blobs — and takes in []. With [] people on a project, this puts the calendar time at about []* This is a good/bad price! 
-* Caveats apply! This relationship is only so linear.
+<BillableHours />
 
 The important thing about this number of billable blobs per person is that it _wont burn out your team_. It accounts for generous PTO and sick leave, and will create _more_ space for _better_ work.
  
