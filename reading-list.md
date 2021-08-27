@@ -50,6 +50,14 @@
 - https://joaoforja.com/blog/guideline-on-how-to-decompose-a-react-component/
 - https://courses.cs.washington.edu/courses/cse503/08wi/parnas-1979.pdf
 - https://alistapart.com/article/sustainable-web-design-excerpt/
+- https://open.nytimes.com/introducing-react-tracking-declarative-tracking-for-react-apps-2c76706bb79a
+- http://providersedge.com/docs/km_articles/Put_Your_Knowledge_to_Work.pdf
+- https://www.researchgate.net/publication/309917998_SWAG_Semantic_web_application_generator_-_a_library_for_using_ontologies_as_web_services
+- https://blogs.pjjk.net/phil/json-schema-for-json-ld/
+- https://rdf-translator.appspot.com/
+- https://nicholasreese.com/lessons-from-building-a-static-site-generator/
+- https://theinformed.life/2021/06/20/episode-64-sarah-barrett/
+- https://ojs.aaai.org/index.php/aimagazine/article/download/1718/1616
 
 ## Tech Debt Singularity
 
