@@ -1,3 +1,4 @@
+- https://jlongster.com/future-sql-web
 - https://glebbahmutov.com/blog/develop-preview-test/
 - https://privatealpha.com/ontology/content-inventory/1#
 - https://gbv.github.io/jskos/jskos.html
