@@ -1,3 +1,4 @@
+- https://tauri.studio/en/
 - https://jlongster.com/future-sql-web
 - https://glebbahmutov.com/blog/develop-preview-test/
 - https://privatealpha.com/ontology/content-inventory/1#
