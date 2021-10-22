@@ -6,12 +6,12 @@
 nikolaswise@gmail.com   
 Portland, Oregon   
 
-I am a creative technologist and developer who specializes in design critique, systems thinking, and the interaction between classical techniques and contemporary technology. Over the past 10 years, I have worked with fine artists, design studios, and the R&D wings of technology companies to explore the edges of what's possible.
+I am a web developer, artist, and front-end system architect. For over 10 years, I have worked on web applications, design systems, and customer facing web experiences with fine artists, design studios, and technology companies. From marketing campaigns to commerce storefronts, client libraries and flagship products, Nikolas works to explore the edges of what's possible.
 
 ## Work
 
 ### SmugMug & Flickr
-#### Principal Developer 2018 — Present
+#### Sr. Software Engineer 2018 — 2021
 
 SmugMug & Flickr are the go-to products for photographers on the internet. I work as the principal developer for the marketing team, bridging the gap between marketers & designers and the engineering team. In this role, I've rebuilt the audience-facing marketing website for SmugMug to bring it up to modern industry standards, including major improvements to site speed, accesibillity, search engine optimization, and code maintanabillity.
 
@@ -53,7 +53,7 @@ Department is a design & development studio specializing in digital experiences,
 
 
 ### University of Oregon
-#### Adjunct Instructor 2015 - Present
+#### Adjunct Instructor 2015 - 2018
 
 Lead workshop J608 _Introduction to Web Design_ for Multimedia Journalism masters candidates. Course covers web development basics including an introduction to HTML, CSS, and Javascript along with industry best-practices using Github and Markdown. Primarily focused on strategies for communicating with a team about design.
 
@@ -120,7 +120,6 @@ Led small creative in-house design team for the University of Oregon. Responsibi
 - Proficient in unit testing methodologies and frameworks.
 
 ## Education
-
 
 ### Bachelor of Fine Arts in Printmaking
 #### University of Oregon 2007 – 2012
