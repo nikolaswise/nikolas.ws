@@ -226,3 +226,11 @@
 - https://1loc.dev/#convert-cookie-to-object
 - https://roots.io/trellis/
 - https://roots.io/bedrock/
+- https://www.princexml.com/
+- https://css4.pub/
+- https://www.pagedjs.org/
+- https://www.destroyallsoftware.com/subscription-benefits
+- https://day.js.org/en/
+- https://github.com/visgl/deck.gl
+- https://github.com/BuilderIO/partytown#readme
+- https://css-tricks.com/grainy-gradients/

@@ -58,6 +58,8 @@
 - https://nicholasreese.com/lessons-from-building-a-static-site-generator/
 - https://theinformed.life/2021/06/20/episode-64-sarah-barrett/
 - https://ojs.aaai.org/index.php/aimagazine/article/download/1718/1616
+- https://newpublic.org/article/1572/the-word-for-web-is-forest
+- https://doriantaylor.com/a-short-meditation-on-testing
 
 ## Tech Debt Singularity
 
