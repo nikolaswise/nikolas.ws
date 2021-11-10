@@ -1,3 +1,5 @@
+- https://blog.maximeheckel.com/posts/first-steps-with-gpt-3-and-beyond/
+- https://tympanus.net/codrops/2021/10/27/creating-the-effect-of-transparent-glass-and-plastic-in-three-js/
 - https://capacitorjs.com/
 - https://huetone.ardov.me/
 - https://www.princexml.com/
