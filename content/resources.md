@@ -1,3 +1,12 @@
+- https://github.com/pubkey/rxdb
+- https://github.com/fb55/htmlparser2
+- https://www.smashingmagazine.com/2021/11/localizing-your-nextjs-app/
+- https://splidejs.com/
+- https://www.smashingmagazine.com/2021/11/hydrogen-react-framework-dynamic-contextual-personalized-ecommerce/
+- https://github.com/niieani/hashids.js
+- https://js.cytoscape.org/
+- http://pdfkit.org/
+- https://obsidian.md/
 - https://blog.maximeheckel.com/posts/first-steps-with-gpt-3-and-beyond/
 - https://tympanus.net/codrops/2021/10/27/creating-the-effect-of-transparent-glass-and-plastic-in-three-js/
 - https://capacitorjs.com/
