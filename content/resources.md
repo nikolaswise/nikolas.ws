@@ -1,3 +1,4 @@
+- https://umami.is/
 - https://github.com/pubkey/rxdb
 - https://github.com/fb55/htmlparser2
 - https://www.smashingmagazine.com/2021/11/localizing-your-nextjs-app/
