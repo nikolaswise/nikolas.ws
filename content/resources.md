@@ -1,3 +1,15 @@
+- https://github.com/BuilderIO/partytown
+- https://github.com/chrisveness/geodesy
+- https://github.com/AsyncBanana/microdiff
+- https://dexie.org/
+- https://transfer.sh/
+- https://github.com/sdras/project-explorer
+- https://rclone.org/
+- https://github.com/replit/clui
+- https://github.com/cacjs/cac
+- https://asciinema.org/
+- https://isomorphic-git.org/
+- https://planetscale.com/
 - https://umami.is/
 - https://github.com/pubkey/rxdb
 - https://github.com/fb55/htmlparser2

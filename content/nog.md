@@ -15,6 +15,8 @@ type: text, texts
 
 I decided it was about time to just right this down somewhere I can always find it. Below is the recipe for old Shanghai style eggnog, or as I refer to it: _High Octane Nogahol_. I tend to omit the optional ingredients at the end, and just serve the 'nog without the additional fluff.
 
+This recipe is 8:5 dairy:alchohol, with 8 parts bourbon to 1 part brandy and 1 part rum.
+
 ## Ingredients
 
 12 each Eggs large
