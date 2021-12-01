@@ -78,7 +78,58 @@ Things like high contrast and prefers reduced motion w code samples
 
 Apparently those are the only two so this might need someThing additional.
 
+## Structured Data and Semantics
 
-## Accesibillity in Action
+Data semantics for fun and profit
 
-A good overview of a11y, with Things You Can Do
+Structured data is not not linked data
+
+The Semantic Web is something else
+
+As a web-raised and web-first developer it’s hard for my to conceptual non-web apis or non-ui applications for projects, tho implied existence of “reasoners is super interesting”
+ 
+Outstanding question is the development of a custom ontology that creates a resource that can be represented in both SKOS and Schema.org in order to provide a richer set of data, as well as open the door for custom data not present on either ontology 
+
+How to create a new ontology?
+
+Schema.org Json-LD vs JSOn schema. Super different fucking things!
+
+How schema.org relates to SEO, and how and why it’s interesting _without_ SEO implications. But also why that’s the main hook and primary use case. 
+
+https://stackoverflow.com/questions/50063202/what-is-the-difference-between-graphql-and-sparql/50068361
+
+https://opendata.stackexchange.com/questions/3661/what-linked-data-serialization-format-to-choose-for-our-now-csv-open-data/12678#12678
+
+Who is this dude??
+
+https://almanac.httparchive.org/en/2021/structured-data
+
+> By introducing structure to information, we can make it much easier for software to understand content. We do this by adding labels and metadata which identify key concepts and entities—as well as their properties and relationships.
+
+Use case to explore via these old buddies https://www.milanoartcommunity.it/
+
+http://manu.sporny.org/2014/json-ld-origins-2/
+
+https://medium.com/@sklarman/querying-linked-data-with-graphql-959e28aa8013
+
+https://www.obitko.com/tutorials/ontologies-semantic-web/semantic-web-architecture.html
+
+https://doriantaylor.com/there-is-no-sqlite-for-rdf
+
+https://www.ontotext.com/knowledgehub/fundamentals/nosql-graph-database/
+
+https://www.ontotext.com/knowledgehub/fundamentals/what-is-rdf-triplestore/amp/
+
+https://comunica.github.io/Article-ISWC2018-Demo-GraphQlLD/
+
+https://dgraph.io/docs/graphql/queries/search-filtering/
+
+https://wordlift.io/blog/en/graphql-linked-data/amp/
+
+https://www.w3.org/DesignIssues/LinkedData.html
+
+https://www.bobdc.com/blog/json-ld/
+
+https://www.w3.org/2013/dwbp/wiki/RDF_AND_JSON-LD_UseCases
+
+https://w3c.github.io/json-ld-bp/
