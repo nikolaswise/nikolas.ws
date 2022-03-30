@@ -94,14 +94,14 @@ html {
 }
 
 body {
-	margin: 0;
-	font-family: Cardamon, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-	font-size: var(--s-12);
-	line-height: calc(1em + 0.75rem);
+  margin: 0;
+  font-family: Cardamon, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: var(--s-12);
+  line-height: calc(1em + 0.75rem);
   letter-spacing: 0.5px;
-	background-color: var(--bg-color);
-	color: var(--txt-color);
-	transition: background-color 300ms ease-in-out, color 300ms ease-in-out;
+  background-color: var(--bg-color);
+  color: var(--txt-color);
+  transition: background-color 300ms ease-in-out, color 300ms ease-in-out;
 }
 
 h1,h2,h3,h4,h5,h6 {
