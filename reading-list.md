@@ -70,7 +70,7 @@
 
 - http://www.gameaipro.com/GameAIPro2/GameAIPro2_Chapter41_Simulation_Principles_from_Dwarf_Fortress.pdf
 - https://www.nytimes.com/2011/07/24/magazine/the-brilliance-of-dwarf-fortress.html
-
+- https://www.oreilly.com/library/view/getting-started-with/9781449339791/ch01.html
 
 ## User Setting and CSS
 

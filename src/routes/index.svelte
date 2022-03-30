@@ -9,8 +9,15 @@
   Nikolas Wise is a web developer, artist, and front-end system architect in Portland, Oregon.
 </h1>
 
-<p>For over 10 years, he has worked on web applications, design systems, and customer facing web experiences with fine artists, design studios, and technology companies. From marketing campaigns to commerce storefronts, client libraries and flagship products, Nikolas works to explore the edges of what's possible.</p>
+<p>
+  My default answer is "yes". For over 10 years, I have worked on web applications, design systems, and customer facing web experiences with fine artists, design studios, and technology companies. I think best way to make interesting things is to <a href="/texts">be interested in things</a>. You can <a href="/about">read more about me</a> or the <a href="/projects">work that I've done</a>.
+</p>
 
+<p>
+  You can reach out to me <a href="mailto:nikolaswise@gmail.com">via email</a>, or elsewhere at <a href="https://github.com/nikolaswise">Github</a> and <a href="https://twitter.com/nikolaswise">Twitter</a>.
+</p>
+
+<!--
 {#if latestText}
   <div class="latest-text">
     <h2>Latest Texts</h2>
@@ -37,7 +44,7 @@
   </div>
 
 {/each}
-</div>
+</div> -->
 
 <script>
   import Meta from '../components/Meta.svelte'

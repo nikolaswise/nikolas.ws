@@ -1,0 +1,1522 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix foaf: <http://xmlns.com/foaf/spec/#> .
+@base <https://nikolas.ws/> .
+
+<b7df2b8d-d69e-4cfa-96a0-13eb3966faa1>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://github.com/rgossiaux/svelte-headlessui" .
+
+<aa3da9da-fee1-4dab-b5b1-f50e796b9335>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://github.com/BuilderIO/partytown" .
+
+<c424e12f-b34a-4c3a-ac3c-e15362f6514d>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://github.com/chrisveness/geodesy" .
+
+<eb825988-9e32-4671-888b-8557ac9b6d8b>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://github.com/AsyncBanana/microdiff" .
+
+<9bba869e-d340-4f6c-83cd-127172fffb8d>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://dexie.org/" .
+
+<5f8ccb39-20e4-4d14-a00b-8616a6cce2bd>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://transfer.sh/" .
+
+<c2c342c0-53e1-4248-acfc-ba1b597aaa7d>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://github.com/sdras/project-explorer" .
+
+<e134679f-768d-47d1-bfdd-052935a537c8>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://rclone.org/" .
+
+<0c23a1bf-6f1b-426f-a5ea-6bc014274566>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://github.com/replit/clui" .
+
+<e8efca0a-9846-4935-8cac-34c1dfd32549>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://github.com/cacjs/cac" .
+
+<130dc9ef-27a8-49c4-a77d-77aa0bd49861>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://asciinema.org/" .
+
+<75c4d981-9bbe-46d5-a4a4-c96535c06edf>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://isomorphic-git.org/" .
+
+<7d595ba1-0151-42dd-b0d2-574cd27daa1f>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://planetscale.com/" .
+
+<349c482f-1b42-44ca-8868-dd894c32cb5c>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://umami.is/" .
+
+<498dc1ba-72ed-48a6-a532-449fd4b001cf>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://github.com/pubkey/rxdb" .
+
+<c780faf1-82ad-4a65-9e72-3329a0b94acd>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://github.com/fb55/htmlparser2" .
+
+<2b3608d3-a680-4d6c-a0c5-0bdaea829f58>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://www.smashingmagazine.com/2021/11/localizing-your-nextjs-app/" .
+
+<83b4a7b5-b448-477b-94bf-d81de9feae0b>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://splidejs.com/" .
+
+<cd76d8c5-293c-44ad-b87d-226d4c83634b>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://www.smashingmagazine.com/2021/11/hydrogen-react-framework-dynamic-contextual-personalized-ecommerce/" .
+
+<ecf3de43-1f0b-476f-ad15-6637f0355c43>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://github.com/niieani/hashids.js" .
+
+<79159cba-10b6-4540-b22a-560667236b38>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://js.cytoscape.org/" .
+
+<6a9e9088-9a09-44c7-a516-061bb852c386>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "http://pdfkit.org/" .
+
+<d3d83329-cf57-46e9-8845-34428f3f5bfc>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://obsidian.md/" .
+
+<d1f80360-7fdd-4585-ab7a-3ccc6215ff32>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://blog.maximeheckel.com/posts/first-steps-with-gpt-3-and-beyond/" .
+
+<84c0c673-3649-459d-93ae-0043f5f0e7f1>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://tympanus.net/codrops/2021/10/27/creating-the-effect-of-transparent-glass-and-plastic-in-three-js/" .
+
+<ac8aa319-8ce9-417a-9944-05163c1ac19c>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://capacitorjs.com/" .
+
+<1d50e52e-75ec-48d9-bc3c-a5545d47fa00>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://huetone.ardov.me/" .
+
+<664e7872-c713-48d7-b531-6578430e52de>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://www.princexml.com/" .
+
+<00e3ea97-f410-4bb2-bb1e-a5c0edf9d063>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://css4.pub/" .
+
+<bf77fcfc-eb64-40f8-bc20-d8968899ea6b>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://www.pagedjs.org/" .
+
+<6bfcdce3-cde5-4166-8ab0-a576411ab9d9>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://www.destroyallsoftware.com/subscription-benefits" .
+
+<6cdade6f-e4e1-4794-9e6f-e9ab03018043>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://day.js.org/en/" .
+
+<e12c12a0-12ba-4ab4-b8f5-0bfa0d6d963a>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://github.com/visgl/deck.gl" .
+
+<3978b3dd-1377-4992-9b18-108101516436>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://github.com/BuilderIO/partytown#readme" .
+
+<4b72d44f-9b86-410d-a014-de7a843a378d>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://css-tricks.com/grainy-gradients/" .
+
+<a881d405-8f8a-40c4-9e4c-f21088d9358e>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://box-shadow.art/" .
+
+<f0accd0e-c52e-4e35-995a-fbbeccb0444c>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://blobity.dev/" .
+
+<8c7bfa35-a6b0-4bd1-b6a9-6be747554552>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://css-tricks.com/expandable-sections-within-a-css-grid/" .
+
+<03d336d7-064b-46eb-bdcc-2a266b13acaf>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://uxdesign.cc/the-start-of-a-new-era-for-responsive-web-design-6658a6bbeb9b" .
+
+<2a0e1871-b558-4ffe-a7fb-be2c53343dc4>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://web.dev/image-component/" .
+
+<910e1f4b-a025-42cb-b4dd-1ad1f1fe8983>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://webid.info/" .
+
+<63263344-d590-4682-8b2e-5c2304a6c0e7>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://openai.com/blog/openai-codex/" .
+
+<ed446bbf-c720-4db0-a05f-90486cfe4326>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://github.com/Rich-Harris/svelte-undo" .
+
+<e114c78c-2020-4ac7-9ebd-fda9e31d75bf>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://github.com/ai/size-limit" .
+
+<54852414-1743-4106-95ab-374c569636bd>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://thenewstack.io/rust-and-webassembly-serverless-functions-in-vercel/" .
+
+<3c355318-5c9c-4ab6-ba69-04a0ca1d3a8d>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://www.tangram.dev/" .
+
+<cee2d788-0281-4cd6-a8a9-9077e0e06e21>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://www.netlify.com/blog/2021/07/20/build-your-own-shop-with-the-shopify-storefront-api-eleventy-and-serverless-functions/" .
+
+<18a80639-9f0c-4f11-a4f2-880e726d97e1>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://www.npmjs.com/package/devcert" .
+
+<8497f2cd-544a-4cc0-b92f-65f605da939c>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://github.com/sindresorhus/mem" .
+
+<cefca317-8cc7-4455-9234-92671caff832>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://github.com/developit/htm" .
+
+<1321ad75-e413-4b65-9fed-b945917c5eb8>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://thenewstack.io/funnel-rocket-a-serverless-query-engine/" .
+
+<e8bcfa0a-371a-408b-8fc6-0514e142fadb>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://github.com/sinclairzx81/typebox" .
+
+<27fae81d-69b0-45c4-bf2e-16b7e25575d4>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://github.com/nol13/fuzzball.js" .
+
+<014ed658-6fbb-4710-a0dd-e35734f4e994>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://github.com/GoogleChromeLabs/comlink" .
+
+<750dc0d4-b855-43d4-afca-589c438eb0fc>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://rdf-translator.appspot.com/" .
+
+<75b036d5-95ab-4d47-8bd0-f16cfb8a85d8>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://github.com/kevglass/gute/" .
+
+<de02642a-0be9-467b-8683-6cf53270d9e1>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://tauri.studio/en/" .
+
+<0c375bf9-2a58-402d-88f0-50c4b571bdd3>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://jlongster.com/future-sql-web" .
+
+<f3761e20-27b9-4981-a8e4-44eb0b3db0ac>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://glebbahmutov.com/blog/develop-preview-test/" .
+
+<68f0993d-6646-4105-80f7-c0202b0b3096>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://privatealpha.com/ontology/content-inventory/1#" .
+
+<aabc883b-44a9-40bb-bfba-b462f2caf8e7>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://gbv.github.io/jskos/jskos.html" .
+
+<d52c5dc2-73f8-4fdf-8cd1-20fdf13584dc>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://threads.js.org/" .
+
+<08def417-cd4c-4c4b-bc16-1e2ed6be2cc4>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://k6.io/" .
+
+<fcf8d4b5-116e-4ae6-b6e9-ef6029da10cc>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "http://www.heppnetz.de/projects/goodrelations/" .
+
+<fdc85d0d-b09b-4e3a-8f36-9b482441f1ad>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://inclusive-components.design/" .
+
+<84bfaf38-6e1e-4fb8-bd16-cdad9e5eb67d>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://uniformcss.com/docs/overview/" .
+
+<ae5229d4-eafe-4392-880a-0ac879d1faf9>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://michaelscodingspot.com/javascript-performance-apis/" .
+
+<c2bad1e2-9a35-4c0a-8280-b37c47c9278b>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "http://docs.mathjax.org/en/latest/" .
+
+<b220732f-f307-41bf-ad15-efe7e0bc8d67>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://undici.nodejs.org" .
+
+<64cd918a-cb66-4c48-aa9d-5d5c4b1e0c87>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://upstash.com/" .
+
+<9502698e-ece9-499c-99d8-7dd8e964f674>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://traduora.com/" .
+
+<f58016bb-3391-4b06-99a8-82f315cd4d7e>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "http://mikemcl.github.io/big.js/" .
+
+<08989134-a500-4dac-82df-9093d4b360dc>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://svelte-motion.gradientdescent.de/" .
+
+<0d39cd2d-67b5-4b9d-97ff-fa0b8320b53b>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://www.npmjs.com/package/arquero" .
+
+<9dacd4d5-c6aa-4b56-8ee4-fccd032c5c24>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://arrow.apache.org/docs/js/" .
+
+<4fae494a-ff7b-40d5-a283-d1dc5f732ae1>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://github.com/uwdata/falcon" .
+
+<43c11c97-ff61-4645-9c04-5bf471ea91fb>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://github.com/vercel/tracing-js" .
+
+<0a29370d-45a5-4fdc-aa1b-515bbea6a6e4>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://getstarted.sh/" .
+
+<e2022ca9-76da-40ca-8c56-8b5f9d1e6636>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://mdsvex.pngwn.io/" .
+
+<f0600d0c-4025-4b11-9f1a-4dafc78cf8aa>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://github.com/Pimm/mapsort" .
+
+<7ddec892-2947-4ad0-9332-25fab754b6f5>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://www.smashingmagazine.com/2021/04/bake-layers-accessibility-testing-process/" .
+
+<2a863380-5a97-4725-af9c-0b60ce020193>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://gridjs.io/" .
+
+<c62af974-1bb2-4692-8608-6c07461c72bb>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://uncut.wtf/" .
+
+<b9dc57da-2964-4d46-91b9-cc1afa32799a>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://www.smashingmagazine.com/2021/04/guide-supported-modern-css-pseudo-class-selectors/" .
+
+<39ef7c9a-afc4-48c8-b453-6ac014c3478c>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://amethyst.rs/" .
+
+<aa52dc1b-bcb5-43ac-999f-4dac21cc93d3>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://codeadrian.hashnode.dev/the-best-approach-to-lazy-load-images-for-maximum-performance" .
+
+<3ee96af7-a9f4-410b-a512-e3509fa17431>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://web.dev/efficiently-load-third-party-javascript/" .
+
+<72c54644-efbc-44c1-8d7c-eae975ab64be>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://web.dev/cookie-notice-best-practices/" .
+
+<5fb93596-de3c-417a-96bd-eb80c9cf3433>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://www.smashingmagazine.com/2021/04/css-overflow-issues/" .
+
+<dcad3d57-6f79-4f8f-94cb-c05bfd25d635>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://www.smashingmagazine.com/2021/04/complete-guide-measure-core-web-vitals/" .
+
+<8428a7ca-df20-4d89-b5c8-6935f6de9cf2>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://medium.muz.li/responsive-grid-design-ultimate-guide-7aa41ca7892" .
+
+<ece850cd-dd02-4208-aa7e-dce1ee8cbb7a>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://css-tricks.com/a-primer-on-the-different-types-of-browser-storage/" .
+
+<35fd04f8-059e-456a-98e3-3e132316eb20>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://www.hsablonniere.com/prevent-layout-shifts-with-css-grid-stacks--qcj5jo/" .
+
+<23b76cd5-0ce7-4e20-bd06-1144c96abf1d>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://icons.modulz.app/" .
+
+<9190ded1-4b04-41b1-87e9-a77f281dcbb4>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://css-tricks.com/comparing-various-ways-to-hide-things-in-css/" .
+
+<b20ee330-0b88-41de-a72f-efcdde4389cc>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://www.uxbooth.com/articles/designing-user-friendly-data-tables/" .
+
+<ed5ec462-ce23-486e-ba83-cc7c345d5e8e>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://ui.dev/esmodules/" .
+
+<0266b752-b169-4e10-a265-f5f70efa7d27>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://github.com/socketio/socket.io" .
+
+<b9c44e1e-f3f7-4796-8bf1-f1b6a064e91a>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://github.com/jcubic/tagger" .
+
+<ce108a1b-97c4-4b99-845c-5a437750b7e8>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://atomiks.github.io/tippyjs/" .
+
+<11b70857-8b85-498d-b48b-9eed86007068>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://colyseus.io/" .
+
+<78509c21-dc8d-4d32-8aef-a1f4c961fb80>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://metascraper.js.org/" .
+
+<086fee94-767c-4eeb-9572-87f0b1c7f9d8>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://christianheilmann.com/2021/02/08/sharing-data-between-css-and-javascript-using-custom-properties/" .
+
+<b2734dac-2abc-4d87-b6f0-27ded0faaeed>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://www.bram.us/2021/01/29/animating-a-css-gradient-border/" .
+
+<a0d8f7bd-3c08-4efe-9e9f-e45c8ac528d3>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://simonhearne.com/2021/layout-shifts-webfonts/" .
+
+<38ee443a-f656-4d0d-9668-2c1aa5f2c65f>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://github.com/alesgenova/post-me" .
+
+<9acff7cc-d2bc-4b0b-bbf7-2825d2d9fd2b>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://runjs.app/" .
+
+<5aa3408f-d10e-40b7-8f50-47b5f7c891f6>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://responsibleweb.app/" .
+
+<0361628b-09ff-4e65-b237-99a443b35df6>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://inspyr.io/" .
+
+<7e036bf0-a47d-4efc-a18e-1ec941d9055b>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://useparcel.com/" .
+
+<6205133b-195b-44e3-ba27-3f839e898c58>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://alesgenova.github.io/concurrent-wasm-workers/" .
+
+<bffcdad4-253a-4b94-b1a7-6450142eb248>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://www.jonmellman.com/posts/promise-memoization/" .
+
+<50b6376a-d0e0-454d-88a3-4d27df21308e>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://github.com/isaacHagoel/svelte-dnd-action" .
+
+<4ab38055-d7f8-4141-baad-7fccf5ae78a6>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/" .
+
+<c4cbad1a-3c3c-4e59-b81f-f2537864f247>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://www.websitecarbon.com/" .
+
+<daf0e8e9-b8e8-4c92-978c-3ca640a0bce0>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://developers.cloudflare.com/workers/learning/how-workers-works" .
+
+<34ba82ab-773f-4716-8097-ee096be56bcd>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://stimulus.hotwire.dev/" .
+
+<c1b6ec0b-9c04-4d9c-90bc-876b8ffae870>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://cableready.stimulusreflex.com/" .
+
+<ee7b2719-b4fd-4161-9185-0fcdd9474974>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://github.com/github/view_component" .
+
+<d07f1f6b-1b40-40c5-a37c-d883af3af461>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://alistapart.com/article/human-readable-javascript/" .
+
+<37d03658-a54d-49ae-8794-015811e80c54>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://docs.stimulusreflex.com/" .
+
+<73d2c069-6fc3-43ca-ae0a-831c117ca102>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://wormhole.app/" .
+
+<b9121dff-f573-47ca-8b7a-f1a833161c2a>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://moderncss.dev/modern-css-upgrades-to-improve-accessibility/" .
+
+<facb17d0-2880-43fe-b86b-b6202e49a1db>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://www.smashingmagazine.com/2021/04/complete-guide-html-email-templates-tools/" .
+
+<46ebf21b-0244-4db8-977d-af6dc7a684a2>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://css-tricks.com/comparing-the-new-generation-of-build-tools/" .
+
+<cd7a2072-6fc2-4f6a-8e86-c8785d91d18e>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://css-tricks.com/html-inputs-and-labels-a-love-story/" .
+
+<30d18815-b998-48d3-b4e9-f836f52069b4>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://www.sitepoint.com/build-frameworkless-web-app-modern-javascript-web-components/" .
+
+<36ee5c99-9b5a-4d4d-83a2-27590d787cf7>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://waterfaller.dev/" .
+
+<e46be477-be6a-465d-a8e5-08afc0d489bb>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://pnpm.io/" .
+
+<0de09dfc-40d7-4936-b71b-ed0ced9ad755>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://blog.cloudflare.com/introducing-websockets-in-workers/" .
+
+<f991c814-84b1-489b-a10d-a00627965b37>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://www.baseclass.io/guides/string-handling-modern-js" .
+
+<cf06f769-3a66-4d11-b2ba-f23fb7e8cae4>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://seanbarry.dev/posts/switch-true-pattern/" .
+
+<4f9d4098-e702-42ed-a6f0-d9a02c68a068>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://pustelto.com/blog/css-vs-css-in-js-perf/" .
+
+<4e197f37-99f1-486c-ba6d-409cab4cd7f7>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://www.youtube.com/watch?v=B3uH517XbPs" .
+
+<9c03be69-df78-4cfe-bf6a-17c48c7a2113>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://partyjs.yiliansource.dev/docs/shapes" .
+
+<205202f6-9e66-476d-b6a2-c04203f0bfff>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://blog.asayer.io/hyperapp-is-it-the-lightweight-react-killer" .
+
+<6731ad65-1640-431e-b052-1407b6058a67>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://css-tricks.com/memorize-scroll-position-across-page-loads/" .
+
+<09c259ee-963e-4f98-a709-7e388c140eaf>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://www.giftegwuenu.com/how-to-switch-logo-in-dark-mode/" .
+
+<cb5a6907-090a-493e-8638-0bb806a03a66>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://tablericons.com/" .
+
+<e29ab1c1-5f6a-4fa1-8cf9-366cd917b819>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://squircley.app/" .
+
+<e073d5b0-8578-4d6d-91c0-2bc13ea7d627>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://shareon.js.org/" .
+
+<20694b98-152b-4f1a-b3c1-1b2c48e71e60>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://www.aboutmonica.com/blog/how-to-create-a-github-profile-readme" .
+
+<a76cb71e-9eb7-4bca-8ede-633aa9fe9e84>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://dmitripavlutin.com/javascript-event-delegation/" .
+
+<3ccb62ea-6738-4b12-bc6f-7230b67ee64e>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://medium.com/teads-engineering/generating-uuids-at-scale-on-the-web-2877f529d2a2" .
+
+<f0089a65-1410-487b-afd0-550df1225b8a>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://github.com/fymmot/inclusive-dates" .
+
+<88d7846e-b956-4b9a-bd9f-b5b27d31a2a6>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://www.smashingmagazine.com/2020/07/tiny-desktop-apps-tauri-vuejs/[^]" .
+
+<21a4be7e-646f-4dd3-ba3a-ca3ace1bcf5d>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://github.com/malinajs/malinajs" .
+
+<11c71321-fd52-47b2-9285-5a0ba63b700a>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://nicolodavis.com/blog/typescript-to-rust/" .
+
+<03da89f7-1559-4e4a-90ef-00f55c57626e>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://www.bitnative.com/2020/07/06/four-ways-to-fetch-data-in-react/" .
+
+<d1b72076-f2ce-4e3f-82ef-62f35c8d9512>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://www.samanthaming.com/tidbits/71-how-to-flatten-array-using-array-flat/" .
+
+<bec43e5c-3a9e-441c-87b4-97d33cd3eeb2>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://github.com/lmammino/financial#readme" .
+
+<2d4c2b0a-6c3b-4f72-bea5-4231ab0f7874>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://fredriknoren.github.io/jsplot/" .
+
+<6e87bdf5-de1b-4565-8867-ef3db72a242c>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://stephaniewalter.design/blog/designing-adaptive-components-beyond-responsive-breakpoints/" .
+
+<42088091-4c27-4e9c-a51e-4e78a205cd98>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://www.smashingmagazine.com/2020/07/css-techniques-legibility/" .
+
+<19388178-0b57-4326-a894-aac5d9a83605>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://ishadeed.com/article/css-multiple-backgrounds/" .
+
+<437f0030-cb0c-4d71-8a68-f80da8f687ff>
+  skos:prefLabel: ""@en;
+  skos:definition: ""@en;
+  skos:subject ;
+  foaf:url "https://elijahmanor.com/format-js-dates-and-times" .
+
+<023a981a-ab1a-4bde-bb76-43beaf2a378a>
+  skos:prefLabel: "Lazy Loading Images in Svelte "@en;
+  skos:definition: "One easy way to improve the speed of a website is to only download images only when they’re needed, which would be when they enter the viewport. This “lazy"@en;
+  skos:subject <Images> ;
+  skos:subject <Svelte> ;
+  foaf:url "https://css-tricks.com/lazy-loading-images-in-svelte/" .
+
+<838fe60a-06c9-4e59-bddf-fbc896b5cee5>
+  skos:prefLabel: "console-feed"@en;
+  skos:definition: "A React component that displays console logs from the current page, an iframe or transported across a server."@en;
+  skos:subject <React> ;
+  skos:subject <Tools> ;
+  foaf:url "https://github.com/tailzilla/console-feed" .
+
+<ce939c9b-56f2-4cf1-ad83-68d3be1529f5>
+  skos:prefLabel: "Stimulus.js"@en;
+  skos:definition: "A modest JavaScript framework for the HTML you already have. "@en;
+  skos:subject <JavaScript> ;
+  skos:subject <Tools> ;
+  foaf:url "https://stimulus.hotwired.dev/" .
+
+<9bb02fd8-4a04-4792-ac46-3f3e0f45c551>
+  skos:prefLabel: "The State Of Pixel Perfection"@en;
+  skos:definition: "A walkthrough of the term pixel perfection and if it's still relevant today or not."@en;
+  skos:subject <Design> ;
+  foaf:url "https://ishadeed.com/article/pixel-perfection/" .
+
+<e151b5d2-b212-45fe-9e72-57f7b0e5738a>
+  skos:prefLabel: "Translating Design Wireframes Into Accessible HTML/CSS"@en;
+  skos:definition: "The most efficient way to build accessible websites and apps is to “shift left” by incorporating accessibility testing into the earliest stages of your development and design process. In this article, Harris will walk you through the process of analyzing a wireframe from an accessibility perspective and making coding decisions to optimize for accessibility in both design and development phases. "@en;
+  skos:subject <A11y> ;
+  skos:subject <Design> ;
+  foaf:url "https://www.smashingmagazine.com/2020/07/design-wireframes-accessible-html-css/" .
+
+<2003ced6-7f19-4c3a-bdea-33a63931f1f3>
+  skos:prefLabel: "All the Ways to Make a Web Component"@en;
+  skos:definition: "Compare coding style, bundle size and performance of 61 different ways to make a Web Component."@en;
+  skos:subject <WebComponents> ;
+  foaf:url "https://webcomponents.dev/blog/all-the-ways-to-make-a-web-component/" .
+
+<efaac51d-2282-412b-98e7-006e5c69a4f5>
+  skos:prefLabel: "The trouble with mailto email links and what to do instead"@en;
+  skos:definition: "Mailto links are everywhere and yet browsers and operating systems don’t make them easy to use. Learn why that is and what we did about it when we launched Frankly, a joint venture helping teams create clear, accessible and user-centred digital products."@en;
+  skos:subject <A11y> ;
+  foaf:url "https://adamsilver.io/articles/the-trouble-with-mailto-email-links-and-what-to-do-instead/" .
+
+<b7120ba0-2422-483a-9ef2-be4abd4af30f>
+  skos:prefLabel: "css-media-vars"@en;
+  skos:definition: " A brand new way to write responsive CSS. Named breakpoints, DRY selectors, no scripts, no builds, vanilla CSS. "@en;
+  skos:subject <CSS> ;
+  skos:subject <Tools> ;
+  foaf:url "https://propjockey.github.io/css-media-vars/" .
+
+<8ffc27d0-8240-425e-ad83-178a47a416c5>
+  skos:prefLabel: "Tauri"@en;
+  skos:definition: "Build smaller, faster, and more secure
+desktop applications with a web frontend"@en;
+  skos:subject <Desktop> ;
+  skos:subject <Frameworks> ;
+  foaf:url "https://tauri.studio/" .
+
+<bbce75ab-cef3-4208-b133-e7a837fa0120>
+  skos:prefLabel: "Moving from TypeScript to Rust / WebAssembly"@en;
+  skos:definition: "I recently decided to switch the engine of Boardgame Lab from TypeScript to Rust. The application itself is an SPA written in Svelte. I only switched the logic that updates the game state to Rust. Here is a summary of my experience with the transition:"@en;
+  skos:subject <Rust> ;
+  foaf:url "https://nicolodavis.com/blog/typescript-to-rust/" .
+
+<c1c72b6e-c4b9-44f4-9d0f-d7432de7e47d>
+  skos:prefLabel: "Textures.js"@en;
+  skos:definition: "SVG patterns for Data Visualization"@en;
+  skos:subject <Tools> ;
+  skos:subject <SVG> ;
+  foaf:url "https://riccardoscalco.it/textures/" .
+
+<041555f4-a916-497a-a194-11c491caa0cf>
+  skos:prefLabel: "Speedlify"@en;
+  skos:definition: "Usespeedlify’s 100 to Continuously Measure Site Performance"@en;
+  skos:subject <Perf> ;
+  skos:subject <Tools> ;
+  foaf:url "https://www.zachleat.com/web/speedlify/" .
+
+<64c7372d-ebd2-42f7-94c9-9fd9a8381e34>
+  skos:prefLabel: "Keyframes"@en;
+  skos:definition: "Dead simple visual tools to help you generate CSS for your projects."@en;
+  skos:subject <CSS> ;
+  skos:subject <Animation> ;
+  foaf:url "https://keyframes.app/" .
+
+<d12573d8-f721-40be-81b8-553abefb2a32>
+  skos:prefLabel: "Understanding Template Literals in JavaScript"@en;
+  skos:definition: "The 2015 edition of the ECMAScript specification (ES6) added template literals to the JavaScript language. Template literals are a new form of making strings in JavaScript that add a lot of powerful new capabilities, such as creating multi-line strings more easily and using placeholders to embed expressions in a string. In addition, an advanced feature called tagged template literals allows you to perform operations on the expressions within a string. All of these capabilities increase your options for string manipulation as a developer, letting you more easily generate dynamic strings that could be used for URLs or functions that customize HTML elements."@en;
+  skos:subject <JavaScript> ;
+  foaf:url "https://www.taniarascia.com/understanding-template-literals/" .
+
+<840a7b60-9e0d-4c7f-91f3-c48d1ca7cfc3>
+  skos:prefLabel: "24a2"@en;
+  skos:definition: "24a2 is a simple game engine that lets you to build a game in a few hours. It has a very limited set of features which makes it easy to learn, and encourages you to solve problems creatively."@en;
+  skos:subject <JavaScript> ;
+  skos:subject <Games> ;
+  skos:subject <Framework> ;
+  foaf:url "https://github.com/jamesroutley/24a2" .
+
+<0621829d-cc4f-4f72-86e4-bb8129af3485>
+  skos:prefLabel: "Combobox with Listbox Popup Examples"@en;
+  skos:definition: "The following three example comboboxes implement the ARIA 1.1 form of the combobox design pattern using a listbox popup. Each of the three comboboxes also demonstrates a different form of the autocomplete behaviors described in the design pattern"@en;
+  skos:subject <Components> ;
+  skos:subject <A11y> ;
+  foaf:url "https://www.w3.org/TR/wai-aria-practices-1.1/examples/combobox/aria1.1pattern/listbox-combo.html" .
+
+<b970551d-ff76-46d2-87d2-2f6cecd88864>
+  skos:prefLabel: "Movable"@en;
+  skos:definition: "Moveable is Draggable! Resizable! Scalable! Rotatable! Warpable! Pinchable"@en;
+  skos:subject <JavaScript>;
+  skos:subject <Tool>;
+  foaf:url "https://daybrush.com/moveable/" .
+
+<20abcc0a-0540-4d0b-8496-5cfe8ecaea31>
+  skos:prefLabel: "TeenyIcons"@en;
+  skos:definition: "Tiny minimal 1px icons."@en;
+  skos:subject <Iconography> ;
+  foaf:url "https://teenyicons.com/" .
+
+<1955f2e2-e922-4f3d-be76-c45cdf366483>
+  skos:prefLabel: "The most useful accessibility testing tools and techniques"@en;
+  skos:definition: "Shipping accessible features is as essential for a frontend developer as shipping features without bugs. Here is a list of tools I regularly use to make sure everything I do is accessible for folks with different abilities, whether they are blind or holding a sandwich in their hand. I’ll start with tools that will give us immediate feedback when we’re writing code, and continue with tools that we have to run ourselves or guide us on how to test things manually. This article will be useful not only for developers but also for designers, project managers, and other team members — many of the tools could be used directly in the browser and don’t require any technical knowledge."@en;
+  skos:subject <Ally> ;
+  skos:subject <Testing> ;
+  foaf:url "https://blog.sapegin.me/all/accessibility-testing/" .
+
+<2a770bac-8752-4fcb-bc26-0da27bff0bbb>
+  skos:prefLabel: "The Good line-height"@en;
+  skos:definition: "Have you ever needed to create a type scale following an 8 point baseline grid, or really any grid, and had to spend extra time figuring out what should be the right line-height for every text size in the scale?"@en;
+  skos:subject <Typography> ;
+  skos:subject <CSS> ;
+  foaf:url "https://www.thegoodlineheight.com/" .
+
+<15e35dc3-49ec-47eb-b312-624dc375f8aa>
+  skos:prefLabel: "This page is a truly naked, brutalist html quine."@en;
+  skos:definition: "One of my favorite things is to misuse technology in creative ways. Breaking the rules without breaking the rules."@en;
+  skos:subject <HTML> ;
+  skos:subject <Quine> ;
+  skos:subject <Design> ;
+  foaf:url "https://secretgeek.github.io/html_wysiwyg/html.html" .
+
+<95bf0471-e85a-4845-b1f8-afd6559dd3b3>
+  skos:prefLabel: "Babylon.js"@en;
+  skos:definition: "With this new version of Babylon.js, we set out to make it even easier to develop with. From a ton of new tools, to improved workflows and features, new documentation and more, it is our sincere hope that Babylon.js 4.2 will make your development process faster and easier while unlocking new simple ways to work."@en;
+  skos:subject <Frameworks> ;
+  skos:subject <Games> ;
+  skos:subject <JavaScript> ;
+  foaf:url "https://www.babylonjs.com/" .
+
+<394178d7-c48d-4578-a86e-27d971ada41a>
+  skos:prefLabel: "Rhubarb"@en;
+  skos:definition: "Rhubarb is a lightweight WebSocket library for multiplayer HTML5 games"@en;
+  skos:subject <WebSockets> ;
+  skos:subject <Games> ;
+  skos:subject <JavaScript> ;
+  skos:subject <Tools> ;
+  foaf:url "https://github.com/oguzeroglu/Rhubarb" .
+
+<bbbbe7bd-d361-4404-bc4b-255b2b8dbf05>
+  skos:prefLabel: "Kompute"@en;
+  skos:definition: "Kompute is a lightweight and efficient steering library for AI movement. It's not a visual library and generates numbers (velocity & position data)"@en;
+  skos:subject <AI> ;
+  skos:subject <Games> ;
+  skos:subject <JavaScript> ;
+  skos:subject <Tools> ;
+  foaf:url "https://github.com/oguzeroglu/Kompute" .
+
+<80b7176b-8df6-4b37-9e38-e1682b8a106c>
+  skos:prefLabel: "Ego"@en;
+  skos:definition: "Ego is a lightweight decision making library for game AI. It provides decision trees and state machines (hierarchical and finite)."@en;
+  skos:subject <AI> ;
+  skos:subject <Games> ;
+  skos:subject <Tools> ;
+  skos:subject <JavaScript> ;
+  foaf:url "https://github.com/oguzeroglu/Ego" .
+
+<70d55bef-7614-44d9-bd1e-11c2fb0d49cf>
+  skos:prefLabel: "Good Web Design"@en;
+  skos:definition: "The best landing pages, organized by section"@en;
+  skos:subject <Design> ;
+  skos:subject <References> ;
+  foaf:url "https://www.goodweb.design" .
+
+<4815ddee-4cb4-4e56-b06e-a86198fb15ef>
+  skos:prefLabel: "The React Cheatsheet"@en;
+  skos:definition: "I've put together for you an entire visual cheatsheet of all of the concepts and skills you need to master React in 2020."@en;
+  skos:subject <React> ;
+  foaf:url "https://dev.to/codeartistryio/the-react-cheatsheet-for-2020-real-world-examples-4hgg" .
+
+<539e9d31-7709-4240-85bd-ad2fe079fc37>
+  skos:prefLabel: "Elder.js"@en;
+  skos:definition: "Elder.js is an opinionated static site generator and web framework built with SEO in mind. (Supports SSR and Static Site Generation.)"@en;
+  skos:subject <StaticSites> ;
+  skos:subject <Frameworks> ;
+  skos:subject <Svelte> ;
+  foaf:url "https://elderguide.com/tech/elderjs/" .
+
+<31ce2f8b-1436-455d-b21b-276480105ca9>
+  skos:prefLabel: "Smolpxl"@en;
+  skos:definition: "Smolpxl is a JavaScript library for writing little retro pixelated games, and lots of games made with the library."@en;
+  skos:subject <Games> ;
+  skos:subject <JavaScript> ;
+  skos:subject <Frameworks> ;
+  foaf:url "https://gitlab.com/andybalaam/smolpxl" .
+
+<cc552122-1e8c-4e7c-b7bf-f50a2bc3c859>
+  skos:prefLabel: "urlcat"@en;
+  skos:definition: "urlcat is a tiny JavaScript library that makes building URLs very convenient and prevents common mistakes."@en;
+  skos:subject <JavaScript> ;
+  skos:subject <Tools> ;
+  skos:subject <Urls> ;
+  foaf:url "https://github.com/balazsbotond/urlcat" .
+
+<cc991d51-93a9-4c68-aa5c-7f589d97867a>
+  skos:prefLabel: "Big.js"@en;
+  skos:definition: "A small, fast JavaScript library for arbitrary-precision decimal arithmetic."@en;
+  skos:subject <Arithmetic> ;
+  skos:subject <JavaScript> ;
+  foaf:url "https://github.com/MikeMcl/big.js" .
+
+<e61dae63-70b0-4dc0-b8b6-bff2fc86d0d6>
+  skos:prefLabel: "Stencil"@en;
+  skos:definition: "Stencil is a simple compiler for generating Web Components and static site generated progressive web apps (PWA)."@en;
+  skos:subject <WebComponents> ;
+  skos:subject <StaticSite> ;
+  foaf:url "https://github.com/ionic-team/stencil" .
+
+<8a510470-4d90-491e-8d98-b766c55a72fd>
+  skos:prefLabel: "Danfo.js"@en;
+  skos:definition: "Danfo.js is an open-source JavaScript library that provides high-performance, intuitive, and easy-to-use data structures for manipulating and processing structured data. Danfo.js is heavily inspired by the Python Pandas library and provides a similar interface/API."@en;
+  skos:subject <DataAnalysis> ;
+  skos:subject <JavaScript> ;
+  foaf:url "https://blog.tensorflow.org/2020/08/introducing-danfo-js-pandas-like-library-in-javascript.html?linkId=98080391" .
+
+<e174306f-42e7-4753-9b7a-dbac1f85deae>
+  skos:prefLabel: "Caronium"@en;
+  skos:definition: "With carbonium, you can call $(selector) and the result can be accessed as both an DOM element and an array of matched elements. DOM element operations are applied to all matched elements."@en;
+  skos:subject <JavaScript> ;
+  skos:subject <Tools> ;
+  foaf:url "https://github.com/edwinm/carbonium" .
+
+<9453b011-2f48-4e77-a18d-455d834e1427>
+  skos:prefLabel: "fastest-levenshtein"@en;
+  skos:definition: "Fastest JS/TS implemenation of Levenshtein distance. Measure the difference between two strings."@en;
+  skos:subject <JavaScript> ;
+  skos:subject <Tools> ;
+  foaf:url "https://github.com/ka-weihe/fastest-levenshtein" .
+
+
+<566fe962-49a7-4cc4-8dc9-c65fbae0e0ae>
+  skos:prefLabel: "Sign-in form best practices"@en;
+  skos:definition: "Use cross-platform browser features to build sign-in forms that are secure, accessible and easy to use."@en;
+  skos:subject <Forms> ;
+  skos:subject <Auth> ;
+  foaf:url "https://web.dev/sign-in-form-best-practices/" .
+
+<62eb3fac-ac73-4db1-932a-9243bad1b44b>
+  skos:prefLabel: "Sa11y"@en;
+  skos:definition: "Sa11y is an accessibility quality assurance tool that visually highlights common accessibility and usability issues. Geared towards content authors, Sa11y straightforwardly identifies errors or warnings at the source with a simple tooltip on how to fix them."@en;
+  skos:subject <A11y> ;
+  skos:subject <Tools> ;
+  foaf:url "https://ryersondmp.github.io/sa11y/" .
+
+<e03e6524-47a8-4dc5-b268-e5ee81d6ca93>
+  skos:prefLabel: "Supercharging <input type=number>"@en;
+  skos:definition: "The number input type provides a nice way for to deal with numbers. You can set bounds with the min and max attributes and users can press up and down to go add or remove 1, or if you add the step attribute, go up or down by a step. But what if we want to let the user go up or down with different step sizes?"@en;
+  skos:subject <JavaScript> ;
+  skos:subject <Forms> ;
+  foaf:url "https://kilianvalkhof.com/2020/javascript/supercharging-input-type-number/" .
+
+<1b7e7758-3c8c-4b33-bb64-fd5122d088d0>
+  skos:prefLabel: "omg-curry"@en;
+  skos:definition: "Feature Complete Curry Library"@en;
+  skos:subject <JavaScript> ;
+  skos:subject <Currying> ;
+  foaf:url "https://github.com/Debdut/omg-curry" .
+
+<70ceca84-acd0-44e2-858c-e4727915cdcf>
+  skos:prefLabel: "Kickstand UI"@en;
+  skos:definition: "Kickstand UI is a Design System built using Web Components so you can use it Everywhere!"@en;
+  skos:subject <WebComponents> ;
+  skos:subject <ComponentLibrary> ;
+  foaf:url "https://kickstand-ui.com/" .
+
+<f51178e8-e824-4151-85d1-f0d6397f0abf>
+  skos:prefLabel: "Focus management and inert "@en;
+  skos:definition: "Many forms of assistive technology use keyboard navigation to understand and take action on screen content. One way of navigating is via the Tab key. You may already be familiar with this way of navigating if you use it to quickly jump from input to input on a form without having to reach for your mouse or trackpad."@en;
+  skos:subject <A11y>;
+  foaf:url "https://css-tricks.com/focus-management-and-inert/" .
+
+<e61ebced-44bb-4c9f-b194-0a0c7b2d9f22>
+  skos:prefLabel: "Min(), Max(), and Clamp()"@en;
+  skos:definition: "Learn how to control element sizing, maintain proper spacing, and implement fluid typography using these well-supported CSS functions."@en;
+  skos:subject <CSS> ;
+  skos:subject <Layout> ;
+  skos:subject <Typography> ;
+  foaf:url "https://web.dev/min-max-clamp/" .
+
+<24f4d931-dade-4c5f-ae16-9d18def77130>
+  skos:prefLabel: "Preload late-discovered Hero images faster"@en;
+  skos:definition: "Preload allows you to inform the browser about critical resources you want to load as soon as possible, prior to them being found in HTML. If you are optimizing Largest Contentful Paint (LCP), preload can be a game-changer for boosting download priority of late-discovered Hero images and resources, loaded via JavaScript."@en;
+  skos:subject <Perf> ;
+  skos:subject <Images> ;
+  foaf:url "https://addyosmani.com/blog/preload-hero-images/" .
+
+<c04479a9-2e03-4aee-8b84-a82e8d3ce09a>
+  skos:prefLabel: "Yjs"@en;
+  skos:definition: "Yjs is a shared editing framework. It exposes Shared Types that can be manipulated like any other data type. But they are synced automatically! "@en;
+  skos:subject <Websockets> ;
+  skos:subject <WebRTC> ;
+  foaf:url "https://yjs.dev/" .
+
+<40e430b7-28bf-44d6-91cf-7f731b8cc082>
+  skos:prefLabel: "Svelte-YJS"@en;
+  skos:hiddenLabel: "Svelt-YJS"@en;
+  skos:definition: "Svelt-yjs is a library for your Svelte app that lets you build Svelte stores from Yjs types. When built on the client-side Yjs library, your Svelte app gets transport-agnostic synchronization (e.g. y-webrtc, y-websocket ) across networks and undo/redo management basically for free."@en;
+  skos:subject <Svelte> ;
+  skos:subject <Websockets> ;
+  skos:subject <WebRTC> ;
+  foaf:url "https://github.com/relm-us/svelt-yjs" .
+
+<748ff9d9-5704-4807-8003-5fbd93e86d73>
+  skos:prefLabel: "Svelte Lab"@en;
+  skos:definition: "UI Components for Svelte"@en;
+  skos:subject <Svelte> ;
+  skos:subject <Components> ;
+  foaf:url "https://sveltelab.app/" .
+
+<6b779943-5026-46a9-a211-089ab245222b>
+  skos:prefLabel: "Svelte Electron Boilerplate"@en;
+  skos:definition: "Build desktop apps with Electron and Svelte"@en;
+  skos:subject <DesktopApps> ;
+  skos:subject <Svelte> ;
+  foaf:url "https://github.com/hjalmar/svelte-electron-boilerplate" .
+
+<3de1ffc9-36dd-4653-b7f6-132eba88c0e5>
+  skos:prefLabel: "Budibase"@en;
+  skos:definition: "Budibase is an open source low-code platform, and the easiest way to build internal tools that improve productivity."@en;
+  skos:subject <LowCode> ;
+  skos:subject <Tools> ;
+  foaf:url "https://github.com/Budibase/budibase" .
+
+<d70c91f0-a91c-4d93-90e5-9e32dd7dc83a>
+  skos:prefLabel: "Watched Box"@en;
+  skos:definition: "Declarative container queries FTW!"@en;
+  skos:subject <Layout> ;
+  foaf:url "https://github.com/Heydon/watched-box" .
+
+<612ae72e-fca3-48a1-bc6d-4977e8c1b53c>
+  skos:prefLabel: "Inclusive Design Checklist"@en;
+  skos:definition: "Aims to be the biggest checklist of inclusive design considerations for the web ever. Includes items for accessibility, performance, device support, interoperability, and language."@en;
+  skos:subject <Design> ;
+  skos:subject <A11y> ;
+  foaf:url "https://github.com/Heydon/inclusive-design-checklist" .
+
+<840366ea-a8ed-42be-8cdf-f6615311feca>
+  skos:prefLabel: "Bruck"@en;
+  skos:definition: "Bruck is a lo-fi prototyping system made with web components. Quickly create and comment on interface layouts. The output is screen reader accessible, and responsive without you having to author breakpoints."@en;
+  skos:subject <Prototyping> ;
+  foaf:url "https://github.com/Heydon/bruck" .
+
+<8772e246-0b86-4578-ae45-311838ff4460>
+  skos:prefLabel: "Every Layout"@en;
+  skos:definition: "Through a series of simple, composable layouts, Every Layout will teach you how to better harness the built-in algorithms that power browsers and CSS."@en;
+  skos:subject <CSS> ;
+  skos:subject <Layout> ;
+  foaf:url "https://every-layout.dev/" .
+
+<aae3903d-494b-4f4b-95f4-0c320ef2250d>
+  skos:prefLabel: "Buttondown"@en;
+  skos:definition: "Buttondown is a small, elegant tool for producing newsletters."@en;
+  skos:subject <Email> ;
+  foaf:url "https://buttondown.email/" .
+
+<064a776a-6c14-4ca8-b8ec-26fdacaabfcc>
+  skos:prefLabel: "Kap"@en;
+  skos:definition: "An open-source screen recorder built with web technology."@en;
+  skos:subject <App> ;
+  skos:subject <Screenshot> ;
+  foaf:url "https://getkap.co/" .
+
+<7d1bc3e7-b4f8-43e5-a80b-b8c9ff6e01df>
+  skos:prefLabel: "Supabase"@en;
+  skos:definition: "Create a backend in less than 2 minutes. Start your project with a Postgres Database, Authentication, instant APIs, Realtime subscriptions and Storage."@en;
+  skos:subject <DataBase> ;
+  skos:subject <Realtime> ;
+  foaf:url "https://supabase.io/" .
+
+<f2d3630b-6d3c-480a-b8f3-6eeaf6817912>
+  skos:prefLabel: "localForage"@en;
+  skos:definition: "localForage is a fast and simple storage library for JavaScript. localForage improves the offline experience of your web app by using asynchronous storage (IndexedDB or WebSQL) with a simple, localStorage-like API."@en;
+  skos:subject <JavaScript> ;
+  skos:subject <DataBase> ;
+  foaf:url "https://github.com/localForage/localForage" .
+
+
+<1534c53a-0f39-4b28-87aa-6eab39f04743>
+  skos:prefLabel: "imgIX"@en;
+  skos:definition: "Next-Generation Responsive Images with Client Hints"@en;
+  skos:subject <Images> ;
+  skos:subject <Perf> ;
+  foaf:url "https://docs.imgix.com/tutorials/responsive-images-client-hints" .
+
+<d22fb7a0-30ae-42fe-a0da-8dd5f9fd33ff>
+  skos:prefLabel: "Studio Carbon Negative"@en;
+  skos:definition: "As Sanctuary Computer approaches its fourth loop around the sun, we're taking a chance to look inward, and critically assess our standing. Our earth is on fire; we're taking stock. Everything we build causes damage - do we deserve to exist? "@en;
+  skos:subject <ClimateChange>;
+  skos:subject <Sustainabillity>;
+  foaf:url "https://negative.sanctuary.computer/" .
+
+<cfb0517d-13d3-4975-be1b-69b27b411d9f>
+  skos:prefLabel: "Ahrefs"@en;
+  skos:definition: "With Ahrefs, you don’t have to be an SEO pro to rank higher and get more traffic"@en;
+  skos:subject <SEO> ;
+  foaf:url "https://ahrefs.com" .
+
+<207c25d8-1ccb-46e7-b520-25e270942b20>
+  skos:prefLabel: "A Complete Guide To Accessible Front-End Components"@en;
+  skos:definition: " In a new short series of posts, we highlight some of the useful tools and techniques for developers and designers. Recently we’ve covered CSS Auditing Tools and CSS Generators, and this time we look into reliable accessible components: from tabs and tables to toggles and tooltips. "@en;
+  skos:subject <Frontend> ;
+  skos:subject <A11y> ;
+  foaf:url "https://www.smashingmagazine.com/2021/03/complete-guide-accessible-front-end-components/" .
+
+<5eeb9634-4dac-4d38-b7eb-b92d6e4bbc3b>
+  skos:prefLabel: "Accessible Text Labels For All "@en;
+  skos:definition: "On improving eCommerce experiences for screen reader users without breaking them for speech-input users"@en;
+  skos:subject <A117>;
+  foaf:url "https://www.sarasoueidan.com/blog/accessible-text-labels/" .
+
+<43ba27e9-7a64-41d9-b9f9-9ac209abb8e4>
+  skos:prefLabel "How to Improve CSS Performance"@en ;
+  skos:definition "Combined with the complexity of modern websites and the way browsers process CSS, even a moderate amount of CSS can become a bottleneck for people who deal with constrained devices, network latency, bandwidth, or data limits. Because performance is a vital part of the user experience, it’s essential to make sure you deliver a consistent, high-quality experience across devices of all shapes and sizes and that requires optimising your CSS too."@en ;
+  skos:subject <CSS> ;
+  skos:subject <Perf> ;
+  foaf:url "https://calibreapp.com/blog/css-performance" .
+
+<1abb41db-c871-4fbe-80e6-fe40793dc05c>
+  skos:prefLabel "Why skip-links are important for accessibility"@en ;
+  skos:definition "Skip-links play an important role in making a website accessible for everybody."@en ;
+  skos:subject <Ally>
+  foaf:url "https://www.voorhoede.nl/en/blog/why-skip-links-are-important-for-accessibility/" .
+
+<cd32f4e0-a11a-4b06-b741-bf994bb35be4>
+  skos:prefLabel "Aladino"@en ;
+  skos:definition "Aladino is a tiny (around ~5kb gzipped) and dependency-free javascript library that allows to enhance your site using "shader effects". The library is using WebGL1 and has progressive enhancement and accessibility in mind."@en ;
+  skos:subject <WebGL> ;
+  skos:subject <Frontend> ;
+  foaf:url "https://github.com/luruke/aladino" .
+
+<49d263fe-21df-4bcf-b30d-c46b09bdd00b>
+  skos:prefLabel "Fontshare"@en ;
+  skos:definition "Fontshare is a free fonts service launched by the Indian Type Foundry (ITF). It’s a growing collection of professional grade fonts that are 100% free for personal and commercial use. Our mission is to make high-quality and technically sound fonts accessible to everyone across the globe."@en ;
+  skos:subject <Fonts> ;
+  foaf:url "https://www.fontshare.com/" .
+
+<5cab9de5-d799-476d-b43a-8f6b1bcc1f7d>
+  skos:prefLabel "A Complete Guide To Accessible Front-End Components"@en ;
+  skos:definition "In a new short series of posts, we highlight some of the useful tools and techniques for developers and designers. Recently we’ve covered CSS Auditing Tools and CSS Generators, and this time we look into reliable accessible components: from tabs and tables to toggles and tooltips. "@en ;
+  skos:subject <A11y>
+  skos:subject <Frontend>
+  foaf:url "https://www.smashingmagazine.com/2021/03/complete-guide-accessible-front-end-components/" .
+
+<1a3f2a38-dfc8-4193-b3f0-18e685b2415c>
+  skos:prefLabel "SvelteKit"@en ;
+  skos:definition "SvelteKit is a framework for building web applications of all sizes, with a beautiful development experience and flexible filesystem-based routing." @en ;
+  skos:subject <Svelte> ;
+  skos:subect <Framework> ;
+  foaf:url "https://kit.svelte.dev/" .
+
+<9b21a5ff-fac1-44f2-afdb-a64bec970027>
+  skos:prefLabel "A Strategy Guide To CSS Custom Properties"@en ;
+  skos:defintion "Dynamic properties provide opportunities for new creative ideas, but also the potential to add complexity to CSS. To get the most out of them, we might need a strategy for how we write and structure CSS with custom properties. "@en ;
+  skos:subject <CustomProperties> ;
+  foaf:url "https://www.smashingmagazine.com/2018/05/css-custom-properties-strategy-guide/" .
+
+<bcb29651-7911-4dc7-bbd3-8ef18bd94baf>
+  skos:prefLabel "Patterns for Practical CSS Custom Properties Use"@en ;
+  skos:definition "I’ve been playing around with CSS Custom Properties to discover their power since browser support is finally at a place where we can use them in our production code. I’ve been using them in a number different ways and I’d love for you to get as excited about them as I am."@en ;
+  skos:subject <CustomProperties> ;
+  foaf:url "https://css-tricks.com/patterns-for-practical-css-custom-properties-use/" .
+
+<24a5eef3-2d44-443e-bc70-d2fe89c01dc7>
+  skos:prefLabel "The WebAssembly System Interface" ;
+  skos:defintion "WASI is a modular system interface for WebAssembly." ;
+  skos:subject <WASM> ;
+  foaf:url "https://wasi.dev/" .
+
+<fa353458-c2f0-4115-bc6c-4699d3b60ca9>
+  skos:prefLabel "Hyper"@en ;
+  skos:definition "A fast and correct HTTP implementation for Rust."@en ;
+  skos:subject <Rust> ;
+  skos:subject <HTTP> ;
+  foaf:url "https://github.com/hyperium/hyper" .
+
+<3e9272c6-46d7-469e-b8b6-4b95730a2204>
+  skos:prefLabel "Reqwest"@en ;
+  skos:definition "An ergonomic, batteries-included HTTP Client for Rust."@en ;
+  subject <Rust> ;
+  skos:subject <HTTP> ;
+  foaf:url "https://github.com/seanmonstar/reqwest" .
+
+<000977ae-bbeb-4b09-852d-78ef4e08e6d8>
+  skos:prefLabel "Warp"@en ;
+  skos:definition "A super-easy, composable, web server framework for warp speeds."@en ;
+  skos:subject <Server>
+  skos:subject <Rust>
+  foaf:url "https://github.com/seanmonstar/warp" .
+
+<5b95e024-d435-4d4d-a7c2-758fa3f13a8f>
+  skos:prefLabel "Everything You Know About Web Design Just Changed"@en ;
+  skos:definition "2017 saw a sea change in web layout, one that few of us have truly come to grips with. We’re standing at the threshold of an entirely new era in digital design—one in which, rather than hacking layouts together, we can actually describe layouts directly. The benefits will touch everything from prototyping to custom art direction to responsive design. In this visionary talk, rooted in years of practical experience, Jen will show you how to understand what’s different, learn to think through multiple stages of flexibility, and let go of pixel constraints forever."@en ;
+  skos:subject <CSS>
+  skos:subject <Layout>
+  foaf:url "https://noti.st/jensimmons/h0XWcf" .
+
+<LayoutLand>
+  foaf:prefLabel "Layout Land"@en ;
+  foaf:definition "A series of one hour deep dives into what's now possible, with the story of how we got to where we are." ;
+  skos:subject <CSS>
+  skos:subject <Layout>
+  foaf:url "https://www.youtube.com/c/LayoutLand" .
+
+<7b62d394-5a7f-4d98-8e39-d7c8b58a6ea5>
+  skos:prefLabel "The Experimental Layout Lab" ;
+  skos:definition "Experiments demonstrating CSS Grid, and what's now possible in graphic design on the web." ;
+  skos:subject <CSS>
+  skos:subject <Grids>
+  foaf:url "https://labs.jensimmons.com/" .
+
+<23ad4b4b-8c74-4ebb-9b93-22c1f103a04a>
+  skos:prefLabel "Password protect your (Vercel) site with Cloudflare Workers"@en ;
+  skos:subject <Vercel> ;
+  skos:subject <CloudflareWorkers> ;
+  skos:subject <Auth> ;
+  foaf:url "https://phiilu.com/password-protect-your-vercel-site-with-cloudflare-workers" .
+
+<16cf9baf-ba98-4c43-a333-47e2f5bf7e96>
+  skos:prefLabel "LunrJS"@en ;
+  skos:definition "Designed to be small, yet full featured, Lunr enables you to provide a great search experience without the need for external, server-side, search services."@en ;
+  skos:subject <JavaScript> ;
+  skos:subject <Search> ;
+  foaf:url "https://lunrjs.com/" .
+
+<4be3f9b2-c748-4caf-b2f4-d5141ba22947>
+  skos:prefLabel "WP REST API - OAuth 1.0a Server"@en ;
+  skos:definition "Connect applications to your WordPress site without ever giving away your password."@en ;
+  skos:subject <Wordpress> ;
+  skos:subject <oAuth> ;
+  foaf:url "https://oauth1.wp-api.org/" .
+
+<ab52335b-e496-4db8-b117-bc884cb4be12>
+  skos:prefLabel "Fuse.js"@en ;
+  skos:definition "Fuse.js is a powerful, lightweight fuzzy-search library, with zero dependencies." ;
+  skos:subject <JavaScript> ;
+  skos:subject <Search> ;
+  foaf:url "https://fusejs.io/" .
+
+<fefc434d-0333-47ef-a140-e120e90fa21e>
+  skos:prefLabel "One Line of Code"@en ;
+  skos:definition "Favorite JavaScript Utilities in single line of code! No more!"@en ;
+  skos:subject <JavaScript> ;
+  foaf:url "https://1loc.dev/" .
+
+<26685700-c58d-4ad6-9f8a-892e8f9fd4ba>
+  skos:prefLabel "Trellis"@en ;
+  skos:defintion "WordPress development and production servers done right"@en ;
+  skos:subject <Wordpress> ;
+  skos:related <Bedrock> ;
+  foaf:url https://roots.io/trellis/ ;
+
+<288db07f-243b-4350-bb38-f10f045b0112>
+  skos:prefLabel "Bedrock"@en ;
+  skos:definition "WordPress boilerplate with modern development tools, easier configuration, and an improved folder structure."@en ;
+  skos:subject <Wordpress> ;
+  foaf:url "https://roots.io/bedrock/" .
